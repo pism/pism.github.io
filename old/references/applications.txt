@@ -1,0 +1,1523 @@
+@Article{Edwardsetal2021,
+author = {Edwards, T.L. and Nowicki, S. and Marzeion, B. and others},
+title = {Projected land ice contributions to twenty-first-century sea level rise},
+journal = {Nature},
+volume = {593},
+pages = {74--82},
+year = {2021},
+doi = {https://doi.org/10.1038/s41586-021-03302-y},
+}
+
+@Article{Niuetal2021,
+author = {L. Niu and G. Lohmann and P. Gierz and E. J. Gowan and G. Knorr},
+title = {Coupled climate-ice sheet modelling of {MIS}-13 reveals a sensitive {Cordilleran Ice Sheet}},
+journal = {Global and Planetary Change},
+pages = {103474},
+year = {2021},
+doi = {https://doi.org/10.1016/j.gloplacha.2021.103474},
+url = {https://www.sciencedirect.com/science/article/pii/S092181812100059X},
+}
+
+@Article{Koldtoftetal2021,
+author={Koldtoft, I. and Grinsted, A. and Vinther, B. M. and Hvidberg, C. S.},
+title={Ice thickness and volume of the Renland Ice Cap, East Greenland},
+journal={Journal of Glaciology},
+year={2021},
+pages={1--13},
+DOI={10.1017/jog.2021.11},
+}
+
+@Article{SchlemmLevermann2021,
+AUTHOR = {Schlemm, T. and Levermann, A.},
+TITLE = {A simple parametrization of m\'{e}lange buttressing for calving glaciers},
+JOURNAL = {The Cryosphere},
+VOLUME = {15},
+YEAR = {2021},
+NUMBER = {2},
+PAGES = {531--545},
+URL = {https://tc.copernicus.org/articles/15/531/2021/},
+DOI = {10.5194/tc-15-531-2021}
+}
+
+@Article{Rodehackeetal2020,
+AUTHOR = {Rodehacke, C. B. and Pfeiffer, M. and Semmler, T. and Gurses, \"O. and Kleiner, T.},
+TITLE = {Future sea level contribution from Antarctica inferred from {CMIP5} model forcing and its dependence on precipitation ansatz},
+JOURNAL = {Earth System Dynamics},
+VOLUME = {11},
+YEAR = {2020},
+NUMBER = {4},
+PAGES = {1153--1194},
+URL = {https://esd.copernicus.org/articles/11/1153/2020/},
+DOI = {10.5194/esd-11-1153-2020}
+}
+
+@article{Stapetal2020,
+author = {Stap, L. B. and Knorr, G. and Lohmann, G.},
+title = {Anti-phased {M}iocene ice volume and {CO2} changes by transient {A}ntarctic {I}ce {S}heet variability},
+journal = {Paleoceanography and Paleoclimatology},
+volume = {35},
+number = {11},
+doi = {https://doi.org/10.1029/2020PA003971},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020PA003971},
+year = {2020},
+}
+
+@Article{Haydenetal2020,
+author = {Hayden, A.-M. and Wilmes, S.-B. and Gomez, N. and Green, J.A.M. and Pan, L. and Han, H. and Golledge, N.R.},
+title = {Multi-century impacts of ice sheet retreat on sea level and ocean tides in {H}udson {B}ay},
+journal = {Journal of Geophysical Research: Oceans},
+volume = {to appear},
+doi = {10.1029/2019JC015104},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JC015104},
+year = {2020},
+}
+
+@Article{Seroussietal2020,
+AUTHOR = {Seroussi, H. and Nowicki, S. and Payne, A. J. and Goelzer, H. and Lipscomb, W. H. and Abe-Ouchi, A. and Agosta, C. and Albrecht, T. and Asay-Davis, X. and Barthel, A. and Calov, R. and Cullather, R. and Dumas, C. and Galton-Fenzi, B. K. and Gladstone, R. and Golledge, N. R. and Gregory, J. M. and Greve, R. and Hattermann, T. and Hoffman, M. J. and Humbert, A. and Huybrechts, P. and Jourdain, N. C. and Kleiner, T. and Larour, E. and Leguy, G. R. and Lowry, D. P. and Little, C. M. and Morlighem, M. and Pattyn, F. and Pelle, T. and Price, S. F. and Quiquet, A. and Reese, R. and Schlegel, N.-J. and Shepherd, A. and Simon, E. and Smith, R. S. and Straneo, F. and Sun, S. and Trusel, L. D. and Van Breedam, J. and van de Wal, R. S. W. and Winkelmann, R. and Zhao, C. and Zhang, T. and Zwinger, T.},
+TITLE = {ISMIP6 Antarctica: a multi-model ensemble of the Antarctic ice sheet evolution over the 21st century},
+JOURNAL = {The Cryosphere},
+VOLUME = {14},
+YEAR = {2020},
+NUMBER = {9},
+PAGES = {3033--3070},
+URL = {https://tc.copernicus.org/articles/14/3033/2020/},
+DOI = {10.5194/tc-14-3033-2020}
+}
+
+@Article{Candasetal2020,
+author = {Candaş, A. and Sarikaya, M. A. and KÖSE, O. and Şen, Ö. L. and Çiner, A.},
+title = {Modelling a Last Glacial Maximum ice cap with the Parallel Ice Sheet Model to infer palaeoclimate in south-west Turkey},
+journal = {Journal of Quaternary Science},
+doi = {10.1002/jqs.3239},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/jqs.3239},
+year = {2020},
+}
+
+@Article{Garbeetal2020,
+author = {Garbe, J. and Albrecht, T. and Levermann, A. and Donges, J. and Winkelmann, R.},
+title = {The hysteresis of the Antarctic Ice Sheet},
+journal = {Nature},
+volume = {585},
+pages = {538--544},
+year = {2020},
+doi = {10.1038/s41586-020-2727-5},
+}
+
+@Article{Sunetal2020,
+author={Sun, S. and Pattyn, F. and Simon, E. G. and Albrecht, T. and Cornford, S. and Calov, R. and Dumas, C. and Gillet-Chaulet, F. and Goelzer, H. and Golledge, N. R. and others},
+title={Antarctic ice sheet response to sudden and sustained ice-shelf collapse (ABUMIP)},
+DOI={10.1017/jog.2020.67},
+journal={Journal of Glaciology},
+year={2020},
+pages={1–14},
+}
+
+@Article{Zeitzetal2020,
+AUTHOR = {Zeitz, M. and Levermann, A. and Winkelmann, R.},
+TITLE = {Sensitivity of ice loss to uncertainty in flow law parameters in an idealized one-dimensional geometry},
+JOURNAL = {The Cryosphere},
+VOLUME = {14},
+YEAR = {2020},
+NUMBER = {10},
+PAGES = {3537--3550},
+URL = {https://tc.copernicus.org/articles/14/3537/2020/},
+DOI = {10.5194/tc-14-3537-2020}
+}
+
+@article{Eisenetal2020,
+author={Eisen, O. and Winter, A. and Steinhage, D. and Kleiner, T. and Humbert, A.},
+title={Basal roughness of the East Antarctic Ice Sheet in relation to flow speed and basal thermal state},
+journal={Annals of Glaciology},
+volume={61},
+number={81},
+DOI={10.1017/aog.2020.47},
+pages={162--175},
+year={2020}
+}
+
+@article{Ackermannetal202,
+author = {Ackermann, L. and Danek, C. and Gierz, P. and Lohmann, G.},
+title = {AMOC Recovery in a Multicentennial Scenario Using a Coupled Atmosphere-Ocean-Ice Sheet Model},
+journal = {Geophysical Research Letters},
+volume = {47},
+number = {16},
+pages = {e2019GL086810},
+doi = {10.1029/2019GL086810},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL086810},
+year = {2020}
+}
+
+@article{Sutteretal2020,
+author = {Sutter, J. and Eisen, O. and Werner, M. and Grosfeld, K. and Kleiner, T. and Fischer, H.},
+title = {Limited Retreat of the Wilkes Basin Ice Sheet During the Last Interglacial},
+journal = {Geophysical Research Letters},
+volume = {47},
+number = {13},
+doi = {10.1029/2020GL088131},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GL088131},
+year = {2020}
+}
+
+@Article{Goelzeretal2020,
+AUTHOR = {Goelzer, H. and Nowicki, S. and Payne, A. and Larour, E. and Seroussi, H. and Lipscomb, W. H. and Gregory, J. and Abe-Ouchi, A. and Shepherd, A. and Simon, E. and Agosta, C. and Alexander, P. and Aschwanden, A. and Barthel, A. and Calov, R. and Chambers, C. and Choi, Y. and Cuzzone, J. and Dumas, C. and Edwards, T. and Felikson, D. and Fettweis, X. and Golledge, N. R. and Greve, R. and Humbert, A. and Huybrechts, P. and Le clec'h, S. and Lee, V. and Leguy, G. and Little, C. and Lowry, D. P. and Morlighem, M. and Nias, I. and Quiquet, A. and R\"uckamp, M. and Schlegel, N.-J. and Slater, D. A. and Smith, R. S. and Straneo, F. and Tarasov, L. and van de Wal, R. and van den Broeke, M.},
+TITLE = {The future sea-level contribution of the Greenland ice sheet: a multi-model ensemble study of ISMIP6},
+JOURNAL = {The Cryosphere},
+VOLUME = {14},
+YEAR = {2020},
+NUMBER = {9},
+PAGES = {3071--3096},
+URL = {https://tc.copernicus.org/articles/14/3071/2020/},
+DOI = {10.5194/tc-14-3071-2020}
+}
+
+@Article{Reeseetal2020,
+AUTHOR = {Reese, R. and Levermann, A. and Albrecht, T. and Seroussi, H. and Winkelmann, R.},
+TITLE = {The role of history and strength of the oceanic forcing in sea level projections from Antarctica with the Parallel Ice Sheet Model},
+JOURNAL = {The Cryosphere},
+VOLUME = {14},
+YEAR = {2020},
+NUMBER = {9},
+PAGES = {3097--3110},
+URL = {https://tc.copernicus.org/articles/14/3097/2020/},
+DOI = {10.5194/tc-14-3097-2020}
+}
+
+@article{Robertsetal2020,
+author = {Roberts, D. H. and Ó Cofaigh, C. and Ballantyne, C. K. and Burke, M. and Chiverrell, R. C. and Evans, D. J. A. and Clark, C. D. and Duller, G. A. T. and Ely, J. and Fabel, D. and Small, D. and Smedley, R. K. and Callard, S. L.},
+title = {The deglaciation of the western sector of the Irish Ice Sheet from the inner continental shelf to its terrestrial margin},
+journal = {Boreas},
+doi = {10.1111/bor.12448},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/bor.12448},
+year = {2020},
+}
+
+@article{LaiAnders2020,
+author = "J. Lai and A. M. Anders",
+title = "Tectonic controls on rates and spatial patterns of glacial erosion through geothermal heat flux",
+journal = "Earth and Planetary Science Letters",
+volume = "543",
+year = "2020",
+doi = "10.1016/j.epsl.2020.116348",
+url = "http://www.sciencedirect.com/science/article/pii/S0012821X20302922",
+}
+
+@article{Cornfordetal2020,
+AUTHOR = {Cornford, S. L. and Seroussi, H. and Asay-Davis, X. S. and Gudmundsson, G. H. and Arthern, R. and Borstad, C. and Christmann, J. and Dias dos Santos, T. and Feldmann, J. and Goldberg, D. and Hoffman, M. J. and Humbert, A. and Kleiner, T. and Leguy, G. and Lipscomb, W. H. and Merino, N. and Durand, G. and Morlighem, M. and Polllard, D. and R\"uckamp, M. and Williams, C. R. and Yu, H.},
+TITLE = {Results of the third Marine Ice Sheet Model Intercomparison Project (MISMIP+)},
+JOURNAL = {The Cryosphere},
+VOLUME = {14},
+NUMBER = {7},
+PAGES = {2283--2301},
+YEAR = {2020},
+URL = {https://www.the-cryosphere-discuss.net/tc-2019-326/},
+DOI = {10.5194/tc-2019-326}
+}
+
+@article{Yanetal2020,
+author = "Q. Yan and L. A. Owen and Z. Zhang and N. Jiang and R. Zhang",
+title = "Deciphering the evolution and forcing mechanisms of glaciation over the Himalayan-Tibetan orogen during the past 20,000 years",
+journal = "Earth and Planetary Science Letters",
+volume = "541",
+year = "2020",
+doi = "https://doi.org/10.1016/j.epsl.2020.116295",
+url = "http://www.sciencedirect.com/science/article/pii/S0012821X20302387",
+}
+
+@article{Keislingetal2020,
+author = {Keisling, B. A. and Nielsen, L. T. and Hvidberg, C. S. and Nuterman, R. and DeConto, R. M.},
+title = {Pliocene–Pleistocene megafloods as a mechanism for Greenlandic megacanyon formation},
+journal = {Geology},
+volume = {48},
+number = {7},
+pages = {737--741},
+doi = {10.1130/G47253.1},
+url = {https://doi.org/10.1130/G47253.1},
+year = {2020},
+}
+
+@article{Parsonsetal2020,
+author = "R. A. Parsons and T. Kanzaki and R. Hemmi and H. Miyamoto ",
+title = "Cold-based glaciation of Pavonis Mons, Mars: evidence for moraine deposition during glacial advance",
+journal = "Progress in Earth and Planetary Science",
+volume = "7",
+year = "2020",
+doi = "10.1186/s40645-020-0323-9",
+}
+
+@article{Lowryetal2020,
+author = "D. P. Lowry and N. R. Golledge and N. A. N. Bertler and R. S. Jones and R. McKay and J. Stutz",
+title = "Geologic controls on ice sheet sensitivity to deglacial climate forcing in the Ross Embayment, Antarctica",
+journal = "Quaternary Science Advances",
+volume = "1",
+year = "2020",
+doi = "10.1016/j.qsa.2020.100002",
+url = "http://www.sciencedirect.com/science/article/pii/S2666033420300022",
+}
+
+@Article{Turney201902469,
+author = {Turney, C. S. M. and Fogwill, C. J. and Golledge, N. R. and McKay, N. P. and van Sebille, E. and Jones, R. T. and Etheridge, D. and Rubino, M. and Thornton, D. P. and Davies, S. M. and Ramsey, C. B. and Thomas, Z. A. and Bird, M. I. and Munksgaard, N. C. and Kohno, M. and Woodward, J. and Winter, K. and Weyrich, L. S. and Rootes, C. M. and Millman, H. and Albert, P. G. and Rivera, A. and van Ommen, T. and Curran, M. and Moy, A. and Rahmstorf, S. and Kawamura, K. and Hillenbrand, C.-D. and Weber, M. E. and Manning, C. J. and Young, J. and Cooper, A.},
+title = {Early Last Interglacial ocean warming drove substantial ice mass loss from Antarctica},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {117},
+number = {8},
+pages = {3996--4006},
+doi = {10.1073/pnas.1902469117},
+URL = {https://www.pnas.org/content/early/2020/02/10/1902469117},
+year = {2020},
+}
+
+@Article{Clarketal2020,
+author={Clark, P. U. and He, F. and Golledge, N. R. and Mitrovica, J. X. and Dutton, A. and Hoffman, J. S.
+and Dendy, S.},
+title={Oceanic forcing of penultimate deglacial and last interglacial sea-level rise},
+journal={Nature},
+year={2020},
+volume={577},
+number={7792},
+pages={660--664},
+doi={10.1038/s41586-020-1931-7},
+url={https://doi.org/10.1038/s41586-020-1931-7},
+}
+
+@article{Golledge2020,
+author = {Golledge, N. R.},
+title = {Long-term projections of sea-level rise from ice sheets},
+journal = {WIREs Climate Change},
+year = {2020},
+volume = {n/a},
+doi = {10.1002/wcc.634},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/wcc.634},
+}
+
+@article{Albrechtetal2020partII,
+AUTHOR = {Albrecht, T. and Winkelmann, R. and Levermann, A.},
+TITLE = {Glacial-cycle simulations of the Antarctic Ice Sheet with the Parallel Ice Sheet Model (PISM) -- Part 2: Parameter ensemble analysis},
+JOURNAL = {The Cryosphere},
+VOLUME = {14},
+YEAR = {2020},
+NUMBER = {2},
+PAGES = {633--656},
+URL = {https://www.the-cryosphere.net/14/633/2020/},
+DOI = {10.5194/tc-14-633-2020}
+}
+
+@article{Albrechtetal2020partI,
+AUTHOR = {Albrecht, T. and Winkelmann, R. and Levermann, A.},
+TITLE = {Glacial-cycle simulations of the Antarctic Ice Sheet with the Parallel Ice Sheet Model (PISM) -- Part 1: Boundary conditions and climatic forcing},
+JOURNAL = {The Cryosphere},
+VOLUME = {14},
+YEAR = {2020},
+NUMBER = {2},
+PAGES = {599--632},
+URL = {https://www.the-cryosphere.net/14/599/2020/},
+DOI = {10.5194/tc-14-599-2020}
+}
+
+@article{Levermannetal2019,
+AUTHOR = {Levermann, A. and Winkelmann, R. and Albrecht, T. and Goelzer, H. and Golledge, N. R. and Greve, R. and Huybrechts, P. and Jordan, J. and Leguy, G. and Martin, D. and Morlighem, M. and Pattyn, F. and Pollard, D. and Quiquet, A. and Rodehacke, C. and Seroussi, H. and Sutter, J. and Zhang, T. and Van Breedam, J. and Calov, R. and DeConto, R. and Dumas, C. and Garbe, J. and Gudmundsson, G. H. and Hoffman, M. J. and Humbert, A. and Kleiner, T. and Lipscomb, W. H. and Meinshausen, M. and Ng, E. and Nowicki, S. M. J. and Perego, M. and Price, S. F. and Saito, F. and Schlegel, N.-J. and Sun, S. and van de Wal, R. S. W.},
+TITLE = {Projecting Antarctica's contribution to future sea level rise from basal ice shelf melt using linear response functions of 16 ice sheet models {(LARMIP-2)}},
+JOURNAL = {Earth System Dynamics},
+VOLUME = {11},
+YEAR = {2020},
+NUMBER = {1},
+PAGES = {35--76},
+URL = {https://www.earth-syst-dynam.net/11/35/2020/},
+DOI = {10.5194/esd-11-35-2020}
+}
+
+@article{Schmidtetal2019,
+author  = {L. S. Schmidt and G. Ađalgeirsdóttir and F. Pálsson and P. L. Langen and S. Guđmundsson and H. Björnsson},
+title   = {Dynamic simulations of {V}atnajökull ice cap from 1980 to 2300},
+journal = {Journal of Glaciology},
+volume  = {66},
+number  = {255},
+pages   = {97--112},
+doi     = {10.1017/jog.2019.90},
+year    = {2020},
+}
+
+@article{Imhofetal2019,
+author = {Imhof, M. A. and Cohen, D. and Seguinot, J. and Aschwanden, A. and Funk, M. and Jouvet, G.},
+title = {Modelling a paleo valley glacier network using a hybrid model: an assessment with a {S}tokes ice flow model},
+journal = {Journal of Glaciology},
+pages = {1--11},
+doi = {10.1017/jog.2019.77},
+year = {2019},
+}
+
+@Article{Goelzeretal2018,
+AUTHOR = {Goelzer, H. and Nowicki, S. and Edwards, T. and Beckley, M. and Abe-Ouchi, A. and Aschwanden, A. and Calov, R. and Gagliardini, O. and Gillet-Chaulet, F. and Golledge, N. R. and Gregory, J. and Greve, R. and Humbert, A. and Huybrechts, P. and Kennedy, J. H. and Larour, E. and Lipscomb, W. H. and Le clec'h, S. and Lee, V. and Morlighem, M. and Pattyn, F. and Payne, A. J. and Rodehacke, C. and R\"uckamp, M. and Saito, F. and Schlegel, N. and Seroussi, H. and Shepherd, A. and Sun, S. and van de Wal, R. and Ziemen, F. A.},
+TITLE = {Design and results of the ice sheet model initialisation experiments initMIP-Greenland: an ISMIP6 intercomparison},
+JOURNAL = {The Cryosphere},
+VOLUME = {12},
+YEAR = {2018},
+NUMBER = {4},
+PAGES = {1433--1460},
+URL = {https://www.the-cryosphere.net/12/1433/2018/},
+DOI = {10.5194/tc-12-1433-2018}
+}
+
+@article{Niuetal2019b,
+author = {Niu, L. and Lohmann, G. and Gowan, E. J.},
+title = {Climate noise influences ice sheet mean state},
+journal = {Geophysical Research Letters},
+doi = {10.1029/2019GL083717},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083717},
+year = {2019},
+}
+
+@article{Lowryetal2019,
+	author = {Lowry, D. P. and Golledge, N. R. and Bertler, N. A. N. and Jones, R. S. and McKay, R.},
+	title = {Deglacial grounding-line retreat in the Ross Embayment, Antarctica, controlled by ocean and atmosphere forcing},
+	journal = {Science Advances},
+	volume = {5},
+	number = {8},
+	year = {2019},
+	doi = {10.1126/sciadv.aav8754},
+	URL = {https://advances.sciencemag.org/content/5/8/eaav8754},
+}
+
+@article{Feldmannetal2019,
+author = {Feldmann, J. and Levermann, A. and Mengel, M.},
+title = {Stabilizing the West Antarctic Ice Sheet by surface mass deposition},
+journal = {Science Advances},
+volume = {5},
+number = {7},
+doi = {10.1126/sciadv.aaw4132},
+URL = {https://advances.sciencemag.org/content/5/7/eaaw4132},
+year = {2019},
+}
+
+@article{Elyetal2019recent,
+author = {Ely, J. C. and Clark, C. D. and Hindmarsh, R. C. A. and Hughes, A. L. C. and Greenwood, S. L. and Bradley, S. L. and Gasson, E. and Gregoire, L. and Gandy, N. and Stokes, C. R. and Small, D.},
+title = {Recent progress on combining geomorphological and geochronological data with ice sheet modelling, demonstrated using the last British–Irish Ice Sheet},
+journal = {Journal of Quaternary Science},
+doi = {10.1002/jqs.3098},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/jqs.3098},
+year = {2019},
+}
+
+@Article{Niuetal2019a,
+author = {Niu, L. and Lohmann, G. and Hinck, S. and Gowan E. J. and Krebs-Kanzow, U.},
+title={The sensitivity of Northern Hemisphere ice sheets to atmospheric forcing during the last glacial cycle using PMIP3 models},
+DOI={10.1017/jog.2019.42},
+journal={Journal of Glaciology},
+pages={1--17},
+year={2019},
+}
+
+@Article{Sutteretal2019,
+AUTHOR = {Sutter, J. and Fischer, H. and Grosfeld, K. and Karlsson, N. B. and Kleiner, T. and Van Liefferinge, B. and Eisen, O.},
+TITLE = {Modelling the Antarctic Ice Sheet across the mid-Pleistocene transition -- implications for Oldest Ice},
+JOURNAL = {The Cryosphere},
+VOLUME = {13},
+NUMBER = {7},
+PAGES = {2023--2041},
+URL = {https://www.the-cryosphere.net/13/2023/2019/},
+DOI = {10.5194/tc-13-2023-2019},
+YEAR = {2019},
+}
+
+@article{Aschwandenetal2019,
+author = {A. Aschwanden and M. A. Fahnestock and M. Truffer and D. J. Brinkerhoff and R. Hock and C. Khroulev and R. Mottram and S. A. Khan},
+title = {Contribution of the Greenland Ice Sheet to sea level over the next millennium},
+journal = {Science Advances},
+volume = {5},
+number = {6},
+year = {2019},
+doi = {10.1126/sciadv.aav9396},
+URL = {https://advances.sciencemag.org/content/5/6/eaav9396},
+}
+
+@Article{Mottrametal2019,
+AUTHOR = {Mottram, R. and Simonsen, S. and Svendsen, S. and Barletta, V. R. and Sandberg Sørensen, L. and Nagler, T. and Wuite, J. and Groh, A. and Horwath, M. and Rosier, J. and Solgaard, A. and Hvidberg, C. S. and Forsberg, R.},
+TITLE = {An Integrated View of Greenland Ice Sheet Mass Changes Based on Models and Satellite Observations},
+JOURNAL = {Remote Sensing},
+VOLUME = {11},
+YEAR = {2019},
+NUMBER = {12},
+URL = {https://www.mdpi.com/2072-4292/11/12/1407},
+DOI = {10.3390/rs11121407},
+}
+
+@article{Stapetal2019,
+author = {Stap, L. B. and Sutter, J. and Knorr, G. and Stärz, M. and Lohmann, G.},
+title = {Transient Variability of the Miocene Antarctic Ice Sheet Smaller Than Equilibrium Differences},
+journal = {Geophysical Research Letters},
+volume = {46},
+number = {8},
+pages = {4288--4298},
+doi = {10.1029/2019GL082163},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL082163},
+year = {2019},
+}
+
+@Article{Seroussietal2019,
+AUTHOR = {Seroussi, H. and Nowicki, S. and Simon, E. and Abe-Ouchi, A. and Albrecht, T. and Brondex, J. and Cornford, S. and Dumas, C. and Gillet-Chaulet, F. and Goelzer, H. and Golledge, N. R. and Gregory, J. M. and Greve, R. and Hoffman, M. J. and Humbert, A. and Huybrechts, P. and Kleiner, T. and Larour, E. and Leguy, G. and Lipscomb, W. H. and Lowry, D. and Mengel, M. and Morlighem, M. and Pattyn, F. and Payne, A. J. and Pollard, D. and Price, S. F. and Quiquet, A. and Reerink, T. J. and Reese, R. and Rodehacke, C. B. and Schlegel, N.-J. and Shepherd, A. and Sun, S. and Sutter, J. and Van Breedam, J. and van de Wal, R. S. W. and Winkelmann, R. and Zhang, T.},
+TITLE = {initMIP-Antarctica: an ice sheet model initialization experiment of ISMIP6},
+JOURNAL = {The Cryosphere},
+VOLUME = {13},
+YEAR = {2019},
+NUMBER = {5},
+PAGES = {1441--1471},
+URL = {https://www.the-cryosphere.net/13/1441/2019/},
+DOI = {10.5194/tc-13-1441-2019}
+}
+
+@Article{Elyetal2019,
+AUTHOR = {Ely, J. C. and Clark, C. D. and Small, D. and Hindmarsh, R. C. A.},
+TITLE = {ATAT 1.1, the Automated Timing Accordance Tool for comparing ice-sheet model output with geochronological data},
+JOURNAL = {Geoscientific Model Development},
+VOLUME = {12},
+YEAR = {2019},
+NUMBER = {3},
+PAGES = {933--953},
+URL = {https://www.geosci-model-dev.net/12/933/2019/},
+DOI = {10.5194/gmd-12-933-2019},
+}
+
+@Article{Gowanetal2019,
+AUTHOR = {Gowan, E. J. and Niu, L. and Knorr, G. and Lohmann, G.},
+TITLE = {Geology datasets in North America, Greenland and surrounding areas for use with ice sheet models},
+JOURNAL = {Earth System Science Data},
+VOLUME = {11},
+YEAR = {2019},
+NUMBER = {1},
+PAGES = {375--391},
+URL = {https://www.earth-syst-sci-data.net/11/375/2019/},
+DOI = {10.5194/essd-11-375-2019},
+}
+
+@Article{Golledgeetal2019,
+author = {Golledge, N. R. and Keller, E. D. and Gomez, N. and Naughten, K. A. and Bernales, J. and Trusel, L. D. and Edwards, T. L.},
+year={2019},
+title={Global environmental consequences of twenty-first-century ice-sheet melt},
+journal={Nature},
+volume={566},
+pages={65--72},
+doi={10.1038/s41586-019-0889-9},
+}
+
+@Article{Ziemenetal2019,
+AUTHOR = {Ziemen, F. A. and Kapsch, M.-L. and Klockmann, M. and Mikolajewicz, U.},
+TITLE = {Heinrich events show two-stage climate response in transient  glacial simulations},
+JOURNAL = {Climate of the Past},
+VOLUME = {15},
+YEAR = {2019},
+NUMBER = {1},
+PAGES = {153--168},
+URL = {https://www.clim-past.net/15/153/2019/},
+DOI = {10.5194/cp-15-153-2019}
+}
+
+@Article{Beyeretal2018,
+AUTHOR = {Beyer, S. and Kleiner, T. and Aizinger, V. and R\"uckamp, M. and Humbert, A.},
+TITLE = {A confined--unconfined aquifer model for subglacial hydrology and its application to the North East Greenland Ice Stream},
+JOURNAL = {The Cryosphere},
+VOLUME = {12},
+YEAR = {2018},
+NUMBER = {12},
+PAGES = {3931--3947},
+URL = {https://www.the-cryosphere.net/12/3931/2018/},
+DOI = {10.5194/tc-12-3931-2018},
+}
+
+@article{SHMIP2018,
+author={De Fleurian, B. and M. Werder and others},
+title={SHMIP The subglacial hydrology model intercomparison Project},
+journal={J. Glaciol},
+DOI={10.1017/jog.2018.78},
+year={2018},
+}
+
+@article{Humbertetal2018,
+author = {Humbert, A. and Steinhage, D. and Helm, V. and Beyer, S. and Kleiner, T.},
+title = {Missing Evidence of Widespread Subglacial Lakes at Recovery Glacier, Antarctica},
+journal = {Journal of Geophysical Research: Earth Surface},
+year = {2018},
+doi = {10.1029/2017JF004591},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2017JF004591},
+}
+
+@article{Yanetal2018,
+author = {Yan, Q. and Owen, L. A. and Wang, H. and Zhang, Z.},
+title = {Climate constraints on glaciation over high-mountain Asia during the Last Glacial Maximum},
+journal = {Geophysical Research Letters},
+doi = {10.1029/2018GL079168},
+year = {2018},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018GL079168},
+}
+
+@Article{Seguinotetal2018,
+AUTHOR = {Seguinot, J. and Ivy-Ochs, S. and Jouvet, G. and Huss, M. and Funk, M. and Preusser, F.},
+TITLE = {Modelling last glacial cycle ice dynamics in the Alps},
+JOURNAL = {The Cryosphere},
+VOLUME = {12},
+YEAR = {2018},
+NUMBER = {10},
+PAGES = {3265--3285},
+DOI = {10.5194/tc-12-3265-2018},
+}
+
+@Inproceedings{Dickensetal2018, 
+author={P. M. Dickens and C. Dufour and J. Fastook}, 
+booktitle={2018 IEEE International Parallel and Distributed Processing Symposium Workshops}, 
+title={The Scalability of Embedded Structured Grids and Unstructured Grids in Large Scale Ice Sheet Modeling on Distributed Memory Parallel Computers}, 
+year={2018}, 
+pages={977-986}, 
+doi={10.1109/IPDPSW.2018.00152}, 
+}
+
+@Article{Kingslakeetal2018,
+  title={Extensive retreat and re-advance of the West Antarctic Ice Sheet during the Holocene},
+  author={Kingslake, J. and Scherer, R. and Albrecht, T. and Coenen, J. and Powell, R. and Reese, R. and Stansell, N. and Tulaczyk, S. and Wearing, M. and Whitehouse, P.},
+  journal={Nature},
+  volume={558},
+  pages={430--434},
+  doi={10.1038/s41586-018-0208-x},
+  year={2018},
+}
+
+@Article{Nielsenetal2018,
+author={Nielsen, L. T. and Aðalgeirsdóttir, G. and Gkinis, V. and Nuterman, R. and Hvidberg, C. S.},
+title={The effect of a Holocene climatic optimum on the evolution of the Greenland ice sheet during the last 10 kyr},
+volume={64},
+DOI={10.1017/jog.2018.40},
+number={245},
+journal={J. Glaciol.},
+year={2018},
+pages={477–488},
+}
+
+@Article{Collonietal2018,
+AUTHOR = {Colloni, F. and De Santis, L. and Siddoway, C. S. and Bergamasco, A. and Golledge, N. R. and Lohmann, G. and Passchier, S. and Siegert, M.},
+TITLE = {Spatio-temporal variability of processes across Antarctic ice-bed–ocean interfaces},
+JOURNAL = {Nature Communications},
+YEAR = {2018},
+VOLUME = {9},
+DOI = {10.1038/s41467-018-04583-0},
+}
+
+@Article{Reeseetal2018,
+AUTHOR = {Reese, R. and Albrecht, T. and Mengel, M. and Asay-Davis, X. and Winkelmann, R.},
+TITLE = {Antarctic sub-shelf melt rates via PICO},
+JOURNAL = {The Cryosphere},
+VOLUME = {12},
+YEAR = {2018},
+NUMBER = {6},
+PAGES = {1969--1985},
+DOI = {10.5194/tc-12-1969-2018}
+}
+
+% PISM use small but unequivocal; see Yan et al 2016
+@Article{Zhangetal2017,
+author = {Zhang, Z. and Yan, Q. and Zhang, R. and Li, X. Y. and Dai, G. and Leng, S. and Tian, Y.},
+title = {Teleconnection between Northern Hemisphere ice sheets and East Asian climate during Quaternary (in Chinese)},
+journal = {Quaternary Research},
+url = {http://html.rhhz.net/DSJYJ/20170509.htm},
+%doi = {10.11928/j.issn.1001-7410.2017.05.08},
+year = {2017},
+}
+
+@Article{StuhnePeltier2017,
+author = {Stuhne, G. R. and Peltier, W. R.},
+title = {Assimilating the ICE-6G_C reconstruction of the latest Quaternary ice-age cycle into numerical simulations of the Laurentide and Fennoscandian ice-sheets},
+journal = {J. Geophys. Res.: Earth Surface},
+doi = {10.1002/2017JF004359},
+year = {2017},
+}
+
+@Article{Habermannetal2017,
+author = {Habermann, M. and Truffer, M. and Maxwell, D.},
+title={Error sources in basal yield stress inversions for Jakobshavn Isbræ, Greenland, derived from residual patterns of misfit to observations},
+journal={J. Glaciol.},
+DOI={10.1017/jog.2017.61},
+year={2017},
+}
+
+@Article{FeldmannLevermann2017,
+AUTHOR = {Feldmann, J. and Levermann, A.},
+TITLE = {From cyclic ice streaming to Heinrich-like events: the grow-and-surge instability in the Parallel Ice Sheet Model},
+JOURNAL = {The Cryosphere},
+VOLUME = {11},
+YEAR = {2017},
+NUMBER = {4},
+PAGES = {1913--1932},
+DOI = {10.5194/tc-11-1913-2017},
+}
+
+@Article{Pittardetal2017,
+author = {Pittard, M. L. and Galton-Fenzi, B. K. and Watson, C. S. and Roberts, J. L.},
+title = {Future sea level change from Antarctica's Lambert-Amery glacial system},
+journal = {Geophysical Research Letters},
+doi = {10.1002/2017GL073486},
+year = {2017},
+}
+
+@Article{Golledgeetal2017CP,
+AUTHOR = {Golledge, N. R. and Thomas, Z. A. and Levy, R. H. and Gasson, E. G. W. and Naish, T. R. and McKay, R. M. and Kowalewski, D. E. and Fogwill, C. J.},
+TITLE = {Antarctic climate and ice-sheet configuration during the early Pliocene interglacial at 4.23\,Ma},
+JOURNAL = {Climate of the Past},
+VOLUME = {13},
+YEAR = {2017},
+NUMBER = {7},
+PAGES = {959--975},
+DOI = {10.5194/cp-13-959-2017}
+}
+
+@Article{Jouvetetal2017,
+AUTHOR = {Jouvet, G. and Seguinot, J. and Ivy-Ochs, S. and Funk, M.},
+TITLE = {Modelling the diversion of erratic boulders by the Valais Glacier during the last glacial maximum},
+JOURNAL = {J. Glaciol.},
+VOLUME = {63},
+NUMBER = {239},
+PAGES = {487--498},
+YEAR = {2017},
+DOI = {10.1017/jog.2017.7},
+}
+
+@Article{Golledgeetal2017,
+author = {Golledge, N. R. and Levy, R. H. and McKay, R. M. and Naish, T. R.},
+title = {East Antarctic ice sheet most vulnerable to Weddell Sea warming},
+journal = {Geophysical Research Letters},
+volume = {44},
+number = {5},
+pages = {2343--2351},
+doi = {10.1002/2016GL072422},
+year = {2017},
+}
+
+@Inproceedings{Dickensetal2016,
+year={2016},
+booktitle={Proceedings of the 2016 Winter Simulation Conference},
+editor={Roeder, T. and others},
+url={https://pdfs.semanticscholar.org/e428/60c9bb89c6f4f5e9f66007a765cd88261a43.pdf},
+title={A prototype implementation of an embedded simulation system for the study of large scale ice sheets},
+publisher={IEEE},
+author={Dickens, P. and Dufour, C. and Fastook, J.},
+pages={1781--1789},
+}
+
+% for PISM usage, see section 5 "Earth system and ice sheet modelling"
+% and figure S8 in supplement of the following
+@Article{Fogwilletal2017,
+AUTHOR = {Fogwill, C. J. and Turney, C. S. M. and Golledge, N. R. and others},
+TITLE = {Antarctic ice sheet discharge driven by atmosphere-ocean feedbacks at the Last Glacial Termination},
+JOURNAL = {Scientific Reports},
+VOLUME = {7},
+YEAR = {2017},
+DOI = {10.1038/srep39979},
+}
+
+@article{Macgregoretal2016,
+  title={A synthesis of the basal thermal state of the Greenland Ice Sheet},
+  author={MacGregor, J. A. and Fahnestock, M. A. and Catania, G. A. and Aschwanden, A. and others},
+  journal={Journal of Geophysical Research: Earth Surface},
+  volume={121},
+  number={7},
+  pages={1328--1350},
+  year={2016},
+  doi={10.1002/2015JF003803},
+}
+
+@Article{Weikusatetal2016,
+AUTHOR = {Weikusat, I. and Jansen, D. and Binder, T. and Eichler, J. and Faria, S. H. and Wilhelms, F. and Kipfstuhl, S. and Sheldon, S. and Miller, H. and Dahl-Jensen, D. and Kleiner, T.},
+TITLE = {Physical analysis of an Antarctic ice core---towards an integration of micro- and macrodynamics of polar ice},
+JOURNAL = {Philos. T. Roy. Soc. A},
+VOLUME = {375},
+NUMBER = {2086},
+YEAR = {2016},
+DOI = {10.1098/rsta.2015.0347},
+}
+
+@Article{Bakkeretal2016,
+AUTHOR = {Bakker, P. and Clark, P. U. and Golledge, N. R. and Schmittner, A. and Weber, M. E.},
+TITLE = {Centennial-scale Holocene climate variations amplified by Antarctic Ice Sheet discharge},
+JOURNAL = {Nature},
+VOLUME = {541},
+PAGES = {72--76},
+YEAR = {2017},
+DOI = {10.1038/nature20582},
+}
+
+@article{Pittardetal2016AG,
+author = {Pittard, M. L. and Roberts, J. L. and Galton-Fenzi, B. K. and Watson, C. S.},
+title = {Sensitivity of the Lambert-Amery glacial system to geothermal heat flux},
+journal = {Ann. Glaciol.},
+doi = {10.1017/aog.2016.26},
+pages = {1--13},
+year = {2016},
+}
+
+@article{Fogwilletal2016,
+author = {Fogwill, C. and Golledge, N. and Millman, H. and Turney, C.},
+title = {The East Antarctic Ice Sheet as a source of sea-level rise: A major tipping element in the climate system?},
+journal = {PAGES Magazine},
+volume = {24},
+number = {1},
+pages = {8--9},
+year = {2016},
+url = {http://pastglobalchanges.org/download/docs/magazine/2016-1/PAGESmagazine_2016(1)_8-9_Fogwill.pdf},
+}
+
+@article{RobelTziperman2016,
+author = {Robel, A. and Tziperman, E.},
+title = {The role of ice stream dynamics in deglaciation},
+journal = {Journal of Geophysical Research: Earth Surface},
+volume = {121},
+number = {8},
+pages = {1540--1554},
+doi = {10.1002/2016JF003937},
+year = {2016},
+}
+
+@Article{Beckeretal2016,
+AUTHOR = {Becker, P. and Seguinot, J. and Jouvet, G. and Funk, M.},
+TITLE = {Last Glacial Maximum precipitation pattern in the Alps inferred from glacier modelling},
+JOURNAL = {Geographica Helvetica},
+VOLUME = {71},
+YEAR = {2016},
+NUMBER = {3},
+PAGES = {173--187},
+DOI = {10.5194/gh-71-173-2016},
+}
+
+@Article{FeldmannLevermann2016,
+AUTHOR = {Feldmann, J. and Levermann, A.},
+TITLE = {Similitude of ice dynamics against scaling of geometry and physical parameters},
+JOURNAL = {The Cryosphere},
+VOLUME = {10},
+YEAR = {2016},
+NUMBER = {4},
+PAGES = {1753--1769},
+DOI = {10.5194/tc-10-1753-2016}
+}
+
+@Article{Aitkenetal2016,
+AUTHOR = {Aitken, A. R. A. and Roberts, J. L. and van Ommen, T. D. and Young, D. A. and Golledge, N. R. and Greenbaum, J. S. and Blankenship, D. D. and Siegert, M. J.},
+TITLE = {Repeated large-scale retreat and advance of Totten Glacier indicated by inland bed erosion},
+JOURNAL = {Nature},
+YEAR = {2016},
+DOI = {10.1038/nature17447},
+VOLUME = {533},
+NUMBER = {7603},
+PAGES = {385-389},
+}
+
+@article{Bartetal2016,
+author = "Bart, P. J. and Mullally, D. and Golledge, N. R.",
+title = "The influence of continental shelf bathymetry on Antarctic Ice Sheet response to climate forcing ",
+journal = "Global and Planetary Change ",
+volume = "142",
+pages = "87--95",
+year = "2016",
+doi = "10.1016/j.gloplacha.2016.04.009",
+}
+
+@Article{Pittardetal2016,
+author = {Pittard, M. L. and Galton-Fenzi, B. K. and Roberts, J. L. and Watson, C. S.},
+title = {Organization of ice flow by localized regions of elevated geothermal heat flux},
+journal = {Geophysical Research Letters},
+doi = {10.1002/2016GL068436},
+year = {2016},
+volume = {43},
+number = {7},
+pages = {3342--3350},
+}
+
+@Article{Ziemenetal2016,
+AUTHOR = {Ziemen, F. A. and Hock, R. and Aschwanden, A. and Khroulev, C. and Kienholz, C. and Melkonian, A. and Zhang, J.},
+TITLE = {Modeling the evolution of the Juneau Icefield between 1971 and 2100 using the Parallel Ice Sheet Model (PISM)},
+JOURNAL = {J. Glaciol.},
+YEAR = {2016},
+DOI = {10.1017/jog.2016.13},
+VOLUME = {62},
+NUMBER = {231},
+PAGES = {199-214},
+}
+
+@Article{Mureseanetal2016,
+AUTHOR = {Muresan, I. and Khan, S. and Aschwanden, A. and Khroulev, C. and Van Dam, T. and Bamber, J. and van den Broeke, M. and Wouters, B. and Kuipers Munneke, P. and Kjaer, K.},
+TITLE = {Modelled glacier dynamics over the last quarter of a century at Jakobshavn Isbrae},
+JOURNAL = {The Cryosphere},
+VOLUME = {10},
+YEAR = {2016},
+NUMBER = {2},
+PAGES = {597--611},
+DOI = {10.5194/tc-10-597-2016},
+}
+
+@Article{Seguinotetal2016,
+AUTHOR = {Seguinot, J. and Rogozhina, I. and Stroeven, A. P. and Margold, M. and Kleman, J.},
+TITLE = {Numerical simulations of the Cordilleran ice sheet through the last glacial cycle},
+JOURNAL = {The Cryosphere},
+VOLUME = {10},
+YEAR = {2016},
+NUMBER = {2},
+PAGES = {639--664},
+DOI = {10.5194/tc-10-639-2016},
+}
+
+@article{Clarketal2016,
+author = {Clark, P. and twenty others},
+title = {Consequences of twenty-first-century policy for multi-millennial climate and sea-level change},
+journal = {Nature Clim. Change},
+doi = {10.1038/nclimate2923},
+note = {supplement describes PISM usage},
+year = {2016},
+volume = {6},
+pages = {360--369},
+}
+
+@article{Yanetal2016,
+author = {Yan, Q. and Zhang, Z. and Wang, H.},
+title = {Investigating uncertainty in the simulation of the Antarctic ice sheet during the mid-Piacenzian},
+journal = {Journal of Geophysical Research: Atmospheres},
+doi = {10.1002/2015JD023900},
+year = {2016},
+volume = {121},
+number = {4},
+pages = {1559--1574},
+}
+
+@Article{Aschwandenetal2016,
+AUTHOR = {Aschwanden, A. and Fahnestock, M. A. and Truffer, M.},
+TITLE = {Complex Greenland outlet glacier flow captured},
+JOURNAL = {Nature Communications},
+YEAR = {2016},
+VOLUME = {7},
+NUMBER = {10524},
+DOI = {10.1038/ncomms10524},
+}
+
+@Article{Frieleretal2016,
+AUTHOR = {Frieler, K. and Mengel, M. and Levermann, A.},
+TITLE = {Delaying future sea-level rise by storing water on Antarctica},
+JOURNAL = {Earth System Dynamics},
+VOLUME = {7},
+YEAR = {2016},
+NUMBER = {1},
+PAGES = {203--210},
+DOI = {10.5194/esd-7-203-2016},
+}
+
+@Article{MengelFeldmannLevermann2016,
+AUTHOR = {Mengel, M. and J. Feldmann and A. Levermann},
+TITLE = {Linear sea-level response to abrupt ocean warming of major West-Antarctic ice basin},
+JOURNAL = {Nature Clim. Change},
+VOLUME = {6},
+NUMBER = {1},
+PAGES = {71--74},
+YEAR = {2016},
+doi = {10.1038/nclimate2808},
+}
+
+@Inproceedings{Dickens2015,
+year={2015},
+booktitle={Algorithms and Architectures for Parallel Processing},
+volume={9531},
+series={Lecture Notes in Computer Science},
+editor={Wang, Guojun and others},
+doi={10.1007/978-3-319-27140-8_10},
+title={A Performance and Scalability Analysis of the MPI Based Tools Utilized in a Large Ice Sheet Model Executing in a Multicore Environment},
+publisher={Springer International Publishing},
+author={Dickens, P.},
+pages={131-147},
+}
+
+@Article{StuhnePeltier2015,
+  title={Reconciling the {ICE-6G C} reconstruction of glacial chronology with ice sheet dynamics: The cases of {G}reenland and {A}ntarctica},
+  author={G. Stuhne and W. Peltier},
+  journal={Journal of Geophysical Research: Earth Surface},
+  volume={120},
+  number={9},
+  pages={1841--1865},
+  year={2015},
+  doi={10.1002/2015JF003580},
+}
+
+@Article{FeldmanLevermann2015,
+AUTHOR = {Feldmann, J. and A. Levermann},
+TITLE = {Collapse of the West Antarctic Ice Sheet after local destabilization of the Amundsen Basin},
+JOURNAL = {Proceedings of the National Academy of Sciences},
+YEAR = {2015},
+DOI = {10.1073/pnas.1512482112},
+VOLUME = {112},
+NUMBER = {46},
+PAGES = {14191--14196},
+}
+
+@Article{Golledgeetal2015,
+  author =       {Golledge, N. R. and Kowalewski, D. E. and Naish, T. R. and Levy, R. H. and Fogwill, C. J. and Gasson, E. G. W.},
+  title =        {The multi-millennial Antarctic commitment to future sea-level rise},
+  journal =      {Nature},
+  year =         {2015},
+  volume =       {526},
+  number =       {7573},
+  pages =        {421--425},
+  doi =          {10.1038/nature15706}
+}
+
+@article{Winkelmannetal2015,
+        author = {Winkelmann, R. and Levermann, A. and Ridgwell, A. and Caldeira, K.},
+        title = {Combustion of available fossil fuel resources sufficient to eliminate the Antarctic Ice Sheet},
+        volume = {1},
+        number = {8},
+        year = {2015},
+        doi = {10.1126/sciadv.1500589},
+        journal = {Science Advances}
+}
+
+@Article{deBoeretal2015,
+AUTHOR = {de Boer, B. and Dolan, A. M. and Bernales, J. and Gasson, E. and Goelzer, H. and Golledge, N. R. and Sutter, J. and Huybrechts, P. and Lohmann, G. and Rogozhina, I. and Abe-Ouchi, A. and Saito, F. and van de Wal, R. S. W.},
+TITLE = {Simulating the Antarctic ice sheet in the late-Pliocene warm period: PLISMIP-ANT, an ice-sheet model intercomparison project},
+JOURNAL = {The Cryosphere},
+VOLUME = {9},
+YEAR = {2015},
+NUMBER = {3},
+PAGES = {881--903},
+DOI = {10.5194/tc-9-881-2015}
+}
+
+@Article{BuelervanPelt2015,
+AUTHOR = {Bueler, E. and van Pelt, W.},
+TITLE = {Mass-conserving subglacial hydrology in the Parallel Ice Sheet Model version 0.6},
+JOURNAL = {Geoscientific Model Development},
+VOLUME = {8},
+YEAR = {2015},
+NUMBER = {6},
+PAGES = {1613--1635},
+DOI = {10.5194/gmd-8-1613-2015}
+}
+
+@Article{FeldmannLevermann2015,
+AUTHOR = {Feldmann, J. and Levermann, A.},
+TITLE = {Interaction of marine ice-sheet instabilities in two drainage basins:  simple scaling of geometry and transition time},
+JOURNAL = {The Cryosphere},
+VOLUME = {9},
+YEAR = {2015},
+NUMBER = {2},
+PAGES = {631--645},
+DOI = {10.5194/tc-9-631-2015}
+}
+
+@Article{Frieleretal2015,
+AUTHOR = {Frieler, K. and Clark, P. U. and He, F. and Buizert, C. and Reese, R. and Ligtenberg, S. and van den Broeke, M. and Winkelmann, R. and Levermann, A.},
+TITLE = {Consistent evidence of increasing Antarctic accumulation with warming},
+JOURNAL = {Nature Clim. Change},
+DOI = {10.1038/nclimate2574},
+VOLUME = {5},
+PAGES = {348--352},
+YEAR = {2015},
+}
+
+@article{Fogwilletal2014b,
+author = {Fogwill,C.J. and Turney,C.S.M. and Golledge,N.R. and Rood,D.H. and Hippe,K. and Wacker,L. and Wieler,R. and Rainsley,E.B. and Jones,R.S.},
+title = {Drivers of abrupt Holocene shifts in West Antarctic ice stream direction determined from combined ice sheet modelling and geologic signatures},
+journal = {Antarctic Science},
+volume = {26},
+issue = {Special Issue 06},
+year = {2014},
+pages = {674--686},
+doi = {10.1017/S0954102014000613},
+URL = {http://journals.cambridge.org/article_S0954102014000613},
+}
+
+@Article{Golledge2014,
+AUTHOR = {Golledge, N. R.},
+TITLE = {Selective erosion beneath the Antarctic Peninsula Ice Sheet during LGM retreat},
+JOURNAL = {Antarctic Science},
+VOLUME = {26},
+NUMBER = {6},
+DOI = {10.1017/S0954102014000340},
+PAGES = {698--707},
+YEAR = {2014},
+}
+
+@Article{Ziemenetal2014,
+AUTHOR = {Ziemen, F. A. and Rodehacke, C. B. and Mikolajewicz, U.},
+TITLE = {Coupled ice sheet-climate modeling under glacial and pre-industrial boundary conditions},
+JOURNAL = {Climate of the Past},
+VOLUME = {10},
+YEAR = {2014},
+NUMBER = {5},
+PAGES = {1817--1836},
+URL = {http://www.clim-past.net/10/1817/2014/},
+DOI = {10.5194/cp-10-1817-2014}
+}
+
+@Article{Golledgeetal2014,
+AUTHOR = {Golledge, N. R. and Menviel, L. and Carter, L. and Fogwill, C. J. and England, M. H. and Cortese, G. and Levy, R. H.},
+TITLE = {Antarctic contribution to meltwater pulse 1A from reduced Southern Ocean overturning},
+JOURNAL = {Nature Communications},
+VOLUME = {5},
+DOI = {10.1038/ncomms6107},
+YEAR = {2014},
+}
+
+@Article{Adalgeirsdottiretal2014,
+AUTHOR = {Adalgeirsdottir, G and Aschwanden, A. and Khroulev, C. and Boberg, F. and Mottram, R. and Lucas-Picher, P. and Christensen, J. H.},
+TITLE = {Role of model initialization for projections of 21st-century Greenland ice sheet mass loss},
+JOURNAL = {J. Glaciol.},
+VOLUME = {60},
+NUMBER = {222},
+PAGES = {782--794},
+DOI = {10.3189/2014JoG13J202},
+URL = {http://www.igsoc.org/journal/60/222/t13j202.html},
+YEAR = {2014},
+}
+
+@Article{Levermannetal2014,
+AUTHOR = {Levermann, A. and Winkelmann, R. and Nowicki, S. and Fastook, J. L. and Frieler, K. and Greve, R. and Hellmer, H. H. and Martin, M. A. and Meinshausen, M. and Mengel, M. and Payne, A. J. and Pollard, D. and Sato, T. and Timmermann, R. and Wang, W. L. and Bindschadler, R. A.},
+TITLE = {Projecting Antarctic ice discharge using response functions from SeaRISE ice-sheet models},
+JOURNAL = {Earth System Dynamics},
+VOLUME = {5},
+YEAR = {2014},
+NUMBER = {2},
+PAGES = {271--293},
+URL = {http://www.earth-syst-dynam.net/5/271/2014/},
+DOI = {10.5194/esd-5-271-2014}
+}
+
+@article{Fogwilletal2014a,
+author = {Fogwill, C. and Turney, C. and Meissner, K. and Golledge, N. and Spence, P. and Roberts, J. and England, M. and Jones, R. and Carter, L.},
+title = {Testing the sensitivity of the East Antarctic Ice Sheet to Southern Ocean dynamics: past changes and future implications},
+journal = {Journal of Quaternary Science},
+volume = {29},
+number = {1},
+url = {http://dx.doi.org/10.1002/jqs.2683},
+doi = {10.1002/jqs.2683},
+pages = {91--98},
+year = {2014},
+}
+
+@Article{Seguinotetal2014,
+AUTHOR = {Seguinot, J. and Khroulev, C. and Rogozhina, I. and Stroeven, A. P. and Zhang, Q.},
+TITLE = {The effect of climate forcing on numerical simulations of the {C}ordilleran ice sheet at the {L}ast {G}lacial {M}aximum},
+JOURNAL = {The Cryosphere},
+VOLUME = {8},
+YEAR = {2014},
+NUMBER = {3},
+PAGES = {1087--1103},
+URL = {http://www.the-cryosphere.net/8/1087/2014/},
+DOI = {10.5194/tc-8-1087-2014}
+}
+
+@Article{Fischeretal2014,
+AUTHOR = {Fischer, R. and Nowicki, S. and Kelley, M. and Schmidt, G. A.},
+TITLE = {A system of conservative regridding for ice-atmosphere coupling in a {General Circulation Model (GCM)}},
+JOURNAL = {Geoscientific Model Development},
+VOLUME = {7},
+YEAR = {2014},
+NUMBER = {3},
+PAGES = {883--907},
+URL = {http://www.geosci-model-dev.net/7/883/2014/},
+DOI = {10.5194/gmd-7-883-2014}
+}
+
+@Article{AlbrechtLevermann2014softening,
+AUTHOR = {Albrecht, T. and Levermann, A.},
+TITLE = {Fracture-induced softening for large-scale ice  dynamics},
+JOURNAL = {The Cryosphere},
+VOLUME = {8},
+YEAR = {2014},
+NUMBER = {2},
+PAGES = {587--605},
+URL = {http://www.the-cryosphere.net/8/587/2014/},
+DOI = {10.5194/tc-8-587-2014},
+}
+
+@Article{MengelLevermann2014,
+AUTHOR = {Mengel, M. and Levermann, A.},
+TITLE = {Ice plug prevents irreversible discharge from East Antarctica},
+JOURNAL = {Nature Clim. Change},
+VOLUME = {4},
+PAGES = {451--455},
+DOI = {10.1038/nclimate2226},
+YEAR = {2014},
+}
+
+@Article{AlbrechtLevermann2014,
+AUTHOR = {Albrecht, T. and Levermann, A.},
+TITLE = {Spontaneous ice-front retreat induced by disintegration of adjacent ice shelf in Antarctica},
+JOURNAL = {Earth Planet. Sci. Lett.},
+volume = {393},
+pages = {26--30},
+doi = {10.1016/j.epsl.2014.02.034},
+YEAR = {2014},
+}
+
+@article{Rosieretal2014,
+author = {Rosier, S. H. R. and Green, J. A. M. and Scourse, J. D. and Winkelmann, R.},
+title = {Modeling Antarctic tides in response to ice shelf thinning and retreat},
+journal = {Journal of Geophysical Research: Oceans},
+volume = {119},
+number = {1},
+pages = {87--97},
+doi = {10.1002/2013JC009240},
+year = {2014},
+}
+
+@Article{Feldmanetal2014,
+AUTHOR = {Feldmann, J. and Albrecht, T. and Khroulev, C. and Pattyn, F. and Levermann, A.},
+TITLE = {Resolution-dependent performance of grounding line motion in a shallow model compared to a full-{S}tokes model according to the {MISMIP3d} intercomparison},
+JOURNAL = {J. Glaciol.},
+volume = {60},
+number = {220},
+pages = {353--360},
+url = {http://www.igsoc.org/journal/60/220/j13J093.html},
+doi = {10.3189/2014JoG13J093},
+YEAR = {2014},
+}
+
+@Article{HabermanTrufferMaxwell2013,
+AUTHOR = {Habermann, M. and Truffer, M. and Maxwell, D.},
+TITLE = {Changing basal conditions during the speed-up of Jakobshavn Isbrae, Greenland},
+JOURNAL = {The Cryosphere},
+VOLUME = {7},
+YEAR = {2013},
+NUMBER = {6},
+PAGES = {1679--1692},
+URL = {http://www.the-cryosphere.net/7/1679/2013/},
+DOI = {10.5194/tc-7-1679-2013}
+}
+
+@article{Rodehackeetal2013,
+author = {Rodehacke, C. and Voigt, A. and Ziemen, F. and Abbot, D.},
+title = {An open ocean region in Neoproterozoic glaciations would have to be narrow to allow equatorial ice sheets},
+journal = {Geophys. Res. Letters},
+volume = {40},
+number = {20},
+pages = {5503--5507},
+doi = {10.1002/2013GL057582},
+year = {2013},
+}
+
+@article{Golledgeetal2013,
+title = "Glaciology and geological signature of the Last Glacial Maximum Antarctic ice sheet",
+journal = "Quaternary Science Reviews",
+volume = "78",
+number = "0",
+pages = "225 -- 247",
+year = "2013",
+doi = "10.1016/j.quascirev.2013.08.011",
+url = "http://www.sciencedirect.com/science/article/pii/S0277379113003168",
+author = "Golledge, N. and R. Levy and R. McKay and C. Fogwill and D. White and A. Graham and J. Smith and C. Hillenbrand and K. Licht and G. Denton and R. Ackert. and S. Maas and B. Hall",
+}
+
+@article{WinkelmannLevermann2013,
+AUTHOR = {Winkelmann, R. and Levermann, A.},
+TITLE = {Linear response functions to project contributions to future sea level},
+JOURNAL = {Climate Dynamics},
+YEAR = {2013},
+URL = {http://dx.doi.org/10.1007/s00382-012-1471-4},
+DOI = {10.1007/s00382-012-1471-4},
+VOLUME = {40},
+NUMBER = {11--12},
+PAGES = {2579--2588},
+}
+
+@article{Solgaardetal2013,
+author = "Solgaard, A. M. and Bonow, J. M. and Langen, P. L. and Japsen, P. and Hvidberg, C. S.",
+title = "Mountain building and the initiation of the Greenland Ice Sheet",
+journal = "Palaeogeography, Palaeoclimatology, Palaeoecology",
+volume = "392",
+pages = "161 - 176",
+year = "2013",
+doi = "http://dx.doi.org/10.1016/j.palaeo.2013.09.019",
+url = "http://www.sciencedirect.com/science/article/pii/S0031018213004215",
+}
+
+
+@Article{vanPeltetal2013,
+AUTHOR = {van Pelt, W. J. J. and Oerlemans, J. and Reijmer, C. H. and Pettersson, R. and Pohjola, V. A. and Isaksson, E. and Divine, D.},
+TITLE = {An iterative inverse method to estimate basal topography and initialize ice flow models},
+JOURNAL = {The Cryosphere},
+VOLUME = {7},
+YEAR = {2013},
+NUMBER = {3},
+PAGES = {987--1006},
+URL = {http://www.the-cryosphere.net/7/987/2013/},
+DOI = {10.5194/tc-7-987-2013}
+}
+
+@Article{AschwandenAdalgeirsdottirKhroulev2013,
+AUTHOR = {Aschwanden, A. and Adalgeirsdottir, G. and Khroulev, C.},
+TITLE = {Hindcasting to measure ice sheet model sensitivity to initial states},
+JOURNAL = {The Cryosphere},
+VOLUME = {7},
+YEAR = {2013},
+NUMBER = {4},
+PAGES = {1083--1093},
+URL = {http://www.the-cryosphere.net/7/1083/2013/},
+DOI = {10.5194/tc-7-1083-2013}
+}
+
+@inproceedings{DickensMorey2013,
+AUTHOR = {Dickens, P. and Morey, T.},
+TITLE = {Increasing the scalability of PISM for high resolution ice sheet models},
+YEAR = {2013},
+booktitle={Parallel and Distributed Processing Symposium Workshops PhD Forum (IPDPSW), 2013 IEEE 27th International}, 
+pages={1336--1344},
+doi={10.1109/IPDPSW.2013.255}
+}
+
+@article{Pattyn2013MISMIP3D,
+ AUTHOR = {Pattyn, F. and 28 others},
+  TITLE = {Grounding-line migration in plan-view marine ice-sheet models: results of the ice2sea {MISMIP3d} intercomparison},
+   YEAR = {2013},
+JOURNAL = {J. Glaciol.},
+  VOLUME = {59},
+  NUMBER = {215},
+  PAGES = {410--422},
+  URL = {http://www.igsoc.org/journal/59/215/t12J129.html},
+}
+
+@article{Nowicki2013AntarcticaSeaRISE,
+ AUTHOR = {Nowicki, S. and 30 others},
+  TITLE = {Insights into spatial sensitivities of ice mass response to environmental change from the SeaRISE ice sheet modeling project: I. Antarctica},
+JOURNAL = {J. Geophys. Res.: Earth Surface},
+VOLUME = {118},
+NUMBER = {2},
+PAGES = {1002--1024},
+doi = {10.1002/jgrf.20081},
+year = {2013},
+}
+
+@article{Nowicki2013GreenlandSeaRISE,
+ AUTHOR = {Nowicki, S. and 30 others},
+  TITLE = {Insights into spatial sensitivities of ice mass response to environmental change from the SeaRISE ice sheet modeling project: II. Greenland},
+   YEAR = {2013},
+JOURNAL = {J. Geophys. Res.: Earth Surface},
+VOLUME = {118},
+NUMBER = {2},
+PAGES = {1025--1044},
+doi = {10.1002/jgrf.20076},
+}
+
+@article{Bindshadler2013SeaRISE,
+ AUTHOR = {Bindshadler, R. and 27 others},
+  TITLE = {Ice-sheet model sensitivities to environmental forcing and their use in projecting future sea-level (The SeaRISE Project)},
+   YEAR = {2013},
+JOURNAL = {J. Glaciol.},
+ VOLUME = {59},
+ NUMBER = {214},
+  PAGES = {195--224},
+    URL = {http://www.igsoc.org/journal/59/214/j12J125.html},
+}
+
+@article{Winkelmannetal2012-nature,
+ AUTHOR = {Winkelmann, R. and A. Levermann and K. Frieler and M.A. Martin},
+  TITLE = {Increased future ice discharge from Antarctica owing to higher snowfall},
+   YEAR = {2012},
+JOURNAL = {Nature},
+ VOLUME = {492},
+  PAGES = {239--242},
+    URL = {http://www.nature.com/nature/journal/v492/n7428/full/nature11616.html},
+    DOI = {10.1038/nature11616},
+}
+
+@article{SolgaardLangen2012,
+author = {Solgaard, A. and P. Langen},
+title = {Multistability of the Greenland ice sheet and the effects of an adaptive mass balance formulation},
+year = {2012},
+journal = {Climate Dynamics},
+doi = {10.1007/s00382-012-1305-4},
+}
+
+@article{vanPeltOerlemans2012,
+author = {Pelt, W. J. J. van and J. Oerlemans},
+title = {Numerical simulations of cyclic behaviour in the Parallel Ice Sheet Model (PISM)},
+year = {2012},
+journal = {Journal of Glaciology},
+volume = {58},
+number = {208},
+doi = {10.3189/2012JoG11J217},
+url = {http://www.igsoc.org/journal/58/208/t11J217.pdf},
+pages = {347--360},
+}
+
+@article{MISMIP2012,
+AUTHOR = {Pattyn, F. and C. Schoof and L. Perichon and 15 others},
+TITLE = {Results of the Marine Ice Sheet Model Intercomparison Project, MISMIP},
+JOURNAL = {The Cryosphere},
+VOLUME = {6},
+YEAR = {2012},
+PAGES = {573--588},
+URL={http://www.the-cryosphere.net/6/573/2012/tc-6-573-2012.html},
+}
+
+@article{LangenSolgaardHvidberg2012,
+    AUTHOR = {Langen, P. and A. Solgaard and C. Hvidberg},
+     TITLE = {Self-inhibiting growth of the {G}reenland {I}ce {S}heet},
+   JOURNAL = {Geophys. Res. Lett.},
+    VOLUME = {39},
+      YEAR = {2012},
+    NUMBER = {L12502},
+       DOI = {10.1029/2012GL051810},
+}
+
+@article{Gollegeetal2012,
+AUTHOR = {Golledge, N. and A. Mackintosh and 8 others},
+TITLE = {Last Glacial Maximum climate in New Zealand inferred from a modelled Southern Alps icefield},
+JOURNAL = {Quaternary Science Reviews},
+VOLUME = {46},
+YEAR = {2012},
+PAGES = {30--45},
+doi = {10.1016/j.quascirev.2012.05.004},
+}
+
+@article{Golledgeetal2012AntLGM,
+ AUTHOR = {Golledge, N. and C. Fogwill and A. Mackintosh and K. Buckley},
+  TITLE = {Dynamics of the Last Glacial Maximum Antarctic ice-sheet and its response to ocean forcing},
+   YEAR = {2012},
+JOURNAL = {Proceedings of the National Academy of Sciences},
+    doi = {10.1073/pnas.1205385109},
+    URL = {http://www.pnas.org/content/early/2012/09/10/1205385109.abstract}, 
+}
+
+@Article{Levermannetal2012,
+AUTHOR = {Levermann, A. and Albrecht, T. and Winkelmann, R. and Martin, M. A. and Haseloff, M. and Joughin, I.},
+TITLE = {Kinematic first-order calving law implies potential for abrupt ice-shelf retreat},
+JOURNAL = {The Cryosphere},
+VOLUME = {6},
+YEAR = {2012},
+PAGES = {273--286},
+URL = {http://www.the-cryosphere.net/6/273/2012/tc-6-273-2012.html},
+}
+
+@article{AlbrechtLevermann2012,
+author = {Albrecht, T. and Levermann, A.},
+title = {Fracture field for large-scale ice dynamics},
+year = {2012},
+journal = {Journal of Glaciology},
+volume = {58},
+number = {207},
+doi = {10.3189/2012JoG11J191},
+url = {http://www.igsoc.org/journal/current/207/t11J191.pdf},
+pages = {165--176},
+}
+
+@article{AschwandenBuelerKhroulevBlatter,
+    AUTHOR = {Aschwanden, A. and E. Bueler and C. Khroulev and H. Blatter},
+     TITLE = {An enthalpy formulation for glaciers and ice sheets},
+   JOURNAL = {Journal of Glaciology},
+    VOLUME = {58},
+    NUMBER = {209},
+     PAGES = {441--457},
+       DOI = {10.3189/2012JoG11J088},
+      YEAR = {2012},
+}
+
+@Article{Winkelmannetal2011,
+AUTHOR = {Winkelmann, R. and Martin, M. A. and Haseloff, M. and Albrecht, T. and Bueler, E. and Khroulev, C. and Levermann, A.},
+TITLE = {The {P}otsdam {P}arallel {I}ce {S}heet {M}odel ({PISM-PIK}) {P}art 1: {M}odel description},
+JOURNAL = {The Cryosphere},
+VOLUME = {5},
+YEAR = {2011},
+PAGES = {715--726},
+URL = {http://www.the-cryosphere.net/5/715/2011/tc-5-715-2011.pdf}
+}
+
+
+@Article{Sorensenetal2011,
+AUTHOR = {Sorensen, L. S. and Simonsen, S. B. and 6 others},
+TITLE = {Mass balance of the Greenland ice sheet (2003–2008) from ICESat data – the impact of interpolation, sampling and firn density},
+JOURNAL = {The Cryosphere},
+VOLUME = {5},
+YEAR = {2011},
+NUMBER = {1},
+PAGES = {173--186},
+URL = {http://www.the-cryosphere.net/5/173/2011/},
+DOI = {10.5194/tc-5-173-2011}
+}
+
+@article{Solgaardetal2011,
+	Author = {Solgaard, A. M. and Reeh, N. and Japsen, P. and Nielsen, T.},
+	Journal = {Journal of Glaciology},
+	Number = {205},
+	Pages = {871--880},
+	Title = {Snapshots of the Greenland ice sheet configuration in the Pliocene to early Pleistocene},
+	Volume = {57},
+	Year = {2011},
+        doi={10.3189/002214311798043816},
+}
+
+
+@Article{Martinetal2011,
+AUTHOR = {Martin, M. A. and Winkelmann, R. and Haseloff, M. and Albrecht, T. and Bueler, E. and Khroulev, C. and Levermann, A.},
+TITLE = {The Potsdam Parallel Ice Sheet Model (PISM-PIK) – Part 2: Dynamic equilibrium simulation of the Antarctic ice sheet},
+JOURNAL = {The Cryosphere},
+VOLUME = {5},
+YEAR = {2011},
+PAGES = {727--740},
+URL = {http://www.the-cryosphere.net/5/727/2011/tc-5-727-2011.pdf}
+}
+
+
+@article{Albrechtetal2011,
+    AUTHOR = {Albrecht, T. and M. Martin and M. Haseloff and R. Winkelmann and A. Levermann},
+     TITLE = {Parameterization for subgrid-scale motion of ice-shelf calving fronts},
+   JOURNAL = {The Cryosphere},
+    VOLUME = {5},
+      YEAR = {2011},
+     PAGES = {35--44},
+     URL = {http://www.the-cryosphere.net/5/35/2011/tc-5-35-2011.html}
+}
+
+
+@article{Levermann2011,
+    AUTHOR = {Levermann, A.},
+     TITLE = {When glacial giants roll over},
+   JOURNAL = {Nature},
+    VOLUME = {472},
+     PAGES = {43--44},
+      YEAR = {2011},
+      url = {http://www.pik-potsdam.de/~anders/publications/levermann11.pdf}
+}
+
+
+@article{Calov2010HEINO,
+   AUTHOR = {Calov, R. and Greve, R. and 9 others},
+    TITLE = {Results from the {I}ce-{S}heet {M}odel {I}ntercomparison {P}roject-{H}einrich {E}vent {IN}terc{O}mparison ({ISMIP HEINO})},
+  JOURNAL = {Journal of Glaciology},
+   Volume = {56},
+   Number = {197},
+     YEAR = {2010},
+    PAGES = {371-383},
+      URL = {http://www.ingentaconnect.com/content/igsoc/jog/2010/00000056/00000197/art00001},
+}
+
+
+@article{BBssasliding,
+    AUTHOR = {Bueler, E. and J. Brown},
+     TITLE = {Shallow shelf approximation as a "sliding law" in a thermodynamically coupled ice sheet model},
+   JOURNAL = {J. Geophys. Res.: Earth Surface},
+    VOLUME = {114},
+    NUMBER = {F3},
+      DOI = {10.1029/2008JF001179},
+      YEAR = {2009},
+}
+
+
+@article{BLKfastearth,
+    AUTHOR = {Bueler, E. and C. S. Lingle and J. A. Kallen-Brown},
+     TITLE = {Fast computation of a viscoelastic deformable {E}arth model for ice sheet simulation},
+   JOURNAL = {Ann. Glaciol.},
+    VOLUME = {46},
+     PAGES = {97--105},
+      YEAR = {2007},
+      URL  = {http://www.igsoc.org/annals/46/a46a130.pdf}
+}
+
+
+@article{BBL,
+    AUTHOR = {Bueler, E. and J. Brown and C. Lingle},
+     TITLE = {Exact solutions to the thermomechanically coupled shallow ice approximation: effective tools for verification},
+   JOURNAL = {J. Glaciol.},
+    VOLUME = {53},
+    NUMBER = {182},
+     PAGES = {499--516},
+      YEAR = {2007},
+      URL = {http://www.igsoc.org/journal/53/182/j06j094.pdf}
+}

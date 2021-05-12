@@ -1,0 +1,17 @@
+====== February 2014 ======
+<div left 45% centeralign>
+<div>
+[[http://dx.doi.org/10.1016/j.quascirev.2013.08.011 |{{:applications:covergolledgeetal2013.png?250|}}]]
+
+</div>
+Click the image to go to the Quaternary Science Reviews page.
+</div>
+
+<div right 45%>
+| **Glaciology and geological signature of the Last Glacial Maximum Antarctic ice sheet** ||
+| **investigators**: | [[http://www.victoria.ac.nz/antarctic/about/staff/nick-golledge|N. Golledge]] and 12 others|
+| **journal**: | Quaternary Science Reviews |
+
+Continent-wide marine and terrestrial geological evidence constrains the dynamical configuration of the Antarctic ice sheet during the last, and possibly preceding, glacial maxima.  This paper interprets results from a remarkably high-resolution (5 km) PISM model using this evidence, focussing on the basal thermal regime of the ice sheet, its flow pattern, variability in subglacial erosion and sediment transport, and how these characteristics evolve during glacial transitions.  The results show that rapid basal sliding in discrete outlets eroded and advected sediment to the continental shelf primarily during the early stages of advance and retreat of the ice sheet.  Sector-by-sector analysis of geologic constraints, exquisite figures showing sediment transport paths through tight geographic confinements, and careful consideration of peak erosion timing set a new standard for validating high-resolution time-dependent model results with extensive geophysical evidence. 
+</div>
+<WRAP clear></WRAP>

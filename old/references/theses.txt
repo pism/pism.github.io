@@ -1,0 +1,44 @@
+@mastersthesis{Dufour2016,
+     AUTHOR = {Dufour, Christopher G},
+      TITLE = {Improving the Performance of Ice Sheet Modeling Through Embedded Simulation},
+INSTITUTION = {The University of Maine},
+       NOTE = {M.S. Computer Science},
+       YEAR = {2016},
+        URL = {http://digitalcommons.library.umaine.edu/cgi/viewcontent.cgi?article=3542&context=etd},
+}
+
+@mastersthesis{Mullaly2015,
+    AUTHOR = {D. M. Mullaly Jr.},
+     TITLE = {The influence of marine topography on the Antarctic ice sheet},
+INSTITUTION = {Louisiana State University},
+      NOTE = {M.S. Geology \& Geophysics},
+      YEAR = {2015},
+       URL = {http://etd.lsu.edu/docs/available/etd-04092015-122012/}
+}
+
+@mastersthesis{Gillispie2014,
+    AUTHOR = {L. Gillispie},
+     TITLE = {A temperature-only formulation for ice sheets},
+INSTITUTION = {University of Alaska, Fairbanks},
+      NOTE = {M.S. Mathematics},
+      YEAR = {2014},
+       URL = {http://bueler.github.io/papers/lgillispieMS.pdf}
+}
+
+@mastersthesis{Mitchell2012,
+    AUTHOR = {W. Mitchell},
+     TITLE = {Exact and numerical solutions for Stokes flow in glaciers},
+INSTITUTION = {University of Alaska, Fairbanks},
+      NOTE = {M.S. Mathematics},
+      YEAR = {2012},
+       URL = {http://www.math.wisc.edu/~whmitchell/WM_2012_MSTHESIS.pdf}
+}
+
+@mastersthesis{DellaGiustina2011,
+    AUTHOR = {D. DellaGiustina},
+     TITLE = {Regional modeling of Greenland's outlet glaciers with the Parallel Ice Sheet Model},
+INSTITUTION = {University of Alaska, Fairbanks},
+      NOTE = {M.S. Computational Physics},
+      YEAR = {2011},
+       URL = {http://www2.gi.alaska.edu/snowice/glaciers/iceflow/ddellagiustinaMS.pdf}
+}

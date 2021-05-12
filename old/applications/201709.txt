@@ -1,0 +1,17 @@
+====== September 2017 ======
+<div left 46%>
+
+[[https://doi.org/10.5194/cp-13-959-2017|{{:applications:golledgeetal2017cp.png?350|}}]]
+</div>
+
+<div right 48%>
+| **[[https://doi.org/10.5194/cp-13-959-2017|Antarctic climate and ice-sheet configuration during the early Pliocene interglacial at 4.23 Ma]]** ||
+| **investigators**: | [[http://www.victoria.ac.nz/antarctic/about/staff/nick-golledge|N. Golledge]] and others|
+| **journal**: | [[https://www.climate-of-the-past.net/index.html|Climate of the Past]] |
+
+Whether a "tipping point" will be reached in the next few centuries, in the dynamics of various parts of the Antarctic ice sheet (AIS) as it responds to a warming world, is the most difficult prediction question.  It is an extreme challenge to models.  How complete a model must be, so as to resolve the relevant behavior of the (real) dynamical system, is unknown.  A negative result from modeling (i.e. no tipping points seen in model runs) has minimal value because a more-complete, or merely different, model may show a tipping point.  Insisting that a model include all possibly-relevant mechanisms is unfeasible to the point of silliness.
+
+Tipping-point questions can be asked about the past states of the AIS, though using existing observations to resolve these questions is extraordinarily difficult.  This paper uses GCM/RCM and ice-sheet modeling to recreate conditions of the early to mid-Pliocene when atmospheric CO2 concentrations were similar to present day.  The focus of PISM application is on modeling grounding-line motion, ice shelf basal melt near the grounding line, and basal sliding.  A novel method here, relative to other AIS modeling literature, is an autocorrelation analysis of time series for (modeled) ice mass to find early-warning signs of impending tipping points.  A precursor to tipping-point-type destabilization, proximately by classic marine-based ice-sheet retreat, appears to be prolonged surface lowering in response to warm air temperatures.
+</div>
+
+<WRAP clear></WRAP>

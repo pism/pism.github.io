@@ -1,0 +1,20 @@
+====== April 2015 ======
+<div left 49% centeralign>
+[[http://www.the-cryosphere.net/9/631/2015/tc-9-631-2015.html|{{:applications:feldmannlevermann2015.png?380 |}}]]
+
+<html>
+&nbsp;
+</html>
+
+Click the image to go to //The Cryosphere// page.
+</div>
+
+<div right 44%>
+| **Interaction of marine ice-sheet instabilities in two drainage basins: simple scaling of geometry and transition time** ||
+| **investigators**: | [[https://www.pik-potsdam.de/members/frieler|J. Feldmann]] and A. Levermann|
+| **journal**: | [[http://www.the-cryosphere.net/|The Cryosphere]] |
+
+The marine ice-sheet instability generally comes from the ocean side of the ice sheet.  Using a flow-line geometry in PISM, this paper investigates whether instability can be triggered from the direction of the ice divide.  The authors find that the instability in one basin can induce a destabilization in the other.  The underlying mechanism is dynamic thinning and consequent motion of the ice divide.  They conclude that for the three-dimensional case, the possibility of drainage basin interaction on timescales on the order of 1 kyr or larger cannot be excluded and needs further investigation.
+
+</div>
+<WRAP clear></WRAP>

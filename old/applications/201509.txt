@@ -1,0 +1,19 @@
+====== September 2015 ======
+<div left 44%>
+
+[[http://advances.sciencemag.org/content/1/8/e1500589|{{:applications:winkelmannetal2015.png?320|}}]]
+</div>
+
+<div right 50%>
+| **[[http://advances.sciencemag.org/content/1/8/e1500589|Combustion of available fossil fuel resources sufficient to eliminate the Antarctic Ice Sheet]]** ||
+| **investigator**: | [[http://www.pik-potsdam.de/~ricardaw/|R. Winkelmann]] and others|
+| **journal**: | [[http://advances.sciencemag.org/|Science Advances]] |
+
+Ice sheet scientists have probably asked each other, over a beer or otherwise, how much of the Antarctic Ice Sheet would melt if all fossil fuels were burned up until they were gone.  Co-author Ken Caldeira of this paper [[http://www.npr.org/sections/thetwo-way/2015/09/11/439538952/what-would-happen-if-we-burned-up-all-of-earths-fossil-fuels|said in an interview]] that "I've been wondering about this question for 35 years but was never able to address it."  These authors think that ice sheet science has gotten sophisticated enough to take this question seriously.
+
+Their PISM-based answer is that serious destruction of the ice sheet occurs in the first millenium, at about 3 m sea level rise per century.  Actually, PISM is at the end of a chain of models: emission scenarios, CO2 concentrations, and global mean temperature pathways are first combined in an Earth system model (GENIE) and then downscaled to surface and ocean temperature anomalies for Antarctica using scaling factors also from Earth system modeling (ECHAM5/MPIOM).  These regional warming scenarios are then used to force PISM.  In particular, PISM's positive-degree-day scheme models surface melt and a three-equation model (BRIOS model; Timmerman et al. 2002) describes subshelf melting.
+
+Losses come from a combination of marine-ice-sheet instability and surface elevation versus mass balance feedback.  However, in the first century the simulations show the same relatively-modest AIS mass changes as seen in other recent (e.g. IPCC AR5) modeling work, because dynamic losses driven by increasing ocean temperatures are partly offset by increasing snowfall.  
+</div>
+
+<WRAP clear></WRAP>

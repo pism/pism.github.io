@@ -1,0 +1,39 @@
+======= PIK developers and the "PISM-PIK" model ======
+
+{{:ant_m5ka_10km_csurf.png?330 }}
+
+**Investigators:**
+  * [[http://www.pik-potsdam.de/~anders|Prof. Anders Levermann]] [[levermann@pik-potsdam.de]]
+  * [[https://www.pik-potsdam.de/members/albrecht|Dr. Torsten Albrecht]] [[albrecht@pik-potsdam.de]]
+  * Marianne Haseloff
+  * [[http://www.pik-potsdam.de/~martin|Dr. Maria Martin]] [[martin@pik-potsdam.de]]
+  * [[http://www.pik-potsdam.de/~mengel|Dr. Mattias Mengel]] [[matthias.mengel@pik-potsdam.de]]
+  * [[http://www.pik-potsdam.de/~ricardaw|Dr. Ricarda Winkelmann]] [[winkelmann@pik-potsdam.de]]
+  * [[http://www.pik-potsdam.de/~johfeld|Johannes Feldmann]] [[johfeld@pik-potsdam.de]]
+
+Processes like ice shelf calving and stress boundary conditions are important parts of marine ice sheet models, and sea level projections, due to their effect on the dynamics upstream of the grounding line.  Developers at the Potsdam Institute for Climate Impact Research (PIK), Germany, introduced modifications of PISM ice shelf and grounding-line dynamics with a special focus on modeling the Antarctic ice sheet-shelf system.
+
+Specifically, these PIK developers created the Potsdam Parallel Ice Sheet Model, PISM-PIK, in 2008--2009 as a derived class of PISM stable0.2.  After joint work with [[:about|UAF developers]], changes were made to the PISM base model in spring 2011 so that PISM-PIK capabilities were part of the stable0.4 release.  These capabilities are now an integral part of PISM itself, and appear in the current and all future releases.
+
+PIK-added features and applications include:
+
+  * changes to the hybrid dynamics, transport schemes, and the calving-front stress boundary condition [[:publications#section2011|(Winkelmann et al. 2011)]], relative to content in [[:publications#section2009|(Bueler and Brown, 2009)]],
+  * a mass transport parameterization at the calving front, enabling its proper motion [[:publications#section2011|(Albrecht et al. 2011)]],
+  * a physically-motivated 2D calving law [[:publications#section2011|(Winkelmann et al. 2011)]], [[:publications#section2012|(Levermann et al. 2012)]],
+  * improved parameterization of the grounding line [[:publications#section2014|(Feldmann et al. 2014)]], and
+  * a model for fracture density in ice shelves [[:publications#section2012|(Albrecht and Levermann 2012)]], [[:publications#section2014|(Albrecht and Levermann 2014a)]].
+
+
+After adding capabilities to PISM, PIK then published these major modeling applications:
+
+  * a dynamic equilibrium simulation for present-day boundary conditions reproduces observed dynamical features of the Antarctic sheet-shelf system [[:publications#section2011|(Martin et al. 2011)]],
+  * a model of the dynamic effect of snowfall in Antarctica [[:publications#section2012|(Winkelmann et al. 2012)]],
+  * simplified models based on analysis of PISM model ensembles [[:publications#section2013|(Winkelmann and Levermann 2013)]], [[:publications#section2014|(Levermann et al. 2014)]],
+  * a model of ice shelf neighbor dynamical interactions [[:publications#section2014|(Albrecht and Levermann 2014b)]], and
+  * a scenario for basin-wide retreats in East Antarctica [[:publications#section2014|(Mengel and Levermann 2014)]].
+
+Here are three topical pages describing work using and developing PISM at PIK:
+
+  * [[http://www.pik-potsdam.de/~anders/Antarctica.html|Antarctica in PISM]]
+  * [[http://www.pik-potsdam.de/~anders/SeaLevel.html|Sea level changes in PISM]]
+  * [[http://www.pik-potsdam.de/~anders/IcebergCalving.html|Iceberg calving in PISM]]

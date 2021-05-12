@@ -1,0 +1,17 @@
+====== July 2014 ======
+<div left 50% centeralign>
+<div>
+[[http://www.the-cryosphere.net/8/1087/2014/tc-8-1087-2014.html|{{:applications:seguinotarray.png?400|}}]]
+
+</div>
+Click the image to go to //The Cryosphere// journal page.
+</div>
+
+<div right 40%>
+| **The effect of climate forcing on numerical simulations of the Cordilleran ice sheet at the Last Glacial Maximum** ||
+| **investigators**: | [[http://people.su.se/~jsegu/|J. Seguinot]], C. Khroulev, I. Rogozhina, A. P. Stroeven, and Q. Zhang|
+| **journal**: | [[http://www.the-cryosphere.net/home.html|The Cryosphere]] |
+
+An ensemble of numerical simulations of the Cordilleran ice sheet in western North America during the Last Glacial Maximum (LGM) using the Parallel Ice Sheet Model.  Temperature offsets to the present-day climatologies are applied from five different data sets.  Surface mass balance is computed from precipitation and temperature using a positive degree-day model.  We assess the model against a geomorphological reconstruction of the ice margin at the LGM.  Modelled ice sheet outlines and volumes appear highly sensitive to the choice of climate forcing. For three of the four reanalysis data sets used, differences in precipitation are the major source for discrepancies between model results.  Part of the mismatch is due to unresolved orographic precipitation effects caused by the coarse resolution of reanalysis data.
+</div>
+<WRAP clear></WRAP>

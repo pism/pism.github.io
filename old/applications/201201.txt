@@ -1,0 +1,17 @@
+====== January 2012 ======
+<div left 45% centeralign>
+<div download>
+[[http://www.pism-docs.org/download/golledgebuckley2011_poster2.pdf|{{:golledgebuckley2011.png?250 }}]]
+</div>
+Click on the thumbnail to download the PDF (10Mb).
+</div>
+
+<div right 45%>
+|  **Fine-grid simulation of Antarctic ice stream dynamics at the Last Glacial Maximum**  ||
+| **ice sheet**: | Antarctic ice sheet (LGM) |
+| **lead investigator**: | [[http://www.victoria.ac.nz/antarctic/|Nick Golledge]] |
+| **venue**: | [[http://www.inqua2011.ch/|INQUA 2011]] and SCAR International Symposium on Antarctic Earth Sciences, 2011 |
+
+The Antarctic Research Centre is using PISM to study Antarctic ice sheet behaviours during key periods of the past, particularly the LGM and the mid-Pliocene.
+</div>
+<WRAP clear></WRAP>

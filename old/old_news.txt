@@ -1,0 +1,3 @@
+===== All PISM News Items =====
+
+{{blog>news?100}}

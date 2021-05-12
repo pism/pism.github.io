@@ -1,0 +1,11 @@
+The current stable version of PISM is ''stable0.4''.
+
+We highly recommend using [[http://git-scm.com/|Git]] to obtain PISM:
+
+<file>git clone git://github.com/pism/pism.git pism0.4</file>
+
+This way you can stay up-to-date by just typing "''git pull''" to get the latest bug fixes.
+
+To get a development version, see [[Development version]].
+
+To get an older version of PISM, see [[Older versions]].

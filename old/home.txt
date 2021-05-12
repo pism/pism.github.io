@@ -1,0 +1,56 @@
+/*{{grn-csurf-topg-1km.png?160 }}*/
+/* //NEWS//:  [[home#latest_news|PISM0.5 released]] <-- how to show headline */
+
+//NEWS//:  [[home#latest_news|PISM v1.2 released]]
+
+===== PISM =====
+<div left 44%>
+{{youtube>oy0FmBWfGGw}}
+
+Projection of the Greenland Ice Sheet from 2008-2300 under RCP 8.5. Video by Cindy Starr (NASA SVS).
+</div>
+
+<div right 50%>
+The Parallel Ice Sheet Model [[stable_version|PISM v1.2]] is open source and capable of high resolution.  It has been [[publications|widely adopted as a tool for doing science]].
+
+Features include:
+  * extensible atmospheric/ocean coupling
+  * hybrid shallow stress balance
+  * marine ice sheet physics
+  * polythermal energy conservation
+  * subglacial hydrology and till model
+  * complete [[overview|documentation]]
+  * parallel simulations using [[https://en.wikipedia.org/wiki/Message_Passing_Interface|MPI]] & [[http://www.mcs.anl.gov/petsc/|PETSc]]
+  * reads and writes [[http://cfconventions.org/|CF-compliant]] [[http://www.unidata.ucar.edu/software/netcdf/|NetCDF]]
+  * [[http://www.pism-docs.org/doxy/inverse/html/index.html|inversion toolbox in Python]]
+  * verification and validation tools
+</div>
+
+
+/*
+<HTML>
+<script type='text/javascript' src='https://www.openhub.net/p/pism/widgets/project_factoids?format=js'></script>
+</HTML>
+</div>
+*/
+
+<WRAP clear></WRAP>
+
+/*
+===== Application of the Month =====
+{{blog>applications?1}}
+
+[[ old_paotm|All PISM Applications of the month]]
+*/
+
+===== Latest News =====
+{{blog>news?4}}
+
+[[ old_news|All news items]]
+
+
+===== Team =====
+
+PISM is jointly developed at the [[http://www.uaf.edu/|University of Alaska, Fairbanks (UAF)]] and the [[http://www.pik-potsdam.de/|Potsdam Institute for Climate Impact Research (PIK)]].  For more about the team see the [[about|UAF Developers]] and [[pik:pism-pik|PIK Developers]] pages.
+
+UAF developers, who are in the [[http://www.gi.alaska.edu/snowice/glaciers/|Glaciers Group at the GI]], are supported by NASA's [[http://map.nasa.gov/|Modeling, Analysis, and Prediction]] and [[http://ice.nasa.gov/|Cryospheric Sciences]] Programs (grants NAG5-11371, NNX09AJ38C, NNX13AM16G, NNX16AQ40G, NNX17AG65G) and by NSF grants PLR-1603799 and PLR-1644277.

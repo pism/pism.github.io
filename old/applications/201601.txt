@@ -1,0 +1,19 @@
+====== January 2016 ======
+<div left 44%>
+
+{{:applications:aschwandenagu2015.png?350|}}
+
+Simulated ice extent and velocity in April (left) and November (right) of 1995.
+
+{{:applications:aschwanden_agu_2015.pdf|Poster here}} and [[https://www.dropbox.com/s/qcxn2v82vs67zo9/jako_hindcast_hd.mp4?dl=0|Movie here]]
+</div>
+
+<div right 50%>
+| **The Autumn of break-ups: When Jakobshavn Isbrae lost its floating tongue** ||
+| **investigators**: | [[http://glaciers.gi.alaska.edu/people/aschwanden|A. Aschwanden]], M. Fahnestock, M. Truffer, and R. Motyka|
+| **venue**: | [[http://fallmeeting.agu.org/2015/|2015 AGU Fall Meeting]] |
+
+Jakobshavn Isbrae, Greenland's fastest-flowing outlet glacier, lost its floating tongue in 1995, an event which is often attributed to changes in ocean temperature.  This {{:applications:aschwanden_agu_2015.pdf|poster}} and [[https://www.dropbox.com/s/qcxn2v82vs67zo9/jako_hindcast_hd.mp4?dl=0|movie]] show the results of PISM simulations of this event, based on a step increase from 180 m/yr to 225 m/yr in sub-shelf melt rate during 1995 (Motyka et al. 2011).  The simulations are started from reasonably-detailed observations of the 1985 state of the outlet glacier.  A high-resolution HIRHAM5 reanalysis (Langen et al. 2015) is used for the atmospheric 1989--2011 climate.  The results show that general patterns are simulated correctly, with ice speeds which almost double after break-up of the floating tongue.  The timing of the break-up is too early and too fast, but these simulations do not include the "ice rumple" (Echelmeyer et al. 1991), which may add stability to the floating tongue.
+</div>
+
+<WRAP clear></WRAP>

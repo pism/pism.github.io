@@ -1,0 +1,18 @@
+====== PISM Applications of the Month  ======
+
+<if group==admin>
+== YOU ARE A LOGGED-IN ADMIN ==
+Click [[private:userslist|here]] for a **private** list of PISM users and their emails.
+
+The list starts with //future// PAOTMs, if any have been prepared.  The home page shows the newest in the ''applications'' namespace as the current PAOTM.  On the first of the month, strip ''future_'' from ''future_applications'' for the one you want by creating the corresponding ''applications'' page and copying content.
+
+{{blog>future_applications?100}}
+----
+</if>
+
+From September 2011 to December 2017 we have featured one PISM application per month, either a published article or a presented poster, on the [[home|home page]].  This page is now deprecated; it is the archive.
+
+See the [[publications|list of publications using PISM]] for an up-to-date list.
+
+{{blog>applications?500}}
+

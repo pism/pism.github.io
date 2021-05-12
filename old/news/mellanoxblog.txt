@@ -1,0 +1,3 @@
+====== PISM Greenland work featured on HPC blog ======
+
+The blog for HPC provider [[http://www.mellanox.com/|Mellanox Technologies]], which supplies fast interconnects for many supercomputers, [[http://www.mellanox.com/blog/2017/07/university-alaska-hpc-tracking-ice-shelves/|features Andy Aschwanden's work using PISM for studying the Greenland Ice Sheet]].

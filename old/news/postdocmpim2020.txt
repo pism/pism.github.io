@@ -1,0 +1,6 @@
+===== MPI-M Hamburg, Germany: open postdoc for coupled atmosphere-ocean-ice sheet model =====
+
+The Max Planck Institute for Meteorology (MPI-M) contributes to the BMBF project "From the Last Interglacial to the Anthropocene: Modeling a Complete Glacial Cycle" [[https://www.palmod.de/|(PalMod, www.palmod.de)]], which aims at simulating the climate from the peak of the last interglacial up to the present using comprehensive Earth System Models.  Phase II of this project has an open position Postdoctoral Scientist (W073).  The successful candidate will be part of a local team performing and analysing long-term transient simulations covering the last glacial and the transition into the Holocene with an interactively coupled atmosphere-ocean-ice sheet model.  Additionally, the candidate will contribute to the continued development of this model.  The model system consists of the MPI-Earth system model, the ice sheet model PISM, and the solid-earth model VILMA.
+
+For further information regarding the job description, please contact Uwe Mikolajewicz (uwe.mikolajewicz(at)mpimet.mpg.de).  Do not forward your application to this email address; see links at the [[https://www.mpimet.mpg.de/en/institute/opportunities/mpim-w073/|official announcement]].
+

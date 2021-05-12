@@ -1,0 +1,27 @@
+~~NOTOC~~
+====== PISM Documentation ======
+
+==== Online documentation ====
+
+  * an [[http://pism-docs.org/sphinx/|online version]], including the
+     * [[http://pism-docs.org/sphinx/installation/|Installation Manual]]
+     * [[http://pism-docs.org/sphinx/manual|User's Manual]].  Includes a //Getting Started// section introducing PISM through a Greenland ice sheet model, plus many other examples.
+  * an [[faq|FAQ]] page
+
+==== Downloadable PDF ====
+
+To read PISM documentation offline, {{pism_manual.pdf|download the PDF}}.  It includes the User's Manual and the Installation Manual.
+
+==== Source code browser ====
+
+The [[http://www.pism-docs.org/doxy/html/index.html|PISM Source Code Browser]] describes PISM's internals.  It is automatically-built from [[http://www.stack.nl/~dimitri/doxygen/|doxygen]]-style comments in the source code.  It is for users interested in modifying or extending PISM.  To build this browser yourself using PISM sources, see the [[http://pism-docs.org/sphinx/installation/documentation.html|"rebuilding documentation" part of the Installation Manual]].
+
+==== Support ====
+
+Join the [[https://join.slack.com/t/uaf-pism/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE|the PISM workspace]] on [[https://www.slack.com|Slack]] to get help.
+
+You can reach PISM developers at UAF on Slack or by sending an e-mail to [[uaf-pism@alaska.edu]].
+
+==== See also ====
+
+See the [[publications|Publications]] tab.

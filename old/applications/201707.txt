@@ -1,0 +1,17 @@
+====== July 2017 ======
+<div left 50%>
+
+[[https://doi.org/10.5194/tc-10-1753-2016|{{:applications:feldmannlevermann2016.png?350|}}]]
+</div>
+
+<div right 44%>
+| **[[https://doi.org/10.5194/tc-10-1753-2016|Similitude of ice dynamics against scaling of geometry and physical parameters]]** ||
+| **investigators**: | [[http://www.pik-potsdam.de/~johfeld/|J. Feldmann]] and [[http://www.pik-potsdam.de/~anders/|A. Levermann]]|
+| **journal**: | [[http://www.the-cryosphere.net/index.html|The Cryosphere]] |
+
+Fluid dynamics experiments are often only possible because theory allows rescaling a flow to fit into a laboratory.  The target flow and its laboratory analogue must be dynamically-similar in the sense of dimensional analysis.  Engineers study rivers and air flow around airframes, and we can generate laboratory models of ice flow, by such "similitude".  For example, the {{:manual.pdf|PISM User's Manual}} includes a simulation of a [[https://doi.org/10.1017/jfm.2012.545|laboratory-scale radial flow of a Xanthan gum solution]], one which is similar to a grounded ice sheet.
+
+This paper gives a framework for dynamical scaling of marine ice sheets.  For the SSA dynamical model they derive scaling conditions between the vertical and horizontal lengths,  the relevant physical parameters, and the response time.  Timing of grounding-line changes is a particular focus.  These relationships give parameter sets that leave the ice-sheet geometry unchanged, effectively rules for the design of numerical and laboratory experiments.
+</div>
+
+<WRAP clear></WRAP>

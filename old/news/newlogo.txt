@@ -1,0 +1,7 @@
+====New website and logo====
+
+Happy New Year!
+
+For 2013, we have created a PISM logo and updated our website accordingly. If you're presenting PISM results and would like to include the new logo, you can click on the logo to download a larger version.
+
+{{:logo.png?200 |}}

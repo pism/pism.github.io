@@ -1,0 +1,14 @@
+PISM has been successfully run on different architectures and operations systems including
+  * Linux
+  * Unix
+  * Mac OS X
+  * supercomputers such as [[http://www.arsc.edu/resources/pingo.html|Cray XT5]], [[http://www.arsc.edu/resources/midnight.html|Sun Opteron Clusters]] and [[http://www.bluefern.canterbury.ac.nz/|Blue Gene]]
+
+To compile and run PISM, these third-party packages are required
+  * [[http://www-unix.mcs.anl.gov/petsc/petsc-as/|PETSc]]
+  * [[http://www.gnu.org/software/gsl/|GSL]]
+  * [[http://www.fftw.org/|FFTW]] (optional, for the Lingle-Clark bed deformation model)
+  * [[http://www.unidata.ucar.edu/software/netcdf/|NetCDF]]
+  * [[http://www.python.org/|Python]]
+
+For details about installation, go to [[installation|Installation]].
