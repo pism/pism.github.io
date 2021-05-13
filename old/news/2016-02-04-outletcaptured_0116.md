@@ -1,4 +1,4 @@
-###### Greenland outlet glacier flow modeled the right way {#greenland_outlet_glacier_flow_modeled_the_right_way}
+###### Greenland outlet glacier flow modeled the right way
 
 Today\'s publication of [Aschwanden et al.
 (2016)](http://dx.doi.org/10.1038/ncomms10524) in [Nature

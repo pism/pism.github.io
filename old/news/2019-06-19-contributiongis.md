@@ -1,4 +1,4 @@
-###### Contribution of the Greenland Ice Sheet to sea level over the next millennium {#contribution_of_the_greenland_ice_sheet_to_sea_level_over_the_next_millennium}
+###### Contribution of the Greenland Ice Sheet to sea level over the next millennium
 
 The [article by Aschwanden and others just published in Science
 Advances](http://dx.doi.org/10.1126/sciadv.aav9396) is

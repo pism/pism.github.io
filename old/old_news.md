@@ -1,4 +1,4 @@
-##### All PISM News Items {#all_pism_news_items}
+##### All PISM News Items
 
 ```{=mediawiki}
 {{blog>news?100}}

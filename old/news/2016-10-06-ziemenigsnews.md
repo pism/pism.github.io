@@ -1,4 +1,4 @@
-###### Study of Juneau Ice Field in Cambridge Core news {#study_of_juneau_ice_field_in_cambridge_core_news}
+###### Study of Juneau Ice Field in Cambridge Core news
 
 A recent PISM application [Ziemen et al
 (2016)](http://dx.doi.org/10.1017/jog.2016.13) is covered by

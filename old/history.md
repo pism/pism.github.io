@@ -1,11 +1,11 @@
-###### A brief history of PISM {#a_brief_history_of_pism}
+###### A brief history of PISM
 
-### before 2001 {#before_2001}
+### before 2001
 
 This page on the history of PISM got its start when Craig Lingle wrote
 the following in an October 2015 email to Ed Bueler:
 
-\> \[PISM\] actually has a fairly long background, extending back into
+> [PISM] actually has a fairly long background, extending back into
 the "deep glaciological past," prior to when Vera Veronina (a Russian
 emigre who was working for me on analysis of Antarctic satellite radar
 altimeter data) decided to leave Fairbanks and accept an offer at U.C.
@@ -14,7 +14,7 @@ Troshina (now Suleimani, Ph.D., also a Russian emigre, who had completed
 her M.S. in marine sciences based on her tsunami modeling). Elena said
 she wanted to work for me.
 
-\> I looked at her thesis, immediately recognized her mathematical and
+> I looked at her thesis, immediately recognized her mathematical and
 numerical modeling abilities, and put her to work on improving the
 (nominally Antarctic) ice sheet model I had been carrying around under
 one arm (so to speak), through 3 moves, ever since I developed it (based
@@ -29,7 +29,7 @@ stable. Then, I set it aside, because it was... well.. too complicated
 to address the "grounding line dynamics" problem I had in mind for my
 Ph.D. thesis.
 
-\> Many years passed. When Elena began working for me, I dug it up ---
+> Many years passed. When Elena began working for me, I dug it up ---
 still carefully preserved, in an archeological sense --- and asked Elena
 to transform it from Fortran 4 to Fortran 90. She did. Then, I gave her
 the equations for transforming the model equations to forms with a
@@ -40,17 +40,17 @@ to incorporate it. She again checked the equations, and did so. But, it
 wasn't stable, for the reason you quickly identified when I first
 introduced you to Elena, and we talked about that.
 
-\> Anyway --- all that work by Elena led to the version of the ice sheet
+> Anyway --- all that work by Elena led to the version of the ice sheet
 model that you saw when you first expressed interest in it, and the
-published paper \[C. Lingle and E. Troshina, 1998. //Relative magnitudes
+published paper [C. Lingle and E. Troshina, 1998. //Relative magnitudes
 of shear and longitudinal strain rates in the inland Antarctic ice
 sheet, and response to increasing accumulation//, Ann. Glaciol. 27,
-pp.187-193\] that enabled us to apply \[in 2001\] to NASA for
-model-development funding \[namely grant NAG5-11371\].
+pp.187-193] that enabled us to apply [in 2001] to NASA for
+model-development funding [namely grant NAG5-11371].
 
-### 2001: team forms {#team_forms}
+### 2001: team forms
 
-At this point, because of Craig\'s initiative to expand it, the project
+At this point, because of Craig's initiative to expand it, the project
 started including a lot more people.
 
 In 2001 Craig Lingle attended a talk on heat equations on manifolds
@@ -59,28 +59,28 @@ modeling heat flow in glaciers. This became a short course by Craig on
 glaciological basics, with Bueler, Latrice Bowman, Jed Brown, and Dave
 Covey in attendance at various points. Craig optimistically led a
 proposal to NASA, with Bueler and Covey as Co-Is, which was funded as
-NAG5-11371, as a modeling component (sub-grant) of the U Kansas \"Polar
-Radar for Ice Sheet Measurements\" (PRISM) project and NASA grant, to
+NAG5-11371, as a modeling component (sub-grant) of the U Kansas "Polar
+Radar for Ice Sheet Measurements" (PRISM) project and NASA grant, to
 build an Antarctic model which added thermomechanical coupling and ice
 shelf dynamics to the existing Fortran model.
 
 Bueler was interested in understanding numerical models by checking them
 against exact predictions (solutions) of the differential equations.
-This became a paper \[E. Bueler, C. Lingle, J. Kallen-Brown, D. Covey,
+This became a paper [E. Bueler, C. Lingle, J. Kallen-Brown, D. Covey,
 L. Bowman, 2005. //Exact solutions and verification of numerical models
-for isothermal ice sheets//, J. Glaciol. 51 (173), 291\--306\], but the
+for isothermal ice sheets//, J. Glaciol. 51 (173), 291--306], but the
 first submission in 2003 did not get accepted. This work used Matlab
 scripts, instead of the Fortran code, but it provided tests which,
 around the time of the re-submission, were used to check the code that
-would become PISM. In this period, Latrice was the first of Bueler\'s
+would become PISM. In this period, Latrice was the first of Bueler's
 graduate students to work on ice flow, with MS Math based on this work
 in 2002.
 
-### 2003: PETSc and C \... and PISM {#petsc_and_c_..._and_pism}
+### 2003: PETSc and C ... and PISM
 
 In 2002 Jed Brown became involved with PISM as an undergraduate, working
 for a while with the Fortran code from Craig and Elena. Around 2003/04
-Brown came into Bueler\'s office and said, essentially, that there was
+Brown came into Bueler's office and said, essentially, that there was
 this nice library that would allow us to work in parallel at a higher
 conceptual level, namely
 [PETSc](http://www.mcs.anl.gov/petsc/). And that we should
@@ -99,14 +99,14 @@ became very familiar with PETSc and Bueler finally learned C:
   This became E. Bueler, J. Brown, and C. Lingle, (2007). //Exact
   solutions to the thermomechanically coupled shallow-ice
   approximation: effective tools for verification//, J. Glaciol. 53
-  (182), 499--516.\
+  (182), 499--516.
 - Because Brown was now an MS student in math, Bueler suggested that
   Brown's MS project be the addition of, and testing of, a SSA solver
   in PISM. This led to a successful [August 2006 MS project
   defense](http://pism.github.io/uaf-iceflow/slidesJBrown.pdf). At
   that time the model had this (Bueler's suggestion) name: the
   C-plus-plus Object-oriented Multi-Modal, Verifiable Numerical Ice
-  Sheet Model, a.k.a. COMMVNISM.\
+  Sheet Model, a.k.a. COMMVNISM.
 - [NetCDF](http://www.unidata.ucar.edu/software/netcdf/) was adopted
   as the input/output format. Before this, PETSc binary files were
   used. (This fast format lacks included and standardized metadata.)
@@ -114,11 +114,11 @@ became very familiar with PETSc and Bueler finally learned C:
 As this work was finishing, three things became clear: the multi-modal
 aspect was not actually working, Brown would be graduating and leaving
 for a PhD in Zurich, and another proposal would soon need to be written.
-Brown renamed the model one day around this time\-\--with no
-opposition\-\--to the less cumbersome and better-suited-to-a-proposal
-name of \"Parallel Ice Sheet Model\", PISM.
+Brown renamed the model one day around this time---with no
+opposition---to the less cumbersome and better-suited-to-a-proposal
+name of "Parallel Ice Sheet Model", PISM.
 
-### 2006: PISM goes public {#pism_goes_public}
+### 2006: PISM goes public
 
 In September 2006 PISM was for the first time hosted publicly, [on
 GNA](http://gna.org/projects/pism/) with a [GNU General Public
@@ -127,16 +127,16 @@ benefited greatly from using [SVN](https://subversion.apache.org/) and
 having free GNA hosting, even though we eventually moved happily to
 [git](https://git-scm.com/) and [github](https://github.com/).
 
-### 2007: PISM gets ice streams {#pism_gets_ice_streams}
+### 2007: PISM gets ice streams
 
 The next idea, circa mid-2007, that went into PISM was that the SSA
 should be solved //everywhere//. This is because, in a Coulomb or
 near-Coulomb basal drag regime, the solution simply returns zero sliding
 where the base is sufficiently strong. Solving everywhere thus defines
 the ice stream regions organically. This idea arose because Bueler
-actually read C. Schoof\'s isothermal paper \[C. Schoof (2006). //A
+actually read C. Schoof's isothermal paper [C. Schoof (2006). //A
 variational approach to ice stream flow//, J. Fluid Mech. 556,
-227\--251\], and realized this made just as much sense in a
+227--251], and realized this made just as much sense in a
 thermocoupled context.
 
 Solving the SIA everywhere would do no harm because in low-angle streams
@@ -158,7 +158,7 @@ stresses// within the ice.
 In other words, the SIA is a good model, but not of sliding (//or ice
 shelves, for that matter//).
 
-These ideas, and Jed\'s work on the PISM SSA implementation, led to
+These ideas, and Jed's work on the PISM SSA implementation, led to
 actually having [ice streams in the model for the right reasons by
 2007](http://pism.github.io/uaf-iceflow/talkagu.pdf). The
 paper E. Bueler and J. Brown, (2009). //Shallow shelf approximation as a
@@ -166,12 +166,12 @@ paper E. Bueler and J. Brown, (2009). //Shallow shelf approximation as a
 Geophys. Res. 114 (F3) was the result. This paper turned out to be the
 core of PISM, and it is the most-cited of the PISM-related papers.
 
-### 2008: new team {#new_team}
+### 2008: new team
 
 A new proposal to a NASA Modeling, Analysis, and Prediction call, based
 on a team of Bueler, Khroulev, mathematician David Maxwell, and
 glaciologists Martin Truffer and Regine Hock, was funded as NNX09AJ38C.
-To be continued \...
+To be continued ...
 
 The new proposal made sense because Constantine Khroulev was finishing
 his MS Math in Fall 2007 (on unrelated math topics). That is, he became
@@ -188,17 +188,17 @@ velocity have the right look. Indeed, by early 2009 we saw that
 nearly-untuned results for Greenland [matched observations reasonably
 well](http://pism.github.io/uaf-iceflow/BKAJS_submit2_twocolumn.pdf).
 
-### 2008: PIK collaboration {#pik_collaboration}
+### 2008: PIK collaboration
 
 Fall 2008 involved another big change: Anders Levermann and students
 (Maria Martin and Ricarda Winkelmann) came to Fairbanks to propose a
 collaboration in which they would add what PISM needed. To be continued
-\...
+...
 
 And another: Andy Aschwanden was hired as an ARSC PostDoc in Fall 2009.
-To be continued \...
+To be continued ...
 
-### 2011: PISM goes viral {#pism_goes_viral}
+### 2011: PISM goes viral
 
 FIXME
 

@@ -1,4 +1,4 @@
-#### Continued NASA funding supports PISM development through 2017 {#continued_nasa_funding_supports_pism_development_through_2017}
+#### Continued NASA funding supports PISM development through 2017
 
 ```{=mediawiki}
 {{:nasa_logo.png?160 | www.nasa.gov}}

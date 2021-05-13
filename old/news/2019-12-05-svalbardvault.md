@@ -1,4 +1,4 @@
-###### PISM (and other source codes) go into cold storage {#pism_and_other_source_codes_go_into_cold_storage}
+###### PISM (and other source codes) go into cold storage
 
 In February they are going to put PISM in the bottom of an old coal mine
 in Svalbard:

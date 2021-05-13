@@ -1,4 +1,4 @@
-###### PhD opportunity in ice-ocean interaction (modeling) {#phd_opportunity_in_ice_ocean_interaction_modeling}
+###### PhD opportunity in ice-ocean interaction (modeling)
 
 The [Geophysical Institute of the University of Alaska
 Fairbanks](http://www.gi.alaska.edu/) is seeking a PhD

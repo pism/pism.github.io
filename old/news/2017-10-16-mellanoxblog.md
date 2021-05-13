@@ -1,4 +1,4 @@
-###### PISM Greenland work featured on HPC blog {#pism_greenland_work_featured_on_hpc_blog}
+###### PISM Greenland work featured on HPC blog
 
 The blog for HPC provider [Mellanox
 Technologies](http://www.mellanox.com/), which supplies fast

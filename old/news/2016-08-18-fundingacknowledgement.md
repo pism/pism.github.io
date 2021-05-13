@@ -1,4 +1,4 @@
-###### Reminder for authors of PISM-using papers {#reminder_for_authors_of_pism_using_papers}
+###### Reminder for authors of PISM-using papers
 
 Please acknowledge the funding that makes PISM possible, and which
 supports its continued maintenance and technical support. Include the

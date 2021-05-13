@@ -1,4 +1,4 @@
-##### PhD Studentship: Palaeoglaciology of Eurasian Ice Sheets {#phd_studentship_palaeoglaciology_of_eurasian_ice_sheets}
+##### PhD Studentship: Palaeoglaciology of Eurasian Ice Sheets
 
 Dr. Ely\'s group at the University of Sheffield is advertising for a PhD
 student in paleo-ice sheet modeling, possibly including PISM:

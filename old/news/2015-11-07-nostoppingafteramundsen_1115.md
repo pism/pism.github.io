@@ -1,4 +1,4 @@
-###### Nothing to stop WAIS deglaciation after Amundsen Sea retreat? {#nothing_to_stop_wais_deglaciation_after_amundsen_sea_retreat}
+###### Nothing to stop WAIS deglaciation after Amundsen Sea retreat?
 
 A [new paper in the Proceedings of the National Academy of
 Sciences](http://www.pnas.org/content/early/2015/10/28/1512482112)
@@ -35,11 +35,11 @@ line](http://dx.doi.org/10.3189/2014JoG13J093).
 The results of the simulations are most easily understood by seeing what
 happens:
 
-` * fast collapse after long (200 a) melt phase`\
-`   * first 1700a of simulation:  `[`ice`` ``thinning`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_thinning_200yr_melt_1700yr.avi)`  `[`ice`` ``velocity`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_velo_200yr_melt_1700yr.avi)\
-`   * full 10ka simulation:  `[`ice`` ``thinning`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_thinning_200yr_melt_10kyr.avi)`  `[`ice`` ``velocity`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_velo_200yr_melt_10kyr.avi)\
-` * slow collapse after short (60 a) melt phase`\
-`   * full 15ka simulation:  `[`ice`` ``thinning`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_thinning_60yr_melt_13kyr.avi)`  `[`ice`` ``velocity`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_velo_60yr_melt_13kyr.avi)
+* fast collapse after long (200 a) melt phase
+   * first 1700a of simulation:  `[`ice`` ``thinning`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_thinning_200yr_melt_1700yr.avi)`  `[`ice`` ``velocity`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_velo_200yr_melt_1700yr.avi)\
+   * full 10ka simulation:  `[`ice`` ``thinning`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_thinning_200yr_melt_10kyr.avi)`  `[`ice`` ``velocity`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_velo_200yr_melt_10kyr.avi)\
+* slow collapse after short (60 a) melt phase
+   * full 15ka simulation:  `[`ice`` ``thinning`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_thinning_60yr_melt_13kyr.avi)`  `[`ice`` ``velocity`](http://www.pik-potsdam.de/~anders/movies/WAIS_feldmann_levermann_velo_60yr_melt_13kyr.avi)
 
 This work appeared today, 2 November 2015. It is already featured in
 commentaries at the [Washington

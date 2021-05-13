@@ -1,6 +1,6 @@
-###### Some visualization advice {#some_visualization_advice}
+###### Some visualization advice
 
-##### Using Matplotlib Basemap toolkit to plot over a map {#using_matplotlib_basemap_toolkit_to_plot_over_a_map}
+##### Using Matplotlib Basemap toolkit to plot over a map
 
 To install Basemap, see
 <http://matplotlib.sourceforge.net/basemap/doc/html/>.
@@ -42,12 +42,12 @@ mask = csurf == fill)
 m = Basemap(width=2*width, \# width in projection coordinates, in
 meters
 
-`           height=height,      # height`\
-`           resolution='l',     # coastline resolution, can be 'l' (low), 'h'`\
-`                               # (high) and 'f' (full)`\
-`           projection='stere', # stereographic projection`\
-`           lat_ts=71,          # latitude of true scale`\
-`           lon_0=-41,          # longitude of the plotting domain center`\
+`           height=height,      # height
+`           resolution='l',     # coastline resolution, can be 'l' (low), 'h'
+`                               # (high) and 'f' (full)
+`           projection='stere', # stereographic projection
+`           lat_ts=71,          # latitude of true scale
+`           lon_0=-41,          # longitude of the plotting domain center
 `           lat_0=72)           # latitude of the plotting domain center`
 
 1.  m.drawcoastlines()
@@ -72,15 +72,15 @@ m.contour(xx, yy, csurf, \[100\], colors=\"black\")
 
 m.pcolormesh(xx,yy,csurf,
 
-`            norm=colors.LogNorm(vmin=1, vmax=5e3)) # use log color scale,`\
-`                                                    # omit this to use linear`\
+`            norm=colors.LogNorm(vmin=1, vmax=5e3)) # use log color scale,
+`                                                    # omit this to use linear
 `                                                    # color scale`
 
 1.  add a colorbar:
 
 plt.colorbar(extend=\'both\',
 
-`            ticks=[2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 3000],`\
+`            ticks=[2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 3000],
 `            format="%d")`
 
 1.  draw parallels and meridians. The labels argument specifies where to
@@ -118,7 +118,7 @@ try:
 
 except:
 
-`   print "ERROR: can't read from file ..."`\
+`   print "ERROR: can't read from file ..."
 `   sys.exit(1)`
 
 1.  we need to know longitudes and latitudes corresponding to out grid
@@ -141,12 +141,12 @@ mask = csurf == fill)
 m = Basemap(width=1.2*width, \# width in projection coordinates, in
 meters
 
-`           height=height,      # height`\
-`           resolution='l',     # coastline resolution, can be 'l' (low), 'h'`\
-`                               # (high) and 'f' (full)`\
-`           projection='stere', # stereographic projection`\
-`           lat_ts=71,          # latitude of true scale`\
-`           lon_0=-41,          # longitude of the plotting domain center`\
+`           height=height,      # height
+`           resolution='l',     # coastline resolution, can be 'l' (low), 'h'
+`                               # (high) and 'f' (full)
+`           projection='stere', # stereographic projection
+`           lat_ts=71,          # latitude of true scale
+`           lon_0=-41,          # longitude of the plotting domain center
 `           lat_0=72)           # latitude of the plotting domain center`
 
 1.  m.drawcoastlines()
@@ -171,15 +171,15 @@ m.contour(xx, yy, csurf, \[100\], colors=\"black\")
 
 m.pcolormesh(xx,yy,csurf,
 
-`            norm=colors.LogNorm(vmin=1, vmax=6e3)) # use log color scale,`\
-`                                                    # omit this to use linear`\
+`            norm=colors.LogNorm(vmin=1, vmax=6e3)) # use log color scale,
+`                                                    # omit this to use linear
 `                                                    # color scale`
 
 1.  add a colorbar:
 
 plt.colorbar(extend=\'both\',
 
-`            ticks=[2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000],`\
+`            ticks=[2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000],
 `            format="%d")`
 
 1.  draw parallels and meridians. The labels argument specifies where to

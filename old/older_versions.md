@@ -1,4 +1,4 @@
-##### Old PISM versions {#old_pism_versions}
+##### Old PISM versions
 
 For archival purposes, old PISM versions can be downloaded:
 `git clone -b stable0.7 `[`git://github.com/pism/pism.git`](git://github.com/pism/pism.git)` pism0.7 # released Spring 2015`

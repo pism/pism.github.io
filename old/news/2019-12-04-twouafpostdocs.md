@@ -1,4 +1,4 @@
-###### Two ice sheet modeling postdocs at University of Alaska Fairbanks {#two_ice_sheet_modeling_postdocs_at_university_of_alaska_fairbanks}
+###### Two ice sheet modeling postdocs at University of Alaska Fairbanks
 
 The University of Alaska Fairbanks invites applications for two
 postdoctoral scholars in ice sheet modeling. The positions are based at
@@ -51,11 +51,11 @@ telecoms and annual visits are an integral aspect of the project. 
 
 -   -   Requirements:**
 
-` * PhD in Glaciology, Geophysics, Physics, Math, or related field.`\
-` * Experience in numerical modeling and scientific computation on high-performance computers.`\
-` * Experience with ice sheet modeling is required and experience with the Parallel Ice Sheet Model is an asset.`\
-` * A peer-reviewed publication record that is commensurate with experience.`\
-` * Applicants should have excellent English language skills and enjoy working in an international and interdisciplinary team.`
+* PhD in Glaciology, Geophysics, Physics, Math, or related field.
+* Experience in numerical modeling and scientific computation on high-performance computers.
+* Experience with ice sheet modeling is required and experience with the Parallel Ice Sheet Model is an asset.
+* A peer-reviewed publication record that is commensurate with experience.
+* Applicants should have excellent English language skills and enjoy working in an international and interdisciplinary team.`
 
 The positions are for a fixed term of 1.5 years with an anticipated
 starting date of Spring 2020. Interested candidates should contact Dr.

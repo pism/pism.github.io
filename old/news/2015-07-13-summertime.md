@@ -1,4 +1,4 @@
-###### Summer time {#summer_time}
+###### Summer time
 
 It\'s summer time! UAF PISM developers are currently writing proposals,
 working on their own projects, and enjoying the summer. Please give us

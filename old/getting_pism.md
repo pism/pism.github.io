@@ -6,7 +6,7 @@ obtain PISM:
 `<file>`{=html}git clone <git://github.com/pism/pism.git>
 pism0.4`</file>`{=html}
 
-This way you can stay up-to-date by just typing \"*git pull*\" to get
+This way you can stay up-to-date by just typing "*git pull*" to get
 the latest bug fixes.
 
 To get a development version, see [Development

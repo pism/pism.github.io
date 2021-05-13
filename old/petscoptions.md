@@ -1,4 +1,4 @@
-###### PETSc options appropriate to SSA solves in PISM {#petsc_options_appropriate_to_ssa_solves_in_pism}
+###### PETSc options appropriate to SSA solves in PISM
 
 Jed Brown, [a PETSc
 developer](http://www.mcs.anl.gov/petsc/petsc-2/miscellaneous/index.html)

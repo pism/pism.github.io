@@ -1,4 +1,4 @@
-###### What would happen in Antarctica if all fossil fuels are burned? {#what_would_happen_in_antarctica_if_all_fossil_fuels_are_burned}
+###### What would happen in Antarctica if all fossil fuels are burned?
 
 A new open-access [paper by Ricarda Winkelmann and
 others](http://advances.sciencemag.org/content/1/8/e1500589)

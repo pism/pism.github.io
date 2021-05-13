@@ -1,16 +1,5 @@
-`<if group==admin>`{=html}
 
-YOU ARE A LOGGED-IN ADMIN {#you_are_a_logged_in_admin}
--------------------------
-
-See *pism-publications.py* and *pism-publications.csv* at
-[pism/misc](https://github.com/pism/misc) (at github) for the
-script used to generate the histogram of PISM publications.
-`</if>`{=html}
-
-\~\~NOTOC\~\~
-
-###### Publications which apply or describe PISM {#publications_which_apply_or_describe_pism}
+###### Publications which apply or describe PISM
 
 ```{=mediawiki}
 {{:pism-publications.png?nolink&500 |}}

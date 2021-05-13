@@ -1,4 +1,4 @@
-#### Using Git to contribute to PISM {#using_git_to_contribute_to_pism}
+#### Using Git to contribute to PISM
 
 Here are the steps you need to make
 
@@ -16,7 +16,7 @@ Here are the steps you need to make
 
    git clone git@github.com:pism/pism.git pism-dev
 
-#### Editing code and committing changes {#editing_code_and_committing_changes}
+#### Editing code and committing changes
 
 The work-flow when using Subversion usually looks like
 

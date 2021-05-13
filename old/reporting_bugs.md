@@ -1,10 +1,10 @@
-###### Bug-reporting suggestions {#bug_reporting_suggestions}
+###### Bug-reporting suggestions
 
-Please see the [~"issues" at our github
-host](https://github.com/pism/pism/issues) to check if
-someone already found a similar bug. You can post an issue there, and
-label it as a bug, if it is new. Alternatively, send a report by e-mail
-to [uaf-pism@alaska.edu](uaf-pism@alaska.edu).
+Please see the [issues at our github
+host](https://github.com/pism/pism/issues) to check if someone already
+found a similar bug. You can post an issue there, and label it as a
+bug, if it is new. Alternatively, send a report by e-mail to
+[uaf-pism@alaska.edu](uaf-pism@alaska.edu).
 
 Please include the following information in **all** bug-reports and
 questions about particular PISM's behavior:

@@ -1,4 +1,4 @@
-###### EGU Early Career Award for PISM-author Ricarda Winkelmann {#egu_early_career_award_for_pism_author_ricarda_winkelmann}
+###### EGU Early Career Award for PISM-author Ricarda Winkelmann
 
 Congratulations to Ricarda Winkelmann of the University of Potsdam for
 receiving the EGU\'s Outstanding Early Career Scientists Award in
