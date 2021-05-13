@@ -1,0 +1,37 @@
+###### PostDoc in ice sheet and climate modelling at AWI Bremerhaven, Germany {#postdoc_in_ice_sheet_and_climate_modelling_at_awi_bremerhaven_germany}
+
+The Paleoclimate Dynamics section at Alfred-Wegener-Institut invites
+applications for a position as a
+
+-   -   PostDoc scientist**
+
+with a background in ice sheet or climate modelling for the DFG-project
+"Global sea level change since the Mid Holocene" (SPP 1889).
+
+-   -   Background and tasks:**
+
+The aim of this project is to study the evolution of polar ice sheets of
+the last 6000 years and to estimate the role of climate -- ice sheet
+interactions. Combining climate and ice sheet simulations of different
+resolution, the project particularly focusses on the ice sheets\' mass
+balance and on ice shelf -- ocean interactions under natural and
+anthropogenic climate change.
+
+The postdoc's duties will include set-up, supervision, and analysis of
+climate and ice sheet (PISM) simulations as well as publication in
+peer-reviewed journals.
+
+-   -   Requirements:**
+
+The successful candidate should have a PhD in glaciology, atmospheric
+sciences, oceanography or related sciences and should have a background
+in either ice sheet or climate modelling.
+
+The position is limited to 3 years, starting August 1st, 2016 or later.
+The salary will be paid in accordance with the German Tarifvertrag des
+öffentlichen Dienstes (TVöD Bund), salary level 13. The place of
+employment will be Bremerhaven.
+
+For further information:
+
+<http://www.awi.de/nc/en/work-study/jobs/job-offer/detail/jobs/postdoc-scientist-section-paleoclimate-dynamics.html>

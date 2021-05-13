@@ -1,0 +1,23 @@
+#### Ice plug prevents irreversible discharge from East Antarctica {#ice_plug_prevents_irreversible_discharge_from_east_antarctica}
+
+[`{{:news:mengel2014-wilkes.png?420 |}}`{=mediawiki}](http://www.nature.com/nclimate/journal/vaop/ncurrent/full/nclimate2226.html)
+
+In a [just-published Nature Climate Change
+article](http://www.nature.com/nclimate/journal/vaop/ncurrent/full/nclimate2226.html),
+Potsdam Institute for Climate Impact Research authors Matthias Mengel
+and Anders Levermann use PISM to define the \"ice-plug\" which, if
+removed from the coastal ice in the Wilkes Basin of East Antarctica,
+would initiate irreversible retreat of the grounded ice in that basin.
+The modeled retreats, which occur on a time scale of a few thousand
+years, generate 3\--4 m of sea level rise from the region surrounding
+the basin. Thus this basin is a potential \"tipping-point\" ice sheet
+configuration, in additional to the better-known West Antarctica
+configurations.
+
+For the PISM user this paper is an indication of its ability to model an
+ice sheet //region// (hashed in figure) at high resolution across a
+range of ice dynamics parameters and climate forcing choices.
+
+This [Science Daily news
+item](http://www.sciencedaily.com/releases/2014/05/140505104435.htm)
+quotes the authors about this work.

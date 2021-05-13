@@ -1,9 +1,0 @@
-==== PISM models the Antarctic contribution to meltwater pulse 1A ====
-
-{{:news:golledge2014.png?350 |}}
-
-In a [[http://www.nature.com/ncomms/2014/140929/ncomms6107/full/ncomms6107.html|new Nature Communications paper]], researchers at Victoria University and the University of New South Wales describe a model study of Antarctic ice sheet evolution over the last 25 kyr using PISM with ocean-forcing inputs from the Earth system model LOVECLIM.  They show that when the ocean around Antarctica becomes more stratified, warm water at depth melts the ice sheet faster than when the ocean is less stratified.
-
-The study used a large ensemble of 15 km PISM simulations in a data-constrained mode.  In the simulations that best fit a variety of temporal and spatial observations, several episodes of accelerated ice-sheet recession occurred, with the timing of the largest being coincident with meltwater pulse 1A.   This episode saw an abrupt rise in global sea level, with an Antarctic contribution of nearly three meters over just a few centuries.
-
-Both this [[http://www.constantinealexander.net/2014/10/changing-antarctic-waters-could-trigger-steep-rise-in-sea-levels.html|blog entry]] and [[http://www.sciencedaily.com/releases/2014/10/141001102546.htm|this Science Daily news item]] summarize the work and relate the modeled melt from 14,000 years ago to present-day Antarctic conditions.

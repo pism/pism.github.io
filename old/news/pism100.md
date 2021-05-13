@@ -1,0 +1,42 @@
+###### the 100th PISM-using paper! {#the_100th_pism_using_paper}
+
+At the end of May we found the 100th PISM-using paper:
+
+L. B. Stap, J. Sutter, G. Knorr, M. Stärz, G. Lohmann (2019) //Transient
+Variability of the Miocene Antarctic Ice Sheet Smaller Than Equilibrium
+Differences//. Geophysical Research Letters 46 (8) pp. 4288--4298
+
+See [the publications page](:publications) for a
+complete-as-far-as-we-know list of the first 100 published PISM
+applications, back to the first one in 2007.
+
+We find PISM-using papers by following citations, so there may be others
+out there we do not know about. Authors who want to help us keep track
+should follow the advice at [the acknowledgments
+documentation](https://github.com/pism/pism/blob/master/ACKNOWLEDGE.rst).
+
+Here is one view of the PISM papers, sorted by the not-to-be-trusted
+\"journal impact factor\" of the journals in which they appear:
+
+{{ :pism-journals.png?400 \|}}
+
+The most popular five journals for PISM papers are //The Cryosphere//,
+//Journal of Glaciology//, //Journal of Geophysical Research: Earth
+Surface//, //Nature//, and //Geophysical Research Letters//; excellent
+journals all. (Figuring-out the rest of journal abbreviations is an
+exercise for the reader.)
+
+It is interesting to note that only 22% of PISM-using publications have
+a UAF-based co-author:
+
+{{ :pism-uaf-publications.png?400 \|}}
+
+PISM is a tool used throughout the world by scientists needing an ice
+sheet model, whether or not they have a connection to the UAF
+developers. So we appreciate NASA and NSF support here at UAF, which has
+always made our open-source release model possible. We continue to push
+PISM development in a variety of directions, and we look forward to
+seeing the next 100 PISM papers!
+
+See also [this GI
+write-up](https://www.gi.alaska.edu/news/ice-sheet-model-reaches-100th-publication-benchmark).

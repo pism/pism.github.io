@@ -1,5 +1,0 @@
-====== Contribution of the Greenland Ice Sheet to sea level over the next millennium ======
-
-The [[http://dx.doi.org/10.1126/sciadv.aav9396|article by Aschwanden and others just published in Science Advances]] is supplemented by this [[https://youtu.be/LtpD-bAFQoc|excellent two minute visualization by the NASA Scientific Visualization Studio]].
-
-[[https://advances.sciencemag.org/content/5/6/eaav9396|{{:news:aschwandenetal2019.png?350 |}}]] [[https://youtu.be/LtpD-bAFQoc|{{ :news:frame-aschwandenetal2019.png?450|}}]] 

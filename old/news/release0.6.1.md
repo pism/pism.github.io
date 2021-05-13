@@ -1,0 +1,14 @@
+###### PISM 0.6.1 has bug fixes {#pism_0.6.1_has_bug_fixes}
+
+Only fixes and improvements that should not break existing functionality
+are included in this release. We recommend updating from v0.6 unless you
+have a good reason against it. Upgrade by doing \"git pull\" in the PISM
+source tree. (Or get a new tagged \".tar.gz\" or \".zip\" at
+[github.com/pism/pism/releases](https://github.com/pism/pism/releases).)
+Then do \"make install\" in the build directory.
+
+For a full list of changes since v0.6, please see
+<https://github.com/pism/pism/blob/stable0.6/CHANGES.md>
+
+Send email to [help\@pism-docs.org](help@pism-docs.org) for
+help with any version of PISM.

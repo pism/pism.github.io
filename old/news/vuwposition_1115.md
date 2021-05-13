@@ -1,0 +1,45 @@
+##### Ph.D scholarship at Victoria University Wellington: Antarctic ice-sheet modelling {#ph.d_scholarship_at_victoria_university_wellington_antarctic_ice_sheet_modelling}
+
+//See the
+`{{:news:vuw_phd_advert_nov2015.pdf|official announcement}}`{=mediawiki}
+for complete details.//
+
+The Antarctic Research Centre, Victoria University of Wellington, New
+Zealand, is offering a FULLY FUNDED scholarship for an enthusiastic and
+talented Ph.D student to undertake numerical ice-sheet modelling
+research. Experiments will focus on better understanding and simulating
+the processes involved in ice-sheet -- ocean interactions. Such
+processes determine the basal mass balance of marine-based ice-sheets
+such as the West Antarctic Ice Sheet, and as such, control the pattern
+and timing of grounding-line migrations.
+
+Collaborating with scientists at a variety of New Zealand (VUW, GNS,
+NIWA) and Australian (UNSW, UTAS, AAD) institutions, the researcher will
+use present-day glaciological and oceanographic observations as primary
+constraints to a suite of model simulations that will explore the
+sensitivity of Antarctic ice-sheets to changes in ocean circulation. A
+key aspect of the project lies in trying to identify and quantify
+thresholds and feedback mechanisms that may either accelerate or inhibit
+ice-shelf melt. The ultimate aim of the project is to build on recent
+work to provide more robust simulations of ice-shelf and ice-sheet
+changes under future scenarios of perturbed atmospheric and
+oceanographic conditions.
+
+The research project will span a range of temporal and spatial scales,
+but will primarily use the Parallel Ice Sheet Model and will focus
+initially on the Ross Ice Shelf. The successful applicant may also have
+the opportunity to spend time in Antarctica acquiring new data.
+
+Skills: Applicants must have a strong background in geophysics, maths or
+other numerical Earth Sciences. Experience working in a UNIX / Linux
+environment, including shell scripting, is essential. Programming
+abilities in any of the usual languages and experience with
+high-performance computing facilities would also be extremely useful.
+
+Applications: We wish to have the successful applicant starting no later
+than July 2016, and therefore request completed applications by 18th
+December 2015.
+
+For details of the application process or to lodge an expression of
+interest, contact Dr. Nick Golledge (nick.golledge\@vuw.ac.nz) as soon
+as possible.
