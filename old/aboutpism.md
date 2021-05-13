@@ -89,5 +89,7 @@ himself \...//
 PISM has been used for modeling every present-day ice sheet (Greenlandic
 and Antarctic), many paleo-ice sheets, and many glaciers.
 
-` * The `[`PISM`` ``User's`` ``Manual`](http://www.pism-docs.org/sphinx/manual)` shows some realistic and idealized cases.`\
-` * The `[`publications`` ``page`](publications)` shows published applications of PISM from hundreds of different scientists all over the world.`
+* The [PISM User's Manual](http://www.pism-docs.org/sphinx/manual)
+  shows some realistic and idealized cases.\
+* The [publications page](publications) shows published applications
+  of PISM from hundreds of different scientists all over the world.

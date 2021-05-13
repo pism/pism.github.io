@@ -1,4 +1,4 @@
-/*`{{grn-csurf-topg-1km.png?160 }}`{=mediawiki}*/ /* //NEWS//:
+/*{{grn-csurf-topg-1km.png?160 }}{=mediawiki}*/ /* //NEWS//:
 [PISM0.5 released](home#latest_news) \<\-- how to show
 headline */
 
@@ -6,14 +6,14 @@ headline */
 
 ##### PISM
 
-\<div left 44%\> `{{youtube>oy0FmBWfGGw}}`{=mediawiki}
+\<div left 44%\> {{youtube>oy0FmBWfGGw}}{=mediawiki}
 
 Projection of the Greenland Ice Sheet from 2008-2300 under RCP 8.5.
 Video by Cindy Starr (NASA SVS).
 
-```{=html}
+{=html}
 </div>
-```
+
 \<div right 50%\> The Parallel Ice Sheet Model [PISM
 v1.2](stable_version) is open source and capable of high
 resolution. It has been [widely adopted as a tool for doing
@@ -21,57 +21,57 @@ science](publications).
 
 Features include:
 
-` * extensible atmospheric/ocean coupling`\
-` * hybrid shallow stress balance`\
-` * marine ice sheet physics`\
-` * polythermal energy conservation`\
-` * subglacial hydrology and till model`\
-` * complete `[`documentation`](overview)\
-` * parallel simulations using `[`MPI`](https://en.wikipedia.org/wiki/Message_Passing_Interface)` & `[`PETSc`](http://www.mcs.anl.gov/petsc/)\
-` * reads and writes `[`CF-compliant`](http://cfconventions.org/)` `[`NetCDF`](http://www.unidata.ucar.edu/software/netcdf/)\
-` * `[`inversion`` ``toolbox`` ``in`` ``Python`](http://www.pism-docs.org/doxy/inverse/html/index.html)\
-` * verification and validation tools`
+ * extensible atmospheric/ocean coupling\
+ * hybrid shallow stress balance\
+ * marine ice sheet physics\
+ * polythermal energy conservation\
+ * subglacial hydrology and till model\
+ * complete [documentation](overview)\
+ * parallel simulations using [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface) & [PETSc](http://www.mcs.anl.gov/petsc/)\
+ * reads and writes [CF-compliant](http://cfconventions.org/) [NetCDF](http://www.unidata.ucar.edu/software/netcdf/)\
+ * [inversion toolbox in Python](http://www.pism-docs.org/doxy/inverse/html/index.html)\
+ * verification and validation tools
 
-```{=html}
+{=html}
 </div>
-```
+
 /*
 
-```{=html}
+{=html}
 <HTML>
-```
-```{=html}
+
+{=html}
 <script type='text/javascript' src='https://www.openhub.net/p/pism/widgets/project_factoids?format=js'>
-```
-```{=html}
+
+{=html}
 </script>
-```
-```{=html}
+
+{=html}
 </HTML>
-```
-```{=html}
+
+{=html}
 </div>
-```
+
 -   /
 
-`<WRAP clear>`{=html}`</WRAP>`{=html}
+<WRAP clear>{=html}</WRAP>{=html}
 
 /*
 
 ##### Application of the Month {#application_of_the_month}
 
-```{=mediawiki}
+{=mediawiki}
 {{blog>applications?1}}
-```
+
 [All PISM Applications of the month](old_paotm)
 
 -   /
 
 ##### Latest News {#latest_news}
 
-```{=mediawiki}
+{=mediawiki}
 {{blog>news?4}}
-```
+
 [All news items](old_news)
 
 ##### Team

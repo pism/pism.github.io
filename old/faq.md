@@ -2,15 +2,15 @@
 
 ### How do I visualize PISM results, like modeled surface velocity, using python scripts? {#how_do_i_visualize_pism_results_like_modeled_surface_velocity_using_python_scripts}
 
-` * Answer 1: `[`A`` ``script`` ``which`` ``calls`` ``the`` ``"basemap"`` ``toolkit`` ``from`` ``Matplotlib`` ``in`` ``python`](doc_misc)\
-` * Answer 2: A more complete tool at `[`github.com/pism`](https://github.com/pism)`: `[`PyPISMTools`](https://github.com/pism/PyPISMTools)
+ * Answer 1: [A script which calls the "basemap" toolkit from Matplotlib in python](doc_misc)\
+ * Answer 2: A more complete tool at [github.com/pism](https://github.com/pism): [PyPISMTools](https://github.com/pism/PyPISMTools)
 
 ### How do I prepare real data for input to PISM? {#how_do_i_prepare_real_data_for_input_to_pism}
 
-` * Answer 1: You can start with the SeaRISE data sets, which are already in the NetCDF format, and modify their metadata, as in the Greenland example, the Antarctica example, and the Jakobshavn regional model example in the PISM User's Manual.  The preprocessing scripts in question are part of the PISM release.`\
-` * Answer 2: Similarly, SeaRISE and MEaSURES data sets are combined in the Ross ice shelf example, documented in the PISM User's Manual, which is part of the PISM release.`\
-` * Answer 3: You can see several Greenland data set examples, using `[`data`` ``from`` ``NSIDC`](http://nsidc.org/data/data-search.html)` and other sources, in the collection `[`data-preprocessing`](https://github.com/pism/data-preprocessing)` at `[`github.com/pism`](https://github.com/pism)`.`\
-` * Answer 4: Even if you cannot start with data in existing NetCDF files, you can at least quickly create a PISM-readable NetCDF file with the right dimensions for "bootstrapping", i.e. for the option `*`-boot_file`*`.  See `[`PISMNC.py`](https://github.com/pism/pism/blob/stable0.6/util/PISMNC.py)`, which is in the PISM release in directory `*`util/`*`.`
+ * Answer 1: You can start with the SeaRISE data sets, which are already in the NetCDF format, and modify their metadata, as in the Greenland example, the Antarctica example, and the Jakobshavn regional model example in the PISM User's Manual.  The preprocessing scripts in question are part of the PISM release.\
+ * Answer 2: Similarly, SeaRISE and MEaSURES data sets are combined in the Ross ice shelf example, documented in the PISM User's Manual, which is part of the PISM release.\
+ * Answer 3: You can see several Greenland data set examples, using [data from NSIDC](http://nsidc.org/data/data-search.html) and other sources, in the collection [data-preprocessing](https://github.com/pism/data-preprocessing) at [github.com/pism](https://github.com/pism).\
+ * Answer 4: Even if you cannot start with data in existing NetCDF files, you can at least quickly create a PISM-readable NetCDF file with the right dimensions for "bootstrapping", i.e. for the option *-boot_file*.  See [PISMNC.py](https://github.com/pism/pism/blob/stable0.6/util/PISMNC.py), which is in the PISM release in directory *util/*.
 
 ### How do I report a bug in PISM? {#how_do_i_report_a_bug_in_pism}
 
@@ -75,6 +75,5 @@ will run again with the newly-specified *MPI\_COMPILER*. ++++
 ### How do I \... write source code using PISM C++ classes? {#how_do_i_..._write_source_code_using_pism_c_classes}
 
 Answer: See [this page in the
-manual](http://pism-docs.org/sphinx/technical/index.html) and
-[the source code
-browser](http://www.pism-docs.org/doxy/html/index.html).
+manual](http://pism-docs.org/sphinx/technical/index.html) and [the
+source code browser](http://www.pism-docs.org/doxy/html/index.html).

@@ -94,9 +94,22 @@ Brown and Bueler.
 Three goals for major additions then followed, in a period when Brown
 became very familiar with PETSc and Bueler finally learned C:
 
-` - Bueler led the effort to add thermocoupling to the SIA, with Brown and Lingle assistance, and emphasizing exact solutions to check.  This became E. Bueler, J. Brown, and C. Lingle, (2007). //Exact solutions to the thermomechanically coupled shallow-ice approximation: effective tools for verification//, J. Glaciol. 53 (182), 499--516.`\
-` - Because Brown was now an MS student in math, Bueler suggested that Brown's MS project be the addition of, and testing of, a SSA solver in PISM.  This led to a successful `[`August`` ``2006`` ``MS`` ``project`` ``defense`](http://pism.github.io/uaf-iceflow/slidesJBrown.pdf)`.  At that time the model had this (Bueler's suggestion) name: the C-plus-plus Object-oriented Multi-Modal, Verifiable Numerical Ice Sheet Model, a.k.a. COMMVNISM.`\
-` - `[`NetCDF`](http://www.unidata.ucar.edu/software/netcdf/)` was adopted as the input/output format.  Before this, PETSc binary files were used.  (This fast format lacks included and standardized metadata.)`
+- Bueler led the effort to add thermocoupling to the SIA, with Brown
+  and Lingle assistance, and emphasizing exact solutions to check.
+  This became E. Bueler, J. Brown, and C. Lingle, (2007). //Exact
+  solutions to the thermomechanically coupled shallow-ice
+  approximation: effective tools for verification//, J. Glaciol. 53
+  (182), 499--516.\
+- Because Brown was now an MS student in math, Bueler suggested that
+  Brown's MS project be the addition of, and testing of, a SSA solver
+  in PISM. This led to a successful [August 2006 MS project
+  defense](http://pism.github.io/uaf-iceflow/slidesJBrown.pdf). At
+  that time the model had this (Bueler's suggestion) name: the
+  C-plus-plus Object-oriented Multi-Modal, Verifiable Numerical Ice
+  Sheet Model, a.k.a. COMMVNISM.\
+- [NetCDF](http://www.unidata.ucar.edu/software/netcdf/) was adopted
+  as the input/output format. Before this, PETSc binary files were
+  used. (This fast format lacks included and standardized metadata.)
 
 As this work was finishing, three things became clear: the multi-modal
 aspect was not actually working, Brown would be graduating and leaving
@@ -108,14 +121,11 @@ name of \"Parallel Ice Sheet Model\", PISM.
 ### 2006: PISM goes public {#pism_goes_public}
 
 In September 2006 PISM was for the first time hosted publicly, [on
-GNA](http://gna.org/projects/pism/) with a [GNU General
-Public
-License](http://svn.gna.org/viewcvs/pism/trunk/COPYING?view=log).
-We benefited greatly from using
-[SVN](https://subversion.apache.org/) and having free GNA
-hosting, even though we eventually moved happily to
-[git](https://git-scm.com/) and
-[github](https://github.com/).
+GNA](http://gna.org/projects/pism/) with a [GNU General Public
+License](http://svn.gna.org/viewcvs/pism/trunk/COPYING?view=log). We
+benefited greatly from using [SVN](https://subversion.apache.org/) and
+having free GNA hosting, even though we eventually moved happily to
+[git](https://git-scm.com/) and [github](https://github.com/).
 
 ### 2007: PISM gets ice streams {#pism_gets_ice_streams}
 
@@ -192,6 +202,6 @@ To be continued \...
 
 FIXME
 
-```{=mediawiki}
+{=mediawiki}
 {{:pism-uaf-publications.png?450|}}
-```
+
