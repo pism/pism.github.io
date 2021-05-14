@@ -53,8 +53,8 @@ This demo site showcases the available page layout options.
 * Blog
 * Post
 
-## Supported By JetBrains
+## Where are PISM Users?
 
-JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
+PISM has a growing user community, and this map shows some of the known users. If you have a PISM-based project, and you want it to be on this map, please let us know by sending an e-mail to <a href="mailto:uaf-pism@alaska.edu">uaf-pism@alaska.edu</a>.
 
-[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
+<iframe src="talkmap/map.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height: 200px; width: 100%; border: none; overflow: hidden;"></iframe>
