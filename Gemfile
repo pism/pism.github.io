@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-#gemspec
+gemspec
 
 gem "bulma-clean-theme"
 gem 'github-pages', group: :jekyll_plugins
