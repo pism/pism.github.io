@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 #gemspec
 
-gem "bulma-clean-theme", '0.11'
+gem "bulma-clean-theme"
 gem 'github-pages', group: :jekyll_plugins
 
 group :jekyll_plugins do
