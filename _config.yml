@@ -13,7 +13,8 @@ permalink: pretty
 favicon: /favicon.ico
 gh_sponsor: 
 #hide_share_buttons: true
-theme: bulma-clean-theme
+#theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 #theme_color: '#64A5C8'
 fixed_navbar: top
 
