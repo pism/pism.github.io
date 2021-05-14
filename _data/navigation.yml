@@ -1,4 +1,39 @@
-- name: Pages
+- name: What is PISM
+  link: /#
+  dropdown:
+    - name: Overview
+      link: 
+    - name: Basic Applications
+      link: 
+    - name: Application of the Month
+      link: 
+    - name: Publications Using PISM
+      link: 
+    - name: Developers / Team
+      link: 
+- name: How to Use PISM
+  link: /#
+  dropdown:
+    - name: Online Manual
+      link: 
+    - name: FAQ / PISM Life Hacks
+      link: 
+    - name: Data Preprocessing
+      link: 
+    - name: Further Tools
+      link: 
+- name: How to Get PISM
+  link: 
+- name: More
+  link: /#
+  dropdown:
+    - name: Brief History
+      link: 
+    - name: MIPs / Collaborations
+      link: 
+    - name: Map of Users
+      link: 
+- name: Page Layouts
   link: /#
   dropdown:
     - name: Page With Sidebar
@@ -29,9 +64,3 @@
       link: /gallery/
     - name: Recipe Page
       link: /example-recipe/
-- name: Products
-  link: /products/
-- name: Showcase
-  link: /showcase/
-- name: Blog
-  link: /blog/
