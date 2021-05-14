@@ -6,7 +6,7 @@ email: your-email@domain.com
 description: >
   Demo site for PISM, the Parallel Ice Sheet Model
 baseurl: ""
-url: "http://localhost:4000"
+url: "https://juliusgarbe.github.io/pism_website_test"
 twitter_username: pism
 github_username:  pism
 permalink: pretty
