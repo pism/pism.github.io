@@ -39,19 +39,22 @@ For full instructions, please see the Readme at the GitHub repo:
 
 This demo site showcases the available page layout options.
 
-* Page With Sidebar
-* Page Without Sidebar
-* Page With Menubar
-* Page With Tabs
-* Page Without Footer
-* Page Without Hero
-* Page With Contents
-* Landing Page With Callouts
-* Sponsors Page
-* Image Gallery
-* Recipe Page
-* Blog
-* Post
+* [Page With Sidebar](page-1/)
+* [Page Without Sidebar](page-2/)
+* [Page With Menubar](page-3/)
+* [Page With Tabs](page-4/)
+* [Page Without Footer](page-5/)
+* [Page Without Hero](page-without-hero/)
+* [Page With Contents](page-with-contents/)
+* [Page With Notifications](page-with-notification/)
+* [Page With Image Modal](page-with-image-modal/)
+* [Landing Page With Callouts](landing/)
+* [Sponsors Page](sponsors/)
+* [Page With Video](page-with-video/)
+* [Image Gallery](gallery/)
+* [Recipe Page](example-recipe/)
+* [Blog](blog/)
+* [Post](2020/05/08/creating-a-docs-site-with-bulma-clean-theme/)
 
 ## Where are PISM Users?
 
