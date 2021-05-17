@@ -1,8 +1,8 @@
 <section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
     <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
         <div class="container">
-            <h1 class="title is-1 has-text-primary-dark has-text-weight-heavy" >{{ page.title }}</h1>
-            <p class="subtitle is-3 has-text-primary-light has-text-weight-semibold" >{{ page.subtitle }}</p>
+            <h1 class="title is-2" style="font-size: 4rem; color: #2D89A0; font-weight: 800;">{{ page.title }}</h1>
+            <p class="subtitle is-3" style="color: #216778; font-weight: 600;">{{ page.subtitle }}</p>
             {% if page.hero_link %}
                 <a href="{{ page.hero_link | relative_url }}" class="button is-primary is-large">{{ page.hero_link_text }}</a>
             {% endif %}
@@ -12,6 +12,6 @@
         <div id="scroll-down-icon" class="scroll-down-icon" title="Scroll down" style="margin-bottom: 50px;"><i class="fas fa-angle-double-down fa-2x"></i></div>
     {% endif %}
     {% if page.hero_caption %}
-        <span class="hero-caption">{{ page.hero_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span> 
+        <span class="hero-caption">{{ page.hero_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
     {% endif %}
 </section>
