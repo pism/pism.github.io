@@ -1,12 +1,33 @@
 style: is-light
+height: is-medium
 items:
-  - title: Multiple page layouts
-    subtitle: Including sidebar, menubar, tabs and callouts
-    icon: fa-copy
-  - title: Blog included
-    subtitle: Layouts for blog and post pages included
-    icon: fa-mail-bulk
-  - title: Works with GitHub Pages
-    subtitle: Quick and easy to get started
+  - title: What?
+    subtitle: What is PISM
+    icon: fa-snowflake
+    description: >
+      The example description text goes here and can be multiple lines.
+
+      For example, such as this. 
+    call_to_action_name: What is PISM
+    call_to_action_link: 
+
+  - title: How?
+    subtitle: How to Use PISM
+    icon: fa-space-shuttle
+    description: >
+      The example description text goes here and can be multiple lines.
+
+      For example, such as this.
+    call_to_action_name: How to Use PISM
+    call_to_action_link: 
+
+  - title: Where?
+    subtitle: How to Get PISM
     icon: fa-github
     icon_brand: true
+    description: >
+      The example description text goes here and can be multiple lines.
+
+      For example, such as this.
+    call_to_action_name: How to Get PISM
+    call_to_action_link: 
