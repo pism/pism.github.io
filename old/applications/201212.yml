@@ -1,25 +1,10 @@
-###### December 2012
+date: December 2012
+title: "Self-inhibiting growth of the Greenland Ice Sheet"
+authors:  Peter Langen and others 
+venue: " [Geophysical Research Letters](http://www.agu.org/journals/gl/) "
 
-\<div left 45% centeralign\>
-
-```{=html}
-<div download>
-```
 [{{
 :applications:langensolgaardhvidberg2012.png?200}}](http://www.agu.org/pubs/crossref/2012/2012GL051810.shtml)
-
-```{=html}
-</div>
-```
-Click on the thumbnail to go to the GRL site for this paper.
-
-```{=html}
-</div>
-```
-\<div right 45%\> \| **Self-inhibiting growth of the Greenland Ice
-Sheet** \|\| \| **investigators**: \| Peter Langen and others \|
-\| **journal**: \| [Geophysical Research
-Letters](http://www.agu.org/journals/gl/) \|
 
 The build-up of the Greenland Ice Sheet from ice-free conditions is
 studied using PISM driven by fields from an atmospheric GCM. Experiments
@@ -34,7 +19,5 @@ between the atmosphere and the ice sheet is essential for understanding
 its dynamics. Conditions cooler than those of today may be necessary for
 the GrIS to regrow to the present volume.
 
-```{=html}
-</div>
-```
-`<WRAP clear>`{=html}`</WRAP>`{=html}
+
+

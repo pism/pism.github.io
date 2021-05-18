@@ -1,0 +1,18 @@
+date: March 2012
+title: "Century-scale evolution of the Jakobshavn Isbræ with a high
+  resolution regional model"
+authors:  "Daniella DellaGiustina"
+location: Greenland 
+venue: "[AGU Fall Meeting 2011](http://fallmeeting.agu.org/2011/)"
+url: "http://www2.gi.alaska.edu/snowice/glaciers/iceflow/AGU2011_dellagiu1.pdf"
+figure: agu2011_dellagiu.png
+
+abstract: "A new regional mode in PISM is applied to the Jakobshavn
+  outlet glacier. This mode is best suited for high spatial
+  resolutions (< 1 km) and short timescales (< 1000 a). The first step
+  is the identification of a drainage basin based on the surface
+  gradient. Boundary conditions along the basin outline then
+  partially-isolate the outlet glacier flow from the rest of the ice
+  sheet. The ice dynamics model applied within the basin is the full
+  enthalpy-based, SSA-sliding model. Both slow and fast ice flow are
+  captured, as shown by a comparison to observations."

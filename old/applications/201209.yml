@@ -1,28 +1,10 @@
-###### September 2012
+date: September 2012
+title: "Reconstruction of basal properties in ice sheets using iterative inverse methods"
+authors:  [Marijke Habermann](http://glaciers.gi.alaska.edu/people/habermann)and others 
+venue: " [Journal of Glaciology](http://www.igsoc.org/journal/) "
 
-\<div left 45% centeralign\>
-
-```{=html}
-<div download>
-```
 [{{
 :applications:habermann2012-thumb.png?200}}](http://www.igsoc.org/journal/58/210/t11J168.html)
-
-```{=html}
-</div>
-```
-Click on the thumbnail to go to the Journal of Glaciology site for this
-paper.
-
-```{=html}
-</div>
-```
-\<div right 45%\> \| **Reconstruction of basal properties in ice
-sheets using iterative inverse methods** \|\| \|
-**investigators**: \| [Marijke
-Habermann](http://glaciers.gi.alaska.edu/people/habermann)
-and others \| \| **venue**: \| [Journal of
-Glaciology](http://www.igsoc.org/journal/) \|
 
 Inverse methods are used to estimate model parameters from observations,
 here basal shear stress from the surface velocity of an ice sheet. One
@@ -41,7 +23,5 @@ python](https://github.com/damaxwell/siple), code supporting
 these inversion methods is already present in the [PISM dev
 branch](https://github.com/pism/pism/tree/dev).
 
-```{=html}
-</div>
-```
-`<WRAP clear>`{=html}`</WRAP>`{=html}
+
+

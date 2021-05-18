@@ -1,30 +1,17 @@
-###### July 2012
-
-\<div left 45% centeralign\>
-
-```{=html}
-<div download>
-```
-[{{
-:applications:solgaardlangen2012.png?200}}](http://dx.doi.org/10.1007/s00382-012-1305-4)
-
-```{=html}
-</div>
-```
-Click on the thumbnail to go to the Climate Dynamics journal site for
-this paper.
-
-```{=html}
-</div>
-```
-\<div right 45%\> \| **Multistability of the Greenland ice sheet and
-the effects of an adaptive mass balance formulation** \|\| \| **ice
-sheet**: \| Greenland \| \| **investigators**: \| [Anne M.
+date: July 2012
+title: "Multistability of the Greenland ice sheet and
+the effects of an adaptive mass balance formulation"
+location:  Greenland 
+authors: " [Anne M.
 Solgaard](http://www.iceandclimate.nbi.ku.dk/staff/?id=246112&vis=medarbejder)
 and [Peter L.
 Langen](http://www.iceandclimate.nbi.ku.dk/staff/?id=93180&vis=medarbejder)
-\| \| **venue**: \| [Climate
-Dynamics](http://www.springerlink.com/content/0930-7575/) \|
+"
+venue: [Climate Dynamics](http://www.springerlink.com/content/0930-7575/)
+
+
+[{{
+:applications:solgaardlangen2012.png?200}}](http://dx.doi.org/10.1007/s00382-012-1305-4)
 
 We use output from a general circulation model (CAM3+CLM) to construct
 adaptive temperature and precipitation patterns to force PISM off-line,
@@ -38,8 +25,3 @@ more realistic adaptive patterns compared to the classic constant
 patterns. The ice sheet is multistable at least for certain temperature
 forcings, so it does not necessarily return to its initial configuration
 after a temperature excursion.
-
-```{=html}
-</div>
-```
-`<WRAP clear>`{=html}`</WRAP>`{=html}

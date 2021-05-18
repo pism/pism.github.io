@@ -1,0 +1,19 @@
+date: April 2012
+title: "An enthalpy formulation for glaciers and ice sheets"
+location:  Greenland and other ice sheets
+authors: "[Andreas Aschwanden and others](http://glaciers.gi.alaska.edu/people/aschwanden)"
+venue: "[Journal of Glaciology](http://www.igsoc.org/)"
+figure: aschwandenetal2012.png
+url: "http://www.igsoc.org/journal/58/209/t11J088.pdf"
+
+abstract: "Polythermal conditions are ubiquitous among glaciers and
+  ice sheets. Fortunately, temperature and liquid water fraction are
+  functions of a single enthalpy variable: a small enthalpy change in
+  cold ice is a change in temperature, while a small enthalpy change
+  in temperate ice is a change in liquid water fraction. The unified
+  enthalpy formulation described in this paper models the mass and
+  energy balance for the three-dimensional ice fluid, for the surface
+  runoff layer and for the subglacial hydrology layer, together in a
+  single energy-conserving theoretical framework. It is implemented in
+  PISM. Results for the Greenland ice sheet are compared with those
+  from a cold-ice scheme."

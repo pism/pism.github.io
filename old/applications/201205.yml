@@ -1,28 +1,14 @@
-###### May 2012
+date: May 2012
+title: "Kinematic first-order calving law implies potential for abrupt ice-shelf retreat"
+authors: " [Anders Levermann and others](http://www.pik-potsdam.de/~anders/) " 
+location: Antarctic ice shelves 
+venue: "[The Cryosphere](http://www.the-cryosphere.net/6/273/2012/tc-6-273-2012.html)"
 
-\<div left 45% centeralign\>
 
-```{=html}
-<div download>
-```
+
 [{{
 applications:levermannetal2012.png?200}}](http://www.the-cryosphere.net/6/273/2012/tc-6-273-2012.pdf)
 
-```{=html}
-</div>
-```
-Click on the thumbnail to download the PDF (\~3Mb).
-
-```{=html}
-</div>
-```
-\<div right 45%\> \| **Kinematic first-order calving law implies
-potential for abrupt ice-shelf retreat** \|\| \| **ice sheet**: \|
-Antarctic ice shelves \| \| **investigators**: \| [Anders Levermann
-and others](http://www.pik-potsdam.de/~anders/) \| \|
-**venue**: \| [The
-Cryosphere](http://www.the-cryosphere.net/6/273/2012/tc-6-273-2012.html)
-\|
 
 Observed large-scale disintegration of Antarctic ice shelves has moved
 their fronts closer towards grounded ice, accelerating ice-sheet
@@ -34,8 +20,3 @@ topography of the ice shelf. Simulations in PISM-PIK using the
 parameterization reproduces multiple stable fronts as observed for the
 Larsen A and B Ice Shelves, including abrupt transitions between them.
 We also ﬁnd multiple stable states of the Ross Ice Shelf.
-
-```{=html}
-</div>
-```
-`<WRAP clear>`{=html}`</WRAP>`{=html}

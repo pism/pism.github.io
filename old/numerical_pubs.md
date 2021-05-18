@@ -1,5 +1,3 @@
-\~\~NOTOC\~\~
-
 ###### Theses, technical reports, and background references
 
 These are publications which are related in some way to PISM. See the
@@ -9,9 +7,6 @@ PISM.
 ##### Theses
 
 These are unpublished theses related to PISM.
-
-`<if group==admin>`{=html} Click [here](references:theses) to
-edit this list. `</if>`{=html}
 
 \[publist\|page:references:theses\|wiki:page:references:template\]
 
