@@ -16,16 +16,16 @@
         <div class="has-text-centered">
             <p><strong>Follow</strong></p>
             <div class="buttons is-centered">
-                <a href="http://twitter.com/UAFGI" title="Twitter" class="button is-light" target="_blank">
+                <a href="https://twitter.com/{{ site.author.twitter }}" title="Twitter" class="button is-light" target="_blank">
                     <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
                 </a>
-                <a href="http://www.facebook.com/pages/UAF-Geophysical-Institute/116012105143046" title="Facebook" class="button is-light" target="_blank">
+                <a href="https://www.facebook.com/{{ site.author.facebook }}" title="Facebook" class="button is-light" target="_blank">
                     <i class="fab fa-facebook fa-lg" style="color: #3b5998;"></i>
                 </a>
-                <a href="https://join.slack.com/t/uaf-pism/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE" title="Slack" class="button is-light" target="_blank">
+                <a href="{{ site.author.slack }}" title="Slack" class="button is-light" target="_blank">
                     <i class="fab fa-slack fa-lg" style="color: #611F69;"></i>
                 </a>
-                <a href="https://github.com/pism" title="Github" class="button is-light" target="_blank">
+                <a href="https://github.com/{{ site.author.github }}" title="Github" class="button is-light" target="_blank">
                     <i class="fab fa-github fa-lg" style="color: #171516;"></i>
                 </a>
                 <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed" class="button is-light">
@@ -37,7 +37,7 @@
 
         <div class="content is-small has-text-centered">
             <p>Site built using <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a>  by C.S. Rhymes</p>
-            <p>&copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> The PISM Authors</p>
+            <p>&copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> {{ site.author.name }}</p>
         </div>
     </div>
 </footer>
