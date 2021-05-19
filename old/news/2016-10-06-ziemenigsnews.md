@@ -12,9 +12,9 @@ capital, Juneau. But climate data for the area are sparse.
 
 Those model runs that agreed well with observations for 1971 to 2010
 generated volume and area losses of more than half by 2099. While
-co-author Regine Hock (UAF) is quoted as saying \"The massive icefield
+co-author Regine Hock (UAF) is quoted as saying "The massive icefield
 that feeds Alaska's Mendenhall Glacier may be gone by 2200 if warming
-trend predictions hold true,\", the authors emphasize that
+trend predictions hold true,", the authors emphasize that
 spatially-distributed mass balance measurements and improved climate
 projections that resolve the local temperature and precipitation
 patterns are essential to solidifying these predictions.

@@ -6,4 +6,4 @@ in Svalbard:
 [GitHub Archive Program](https://archiveprogram.github.com/),
 with [video](https://www.youtube.com/watch?v=fzI9FNjXQ0o).
 
-But don\'t worry. Development continues.
+But don't worry. Development continues.

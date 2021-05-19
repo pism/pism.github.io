@@ -2,7 +2,7 @@
 
 If you are following the [development
 branch](http://www.pism-docs.org/wiki/doku.php?id=development_version)
-you know that much of the capability developed by [Anders Levermann\'s
+you know that much of the capability developed by [Anders Levermann's
 group at the Potsdam Institute for Climate Impact Research
 (PIK)](http://www.pik-potsdam.de/~anders/) is now in PISM.
 The former [PISM-PIK branch of PISM

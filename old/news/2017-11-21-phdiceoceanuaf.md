@@ -2,9 +2,9 @@
 
 The [Geophysical Institute of the University of Alaska
 Fairbanks](http://www.gi.alaska.edu/) is seeking a PhD
-student for the recently funded NSF project \"Understanding the controls
+student for the recently funded NSF project "Understanding the controls
 on spatial and temporal variability in ice discharge using a
-Greenland-wide ice sheet model\". The overall goal of this project is to
+Greenland-wide ice sheet model". The overall goal of this project is to
 develop novel parameterizations of ice-ocean interaction that are
 suitable for large scale ice-sheet modeling. The interdisciplinary
 project is co-led by [Andy Aschwanden (UAF; ice sheet
@@ -23,4 +23,4 @@ fields. Basic experience in numerical modeling, good oral and written
 communication skills are a prerequisite.
 
 For more information, please contact Andy Aschwanden
-([aaschwanden\@alaska.edu](aaschwanden@alaska.edu)).
+([aaschwanden@alaska.edu](aaschwanden@alaska.edu)).

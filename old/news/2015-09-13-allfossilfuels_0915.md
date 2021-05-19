@@ -6,7 +6,7 @@ uses PISM to address an admittedly extreme question: If all
 currently-attainable fossil fuel resources are converted to atmospheric
 greenhouse gases, what happens to the Antarctic Ice Sheet?
 
-This paper\'s model-based answer is that serious destruction of the ice
+This paper's model-based answer is that serious destruction of the ice
 sheet occurs in the first millenium, at about 3 m sea level rise per
 century. Such a large mass loss rate tails off in the two following
 millenia. The large losses come from a combination of marine-ice-sheet

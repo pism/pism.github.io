@@ -12,7 +12,7 @@ initiative.
 -   -   Project 1: Greenland**
 
 The goal of this project to improve the representation of the processes
-\"where the ice meets the ocean\" in a high-resolution whole-ice sheet
+"where the ice meets the ocean" in a high-resolution whole-ice sheet
 model. This is a crucial step on the way to the ultimate goal of fully
 coupled high-resolution ice-ocean-atmosphere models, which are currently
 not in the realm of the possible.

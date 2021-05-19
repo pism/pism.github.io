@@ -8,4 +8,4 @@ Studio](https://youtu.be/LtpD-bAFQoc).
 
 [`{{:news:aschwandenetal2019.png?350 |}}`{=mediawiki}](https://advances.sciencemag.org/content/5/6/eaav9396)
 [{{
-:<news:frame-aschwandenetal2019.png?450>\|}}](https://youtu.be/LtpD-bAFQoc)
+:<news:frame-aschwandenetal2019.png?450>|}}](https://youtu.be/LtpD-bAFQoc)
