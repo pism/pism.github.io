@@ -3,20 +3,18 @@ title: "Kinematic first-order calving law implies potential for abrupt ice-shelf
 authors: " [Anders Levermann and others](http://www.pik-potsdam.de/~anders/) " 
 location: Antarctic ice shelves 
 venue: "[The Cryosphere](http://www.the-cryosphere.net/6/273/2012/tc-6-273-2012.html)"
+url: "http://www.the-cryosphere.net/6/273/2012/tc-6-273-2012.pdf"
 
+figure: levermannetal2012.png
 
-
-[{{
-applications:levermannetal2012.png?200}}](http://www.the-cryosphere.net/6/273/2012/tc-6-273-2012.pdf)
-
-
-Observed large-scale disintegration of Antarctic ice shelves has moved
-their fronts closer towards grounded ice, accelerating ice-sheet
-discharge and contributing to global sea-level rise. Here we describe
-the first-order large-scale kinematic contribution to calving which is
-consistent with large-scale observation. This calving law depends only
-on local ice properties which are, however, determined by the full
-topography of the ice shelf. Simulations in PISM-PIK using the
-parameterization reproduces multiple stable fronts as observed for the
-Larsen A and B Ice Shelves, including abrupt transitions between them.
-We also ﬁnd multiple stable states of the Ross Ice Shelf.
+abstract: "Observed large-scale disintegration of Antarctic ice
+  shelves has moved their fronts closer towards grounded ice,
+  accelerating ice-sheet discharge and contributing to global
+  sea-level rise. Here we describe the first-order large-scale
+  kinematic contribution to calving which is consistent with
+  large-scale observation. This calving law depends only on local ice
+  properties which are, however, determined by the full topography of
+  the ice shelf. Simulations in PISM-PIK using the parameterization
+  reproduces multiple stable fronts as observed for the Larsen A and B
+  Ice Shelves, including abrupt transitions between them. We also find
+  multiple stable states of the Ross Ice Shelf."

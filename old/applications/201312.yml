@@ -5,8 +5,9 @@ authors:  "[P. Dickens](http://www.umcs.maine.edu/~dickens/) and T. Morey"
 venue: "Proceedings of the 14th IEEE International Workshop on
   Parallel and Distributed Scientific and Engineering Computing, May
   2013, Boston"
-
-[`{{:applications:Scalability.PISM.png?200|}}`{=mediawiki}](http://umaine.edu/cis/2013/02/22/increasing-the-scalability-of-pism-for-high-resolution-ice-sheet-models/)
+figure: Scalability.PISM.png
+url:
+  "http://umaine.edu/cis/2013/02/22/increasing-the-scalability-of-pism-for-high-resolution-ice-sheet-models/"
 
 abstract: In this paper, authors discuss their work in evaluating and
   increasing the I/O performance of PISM on a state-of-the-art

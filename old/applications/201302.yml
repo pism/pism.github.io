@@ -5,8 +5,9 @@ authors: "[Florian
   others"
 venue: " [EGU 2012](http://www.egu2012.eu/) "
 
-[{{
-:applications:thumb\_ziemen\_egu\_2012.png?250\|}}](http://www.mpimet.mpg.de/fileadmin/staff/ziemenflorian/florian_ziemen_egu_2012.pdf)
+url:
+  "http://www.mpimet.mpg.de/fileadmin/staff/ziemenflorian/florian_ziemen_egu_2012.pdf"
+figure: thumb_ziemen_egu_2012.png
 
 abstract: "We interactively couple the atmosphere-ocean-vegetation
   general circulation model ECHAM5/MPIOM/LPJ with the ice sheet model

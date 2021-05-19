@@ -2,9 +2,8 @@ date: August 2013
 title: "Hindcasting to measure ice sheet model sensitivity"
 authors: "A. Aschwanden, G. Aðalgeirsdóttir, and C. Khroulev"
 venue: "[The Cryosphere](http://www.the-cryosphere.net/)"
-
-[{{
-:applications:ts\_mass\_2004-2010.png?220\|}}](http://www.the-cryosphere.net/7/1083/2013/tc-7-1083-2013.html)
+url: "http://www.the-cryosphere.net/7/1083/2013/tc-7-1083-2013.html"
+figure: ts_mass_2004-2010.png
 
 abstract: "Validation and assessment of model performance is critical,
   but it is notoriously-challenging in ice sheet modeling. This paper

@@ -2,26 +2,27 @@ date: July 2012
 title: "Multistability of the Greenland ice sheet and
 the effects of an adaptive mass balance formulation"
 location:  Greenland 
+
 authors: " [Anne M.
-Solgaard](http://www.iceandclimate.nbi.ku.dk/staff/?id=246112&vis=medarbejder)
-and [Peter L.
-Langen](http://www.iceandclimate.nbi.ku.dk/staff/?id=93180&vis=medarbejder)
-"
-venue: [Climate Dynamics](http://www.springerlink.com/content/0930-7575/)
+  Solgaard](http://www.iceandclimate.nbi.ku.dk/staff/?id=246112&vis=medarbejder)
+  and [Peter L.
+  Langen](http://www.iceandclimate.nbi.ku.dk/staff/?id=93180&vis=medarbejder)"
 
+venue: "[Climate Dynamics](http://www.springerlink.com/content/0930-7575/)"
 
-[{{
-:applications:solgaardlangen2012.png?200}}](http://dx.doi.org/10.1007/s00382-012-1305-4)
+figure: solgaardlangen2012.png
+url: "http://dx.doi.org/10.1007/s00382-012-1305-4"
 
-We use output from a general circulation model (CAM3+CLM) to construct
-adaptive temperature and precipitation patterns to force PISM off-line,
-taking into consideration that the patterns change in a non-uniform way,
-both spatially and temporally, as the geometry of the ice sheet evolves
-and as climate changes. In a series of experiments we investigate
-retreat from the present day configuration and build-up from ice free
-conditions during a warmer-than-present climate. We find that the ice
-sheet is able to survive and build up at higher temperatures using the
-more realistic adaptive patterns compared to the classic constant
-patterns. The ice sheet is multistable at least for certain temperature
-forcings, so it does not necessarily return to its initial configuration
-after a temperature excursion.
+abstract: We use output from a general circulation model (CAM3+CLM) to
+  construct adaptive temperature and precipitation patterns to force
+  PISM off-line, taking into consideration that the patterns change in
+  a non-uniform way, both spatially and temporally, as the geometry of
+  the ice sheet evolves and as climate changes. In a series of
+  experiments we investigate retreat from the present day
+  configuration and build-up from ice free conditions during a
+  warmer-than-present climate. We find that the ice sheet is able to
+  survive and build up at higher temperatures using the more realistic
+  adaptive patterns compared to the classic constant patterns. The ice
+  sheet is multistable at least for certain temperature forcings, so
+  it does not necessarily return to its initial configuration after a
+  temperature excursion.

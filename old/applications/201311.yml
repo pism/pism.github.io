@@ -3,8 +3,8 @@ title: "An iterative inverse method to estimate basal topography and initialize 
 authors: "[W. van Pelt](http://www.staff.science.uu.nl/~pelt0108/index.php) and
 others"
 venue: "[The Cryosphere](http://www.the-cryosphere.net)"
-
-[`{{:applications:vanpeltetal2013.png?200|}}`{=mediawiki}](http://www.the-cryosphere.net/7/987/2013/tc-7-987-2013.html)
+figure: vanpeltetal2013.png
+url: "http://www.the-cryosphere.net/7/987/2013/tc-7-987-2013.html"
 
 abstract: A new inverse approach to reconstruct distributed bedrock
   topography and simultaneously initialize an ice flow model is

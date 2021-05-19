@@ -4,8 +4,9 @@ losses of the Greenland Ice Sheet decoupled during the next 100 years?"
 authors: "Guðfinna Aðalgeirsdóttir and Andy Aschwanden"
 venue: " [EGU 2013](http://www.egu2013.eu/) "
 
-[{{
-:applications:egu\_2013.png?250\|}}](http://www2.gi.alaska.edu/snowice/glaciers/iceflow/egu_2013.pdf)
+url:
+  "http://www2.gi.alaska.edu/snowice/glaciers/iceflow/egu_2013.pdf"
+figure: egu_2013.png
 
 abstract: "Model simulations with the state-of-the-art ice sheet model
   PISM (Parallel Ice Sheet Model), that is forced with a number of
