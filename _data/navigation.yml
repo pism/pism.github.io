@@ -9,21 +9,26 @@
       link: 
     - name: Publications Using PISM
       link: 
-    - name: Developers / Team
+    - name: Developers Team
       link: 
 - name: How to Use PISM
   link: /#
   dropdown:
     - name: Online Manual
-      link: 
+      link: http://pism.github.io/pism/
     - name: FAQ / PISM Life Hacks
       link: 
     - name: Data Preprocessing
       link: 
     - name: Further Tools
       link: 
+    - name: Cite PISM
+      link: https://github.com/pism/pism/blob/master/ACKNOWLEDGE.rst
 - name: How to Get PISM
-  link: 
+  link: /#
+  dropdown:
+    - name: Get Code on Github
+    - link: https://github.com/pism/
 - name: More
   link: /#
   dropdown:

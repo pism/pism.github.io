@@ -8,7 +8,7 @@ items:
       The example description text goes here and can be multiple lines.
 
       For example, such as this. 
-    call_to_action_name: What is PISM
+    call_to_action_name: Read the Overview
     call_to_action_link: 
 
   - title: How?
@@ -18,8 +18,8 @@ items:
       The example description text goes here and can be multiple lines.
 
       For example, such as this.
-    call_to_action_name: How to Use PISM
-    call_to_action_link: 
+    call_to_action_name: Read the Manual
+    call_to_action_link: http://pism.github.io/pism/
 
   - title: Where?
     subtitle: How to Get PISM
@@ -29,5 +29,5 @@ items:
       The example description text goes here and can be multiple lines.
 
       For example, such as this.
-    call_to_action_name: How to Get PISM
-    call_to_action_link: 
+    call_to_action_name: Get the Code
+    call_to_action_link: https://github.com/pism/
