@@ -56,7 +56,7 @@ This demo site showcases the available page layout options.
 
 PISM has a growing user community, and this map shows some of the known users. If you have a PISM-based project, and you want it to be on this map, please let us know by sending us an <a href="mailto:{{ site.author.email }}">e-mail</a>.
 
-<iframe src="usermap/map.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height: 200px; width: 100%; border: none; overflow: hidden;"></iframe>
+<iframe src="usermap/map.html" height="520px" width="100%"></iframe>
 
 ## Team
 
