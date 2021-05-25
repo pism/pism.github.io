@@ -25,7 +25,7 @@ with open(input_file, 'r') as f:
 	for row in csv_data:
 		#print(row)
 
-		key = f'{row["name"]} | {row["city"]}, {row["country"]} | {row["website"]}'
+		key = f'{row["name"]} | {row["city"]}, {row["country"]} | <a href=\'{row["website"]}\'>{row["website"]}</a>'
 		location = f'{row["city"]}, {row["country"]}'
 		location_dict[key] = geocoder.geocode(location)
 
