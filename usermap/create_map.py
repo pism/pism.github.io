@@ -24,8 +24,9 @@ with open(input_file, 'r') as f:
 	csv_data = csv.DictReader(f, delimiter=',')
 	for row in csv_data:
 		#print(row)
-
-		key = f'{row["name"]} | {row["city"]}, {row["country"]} | <a href=\'{row["website"]}\'>{row["website"]}</a>'
+		link = f'<a href=\'{row["website"]}\' target=\'_blank\'>{row["website"]}</a>'
+		print(link)
+		key = f'{row["name"]} | {row["city"]}, {row["country"]} | {link}'
 		location = f'{row["city"]}, {row["country"]}'
 		location_dict[key] = geocoder.geocode(location)
 
