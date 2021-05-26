@@ -1,11 +1,11 @@
 var addressPoints = [
   [
-    "Harvard University | Cambridge, USA | <a href='?' target='_blank'>?</a>",
+    "Harvard University | Cambridge, USA",
     42.3750997,
     -71.1056157
   ],
   [
-    "Louisina State University | Baton Rouge, USA | <a href='?' target='_blank'>?</a>",
+    "Louisina State University | Baton Rouge, USA",
     30.4459596,
     -91.18738
   ],
@@ -35,7 +35,7 @@ var addressPoints = [
     -68.672791
   ],
   [
-    "University of Northern British Columbia (UNBC) | Prince George, Canada | <a href='?' target='_blank'>?</a>",
+    "University of Northern British Columbia (UNBC) | Prince George, Canada",
     53.9128645,
     -122.7453699
   ],
@@ -45,7 +45,7 @@ var addressPoints = [
     -122.3300624
   ],
   [
-    "Yale University | New Haven, USA | <a href='?' target='_blank'>?</a>",
+    "Yale University | New Haven, USA",
     41.298434349999994,
     -72.93102342707913
   ]

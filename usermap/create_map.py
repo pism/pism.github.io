@@ -20,17 +20,22 @@ location_dict = {}
 location = ""
 
 
+print()
 with open(input_file, 'r') as f:
 	csv_data = csv.DictReader(f, delimiter=',')
 	for row in csv_data:
 		#print(row)
-		link = f'<a href=\'{row["website"]}\' target=\'_blank\'>{row["website"]}</a>'
-		print(link)
-		key = f'{row["name"]} | {row["city"]}, {row["country"]} | {link}'
+		key = f'{row["name"]} | {row["city"]}, {row["country"]}'
+		if row["website"] is not '?':
+			link = f'<a href=\'{row["website"]}\' target=\'_blank\'>{row["website"]}</a>'
+			key += f' | {link}'
 		location = f'{row["city"]}, {row["country"]}'
 		location_dict[key] = geocoder.geocode(location)
+		print(f'label:    {key}')
+		print(f'location: {location}')
+		print()
 
-print(location_dict)
+#print(location_dict)
 	
 		
 #for file in g:
@@ -59,4 +64,5 @@ print(location_dict)
 #    count = count + 1
 
 m = getorg.orgmap.create_map_obj()
+# writes file org-locations.js
 getorg.orgmap.output_html_cluster_map(location_dict, folder_name="./", hashed_usernames=False)
