@@ -10,9 +10,9 @@ var addressPoints = [
     12.5700724
   ],
   [
-    "Durham Univeristy | Durham, UK | <a href='https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/' target='_blank'>https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/</a>",
-    54.666667,
-    -1.75
+    "Durham Univeristy | Durham City, UK | <a href='https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/' target='_blank'>https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/</a>",
+    54.7785577,
+    -1.5757010209442777
   ],
   [
     "Istanbul Technical University (ITU) - Eurasia Institute of Earth Sciences (EIES) | Istanbul, Turkey | <a href='https://eies.itu.edu.tr/en' target='_blank'>https://eies.itu.edu.tr/en</a>",
@@ -40,7 +40,7 @@ var addressPoints = [
     126.7052
   ],
   [
-    "Louisina State University (LSU) | Baton Rouge, USA",
+    "Louisiana State University (LSU) | Baton Rouge, USA",
     30.4459596,
     -91.18738
   ],

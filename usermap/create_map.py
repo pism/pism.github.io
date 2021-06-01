@@ -26,7 +26,7 @@ with open(input_file, 'r') as f:
 	for row in csv_data:
 		#print(row)
 		key = f'{row["name"]} | {row["city"]}, {row["country"]}'
-		if row["website"] is not '?':
+		if row["website"] != '?':
 			link = f'<a href=\'{row["website"]}\' target=\'_blank\'>{row["website"]}</a>'
 			key += f' | {link}'
 		location = f'{row["city"]}, {row["country"]}'
