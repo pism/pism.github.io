@@ -42,14 +42,6 @@
                 popupAnchor: [1, -34],
                 shadowSize: [41, 41]
                 });
-            // PIK 
-            var pikTitle = "Potsdam Institute for Climate Impact Research (PIK) | Potsdam, Germany | <a href='https://www.pik-potsdam.de/ice' target='_blank'>https://www.pik-potsdam.de/ice</a>";
-            var pik = L.marker([52.4009309, 13.0591397], {
-                title: pikTitle,
-                icon: developerIcon
-                });
-            pik.bindPopup(pikTitle);
-            pik.addTo(map);
             // UAF 
             var uafTitle = "University of Alaska Fairbanks (UAF) | Fairbanks, USA | <a href='https://glaciers.gi.alaska.edu/' target='_blank'>https://glaciers.gi.alaska.edu/</a>";
             var uaf = L.marker([64.837845, -147.716675], {
@@ -58,6 +50,14 @@
                 });
             uaf.bindPopup(uafTitle);
             uaf.addTo(map);
+            // PIK 
+            var pikTitle = "Potsdam Institute for Climate Impact Research (PIK) | Potsdam, Germany | <a href='https://www.pik-potsdam.de/ice' target='_blank'>https://www.pik-potsdam.de/ice</a>";
+            var pik = L.marker([52.4009309, 13.0591397], {
+                title: pikTitle,
+                icon: developerIcon
+                });
+            pik.bindPopup(pikTitle);
+            pik.addTo(map);
             // other markers
             for (var i = 0; i < addressPoints.length; i++) {
     			var a = addressPoints[i];

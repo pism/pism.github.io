@@ -65,19 +65,9 @@ var addressPoints = [
     -77.8616386
   ],
   [
-    "Potsdam Institute for Climate Impact Research (PIK) | Potsdam, Germany | <a href='https://www.pik-potsdam.de/ice' target='_blank'>https://www.pik-potsdam.de/ice</a>",
-    52.4009309,
-    13.0591397
-  ],
-  [
     "Stockholm University | Stockholm, Sweden | <a href='https://www.su.se/department-of-geological-sciences/' target='_blank'>https://www.su.se/department-of-geological-sciences/</a>",
     59.3251172,
     18.0710935
-  ],
-  [
-    "University of Alaska Fairbanks (UAF) | Fairbanks, USA | <a href='https://glaciers.gi.alaska.edu/' target='_blank'>https://glaciers.gi.alaska.edu/</a>",
-    64.837845,
-    -147.716675
   ],
   [
     "University of Bergen (UiB) | Bergen, Norway | <a href='https://www.uib.no/en/geo' target='_blank'>https://www.uib.no/en/geo</a>",
