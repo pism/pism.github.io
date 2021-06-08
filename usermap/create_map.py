@@ -8,10 +8,14 @@
 # Requires: getorg, geopy
 #!pip install getorg python-frontmatter
 
+# [mok 2021/06]: built python environment locally with  
+#   mamba create -n pism_website python=3 geopy pip -c conda-forge
+#   conda activate pism_website
+#   pip install getorg
+
 import getorg
 from geopy import Nominatim
 import csv
-#import code
 import shutil
 
 input_file = 'pism_users.csv'
@@ -37,34 +41,6 @@ with open(input_file, 'r') as f:
 		print(f'location: {location}')
 		print()
 
-#code.interact(local=locals())
-#print(location_dict)
-	
-		
-#for file in g:
-#    with open(file, 'r') as f:
-#        lines = f.read()
-#        if lines.find('location: "') > 1:
-#            loc_start = lines.find('location: "') + 11
-#            lines_trim = lines[loc_start:]
-#            loc_end = lines_trim.find('"')
-#            location = lines_trim[:loc_end]
-#        if lines.find('title: "') > 1:
-#            loc_start = lines.find('title: "') + 8
-#            lines_trim = lines[loc_start:]
-#            loc_end = lines_trim.find('"')
-#            title = lines_trim[:loc_end]
-#        if lines.find('venue: "') > 1:
-#            loc_start = lines.find('venue: "') + 8
-#            lines_trim = lines[loc_start:]
-#            loc_end = lines_trim.find('"')
-#            venue = lines_trim[:loc_end]
-#
-#        key = str(title + " | " + venue + ", " + location)
-#
-#        location_dict[key] = geocoder.geocode(location)
-#        print(key, "\n", location_dict[key])
-#    count = count + 1
 
 m = getorg.orgmap.create_map_obj()
 # writes file org-locations.js, map.html, leaflet_dist/
