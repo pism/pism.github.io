@@ -8,6 +8,16 @@
 # Requires: getorg, geopy
 #!pip install getorg python-frontmatter
 
+
+#### creating PISM html usermap with Leaflet
+# this python script builds a map of PISM users for the website based on 
+# pism_users.csv   To get coordinates for the location given in the table,
+# the python package getorg is used which automatically creates the html, js
+# and css files to be included in the website. 
+# As some manual changes in these files get overriden every time the python 
+# script runs, there are a backup versions in the restore/ directory which 
+# automatically get copied to the main repository.
+
 # [mok 2021/06]: built python environment locally with  
 #   mamba create -n pism_website python=3 geopy pip -c conda-forge
 #   conda activate pism_website
