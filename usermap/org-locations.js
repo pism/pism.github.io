@@ -95,7 +95,7 @@ var addressPoints = [
     -87.6244212
   ],
   [
-    "University of Copenhagen - Centre for Ice and Climate | Kopenhagen, Denmark | <a href='https://www.iceandclimate.nbi.ku.dk/' target='_blank'>https://www.iceandclimate.nbi.ku.dk/</a>",
+    "University of Copenhagen - Centre for Ice and Climate (CIC) | Kopenhagen, Denmark | <a href='https://www.iceandclimate.nbi.ku.dk/' target='_blank'>https://www.iceandclimate.nbi.ku.dk/</a>",
     55.6867243,
     12.5700724
   ],

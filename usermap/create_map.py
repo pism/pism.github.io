@@ -11,6 +11,8 @@
 import getorg
 from geopy import Nominatim
 import csv
+#import code
+import shutil
 
 input_file = 'pism_users.csv'
 
@@ -35,6 +37,7 @@ with open(input_file, 'r') as f:
 		print(f'location: {location}')
 		print()
 
+#code.interact(local=locals())
 #print(location_dict)
 	
 		
@@ -64,5 +67,16 @@ with open(input_file, 'r') as f:
 #    count = count + 1
 
 m = getorg.orgmap.create_map_obj()
-# writes file org-locations.js
+# writes file org-locations.js, map.html, leaflet_dist/
 getorg.orgmap.output_html_cluster_map(location_dict, folder_name="./", hashed_usernames=False)
+
+
+# some files include manual changes but are overwitten by getorg
+# like map.html and leaflet_dist/screen.css
+# thus a backup version is kept in restore/ and copied to replace the newly created ones
+print()
+print('copying files from restore/ directory')
+shutil.copytree("./restore/","./", dirs_exist_ok=True)
+
+
+
