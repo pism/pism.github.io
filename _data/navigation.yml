@@ -28,7 +28,7 @@
   link: /#
   dropdown:
     - name: Get Code on Github
-    - link: https://github.com/pism/pism/
+      link: https://github.com/pism/pism/
 - name: More
   link: /#
   dropdown:
