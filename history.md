@@ -5,7 +5,7 @@ hide_hero: true
 show_sidebar: true
 ---
 
-# A brief history of PISM
+# A Brief History of PISM
 
 **Before 2001:**
 

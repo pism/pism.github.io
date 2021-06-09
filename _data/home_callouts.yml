@@ -9,7 +9,7 @@ items:
 
       For example, such as this. 
     call_to_action_name: Read the Overview
-    call_to_action_link: 
+    call_to_action_link: overview/
 
   - title: How?
     subtitle: How to Use PISM
@@ -30,4 +30,4 @@ items:
 
       For example, such as this.
     call_to_action_name: Get the Code
-    call_to_action_link: https://github.com/pism/
+    call_to_action_link: https://github.com/pism/pism/

@@ -3,7 +3,7 @@ title: PISM
 subtitle: PARALLEL ICE SHEET MODEL
 layout: page
 hero_height: is-fullheight
-hero_link: https://github.com/pism
+hero_link: https://github.com/pism/pism/
 hero_link_text: Get it on Github
 hero_image: https://images.unsplash.com/photo-1493329025335-18542a61595f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80
 hero_darken: false
