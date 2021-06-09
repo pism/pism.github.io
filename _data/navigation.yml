@@ -2,7 +2,7 @@
   link: /#
   dropdown:
     - name: Overview
-      link: 
+      link: overview/
     - name: Basic Applications
       link: 
     - name: Application of the Month
@@ -28,7 +28,7 @@
   link: /#
   dropdown:
     - name: Get Code on Github
-    - link: https://github.com/pism/
+    - link: https://github.com/pism/pism/
 - name: More
   link: /#
   dropdown:
