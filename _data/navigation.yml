@@ -33,7 +33,7 @@
   link: /#
   dropdown:
     - name: Brief History
-      link: 
+      link: history/
     - name: MIPs / Collaborations
       link: 
     - name: Map of Users
