@@ -36,27 +36,21 @@ Features include:
 
 This demo site showcases the available page layout options.
 
-* [Page With Sidebar](page-1/)
-* [Page Without Sidebar](page-2/)
-* [Page With Menubar](page-3/)
-* [Page With Tabs](page-4/)
-* [Page Without Footer](page-5/)
-* [Page Without Hero](page-without-hero/)
-* [Page With Contents](page-with-contents/)
-* [Page With Notifications](page-with-notification/)
-* [Page With Image Modal](page-with-image-modal/)
-* [Landing Page With Callouts](landing/)
-* [Sponsors Page](sponsors/)
-* [Page With Video](page-with-video/)
-* [Image Gallery](gallery/)
+* [Page With Sidebar](templates/page-1/)
+* [Page Without Sidebar](templates/page-2/)
+* [Page With Menubar](templates/page-3/)
+* [Page With Tabs](templates/page-4/)
+* [Page Without Footer](templates/page-5/)
+* [Page Without Hero](templates/page-without-hero/)
+* [Page With Contents](templates/page-with-contents/)
+* [Page With Notifications](templates/page-with-notification/)
+* [Page With Image Modal](templates/page-with-image-modal/)
+* [Landing Page With Callouts](templates/landing/)
+* [Sponsors Page](templates/sponsors/)
+* [Page With Video](templates/page-with-video/)
+* [Image Gallery](templates/gallery/)
 * [Blog](blog/)
 * [Example Post](2020/05/08/creating-a-docs-site-with-bulma-clean-theme/)
-
-## Where are PISM Users?
-
-PISM has a growing user community, and this map shows some of the known users. If you have a PISM-based project, and you want it to be on this map, please let us know by sending us an <a href="mailto:{{ site.author.email }}">e-mail</a>.
-
-<iframe src="usermap/map.html" height="520px" width="100%" style="border: none;"></iframe>
 
 ## Team
 
