@@ -11,28 +11,10 @@ callouts: home_callouts
 show_sidebar: true
 ---
 
-# PISM
-
-The Parallel Ice Sheet Model (PISM) is open source and capable of high resolution. It has been [widely adopted as a tool for doing
-science](publications).
-
-Features include:
-
- * extensible atmospheric/ocean coupling
- * hybrid shallow stress balance
- * marine ice sheet physics
- * polythermal energy conservation
- * subglacial hydrology and till model
- * complete [documentation](overview)
- * parallel simulations using [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface) & [PETSc](http://www.mcs.anl.gov/petsc/)
- * reads and writes [CF-compliant](http://cfconventions.org/) [NetCDF](http://www.unidata.ucar.edu/software/netcdf/)
- * [inversion toolbox in Python](http://www.pism-docs.org/doxy/inverse/html/index.html)
- * verification and validation tools
-
 {% include youtube.html video="oy0FmBWfGGw" %}
 *Projection of the Greenland Ice Sheet from 2008-2300 under RCP 8.5. Data from Aschwanden et al. ([2019](https://doi.org/10.1126/sciadv.aav9396)). Video by Cindy Starr (NASA SVS).*
 
-## Page Layouts
+# Page Layouts
 
 This demo site showcases the available page layout options.
 
@@ -52,7 +34,7 @@ This demo site showcases the available page layout options.
 * [Blog](blog/)
 * [Example Post](2020/05/08/creating-a-docs-site-with-bulma-clean-theme/)
 
-## Team
+# Team
 
 PISM is jointly developed at the [University of Alaska, Fairbanks (UAF)](http://www.uaf.edu/) and the [Potsdam Institute for Climate Impact Research (PIK)](http://www.pik-potsdam.de/). For more about the team see the [Developer Team](team) page.
 
