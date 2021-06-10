@@ -1,4 +1,4 @@
-- name: What is PISM
+- name: About
   link: /#
   dropdown:
     - name: Overview
@@ -11,7 +11,7 @@
       link: 
     - name: Developers Team
       link: 
-- name: How to Use PISM
+- name: Usage
   link: /#
   dropdown:
     - name: Online Manual
@@ -22,14 +22,14 @@
       link: 
     - name: Further Tools
       link: 
-    - name: Cite PISM
+    - name: Citing PISM
       link: https://github.com/pism/pism/blob/master/ACKNOWLEDGE.rst
-- name: How to Get PISM
+- name: Download
   link: /#
   dropdown:
     - name: Get Code on Github
       link: https://github.com/pism/pism/
-- name: How to Contribute to PISM
+- name: Contributing
   link: /#
   dropdown:
     - name: Contribute to PISM
