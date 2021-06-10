@@ -29,6 +29,11 @@
   dropdown:
     - name: Get Code on Github
       link: https://github.com/pism/pism/
+- name: How to Contribute to PISM
+  link: /#
+  dropdown:
+    - name: Contribute to PISM
+      link: contribute/
 - name: More
   link: /#
   dropdown:
