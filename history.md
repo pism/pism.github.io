@@ -1,7 +1,10 @@
 ---
-title: Brief History
+title: History
+subtitle: A Brief History of PISM
 layout: page
-hide_hero: true
+hero_height: is-medium
+hero_image: /pism_website_test/img/header_blackboard.jpg
+hero_darken: false
 show_sidebar: true
 ---
 
