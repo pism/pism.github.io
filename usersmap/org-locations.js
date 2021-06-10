@@ -55,6 +55,11 @@ var addressPoints = [
     -1.6131572
   ],
   [
+    "Norwegian Research Centre (NORCE) | Bergen, Norway | <a href='https://www.norceresearch.no/en/research-area/klima' target='_blank'>https://www.norceresearch.no/en/research-area/klima</a>",
+    60.3943055,
+    5.3259192
+  ],
+  [
     "Peking University (PKU) | Beijing, China",
     39.906217,
     116.3912757
