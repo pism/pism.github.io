@@ -22,6 +22,6 @@ items:
     icon: fa-github
     icon_brand: true
     description: >
-      Want to start using PISM yourself or just want to have a peak into the code?
+      Want to start using PISM yourself or just want to have a peek into the code?
     call_to_action_name: Get the Code
     call_to_action_link: https://github.com/pism/pism/

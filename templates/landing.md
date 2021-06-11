@@ -3,7 +3,7 @@ layout: page
 title: PISM
 subtitle: The Parallel Ice Sheet Model
 hero_height: is-large
-hero_link: /page-1/
+hero_link: /templates/page-1/
 hero_link_text: Example Call To Action
 show_sidebar: false
 callouts: example_callouts
