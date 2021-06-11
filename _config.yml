@@ -3,7 +3,7 @@ lang                : "en"
 title               : "PISM"
 tagline             : "Parallel Ice Sheet Model"
 name                : &name "The PISM Authors"
-description         : "Demo site for PISM, the Parallel Ice Sheet Model"
+description         : "Demo website for PISM, the Parallel Ice Sheet Model"
 baseurl             : "/pism_website_test"
 #url                 : "https://juliusgarbe.github.io/pism_website_test"
 url                 : "http://localhost:4000"
@@ -24,14 +24,13 @@ footer_menu         : #example_footer_menu
 disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  #shortname     : my_disqus_shortname
-  shortname     : 
+  shortname: #my_disqus_shortname
 
 # SEO Related
-#google_site_verification : "SLng37Ih9dWmNOEhkLiKjYsUUdPQ3dRDW3-O6fYQru4"
+google_site_verification: #"SLng37Ih9dWmNOEhkLiKjYsUUdPQ3dRDW3-O6fYQru4"
 
 # Analytics
-#google_analytics: "UA-141242006-1"
+google_analytics: #"UA-141242006-1"
 
 # Site Author
 author: 
@@ -43,7 +42,6 @@ author:
   slack    : "https://join.slack.com/t/uaf-pism/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE"
 
 # Social Sharing
-lang            : "en_GB"
 logo            : "/img/pism_logo_transp.png"
 twitter:
   username      : *twitter
@@ -103,10 +101,3 @@ defaults:
 
 markdown: kramdown
 highlighter: rouge
-
-#collections:
-#  products: 
-#    output: true
-#    layout: product
-#    image: https://via.placeholder.com/800x600
-#    show_sidebar: false
