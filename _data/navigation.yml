@@ -15,7 +15,7 @@
   link: /#
   dropdown:
     - name: Online Manual
-      link: http://pism.github.io/pism/
+      link: https://pism-docs.org/sphinx/
     - name: FAQ / PISM Life Hacks
       link: 
     - name: Data Preprocessing

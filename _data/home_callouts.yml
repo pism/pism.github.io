@@ -15,7 +15,7 @@ items:
     description: >
       Using PISM yourself and forgot about a specific option or want to learn how to use it?
     call_to_action_name: Read the Manual
-    call_to_action_link: http://pism.github.io/pism/
+    call_to_action_link: https://pism-docs.org/sphinx/
 
   - title: Where?
     subtitle: How to Get PISM
