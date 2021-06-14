@@ -9,6 +9,7 @@ show_sidebar: true
 ---
 
 # Acknowledging PISM funding sources
+
 If you use PISM in a publication then we ask for an acknowledgement of funding and a citation. However, unless PISM developers are involved in the preparation of the publication at the usual co-author level, we do not expect co-authorship on PISM-using papers.
 
 To acknowledge PISM funding please include the statement:
@@ -16,6 +17,7 @@ To acknowledge PISM funding please include the statement:
 > Development of PISM is supported by NSF grants PLR-1603799 and PLR-1644277 and NASA grant NNX17AG65G.
 
 ## Citing PISM
+
 To cite PISM please use at least one of [Bueler and Brown (2009)](https://doi.org/10.1029/2008JF001179) or [Winkelmann et al. (2011)](https://doi.org/10.5194/tc-5-715-2011), below, as appropriate to the application.
 
 If your results came from source code modifications to PISM then we request that your publication say so explicitly.
@@ -56,4 +58,4 @@ If your study relies heavily on certain PISM sub-models (such as hydrology, calv
 }
 ```
 
-Please see [ACKNOWLEDGE.rst](https://github.com/pism/pism/blob/master/ACKNOWLEDGE.rst) for more details.
+Please see [ACKNOWLEDGE.rst](https://github.com/pism/pism/blob/master/ACKNOWLEDGE.rst) and [funding.csv](https://github.com/pism/pism/blob/master/doc/funding.csv) for a list of grants supporting PISM development.
