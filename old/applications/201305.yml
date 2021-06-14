@@ -1,0 +1,29 @@
+date: May 2013
+title: "Modelling the outlet glaciers terminating in Godthab fjord"
+authors: "[Antje Fitzner](http://www.gfy.ku.dk/~fitzner/) and Dorthe Dahl-Jensen, Centre for Ice and Climate, Copenhagen"
+venue: "[IGS 2012 Fairbanks](http://glaciers.gi.alaska.edu/events/igs2012)"
+
+url: "http://www.gfy.ku.dk/~fitzner/2012-06_IGS.pdf"
+figure: fitzner2012poster.png
+
+abstract: "Can regional ice dynamics modeling help to understand the
+  mass loss of the Greenland ice sheet through surface melting and
+  flow into outlet glaciers (calving and basal melting), and estimate
+  the fresh water flux into a fjord? This study considers an example,
+  the outlet glaciers terminating in Godthab fjord, including glacier
+  Kangiata Nunaata Sermia. surface mass balance and 2 m air
+  temperature from RACMO and HIRHAM RCM output were compared. The new
+  PISM 'regional' mode, the *pismo* executable in *stable0.5*, was
+  applied. The model captures the high velocities near the terminus
+  qualitatively, but even at high 2 km model resolution the distinct
+  fast flowing arms are not well modelled, and the modelled velocities
+  and fluxes are overall lower than than observed. The question
+  remains: Are there are deep troughs in the bed topography where the
+  surface velocity is very high?
+
+  [see the youtube
+  video](http://www.youtube.com/watch?feature=player_embedded&v=hbmzSFbMyXU)
+  "
+
+
+

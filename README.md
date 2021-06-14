@@ -1,4 +1,4 @@
-# PISM test website
+# pism.github.io
 
 This repository contains the source code for the new PISM website.
 

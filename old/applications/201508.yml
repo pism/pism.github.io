@@ -1,0 +1,30 @@
+date: August 2015
+
+title: "Consistent evidence of increasing Antarctic accumulation with
+  warming"
+
+authors: "[K. Frieler](https://www.pik-potsdam.de/members/frieler) and
+  others"
+
+venue: "[Nature Climate Change](http://www.nature.com/nclimate)"
+
+url: "http://www.nature.com/nclimate/journal/v5/n4/full/nclimate2574.html"
+figure: frieleretal2015.png
+
+abstract: The Antarctic ice sheet (AIS) will likely experience higher
+  snow accumulation rates in a warmer climate because warmer air has a
+  higher moisture-holding capacity. This paper quantifies the effect
+  based on ice-core data and paleo-climate simulations, which together
+  show a consistent continental-scale accumulation increase of 5
+  percent per degree Kelvin. (Note ice-core data and GCM-type
+  modelling results agree for the last deglaciation.) However, some of
+  the mass gain of the AIS is offset by dynamical losses induced by
+  accumulation. This is where PISM plays a supporting role in the
+  paper. PISM results were used to generate a response function
+  allowing projections of sea-level fall in terms of continental-scale
+  accumulation changes. In PISM the accumulation changes can and do
+  compete with changes in surface melting and with dynamical losses
+  induced by mechanisms like ocean interaction and sliding.
+
+
+

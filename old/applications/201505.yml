@@ -1,0 +1,30 @@
+date: May 2015
+title: "[Selective erosion beneath the Antarctic Peninsula Ice Sheet during LGM retreat](http://dx.doi.org/10.1017/S0954102014000340)"
+authors:  "[N. Golledge](http://www.victoria.ac.nz/antarctic/about/staff/nick-golledge)"
+venue: " [Antarctic Science](http://journals.cambridge.org/action/displayJournal?jid=ANS)
+"
+
+url: "http://dx.doi.org/10.1017/S0954102014000340"
+figure: golledge2014erosion.png
+
+figure_caption: Erosion potential shown in color.
+
+abstract: "This paper uses PISM to investigate how the last glacial
+  maximum Antarctic Peninsula Ice Sheet might have modified its bed
+  both at maximum extent and during progressive grounding line
+  retreat. The work exploits high-resolution whole-Antarctic modelling
+  by the same author ([Golledge et al
+  2013](:publications#section2013), [Golledge et al
+  2014](:publications#section2014)). PISM results are post-processed
+  to compute an erosion potential which is proportional to the product
+  of modeled basal shear stress and sliding velocity. The results show
+  that peak subglacial erosion rates are preferentially located in
+  areas of convergent flow and where horizontal strain rates are
+  highest, leading to deepening of subglacial basins in such
+  locations. Because the ice sheet selectively erodes its bed beneath
+  outlets, over successive glacial cycles erosional deepening may
+  accelerate the retreat of the ice sheet margin during periods of
+  rising sea level."
+
+
+

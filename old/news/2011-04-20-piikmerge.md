@@ -1,0 +1,20 @@
+====== Successful merge: PISM + PISM-PIK = (much better PISM!) ======
+
+If you are following the [development
+branch](http://www.pism-docs.org/wiki/doku.php?id=development_version)
+you know that much of the capability developed by [Anders Levermann's
+group at the Potsdam Institute for Climate Impact Research
+(PIK)](http://www.pik-potsdam.de/~anders/) is now in PISM.
+The former [PISM-PIK branch of PISM
+stable0.2](http://www.pism-docs.org/wiki/doku.php?id=pik:pism-pik)
+has merged with PISM. This major merge means that PISM is now a joint
+UAF-PIK project. Both groups are committed to supporting the new
+capabilities as an open, documented model.
+
+This means //all// PISM users get a much improved marine ice sheet
+model, with better ice shelf calving front physics especially.
+
+Our target for release of stable0.4 is May 2011. It will contain the
+PISM-PIK improvements identified in [Albrechts et al. (2011), Martin et
+al. (2010), and Winkelmann et al.
+(2010)](http://www.pism-docs.org/wiki/doku.php?id=publications).

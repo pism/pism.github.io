@@ -1,0 +1,46 @@
+date: December 2017
+
+title: "Assimilating the ICE-6G_C reconstruction of the latest
+  Quaternary ice-age cycle into numerical simulations of the
+  Laurentide and Fennoscandian
+  ice-sheets"
+
+authors: "[G.
+  Stuhne](http://www.atmosp.physics.utoronto.ca/people/gordan/) and W.
+  Peltier"
+
+venue: " [J. Geophys. Res. Earth
+  Surface](http://agupubs.onlinelibrary.wiley.com/hub/jgr/journal/10.1002/(ISSN)2169-9011/)"
+figure: stuhnepeltier2017.png
+url: "http://onlinelibrary.wiley.com/doi/10.1002/2017JF004359/abstract"
+
+abstract: "Reconstructions of the time-dependent geometry of ice
+  sheets over the last ice-age cycle (100kyr) can draw from two
+  categories of data. On one hand there are constraints from
+  observations of GIA (glacial isostatic adjustment) and of eustatic
+  sea-level through marine sediment stratigraphy. These are
+  constraints on ice geometry but via temporal and/or spatial
+  integration. On the other hand there is high temporal resolution,
+  but geographically local, information in ice cores about climate
+  over the same period. The former category informs the output (ice
+  thickness and grounding line) of the ice sheet evolution equations
+  while the later inform the input (source term).
+
+  Like [Stuhne & Peltier (2015)](applications:201512), this paper
+  connects the two categories using PISM. Because
+  climate-record-driven applications of PISM, such as [the SeaRISE
+  project](applications:201303), already use well-posed simulations, a
+  reconciliation of the two data categories is necessarily a
+  temporal/spatial inversion. Here the goal is close fit to the
+  GIA+eustatic-record-based ICE-6G_C ice thickness reconstruction
+  from tuned (\"nudged\") climate-input-driven PISM runs. These
+  authors analyze the amount of surface mass balance correction,
+  applied using hypothesized characteristic time scales, needed to
+  reduce the error between PISM output and ICE-6G_C. An example of
+  the usefulness of this methodology is in diagnosing the origin of
+  Meltwater Pulse 1B (-11kyr). They suggest it is more likely to have
+  been in North America than in Antarctica, its origin in the
+  ICE-6G_C reconstruction."
+
+
+
