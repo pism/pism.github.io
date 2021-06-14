@@ -2,7 +2,7 @@
 
 This repository contains the source code for the new PISM website.
 
-The Jekyll theme was originally forked from the [Bulma Clean Theme](https://github.com/chrisrhymes/bulma-clean-theme) created by C.S. Rhymes. For instructions how to customize the theme, see [README.orig.md](README.orig.md).
+The Jekyll theme was originally forked from the [Bulma Clean Theme](https://github.com/chrisrhymes/bulma-clean-theme) created by C.S. Rhymes. For instructions how to customize the theme, see [README-bulma.md](README-bulma.md).
 
 ## Development
 
