@@ -16,6 +16,8 @@
   dropdown:
     - name: Online Manual
       link: https://pism-docs.org/sphinx/
+    - name: Source Code Browser
+      link: https://pism-docs.org/doxy/html/index.html
     - name: FAQ / PISM Life Hacks
       link: 
     - name: Data Preprocessing
