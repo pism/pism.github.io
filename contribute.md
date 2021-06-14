@@ -3,8 +3,8 @@ title: Contributing
 subtitle: How to Contribute to PISM?
 layout: page
 hero_height: is-medium
-hero_image: https://images.unsplash.com/photo-1542831371-29b0f74f9713
-hero_darken: true
+hero_image: https://images.unsplash.com/photo-1590935216109-8d3318de2c1c
+hero_darken: false
 show_sidebar: true
 ---
 
@@ -13,7 +13,7 @@ show_sidebar: true
 There are many ways you can contribute to PISM:
 
 * Fix typos, inaccuracies, and omissions in the manual.
-+ Improve documentation of existing features.
+* Improve documentation of existing features.
 * Provide additional examples.
 * Add new tests for existing code.
 * Report issues with the code or documentation.
