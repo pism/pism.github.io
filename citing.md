@@ -25,13 +25,6 @@ If your results came from source code modifications to PISM then we request that
 If your study relies heavily on certain PISM sub-models (such as hydrology, calving, fracture mechanics, thermodynamics) please contact the corresponding author/developer for information on additional citations.
 
 ```
-@misc {PismWebpage,
-  AUTHOR = {The PISM Authors},
-   TITLE = {PISM, a Parallel Ice Sheet Model},
-     URL = {https://pism.github.io},
-    YEAR = {2021},
-}
-
 @article {BuelerBrown2009,
   AUTHOR = {E. Bueler and J. Brown},
    TITLE = {Shallow shelf approximation as a "sliding law" in a
@@ -43,7 +36,9 @@ If your study relies heavily on certain PISM sub-models (such as hydrology, calv
    PAGES = {F03008},
      URL = {https://doi.org/10.1029/2008JF001179},
 }
+```
 
+```
 @article {Winkelmannetal2011,
   AUTHOR = {Winkelmann, R. and Martin, M. A. and Haseloff, M. and Albrecht, T.
             and Bueler, E. and Khroulev, C. and Levermann, A.},
