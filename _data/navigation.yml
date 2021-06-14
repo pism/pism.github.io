@@ -25,7 +25,7 @@
     - name: Further Tools
       link: /tools/
     - name: Citing PISM
-      link: https://github.com/pism/pism/blob/master/ACKNOWLEDGE.rst
+      link: /citing/
 - name: Download
   link: /#
   dropdown:
