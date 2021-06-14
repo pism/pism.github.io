@@ -2,7 +2,7 @@
   link: /#
   dropdown:
     - name: Overview
-      link: overview/
+      link: /overview/
     - name: Basic Applications
       link: 
     - name: Application of the Month
@@ -33,13 +33,13 @@
   link: /#
   dropdown:
     - name: Contribute to PISM
-      link: contribute/
+      link: /contribute/
 - name: More
   link: /#
   dropdown:
     - name: Brief History
-      link: history/
+      link: /history/
     - name: MIPs / Collaborations
       link: 
     - name: Map of Users
-      link: usersmap/
+      link: /usersmap/

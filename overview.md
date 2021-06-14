@@ -24,7 +24,7 @@ See this [excellent 5 minute movie](https://www.imaginary.org/film/the-future-of
 
 # Why is PISM Special?
 
-PISM is open source and capable of high resolution. It has been widely adopted as a tool for doing science.
+PISM is open source and capable of high resolution. It has been [widely adopted](/overview/) as a tool for doing science.
 
 Features include:
 

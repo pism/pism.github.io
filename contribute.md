@@ -33,7 +33,7 @@ In summary: documentation and code contributions are preferred via pull requests
     * Update documentation, if necessary.
     * Update the change log ``CHANGES.rst``. If your contribution contains a bug fix, please describe the bug and its effects.
 
-1. [Create a pull request](https://help.github.com/en/articles/creating-a-pull-request) and make sure to [allow edits from maintainers](https://help.github.com/en/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork)
+1. [Create a pull request](https://help.github.com/en/articles/creating-a-pull-request) and make sure to [allow edits from maintainers](https://help.github.com/en/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork).
 
 If you are planning a large contribution we encourage you to open an issue at [https://github.com/pism/pism/issues](https://github.com/pism/pism/issues) or e-mail us at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> and interact with us frequently to ensure that your effort is well-directed.
 
