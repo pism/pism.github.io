@@ -4,13 +4,13 @@
     - name: Overview
       link: /overview/
     - name: Basic Applications
-      link: 
+      link: /basics/
     - name: Application of the Month
-      link: 
+      link: /applications/
     - name: Publications Using PISM
-      link: 
+      link: /publications/
     - name: Developers Team
-      link: 
+      link: /team/
 - name: Usage
   link: /#
   dropdown:
@@ -19,11 +19,11 @@
     - name: Source Code Browser
       link: https://pism-docs.org/doxy/html/index.html
     - name: FAQ / PISM Life Hacks
-      link: 
+      link: /faq/
     - name: Data Preprocessing
-      link: 
+      link: /data/
     - name: Further Tools
-      link: 
+      link: /tools/
     - name: Citing PISM
       link: https://github.com/pism/pism/blob/master/ACKNOWLEDGE.rst
 - name: Download
@@ -42,6 +42,6 @@
     - name: Brief History
       link: /history/
     - name: MIPs / Collaborations
-      link: 
+      link: /collaborations/
     - name: Map of Users
       link: /usersmap/
