@@ -11,6 +11,15 @@ callouts: home_callouts
 show_sidebar: true
 ---
 
+# About
+
+The Parallel Ice Sheet Model (PISM) is an open-source modelling framework for ice sheets and glaciers. It is parallel, thermodynamically coupled and capable of high
+resolution. PISM has been [widely adopted as a tool for doing science](/publications/) for about twenty years now. The latest stable release is [`PISM v1.2.2`](https://github.com/pism/pism/releases).
+
+PISM is jointly developed at the [University of Alaska, Fairbanks (UAF)](http://www.uaf.edu/) and the [Potsdam Institute for Climate Impact Research (PIK)](http://www.pik-potsdam.de/). UAF developers are based in the [Glaciers Group](https://glaciers.gi.alaska.edu) at the [UAF Geophysical Institute](https://www.gi.alaska.edu). For more about the team see the [Developer Team](/team/) page.
+
+PISM development is supported by NASA's [Modeling, Analysis, and Prediction](http://map.nasa.gov/) and [Cryospheric Sciences](http://ice.nasa.gov/) Programs (grants NAG5-11371, NNX09AJ38C, NNX13AM16G, NNX16AQ40G, NNX17AG65G) and by NSF grants PLR-1603799 and PLR-1644277.
+
 {% include youtube.html video="oy0FmBWfGGw" %}
 *Projection of the Greenland Ice Sheet from 2008-2300 under RCP 8.5. Data from Aschwanden et al. ([2019](https://doi.org/10.1126/sciadv.aav9396)). Video by Cindy Starr (NASA SVS).*
 
@@ -33,9 +42,3 @@ This demo site showcases the available page layout options.
 * [Image Gallery](/templates/gallery/)
 * [Blog](/blog/)
 * [Example Post](/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/)
-
-# Team
-
-PISM is jointly developed at the [University of Alaska, Fairbanks (UAF)](http://www.uaf.edu/) and the [Potsdam Institute for Climate Impact Research (PIK)](http://www.pik-potsdam.de/). For more about the team see the [Developer Team](/team/) page.
-
-UAF developers, who are in the [Glaciers Group at the GI](https://glaciers.gi.alaska.edu), are supported by NASA's [Modeling, Analysis, and Prediction](http://map.nasa.gov/) and [Cryospheric Sciences](http://ice.nasa.gov/) Programs (grants NAG5-11371, NNX09AJ38C, NNX13AM16G, NNX16AQ40G, NNX17AG65G) and by NSF grants PLR-1603799 and PLR-1644277.
