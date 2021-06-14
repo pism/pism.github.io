@@ -10,7 +10,7 @@ show_sidebar: true
 
 # What is PISM?
 
-The Parallel Ice Sheet Model (PISM) is a computer program used in climate science to simulate the past and future of the Earth's two large ice sheets in Greenland and Antarctica.
+The Parallel Ice Sheet Model (PISM) is a computer program used in climate science to simulate the past and future of glaciers and ice sheets, including the Earth's two large ice sheets in Greenland and Antarctica.
 
 # Why are Ice Sheets Important?
 
