@@ -1,0 +1,45 @@
+- name: About
+  link: /#
+  dropdown:
+    - name: Overview
+      link: overview/
+    - name: Basic Applications
+      link: 
+    - name: Application of the Month
+      link: 
+    - name: Publications Using PISM
+      link: 
+    - name: Developers Team
+      link: 
+- name: Usage
+  link: /#
+  dropdown:
+    - name: Online Manual
+      link: https://pism-docs.org/sphinx/
+    - name: FAQ / PISM Life Hacks
+      link: 
+    - name: Data Preprocessing
+      link: 
+    - name: Further Tools
+      link: 
+    - name: Citing PISM
+      link: https://github.com/pism/pism/blob/master/ACKNOWLEDGE.rst
+- name: Download
+  link: /#
+  dropdown:
+    - name: Get Code on Github
+      link: https://github.com/pism/pism/
+- name: Contributing
+  link: /#
+  dropdown:
+    - name: Contribute to PISM
+      link: contribute/
+- name: More
+  link: /#
+  dropdown:
+    - name: Brief History
+      link: history/
+    - name: MIPs / Collaborations
+      link: 
+    - name: Map of Users
+      link: usersmap/

@@ -1,0 +1,35 @@
+- label: Example Menu
+  items:
+    - name: Home
+      link: /
+    - name: Pages
+      link: /#
+      items:
+        - name: Page With Sidebar
+          link: /templates/page-1/
+        - name: Page Without Sidebar
+          link: /templates/page-2/
+        - name: Page With Menubar
+          link: /templates/page-3/
+        - name: Page With Tabs
+          link: /templates/page-4/
+        - name: Page Without Footer
+          link: /templates/page-5/
+        - name: Page Without Hero
+          link: /templates/page-without-hero/
+        - name: Page With Contents
+          link: /templates/page-with-contents/
+        - name: Page With Video
+          link: /templates/page-with-video/
+        - name: Page With Image Modal
+          link: /templates/page-with-image-modal/
+        - name: Page With Notifications
+          link: /templates/page-with-notification/
+        - name: Landing Page With Callouts
+          link: /templates/landing/
+        - name: Sponsors Page
+          link: /templates/sponsors/
+        - name: Image Gallery
+          link: /templates/gallery/
+    - name: Blog
+      link: /blog/

@@ -1,0 +1,103 @@
+# Site Settings
+lang                : "en"
+title               : "PISM"
+tagline             : "Parallel Ice Sheet Model"
+name                : &name "The PISM Authors"
+description         : "Demo website for PISM, the Parallel Ice Sheet Model"
+baseurl             : "/pism_website_test"
+#url                 : "https://juliusgarbe.github.io/pism_website_test"
+url                 : "http://localhost:4000"
+favicon             : "/favicon.ico"
+gh_repository       : &gh_repo "https://github.com/pism"
+gh_sponsor          : #
+#theme               : "bulma-clean-theme"
+remote_theme        : "chrisrhymes/bulma-clean-theme"
+theme_color         : "#216778"
+permalink           : "pretty"
+fixed_navbar        : "top"
+#hide_share_buttons  : true
+paginate            : 5
+paginate_path       : "/blog/page:num"
+footer_menu         : #example_footer_menu
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: #my_disqus_shortname
+
+# SEO Related
+google_site_verification: #"SLng37Ih9dWmNOEhkLiKjYsUUdPQ3dRDW3-O6fYQru4"
+
+# Analytics
+google_analytics: #"UA-141242006-1"
+
+# Site Author
+author: 
+  name     : *name
+  email    : "uaf-pism@alaska.edu"
+  twitter  : &twitter "UAFGI"
+  facebook : &facebook "UAF.GI"
+  github   : "pism"
+  slack    : "https://join.slack.com/t/uaf-pism/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE"
+
+# Social Sharing
+logo            : "/img/pism_logo_transp.png"
+twitter:
+  username      : *twitter
+  card          : summary_large_image
+facebook:
+  username      : *facebook
+  publisher     : #
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type          : Organization # Person or Organization (defaults to Person)
+  name          : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://twitter.com/UAFGI"
+    - "https://www.facebook.com/UAF.GI/"
+    - *gh_repo
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: *name
+      layout: post
+      image: https://via.placeholder.com/1200x800
+      show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
