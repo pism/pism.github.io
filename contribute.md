@@ -37,4 +37,4 @@ In summary: documentation and code contributions are preferred via pull requests
 
 If you are planning a large contribution we encourage you to open an issue at [https://github.com/pism/pism/issues](https://github.com/pism/pism/issues) or e-mail us at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> and interact with us frequently to ensure that your effort is well-directed.
 
-{% include notification.html message="**Note:** By submitting code, the contributor gives irretrievable consent to the redistribution and modification of the contributed source code as described in the PISM's open source license." %}
+{% include notification.html message="**Note:** By submitting code, the contributor gives irretrievable consent to the redistribution and modification of the contributed source code as described in the PISM's open source license." status="is-info is-light" %}
