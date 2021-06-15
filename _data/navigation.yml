@@ -1,6 +1,8 @@
 - name: About
   link: /#
   dropdown:
+    - name: News
+      link: /news/
     - name: Overview
       link: /overview/
     - name: Basic Applications
