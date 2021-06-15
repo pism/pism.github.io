@@ -1,12 +1,6 @@
 ---
-layout: post
-title:  "PISM 2.0 is out"
-date:   2021-06-14 00:00:00
-categories: development
-description: "A new version of PISM is available: PISM 2.0"
-image: 'https://www.csrhymes.com/img/bulma-clean-theme.jpg'
-published: true
-canonical_url: https://www.csrhymes.com/development/2019/02/09/getting-started-with-bulma-clean-theme.html
+title: PISM 2.0 is out
+date: 2021-06-14 00:00
 ---
 
 PISM developers have been hard at work to bring you a brand you version of PISM, packed with new features. After years of development, PISM finally includes a Blatter solver, warranting a new major version: PISM 2.0.
