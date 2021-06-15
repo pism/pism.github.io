@@ -15,7 +15,7 @@ theme_color         : "#216778"
 permalink           : "pretty"
 fixed_navbar        : "top"
 #hide_share_buttons  : true
-paginate            : 5
+paginate            : 10
 paginate_path       : "/blog/page:num"
 footer_menu         : #example_footer_menu
 
