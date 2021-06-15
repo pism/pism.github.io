@@ -2,7 +2,7 @@
 title: Summer time
 ---
 
-![](dsc_0246-2.jpg)
+![](/img/news/dsc_0246-2.jpg)
 
 It's summer time! UAF PISM developers are currently writing proposals,
 working on their own projects, and enjoying the summer. Please give us

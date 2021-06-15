@@ -2,7 +2,7 @@
 title: Continued NASA funding supports PISM development through 2017
 ---
 
-![NASA logo](/img/news/nasa_logo.png)
+![NASA logo](/img/news/nasa_logo.png){:width="50%"}
 
 We have been notified that two PISM-supporting NASA research proposals
 have been selected for funding, one in the Cryospheric Sciences program
