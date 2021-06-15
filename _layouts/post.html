@@ -22,3 +22,12 @@ layout: default
 {% if site.disqus.shortname %}
   {% include disqus.html %}
 {% endif %}
+
+<div style="width: auto; display: block; overflow: hidden;">
+  {% if page.previous.url %}
+    <a style="display: block; width: 50%; float: left" href="{{page.previous.url}}">&laquo; Previous </a>
+  {% endif %}
+  {% if page.next.url %}
+    <a style="display: block; width: 50%; float: left; text-align: right" href="{{page.next.url}}"> Next &raquo;</a>
+  {% endif %}
+</div>
