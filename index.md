@@ -40,5 +40,5 @@ This demo site showcases the available page layout options.
 * [Sponsors Page](/templates/sponsors/)
 * [Page With Video](/templates/page-with-video/)
 * [Image Gallery](/templates/gallery/)
-* [Blog](/blog/)
+* [News Blog](/news/)
 * [Example Post](/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/)

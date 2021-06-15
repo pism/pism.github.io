@@ -16,7 +16,7 @@ permalink           : "pretty"
 fixed_navbar        : "top"
 #hide_share_buttons  : true
 paginate            : 10
-paginate_path       : "/blog/page:num"
+paginate_path       : "/news/page:num"
 footer_menu         : #example_footer_menu
 
 # Disqus Comments
