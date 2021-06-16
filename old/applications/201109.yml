@@ -14,10 +14,10 @@ abstract: "This paper presents a dynamic equilibrium simulation of the
   Sheet Model (PISM-PIK) with a focus on the Ronne-Filchner and Ross
   ice shelf areas as well as on the whole ice-sheet system.
 
-  PISM-PIK (and now [PISM](news:piikmerge)) allows free movement of
-  grounding lines and calving fronts thanks to a physically-motivated
-  calving law based on horizontal spreading rates and an
-  implementation of a calving-front stress boundary condition.
+  PISM-PIK (and now PISM) allows free movement of grounding lines and
+  calving fronts thanks to a physically-motivated calving law based on
+  horizontal spreading rates and an implementation of a calving-front
+  stress boundary condition.
 
   The results support the approach of superposition of SIA and SSA for
   the representation of fast motion of grounded ice."

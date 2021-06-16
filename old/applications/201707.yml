@@ -17,9 +17,8 @@ abstract: "Fluid dynamics experiments are often only possible because
   flow and its laboratory analogue must be dynamically-similar in the
   sense of dimensional analysis. Engineers study rivers and air flow
   around airframes, and we can generate laboratory models of ice flow,
-  by such \"similitude\". For example, the `{{:manual.pdf|PISM User's
-  Manual}}`{=mediawiki} includes a simulation of a [laboratory-scale
-  radial flow of a Xanthan gum
+  by such \"similitude\". For example, the PISM User's Manual includes
+  a simulation of a [laboratory-scale radial flow of a Xanthan gum
   solution](https://doi.org/10.1017/jfm.2012.545), one which is
   similar to a grounded ice sheet.
 

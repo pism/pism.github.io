@@ -1,8 +1,8 @@
 date: January 2016
-
+url: https://agu.confex.com/agu/fm15/webprogram/Paper65452.html
 title: "The Autumn of break-ups: When Jakobshavn Isbrae lost its
   floating tongue"
-
+figure: aschwandenagu2015.png
 authors: "[A.
   Aschwanden](http://glaciers.gi.alaska.edu/people/aschwanden), M.
   Fahnestock, M. Truffer, and R. Motyka"
@@ -15,7 +15,7 @@ figure_caption: Simulated ice extent and velocity in April (left) and
 abstract: "Jakobshavn Isbrae, Greenland's fastest-flowing outlet
   glacier, lost its floating tongue in 1995, an event which is often
   attributed to changes in ocean temperature. This
-  {{:applications:aschwanden_agu_2015.pdf|poster}} and
+  [poster](/img/applications/aschwanden_agu_2015.pdf) and
   [movie](https://www.dropbox.com/s/qcxn2v82vs67zo9/jako_hindcast_hd.mp4?dl=0)
   show the results of PISM simulations of this event, based on a step
   increase from 180 m/yr to 225 m/yr in sub-shelf melt rate during
