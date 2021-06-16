@@ -9,3 +9,4 @@ Gemfile.lock
 *.sublime-workspace
 *.swp
 *.swo
+/.jekyll-metadata
