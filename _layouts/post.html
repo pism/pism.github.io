@@ -19,15 +19,19 @@ layout: default
 {% include share-buttons.html %}
 {% endunless %}
 
+<nav class="pagination is-centered">
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}" class="pagination-previous is-info">Previous</a>
+  {% else %}
+    <p class="pagination-previous" disabled>Previous</p>
+  {% endif %}
+  {% if page.next %}
+    <a href="{{ page.next.url }}" class="pagination-next is-info">Next</a>
+  {% else %}
+    <p class="pagination-next" disabled >Next</p>
+  {% endif %}
+</nav>
+
 {% if site.disqus.shortname %}
   {% include disqus.html %}
 {% endif %}
-
-<div style="width: auto; display: block; overflow: hidden;">
-  {% if page.previous.url %}
-    <a style="display: block; width: 50%; float: left" href="{{page.previous.url}}">&laquo; Previous </a>
-  {% endif %}
-  {% if page.next.url %}
-    <a style="display: block; width: 50%; float: left; text-align: right" href="{{page.next.url}}"> Next &raquo;</a>
-  {% endif %}
-</div>
