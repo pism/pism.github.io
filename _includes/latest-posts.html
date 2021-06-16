@@ -1,0 +1,13 @@
+<p class="title is-4">Latest News</p>
+
+<div class="columns is-multiline">
+    {% for post in site.posts limit:3 %}
+    <div class="column is-12">
+        {% include post-card.html %}
+    </div>
+    {% endfor %}
+</div>
+
+<div class="buttons is-centered">
+    <a href="/news/" class="button is-primary is-outlined">All News</a>
+</div>
