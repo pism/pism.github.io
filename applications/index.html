@@ -1,0 +1,16 @@
+---
+layout: default
+title: Application of the Month
+subtitle: Archive (2011-2017)
+hero_image: /img/header_pism3d_2.png
+---
+
+<div class="columns is-multiline">
+    {% for post in site.posts %}
+    {% if post.categories contains 'applications' %}
+    <div class="column is-12">
+        {% include post-card.html %}
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
