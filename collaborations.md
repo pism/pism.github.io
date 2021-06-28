@@ -1,6 +1,6 @@
 ---
-title: MIPs & Collborations
-subtitle: List of Model Intercomparisons in Which PISM Participated
+title: MIPs & Collaborations
+subtitle: List of model intercomparisons in which PISM participated
 layout: page
 hero_height: is-medium
 hero_image: https://cdn.imaggeo.egu.eu/media/uploads/2018/02/14/80004b52d2f3d526b758a231f4d29bd8.jpg
