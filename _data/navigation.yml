@@ -43,7 +43,7 @@
   dropdown:
     - name: Brief History
       link: /history/
-    - name: MIPs / Collaborations
+    - name: MIPs & Collaborations
       link: /collaborations/
     - name: Map of Users
       link: /usersmap/
