@@ -1,6 +1,6 @@
 ---
 title: Citing PISM
-subtitle: How to Reference PISM?
+subtitle: How to reference PISM?
 layout: page
 hero_height: is-medium
 hero_image: https://images.unsplash.com/photo-1591792111137-5b8219d5fad6

@@ -14,7 +14,7 @@ show_sidebar: true
 * [ice2sea](http://www.ice2sea.eu/) is a European effort which is somewhat comparable to SeaRISE
 * [The CliC (Climate and Cryosphere) project](https://www.climate-cryosphere.org/) is one of the core projects of the [World Climate Research Programme (WCRP)](https://www.wcrp-climate.org/), serving as the focal point for climate science related to the cryosphere, its variability and change, and interaction with the broader climate system
 
-# Model Intercomparisons (MIPs)
+# Model intercomparisons (MIPs)
 
 * [EISMINT](http://homepages.vub.ac.be/%7Ephuybrec/eismint.html) (European Ice Sheet Modeling INiTiative) is a past intercomparison effort to test and compare existing numerical shallow ice-sheet, ice-shelf, and glacier models as they were run by several groups worldwide
 * [ISMIP](http://homepages.vub.ac.be/%7Ephuybrec/ismip.html) (Ice Sheet Model Intercomparison Project) continues intercomparison, including less-shallow and Stokes models ([ISMIP-HOM](http://homepages.ulb.ac.be/~fpattyn/ismip/)) and rapid sliding events ([ISMIP-HEINO](http://www.pik-potsdam.de/~calov/heino.html))

@@ -6,22 +6,22 @@ items:
     icon: fa-snowflake
     description: >
       Heard about PISM for the first time and want to know what exactly it is?
-    call_to_action_name: Read the Overview
+    call_to_action_name: Read the overview
     call_to_action_link: /overview/
 
   - title: How?
-    subtitle: How to Use PISM
+    subtitle: How to use PISM
     icon: fa-book
     description: >
       Using PISM yourself and forgot about a specific option or want to learn how to use it?
-    call_to_action_name: Read the Manual
+    call_to_action_name: Read the manual
     call_to_action_link: https://pism-docs.org/sphinx/
 
   - title: Where?
-    subtitle: How to Get PISM
+    subtitle: How to get PISM
     icon: fa-github
     icon_brand: true
     description: >
       Want to start using PISM yourself or just want to have a peek into the code?
-    call_to_action_name: Get the Code
+    call_to_action_name: Get the code
     call_to_action_link: https://github.com/pism/pism/

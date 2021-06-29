@@ -1,6 +1,6 @@
 ---
 title: Publications
-subtitle: List of Publications Using PISM
+subtitle: List of publications using PISM
 layout: page
 hero_height: is-medium
 hero_image: https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14

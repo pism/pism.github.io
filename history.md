@@ -1,6 +1,6 @@
 ---
 title: History
-subtitle: A Brief History of PISM
+subtitle: A brief history of PISM
 layout: page
 hero_height: is-medium
 hero_image: /img/header_blackboard.jpg
@@ -8,7 +8,7 @@ hero_darken: false
 show_sidebar: true
 ---
 
-# A Brief History of PISM
+# A brief history of PISM
 
 **Before 2001:**
 

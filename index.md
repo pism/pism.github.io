@@ -23,7 +23,7 @@ PISM development is supported by NASA's [Cryospheric Sciences](http://ice.nasa.g
 {% include youtube.html video="oy0FmBWfGGw" %}
 *Projection of the Greenland Ice Sheet from 2008-2300 under RCP 8.5. Data from Aschwanden et al. ([2019](https://doi.org/10.1126/sciadv.aav9396)). Video by Cindy Starr (NASA SVS).*
 
-# Page Layouts
+# Page layouts
 
 This demo site showcases the available page layout options.
 

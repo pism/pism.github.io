@@ -1,6 +1,6 @@
 ---
-title: Developers Team
-subtitle: Who are the Main Developers of PISM?
+title: Developers team
+subtitle: Who are the main developers of PISM?
 layout: page
 hero_height: is-medium
 hero_image: https://images.unsplash.com/photo-1609385510105-81ae06198c53

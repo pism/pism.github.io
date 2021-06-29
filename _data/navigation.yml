@@ -5,33 +5,33 @@
       link: /news/
     - name: Overview
       link: /overview/
-    - name: Basic Applications
+    - name: Basic applications
       link: /basics/
-    - name: Application of the Month
+    - name: Application of the month
       link: /applications/
-    - name: Publications Using PISM
+    - name: Publications using PISM
       link: /publications/
-    - name: Developers Team
+    - name: Developers team
       link: /team/
 - name: Usage
   link: /#
   dropdown:
-    - name: Online Manual
+    - name: Online manual
       link: https://pism-docs.org/sphinx/
-    - name: Source Code Browser
+    - name: Source code browser
       link: https://pism-docs.org/doxy/html/index.html
-    - name: FAQ / PISM Life Hacks
+    - name: FAQ / PISM life hacks
       link: /faq/
-    - name: Data Preprocessing
+    - name: Data preprocessing
       link: /data/
-    - name: Further Tools
+    - name: Further tools
       link: /tools/
     - name: Citing PISM
       link: /citing/
 - name: Download
   link: /#
   dropdown:
-    - name: Get Code on Github
+    - name: Get code on Github
       link: https://github.com/pism/pism/
 - name: Contributing
   link: /#
@@ -41,9 +41,9 @@
 - name: More
   link: /#
   dropdown:
-    - name: Brief History
+    - name: Brief history
       link: /history/
     - name: MIPs & Collaborations
       link: /collaborations/
-    - name: Map of Users
+    - name: Map of users
       link: /usersmap/

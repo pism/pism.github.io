@@ -1,6 +1,6 @@
 ---
 title: Contributing
-subtitle: How to Contribute to PISM?
+subtitle: How to contribute to PISM?
 layout: page
 hero_height: is-medium
 hero_image: https://images.unsplash.com/photo-1590935216109-8d3318de2c1c
