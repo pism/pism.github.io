@@ -5,7 +5,13 @@ layout: page
 hero_height: is-medium
 hero_image: https://images.unsplash.com/photo-1609385510105-81ae06198c53
 hero_darken: false
-show_sidebar: true
+sponsors: team
+show_sidebar: false
 ---
 
-Coming soon...
+## Further contributers
+
+- Anders Levermann
+- 
+
+For a more complete list of PISM authors, please see [Authorship](https://pism.github.io/pism/authorship.html).

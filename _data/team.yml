@@ -1,0 +1,48 @@
+- tier_name: Core developers at UAF
+  size: large
+  description: PISM main developers at the University of Alaska, Fairbanks
+  sponsors:
+    - name: Constantine Khroulev
+      profile: https://glaciers.gi.alaska.edu/people/khroulev
+    - name: Andy Aschwanden
+      profile: http://glaciers.gi.alaska.edu/people/aschwanden
+    - name: Ed Bueler
+      profile: http://bueler.github.io/
+    - name: 
+      profile: 
+
+- tier_name: Co-developers at PIK
+  size: large
+  description: Current co-developers at the Potsdam Institute for Climate Impact Research
+  sponsors:
+    - name: Torsten Albrecht
+      profile: https://www.pik-potsdam.de/members/albrecht/
+    - name: Moritz Kreuzer
+      profile: https://www.pik-potsdam.de/members/kreuzer/
+    - name: Ronja Reese
+      profile: https://www.pik-potsdam.de/members/reese/
+    - name: Maria Zeitz
+      profile: https://www.pik-potsdam.de/members/zeitz/
+
+- tier_name: Former developers
+  size: small
+  description: This will be a long list?
+  sponsors:
+    - name: Jed Brown
+      profile:
+    - name: Johannes Feldmann
+      profile:
+    - name: Marianne Haseloff
+      profile:
+    - name: Maria Martin
+      profile:
+    - name: David Maxwell
+      profile: 
+    - name: Matthias Mengel
+      profile: https://www.pik-potsdam.de/members/mengel/
+    - name: Julien Seguinot
+      profile:
+    - name: Ricarda Winkelmann
+      profile: https://ricarda.science/
+    - name: 
+      profile: 
