@@ -23,23 +23,3 @@ PISM development is supported by NASA's [Cryospheric Sciences](http://ice.nasa.g
 
 {% include youtube.html video="oy0FmBWfGGw" %}
 *Projection of the Greenland Ice Sheet from 2008-2300 under RCP 8.5. Data from Aschwanden et al. ([2019](https://doi.org/10.1126/sciadv.aav9396)). Video by Cindy Starr (NASA SVS).*
-
-# Page layouts
-
-This demo site showcases the available page layout options.
-
-* [Page With Sidebar](/templates/page-1/)
-* [Page Without Sidebar](/templates/page-2/)
-* [Page With Menubar](/templates/page-3/)
-* [Page With Tabs](/templates/page-4/)
-* [Page Without Footer](/templates/page-5/)
-* [Page Without Hero](/templates/page-without-hero/)
-* [Page With Contents](/templates/page-with-contents/)
-* [Page With Notifications](/templates/page-with-notification/)
-* [Page With Image Modal](/templates/page-with-image-modal/)
-* [Landing Page With Callouts](/templates/landing/)
-* [Sponsors Page](/templates/sponsors/)
-* [Page With Video](/templates/page-with-video/)
-* [Image Gallery](/templates/gallery/)
-* [News Blog](/news/)
-* [Example Post](/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/)
