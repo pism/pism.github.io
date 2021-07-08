@@ -4,6 +4,7 @@ subtitle: How to reference PISM?
 layout: page
 hero_height: is-medium
 hero_image: https://images.unsplash.com/photo-1591792111137-5b8219d5fad6
+hero_caption: "Photo: <a href='https://unsplash.com/photos/WKp-NWSGWjQ'>J. Eades / Unsplash</a>"
 hero_darken: false
 show_sidebar: true
 ---

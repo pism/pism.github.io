@@ -4,6 +4,7 @@ subtitle: A brief history of PISM
 layout: page
 hero_height: is-medium
 hero_image: /img/header_blackboard.jpg
+hero_caption: "Photo: J. Garbe"
 hero_darken: false
 show_sidebar: true
 ---

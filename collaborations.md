@@ -4,6 +4,7 @@ subtitle: List of model intercomparisons in which PISM participated
 layout: page
 hero_height: is-medium
 hero_image: https://cdn.imaggeo.egu.eu/media/uploads/2018/02/14/80004b52d2f3d526b758a231f4d29bd8.jpg
+hero_caption: "Photo: <a href='https://imaggeo.egu.eu/view/12786/'>C.B. Lechuga / imaggeo</a>"
 hero_darken: false
 show_sidebar: true
 ---

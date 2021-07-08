@@ -4,6 +4,7 @@ subtitle: What is PISM?
 layout: page
 hero_height: is-medium
 hero_image: /img/header_pism3d.png
+hero_caption: "Graphic: J. Garbe / T. Albrecht"
 hero_darken: false
 show_sidebar: true
 ---

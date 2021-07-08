@@ -4,6 +4,7 @@ subtitle: Where are PISM users?
 layout: page
 hero_height: is-medium
 hero_image: https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0
+hero_caption: "Photo: <a href='https://unsplash.com/photos/3V8xo5Gbusk'>Kaleidico / Unsplash</a>"
 hero_darken: false
 show_sidebar: true
 ---
