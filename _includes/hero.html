@@ -11,4 +11,7 @@
     {% if page.url == "/" %}
         <div id="scroll-down-icon" class="scroll-down-icon" title="Scroll down" style="margin-bottom: 50px;"><i class="fas fa-angle-double-down fa-2x"></i></div>
     {% endif %}
+    {% if page.hero_caption %}
+        <span class="hero-caption">{{ page.hero_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span> 
+    {% endif %}
 </section>
