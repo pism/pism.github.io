@@ -1,0 +1,79 @@
+version: 2
+
+jobs:
+
+  build-website:
+    docker:
+      - image: ruby:3
+
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - python-{{ checksum "usermap/requirements.txt" }}
+            - ruby-{{ checksum "Gemfile" }}
+      - run:
+          name: Install Python libraries
+          command: bash install_python.sh
+      - save_cache:
+          key: python-{{ checksum "usermap/requirements.txt" }}
+          paths:
+            - ~/.local/lib
+      - run:
+          name: Install Ruby libraries
+          command: bash install_ruby.sh
+      - save_cache:
+          key: ruby-{{ checksum "Gemfile" }}
+          paths:
+            - ~/project/vendor
+      - run:
+          name: Update the list of publications
+          command: |
+            python3 update-pubs.py
+      - run:
+          name: Update the user map
+          command: |
+            python3 update-map.py
+      - run:
+          name: Build the website
+          command: |
+            bundle exec jekyll build -d /tmp/website
+      - persist_to_workspace:
+          root: /tmp/pism/manual
+          paths: html
+
+  deploy-website:
+    docker:
+      - image: node:8.10.0
+
+    steps:
+      - checkout
+      - attach_workspace:
+          at: website
+      - run:
+          name: Install and configure dependencies
+          command: |
+            npm install -g --silent gh-pages@2.0.1
+            git config user.email "ckhroulev@alaska.edu"
+            git config user.name "CI Builder (PISM website)"
+      - add_ssh_keys:
+          fingerprints:
+            - "15:22:79:ff:0a:1d:aa:5a:8e:bb:e1:94:51:2e:67:2f"
+      - run:
+          name: Deploy the website to GitHub Pages
+          command: >-
+            gh-pages --dotfiles
+            --message "[skip ci] Update the website"
+            --dist manual/html
+
+workflows:
+  version: 2
+  build-and-test:
+    jobs:
+      - build-website
+      - deploy-website:
+          requires:
+            - build-manual
+          filters:
+            branches:
+              only: main
