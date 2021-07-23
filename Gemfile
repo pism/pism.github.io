@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gemspec
 
-#gem "bulma-clean-theme"
-#gem 'github-pages', group: :jekyll_plugins
+gem "bulma-clean-theme"
+gem "html-proofer"
 
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.6"
