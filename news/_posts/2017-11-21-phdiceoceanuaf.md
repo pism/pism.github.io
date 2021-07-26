@@ -25,4 +25,4 @@ fields. Basic experience in numerical modeling, good oral and written
 communication skills are a prerequisite.
 
 For more information, please contact Andy Aschwanden
-([aaschwanden@alaska.edu](aaschwanden@alaska.edu)).
+([aaschwanden@alaska.edu](mailto:aaschwanden@alaska.edu)).
