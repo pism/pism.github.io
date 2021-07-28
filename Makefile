@@ -1,8 +1,11 @@
-.PHONY: build update check-links install
+.PHONY: all build update serve check-links check-external-links install
 
 all: check-links
 
-update:
+img/pism_publications.png: publications/plot_references.py publications/applications.bib
+	python3 $^ $@
+
+update: img/pism_publications.png
 	${MAKE} -C publications/
 	${MAKE} -C usersmap/
 
