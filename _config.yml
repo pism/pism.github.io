@@ -18,11 +18,11 @@ footer_menu         : #example_footer_menu
 
 pagination:
   enabled: true
-  per_page: 10
+  per_page: 5
   sort_reverse: true
   trail:
-    before: 10
-    after: 10
+    before: 5
+    after: 5
 
 # Disqus Comments
 disqus:
