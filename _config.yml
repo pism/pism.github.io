@@ -9,15 +9,20 @@ url                 : "https://pism.github.io"
 favicon             : "/favicon.ico"
 gh_repository       : &gh_repo "https://github.com/pism"
 gh_sponsor          : #
-#theme               : "bulma-clean-theme"
-remote_theme        : "chrisrhymes/bulma-clean-theme"
+theme               : "bulma-clean-theme"
 theme_color         : "#216778"
 permalink           : "pretty"
 fixed_navbar        : "top"
 #hide_share_buttons  : true
-paginate            : 10
-paginate_path       : "/news/page:num"
 footer_menu         : #example_footer_menu
+
+pagination:
+  enabled: true
+  per_page: 10
+  sort_reverse: true
+  trail:
+    before: 10
+    after: 10
 
 # Disqus Comments
 disqus:
@@ -60,7 +65,7 @@ social:
 
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-feed
   - jekyll-seo-tag
   - kramdown-parser-gfm

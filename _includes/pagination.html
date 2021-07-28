@@ -9,15 +9,16 @@
     {% else %}
     <p class="pagination-next" disabled >Next</p>
     {% endif %}
+
     <ul class="pagination-list">
-        {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-        <li><a class="pagination-link is-current">{{ page }}</a></li>
-        {% elsif page == 1 %}
-        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | split: '/' | pop | join: '/' }}" class="pagination-link">{{ page }}</a></li>
+    {% if paginator.page_trail %}
+      {% for trail in paginator.page_trail %}
+        {% if page.url == trail.path %}
+            <li><a class="pagination-link is-current">{{ trail.num }}</a></li>
         {% else %}
-        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="pagination-link">{{ page }}</a></li>
+            <li><a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}" class="pagination-link">{{ trail.num }}</a></li>
         {% endif %}
-        {% endfor %}
+      {% endfor %}
+    {% endif %}
     </ul>
 </nav>
