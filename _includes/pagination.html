@@ -10,8 +10,8 @@
     <p class="pagination-next" disabled >Next</p>
     {% endif %}
 
-    <ul class="pagination-list">
     {% if paginator.page_trail %}
+      <ul class="pagination-list">
       {% for trail in paginator.page_trail %}
         {% if page.url == trail.path %}
             <li><a class="pagination-link is-current">{{ trail.num }}</a></li>
@@ -19,6 +19,6 @@
             <li><a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}" class="pagination-link">{{ trail.num }}</a></li>
         {% endif %}
       {% endfor %}
+      </ul>
     {% endif %}
-    </ul>
 </nav>
