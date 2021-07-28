@@ -4,6 +4,10 @@
 $primary: #216778;
 $primary-light: lighten($primary, 10%);
 $primary-dark: darken($primary, 5%);
+
+$hero-colors: ("primary":
+             (lighten(adjust-hue($primary, 10deg), 50%), #dddddd));
+
 // Link colors
 $link: $primary-light;
 $link-visited: $primary-light;
