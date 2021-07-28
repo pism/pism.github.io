@@ -18,6 +18,14 @@ install:
 check-links: build
 	bundle exec htmlproofer \
 	       --empty-alt-ignore \
+	       --disable-external \
+	       --typhoeus-config '{ "ssl_verifypeer": false }' \
+	       --root-dir _site \
+	       _site
+
+check-external-links: build
+	bundle exec htmlproofer \
+	       --empty-alt-ignore \
 	       --typhoeus-config '{ "ssl_verifypeer": false }' \
 	       --root-dir _site \
 	       _site
