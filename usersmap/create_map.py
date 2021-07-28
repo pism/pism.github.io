@@ -26,9 +26,9 @@
 import getorg
 from geopy import Nominatim
 import csv
-import shutil
+import sys
 
-input_file = 'pism_users.csv'
+input_file = sys.argv[1]
 
 #geocoder = Nominatim(user_agent="my-application")
 geocoder = Nominatim(user_agent='test')
