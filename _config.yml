@@ -71,18 +71,13 @@ plugins:
   - kramdown-parser-gfm
 
 exclude:
-  - Dockerfile
   - Gemfile
-  - clean-theme.gemspec
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - templates
-  - old
-  - usersmap/restore
+  - docker/
+  - old/
+  - templates/
+  - usersmap/restore/
+  - vendor/
 
 livereload: true
 
