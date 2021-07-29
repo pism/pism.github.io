@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#216778>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/x-icon"
+           href="/favicon.ico" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Contributing | PISM</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="Contributing" />
+<meta name="author" content="The PISM Authors" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Website for PISM, the Parallel Ice Sheet Model" />
+<meta property="og:description" content="Website for PISM, the Parallel Ice Sheet Model" />
+<link rel="canonical" href="https://pism.github.io/contribute/" />
+<meta property="og:url" content="https://pism.github.io/contribute/" />
+<meta property="og:site_name" content="PISM" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Contributing" />
+<meta name="twitter:site" content="@UAFGI" />
+<meta name="twitter:creator" content="@UAFGI" />
+<script type="application/ld+json">
+{"description":"Website for PISM, the Parallel Ice Sheet Model","headline":"Contributing","url":"https://pism.github.io/contribute/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://pism.github.io/img/pism_logo_transp.png"},"name":"The PISM Authors"},"author":{"@type":"Person","name":"The PISM Authors"},"@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts -->
+
+<!-- Favicon -->
+<!-- Default -->
+<link rel="shortcut icon" href="https://pism.github.io/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://pism.github.io/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://pism.github.io/favicon/favicon-32x32.png">
+<!-- iOS -->
+<link rel="apple-touch-icon" sizes="57x57" href="https://pism.github.io/favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://pism.github.io/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://pism.github.io/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://pism.github.io/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://pism.github.io/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://pism.github.io/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://pism.github.io/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://pism.github.io/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://pism.github.io/favicon/apple-touch-icon-180x180.png">
+<meta name="apple-mobile-web-app-title" content="PISM">
+<!-- Android -->
+<link rel="manifest" href="https://pism.github.io/favicon/site.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="https://pism.github.io/favicon/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="256x256" href="https://pism.github.io/favicon/android-chrome-256x256.png">
+<meta name="application-name" content="PISM">
+<meta name="theme-color" content="#ebebeb">
+<!-- Safari -->
+<link rel="mask-icon" href="https://pism.github.io/favicon/safari-pinned-tab.svg" color="#216778">
+<!-- IE -->
+<meta name="msapplication-TileColor" content="#216778">
+<meta name="msapplication-TileImage" content="https://pism.github.io/favicon/mstile-150x150.png">
+<meta name="msapplication-config" content="https://pism.github.io/favicon/browserconfig.xml">
+
+<!-- Landing page 'scroll down' animation -->
+<style type="text/css">
+.scroll-down-icon {
+  position:relative;
+  left:50%;
+  bottom:0;
+  margin-top:-25px;
+  margin-left:-25px;
+  height:50px;
+  width:50px;
+  color:$white;
+  -webkit-animation:bounce 1s infinite;
+  -moz-animation:bounce 1s infinite;
+  -o-animation:bounce 1s infinite;
+  animation:bounce 1s infinite;
+}
+@-webkit-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@-moz-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@-o-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@media only screen and (max-width: 1023px) {
+  .scroll-down-icon {
+    display: none;
+  }
+}
+</style>
+
+<script>
+/* When the user scrolls down, hide the button. When the user scrolls up, show the button */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("scroll-down-icon").style.visibility = "visible";
+  } else {
+    document.getElementById("scroll-down-icon").style.visibility = "hidden";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script></head>
+
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item has-text-weight-bold">
+                PISM
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">About</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/news/" class="navbar-item ">News</a>
+                            
+                            <a href="/overview/" class="navbar-item ">Overview</a>
+                            
+                            <a href="/basics/" class="navbar-item ">Basic applications</a>
+                            
+                            <a href="/applications/" class="navbar-item ">Application of the month</a>
+                            
+                            <a href="/publications/" class="navbar-item ">Publications using PISM</a>
+                            
+                            <a href="/team/" class="navbar-item ">Developers team</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Usage</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://pism-docs.org/sphinx/" class="navbar-item ">Online manual</a>
+                            
+                            <a href="https://pism-docs.org/doxy/html/index.html" class="navbar-item ">Source code browser</a>
+                            
+                            <a href="/faq/" class="navbar-item ">FAQ / PISM life hacks</a>
+                            
+                            <a href="/data/" class="navbar-item ">Data preprocessing</a>
+                            
+                            <a href="/tools/" class="navbar-item ">Further tools</a>
+                            
+                            <a href="/citing/" class="navbar-item ">Citing PISM</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Download</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://github.com/pism/pism/" class="navbar-item ">Get code on Github</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Contributing</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/contribute/" class="navbar-item is-active">Contribute to PISM</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">More</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/history/" class="navbar-item ">Brief history</a>
+                            
+                            <a href="/collaborations/" class="navbar-item ">MIPs & Collaborations</a>
+                            
+                            <a href="/usersmap/" class="navbar-item ">Map of users</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary"  style="background: url('https://images.unsplash.com/photo-1590935216109-8d3318de2c1c') no-repeat center center; background-size: cover;" >
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-1 has-text-primary-dark has-text-weight-heavy" >Contributing</h1>
+            <p class="subtitle is-3 has-text-primary-light has-text-weight-semibold" >How to contribute to PISM?</p>
+            
+        </div>
+    </div>
+    
+    
+        <span class="hero-caption">Photo: <a href="https://unsplash.com/photos/4J2OD3njVgI">M. Winkler / Unsplash</a>
+</span>
+    
+</section>
+
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-8">
+                    
+                    
+                    
+
+                    
+                    
+<div class="content">
+    <h1 id="general">General</h1>
+
+<p>There are many ways you can contribute to PISM:</p>
+
+<ul>
+  <li>Fix typos, inaccuracies, and omissions in the manual</li>
+  <li>Improve documentation of existing features</li>
+  <li>Provide additional examples</li>
+  <li>Add new tests for existing code</li>
+  <li>Report issues with the code or documentation</li>
+  <li>Fix bugs in PISM</li>
+  <li>Implement new features</li>
+</ul>
+
+<p>Please see <a href="https://pism.github.io/pism/contributing/index.html">Contributing to PISM</a> in PISM’s manual for some guidelines.</p>
+
+<h2 id="contribution-workflow">Contribution workflow</h2>
+
+<p>In summary: documentation and code contributions are preferred via <strong>pull requests</strong> to <a href="https://github.com/pism/pism">https://github.com/pism/pism</a>.</p>
+
+<ol>
+  <li><a href="https://help.github.com/en/articles/fork-a-repo">Fork PISM’s repository</a></li>
+  <li>Create a branch that will contain your changes</li>
+  <li>Implement proposed changes
+    <ul>
+      <li>Make changes to the code or documentation (or both)</li>
+      <li>Test your changes</li>
+      <li>Add verification or regression tests (optional but <em>strongly encouraged</em>)</li>
+      <li>Update documentation, if necessary</li>
+      <li>Update the change log <code class="language-plaintext highlighter-rouge">CHANGES.rst</code>. If your contribution contains a bug fix, please describe the bug and its effects</li>
+    </ul>
+  </li>
+  <li><a href="https://help.github.com/en/articles/creating-a-pull-request">Create a pull request</a> and make sure to <a href="https://help.github.com/en/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork">allow edits from maintainers</a></li>
+</ol>
+
+<p>If you are planning a large contribution we encourage you to open an <strong>issue</strong> at <a href="https://github.com/pism/pism/issues">https://github.com/pism/pism/issues</a> or e-mail us at <a href="mailto:uaf-pism@alaska.edu">uaf-pism@alaska.edu</a> and interact with us frequently to ensure that your effort is well-directed.</p>
+
+<div x-data="{visible: true}">
+    <div class="notification is-info is-light" x-show.transition.duration.300ms="visible">
+        
+        <article class="media">
+            
+                <div class="media-left">
+                    <span class="icon"><i class="fas fa-exclamation-circle fa-lg"></i></span>
+                </div>
+            
+            <div class="media-content">
+                <div class="content"><p><strong>Note:</strong> By submitting code, the contributor gives irretrievable consent to the redistribution and modification of the contributed source code as described in the PISM’s <a href="https://github.com/pism/pism/blob/master/COPYING">open source license</a>.</p>
+</div>
+            </div>
+        </article>
+    </div>
+</div>
+
+<h2 id="bug-reporting">Bug reporting</h2>
+
+<p>Please see the <a href="https://github.com/pism/pism/issues">issues</a> to check if someone already found a similar bug. You can post an issue there, and label it as a bug, if it is new. Alternatively, send a report by e-mail to <a href="mailto:uaf-pism@alaska.edu">uaf-pism@alaska.edu</a>.</p>
+
+<p>Please include the following information in all bug-reports and questions about particular PISM’s behavior:</p>
+
+<ul>
+  <li>the PISM version (the output of <code class="language-plaintext highlighter-rouge">pismr -version</code>)</li>
+  <li>the <em>full</em> command necessary to reproduce the bug</li>
+  <li>the input files used by the run reproducing the bug</li>
+  <li>a description of what PISM does wrong</li>
+</ul>
+
+<p>For more details, please see <a href="https://pism-docs.org/sphinx/contributing/bug-reporting.html">Submitting bug reports</a> in PISM’s manual.</p>
+
+</div>
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest news</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="/img/news/pism-publications.png" alt="The 100th PISM-using paper!">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/news/2020/09/11/pism100/">The 100th PISM-using paper!</a>
+            
+            
+                <p><p>At the end of May we found the 100th PISM-using paper:</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/09/11/pism100/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Sep 11, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2020/02/13/version1.2/">Version 1.2</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>We are pleased to announce the release of the Parallel Ice Sheet Model
+(PISM) v1.2.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/02/13/version1.2/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Feb 13, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2020/02/05/postdocmpim2020/">MPI-M Hamburg, Germany: open postdoc for coupled atmosphere-ocean-ice sheet model</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>The Max Planck Institute for Meteorology (MPI-M) contributes to the BMBF
+project “From the Last Interglacial to the Anthropocene: Modeling a
+Complete Glacial Cycle” <a href="https://www.palmod.de/">(PalMod,
+www.palmod.de)</a>, which aims at
+simulating the climate from the peak of the last interglacial up to the
+present using comprehensive Earth System Models. Phase II of this
+project has an open position Postdoctoral Scientist (W073). The
+successful candidate will be part of a local team performing and
+analysing long-term transient simulations covering the last glacial and
+the transition into the Holocene with an interactively coupled
+atmosphere-ocean-ice sheet model. Additionally, the candidate will
+contribute to the continued development of this model. The model system
+consists of the MPI-Earth system model, the ice sheet model PISM, and
+the solid-earth model VILMA.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/02/05/postdocmpim2020/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Feb 5, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+<div class="buttons is-centered">
+    <a href="/news/" class="button is-primary is-outlined">All news</a>
+</div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+
+        <div class="has-text-centered">
+            <p><strong>Follow</strong></p>
+            <div class="buttons is-centered">
+                <a href="https://twitter.com/UAFGI" title="Twitter" class="button is-light" target="_blank">
+                    <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
+                </a>
+                <a href="https://www.facebook.com/UAF.GI" title="Facebook" class="button is-light" target="_blank">
+                    <i class="fab fa-facebook fa-lg" style="color: #3b5998;"></i>
+                </a>
+                <a href="https://join.slack.com/t/uaf-pism/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE" title="Slack" class="button is-light" target="_blank">
+                    <i class="fab fa-slack fa-lg" style="color: #611F69;"></i>
+                </a>
+                <a href="https://github.com/pism" title="Github" class="button is-light" target="_blank">
+                    <i class="fab fa-github fa-lg" style="color: #171516;"></i>
+                </a>
+                <a href="/feed.xml" title="RSS Feed" class="button is-light">
+                    <i class="fas fa-rss fa-lg" style="color: #fa9b39;"></i>
+                </a>
+            </div>
+        </div>
+        <br>
+
+        <div class="content is-small has-text-centered">
+            <p>Site built using <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a>  by C.S. Rhymes</p>
+            <p>&copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> The PISM Authors</p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

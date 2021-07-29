@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#216778>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/x-icon"
+           href="/favicon.ico" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Publications | PISM</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="Publications" />
+<meta name="author" content="The PISM Authors" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Website for PISM, the Parallel Ice Sheet Model" />
+<meta property="og:description" content="Website for PISM, the Parallel Ice Sheet Model" />
+<link rel="canonical" href="https://pism.github.io/publications/" />
+<meta property="og:url" content="https://pism.github.io/publications/" />
+<meta property="og:site_name" content="PISM" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Publications" />
+<meta name="twitter:site" content="@UAFGI" />
+<meta name="twitter:creator" content="@UAFGI" />
+<script type="application/ld+json">
+{"description":"Website for PISM, the Parallel Ice Sheet Model","headline":"Publications","url":"https://pism.github.io/publications/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://pism.github.io/img/pism_logo_transp.png"},"name":"The PISM Authors"},"author":{"@type":"Person","name":"The PISM Authors"},"@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts -->
+
+<!-- Favicon -->
+<!-- Default -->
+<link rel="shortcut icon" href="https://pism.github.io/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://pism.github.io/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://pism.github.io/favicon/favicon-32x32.png">
+<!-- iOS -->
+<link rel="apple-touch-icon" sizes="57x57" href="https://pism.github.io/favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://pism.github.io/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://pism.github.io/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://pism.github.io/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://pism.github.io/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://pism.github.io/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://pism.github.io/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://pism.github.io/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://pism.github.io/favicon/apple-touch-icon-180x180.png">
+<meta name="apple-mobile-web-app-title" content="PISM">
+<!-- Android -->
+<link rel="manifest" href="https://pism.github.io/favicon/site.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="https://pism.github.io/favicon/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="256x256" href="https://pism.github.io/favicon/android-chrome-256x256.png">
+<meta name="application-name" content="PISM">
+<meta name="theme-color" content="#ebebeb">
+<!-- Safari -->
+<link rel="mask-icon" href="https://pism.github.io/favicon/safari-pinned-tab.svg" color="#216778">
+<!-- IE -->
+<meta name="msapplication-TileColor" content="#216778">
+<meta name="msapplication-TileImage" content="https://pism.github.io/favicon/mstile-150x150.png">
+<meta name="msapplication-config" content="https://pism.github.io/favicon/browserconfig.xml">
+
+<!-- Landing page 'scroll down' animation -->
+<style type="text/css">
+.scroll-down-icon {
+  position:relative;
+  left:50%;
+  bottom:0;
+  margin-top:-25px;
+  margin-left:-25px;
+  height:50px;
+  width:50px;
+  color:$white;
+  -webkit-animation:bounce 1s infinite;
+  -moz-animation:bounce 1s infinite;
+  -o-animation:bounce 1s infinite;
+  animation:bounce 1s infinite;
+}
+@-webkit-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@-moz-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@-o-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@media only screen and (max-width: 1023px) {
+  .scroll-down-icon {
+    display: none;
+  }
+}
+</style>
+
+<script>
+/* When the user scrolls down, hide the button. When the user scrolls up, show the button */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("scroll-down-icon").style.visibility = "visible";
+  } else {
+    document.getElementById("scroll-down-icon").style.visibility = "hidden";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script></head>
+
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item has-text-weight-bold">
+                PISM
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">About</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/news/" class="navbar-item ">News</a>
+                            
+                            <a href="/overview/" class="navbar-item ">Overview</a>
+                            
+                            <a href="/basics/" class="navbar-item ">Basic applications</a>
+                            
+                            <a href="/applications/" class="navbar-item ">Application of the month</a>
+                            
+                            <a href="/publications/" class="navbar-item is-active">Publications using PISM</a>
+                            
+                            <a href="/team/" class="navbar-item ">Developers team</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Usage</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://pism-docs.org/sphinx/" class="navbar-item ">Online manual</a>
+                            
+                            <a href="https://pism-docs.org/doxy/html/index.html" class="navbar-item ">Source code browser</a>
+                            
+                            <a href="/faq/" class="navbar-item ">FAQ / PISM life hacks</a>
+                            
+                            <a href="/data/" class="navbar-item ">Data preprocessing</a>
+                            
+                            <a href="/tools/" class="navbar-item ">Further tools</a>
+                            
+                            <a href="/citing/" class="navbar-item ">Citing PISM</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Download</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://github.com/pism/pism/" class="navbar-item ">Get code on Github</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Contributing</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/contribute/" class="navbar-item ">Contribute to PISM</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">More</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/history/" class="navbar-item ">Brief history</a>
+                            
+                            <a href="/collaborations/" class="navbar-item ">MIPs & Collaborations</a>
+                            
+                            <a href="/usersmap/" class="navbar-item ">Map of users</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary"  style="background: url('https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14') no-repeat center center; background-size: cover;" >
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-1 has-text-primary-dark has-text-weight-heavy" >Publications</h1>
+            <p class="subtitle is-3 has-text-primary-light has-text-weight-semibold" >List of publications using PISM</p>
+            
+        </div>
+    </div>
+    
+    
+        <span class="hero-caption">Photo: <a href="https://unsplash.com/photos/5cFwQ-WMcJU">A. Spratt / Unsplash</a>
+</span>
+    
+</section>
+
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-8">
+                    
+                    
+                    
+
+                    
+                    
+<div class="content">
+    <p style="text-align: center;"><img src="/img/pism_publications.png" alt="Number of published PISM applications per year" width="75%" /></p>
+
+<p>This plot and the list below are generated by processing
+<a href="https://github.com/pism/pism.github.io/blob/main/publications/applications.bib"><code class="language-plaintext highlighter-rouge">applications.bib</code></a>.
+To add a paper to this list, send an e-mail with a BibTeX entry to
+<a href="mailto:uaf-pism@alaska.edu">uaf-pism@alaska.edu</a>. Thanks!</p>
+
+<h3 id="2021">2021</h3>
+
+<ol>
+  <li>T.L. Edwards, S. Nowicki, B. Marzeion, and others. Projected land ice contributions to twenty-first-century sea level rise. <em>Nature</em>, 593:74–82, 2021. <a href="https://doi.org/10.1038/s41586-021-03302-y">doi:10.1038/s41586-021-03302-y</a>.</li>
+  <li>I. Koldtoft, A. Grinsted, B. M. Vinther, and C. S. Hvidberg. Ice thickness and volume of the renland ice cap, east greenland. <em>Journal of Glaciology</em>, pages 1–13, 2021. <a href="https://doi.org/10.1017/jog.2021.11">doi:10.1017/jog.2021.11</a>.</li>
+  <li>L. Niu, G. Lohmann, P. Gierz, E. J. Gowan, and G. Knorr. Coupled climate-ice sheet modelling of MIS-13 reveals a sensitive Cordilleran Ice Sheet. <em>Global and Planetary Change</em>, pages 103474, 2021. URL: <a href="https://www.sciencedirect.com/science/article/pii/S092181812100059X">https://www.sciencedirect.com/science/article/pii/S092181812100059X</a>, <a href="https://doi.org/10.1016/j.gloplacha.2021.103474">doi:10.1016/j.gloplacha.2021.103474</a>.</li>
+  <li>T. Schlemm and A. Levermann. A simple parametrization of mélange buttressing for calving glaciers. <em>The Cryosphere</em>, 15(2):531–545, 2021. URL: <a href="https://tc.copernicus.org/articles/15/531/2021/">https://tc.copernicus.org/articles/15/531/2021/</a>, <a href="https://doi.org/10.5194/tc-15-531-2021">doi:10.5194/tc-15-531-2021</a>.</li>
+</ol>
+
+<h3 id="2020">2020</h3>
+
+<ol>
+  <li>L. Ackermann, C. Danek, P. Gierz, and G. Lohmann. Amoc recovery in a multicentennial scenario using a coupled atmosphere-ocean-ice sheet model. <em>Geophysical Research Letters</em>, 47(16):e2019GL086810, 2020. URL: <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL086810">https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL086810</a>, <a href="https://doi.org/10.1029/2019GL086810">doi:10.1029/2019GL086810</a>.</li>
+  <li>T. Albrecht, R. Winkelmann, and A. Levermann. Glacial-cycle simulations of the antarctic ice sheet with the parallel ice sheet model (pism) – part 1: boundary conditions and climatic forcing. <em>The Cryosphere</em>, 14(2):599–632, 2020. URL: <a href="https://www.the-cryosphere.net/14/599/2020/">https://www.the-cryosphere.net/14/599/2020/</a>, <a href="https://doi.org/10.5194/tc-14-599-2020">doi:10.5194/tc-14-599-2020</a>.</li>
+  <li>T. Albrecht, R. Winkelmann, and A. Levermann. Glacial-cycle simulations of the antarctic ice sheet with the parallel ice sheet model (pism) – part 2: parameter ensemble analysis. <em>The Cryosphere</em>, 14(2):633–656, 2020. URL: <a href="https://www.the-cryosphere.net/14/633/2020/">https://www.the-cryosphere.net/14/633/2020/</a>, <a href="https://doi.org/10.5194/tc-14-633-2020">doi:10.5194/tc-14-633-2020</a>.</li>
+  <li>A. Candaş, M. A. Sarikaya, O. KÖSE, Ö. L. Şen, and A. Çiner. Modelling a last glacial maximum ice cap with the parallel ice sheet model to infer palaeoclimate in south-west turkey. <em>Journal of Quaternary Science</em>, 2020. URL: <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jqs.3239">https://onlinelibrary.wiley.com/doi/abs/10.1002/jqs.3239</a>, <a href="https://doi.org/10.1002/jqs.3239">doi:10.1002/jqs.3239</a>.</li>
+  <li>P. U. Clark, F. He, N. R. Golledge, J. X. Mitrovica, A. Dutton, J. S. Hoffman, and S. Dendy. Oceanic forcing of penultimate deglacial and last interglacial sea-level rise. <em>Nature</em>, 577(7792):660–664, 2020. URL: <a href="https://doi.org/10.1038/s41586-020-1931-7">https://doi.org/10.1038/s41586-020-1931-7</a>, <a href="https://doi.org/10.1038/s41586-020-1931-7">doi:10.1038/s41586-020-1931-7</a>.</li>
+  <li>S. L. Cornford, H. Seroussi, X. S. Asay-Davis, G. H. Gudmundsson, R. Arthern, C. Borstad, J. Christmann, T. Dias dos Santos, J. Feldmann, D. Goldberg, M. J. Hoffman, A. Humbert, T. Kleiner, G. Leguy, W. H. Lipscomb, N. Merino, G. Durand, M. Morlighem, D. Polllard, M. Rückamp, C. R. Williams, and H. Yu. Results of the third marine ice sheet model intercomparison project (mismip+). <em>The Cryosphere</em>, 14(7):2283–2301, 2020. URL: <a href="https://www.the-cryosphere-discuss.net/tc-2019-326/">https://www.the-cryosphere-discuss.net/tc-2019-326/</a>, <a href="https://doi.org/10.5194/tc-2019-326">doi:10.5194/tc-2019-326</a>.</li>
+  <li>O. Eisen, A. Winter, D. Steinhage, T. Kleiner, and A. Humbert. Basal roughness of the east antarctic ice sheet in relation to flow speed and basal thermal state. <em>Annals of Glaciology</em>, 61(81):162–175, 2020. <a href="https://doi.org/10.1017/aog.2020.47">doi:10.1017/aog.2020.47</a>.</li>
+  <li>J. Garbe, T. Albrecht, A. Levermann, J. Donges, and R. Winkelmann. The hysteresis of the antarctic ice sheet. <em>Nature</em>, 585:538–544, 2020. <a href="https://doi.org/10.1038/s41586-020-2727-5">doi:10.1038/s41586-020-2727-5</a>.</li>
+  <li>H. Goelzer, S. Nowicki, A. Payne, E. Larour, H. Seroussi, W. H. Lipscomb, J. Gregory, A. Abe-Ouchi, A. Shepherd, E. Simon, C. Agosta, P. Alexander, A. Aschwanden, A. Barthel, R. Calov, C. Chambers, Y. Choi, J. Cuzzone, C. Dumas, T. Edwards, D. Felikson, X. Fettweis, N. R. Golledge, R. Greve, A. Humbert, P. Huybrechts, S. Le clec’h, V. Lee, G. Leguy, C. Little, D. P. Lowry, M. Morlighem, I. Nias, A. Quiquet, M. Rückamp, N.-J. Schlegel, D. A. Slater, R. S. Smith, F. Straneo, L. Tarasov, R. van de Wal, and M. van den Broeke. The future sea-level contribution of the greenland ice sheet: a multi-model ensemble study of ismip6. <em>The Cryosphere</em>, 14(9):3071–3096, 2020. URL: <a href="https://tc.copernicus.org/articles/14/3071/2020/">https://tc.copernicus.org/articles/14/3071/2020/</a>, <a href="https://doi.org/10.5194/tc-14-3071-2020">doi:10.5194/tc-14-3071-2020</a>.</li>
+  <li>N. R. Golledge. Long-term projections of sea-level rise from ice sheets. <em>WIREs Climate Change</em>, 2020. URL: <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/wcc.634">https://onlinelibrary.wiley.com/doi/abs/10.1002/wcc.634</a>, <a href="https://doi.org/10.1002/wcc.634">doi:10.1002/wcc.634</a>.</li>
+  <li>A.-M. Hayden, S.-B. Wilmes, N. Gomez, J.A.M. Green, L. Pan, H. Han, and N.R. Golledge. Multi-century impacts of ice sheet retreat on sea level and ocean tides in Hudson Bay. <em>Journal of Geophysical Research: Oceans</em>, 2020. URL: <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JC015104">https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JC015104</a>, <a href="https://doi.org/10.1029/2019JC015104">doi:10.1029/2019JC015104</a>.</li>
+  <li>B. A. Keisling, L. T. Nielsen, C. S. Hvidberg, R. Nuterman, and R. M. DeConto. Pliocene–pleistocene megafloods as a mechanism for greenlandic megacanyon formation. <em>Geology</em>, 48(7):737–741, 2020. URL: <a href="https://doi.org/10.1130/G47253.1">https://doi.org/10.1130/G47253.1</a>, <a href="https://doi.org/10.1130/G47253.1">doi:10.1130/G47253.1</a>.</li>
+  <li>J. Lai and A. M. Anders. Tectonic controls on rates and spatial patterns of glacial erosion through geothermal heat flux. <em>Earth and Planetary Science Letters</em>, 2020. URL: <a href="http://www.sciencedirect.com/science/article/pii/S0012821X20302922">http://www.sciencedirect.com/science/article/pii/S0012821X20302922</a>, <a href="https://doi.org/10.1016/j.epsl.2020.116348">doi:10.1016/j.epsl.2020.116348</a>.</li>
+  <li>A. Levermann, R. Winkelmann, T. Albrecht, H. Goelzer, N. R. Golledge, R. Greve, P. Huybrechts, J. Jordan, G. Leguy, D. Martin, M. Morlighem, F. Pattyn, D. Pollard, A. Quiquet, C. Rodehacke, H. Seroussi, J. Sutter, T. Zhang, J. Van Breedam, R. Calov, R. DeConto, C. Dumas, J. Garbe, G. H. Gudmundsson, M. J. Hoffman, A. Humbert, T. Kleiner, W. H. Lipscomb, M. Meinshausen, E. Ng, S. M. J. Nowicki, M. Perego, S. F. Price, F. Saito, N.-J. Schlegel, S. Sun, and R. S. W. van de Wal. Projecting antarctica’s contribution to future sea level rise from basal ice shelf melt using linear response functions of 16 ice sheet models (LARMIP-2). <em>Earth System Dynamics</em>, 11(1):35–76, 2020. URL: <a href="https://www.earth-syst-dynam.net/11/35/2020/">https://www.earth-syst-dynam.net/11/35/2020/</a>, <a href="https://doi.org/10.5194/esd-11-35-2020">doi:10.5194/esd-11-35-2020</a>.</li>
+  <li>D. P. Lowry, N. R. Golledge, N. A. N. Bertler, R. S. Jones, R. McKay, and J. Stutz. Geologic controls on ice sheet sensitivity to deglacial climate forcing in the ross embayment, antarctica. <em>Quaternary Science Advances</em>, 2020. URL: <a href="http://www.sciencedirect.com/science/article/pii/S2666033420300022">http://www.sciencedirect.com/science/article/pii/S2666033420300022</a>, <a href="https://doi.org/10.1016/j.qsa.2020.100002">doi:10.1016/j.qsa.2020.100002</a>.</li>
+  <li>R. A. Parsons, T. Kanzaki, R. Hemmi, and H. Miyamoto. Cold-based glaciation of pavonis mons, mars: evidence for moraine deposition during glacial advance. <em>Progress in Earth and Planetary Science</em>, 2020. <a href="https://doi.org/10.1186/s40645-020-0323-9">doi:10.1186/s40645-020-0323-9</a>.</li>
+  <li>R. Reese, A. Levermann, T. Albrecht, H. Seroussi, and R. Winkelmann. The role of history and strength of the oceanic forcing in sea level projections from antarctica with the parallel ice sheet model. <em>The Cryosphere</em>, 14(9):3097–3110, 2020. URL: <a href="https://tc.copernicus.org/articles/14/3097/2020/">https://tc.copernicus.org/articles/14/3097/2020/</a>, <a href="https://doi.org/10.5194/tc-14-3097-2020">doi:10.5194/tc-14-3097-2020</a>.</li>
+  <li>D. H. Roberts, C. Ó Cofaigh, C. K. Ballantyne, M. Burke, R. C. Chiverrell, D. J. A. Evans, C. D. Clark, G. A. T. Duller, J. Ely, D. Fabel, D. Small, R. K. Smedley, and S. L. Callard. The deglaciation of the western sector of the irish ice sheet from the inner continental shelf to its terrestrial margin. <em>Boreas</em>, 2020. URL: <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/bor.12448">https://onlinelibrary.wiley.com/doi/abs/10.1111/bor.12448</a>, <a href="https://doi.org/10.1111/bor.12448">doi:10.1111/bor.12448</a>.</li>
+  <li>C. B. Rodehacke, M. Pfeiffer, T. Semmler, Ö. Gurses, and T. Kleiner. Future sea level contribution from antarctica inferred from CMIP5 model forcing and its dependence on precipitation ansatz. <em>Earth System Dynamics</em>, 11(4):1153–1194, 2020. URL: <a href="https://esd.copernicus.org/articles/11/1153/2020/">https://esd.copernicus.org/articles/11/1153/2020/</a>, <a href="https://doi.org/10.5194/esd-11-1153-2020">doi:10.5194/esd-11-1153-2020</a>.</li>
+  <li>L. S. Schmidt, G. Ađalgeirsdóttir, F. Pálsson, P. L. Langen, S. Guđmundsson, and H. Björnsson. Dynamic simulations of Vatnajökull ice cap from 1980 to 2300. <em>Journal of Glaciology</em>, 66(255):97–112, 2020. <a href="https://doi.org/10.1017/jog.2019.90">doi:10.1017/jog.2019.90</a>.</li>
+  <li>H. Seroussi, S. Nowicki, A. J. Payne, H. Goelzer, W. H. Lipscomb, A. Abe-Ouchi, C. Agosta, T. Albrecht, X. Asay-Davis, A. Barthel, R. Calov, R. Cullather, C. Dumas, B. K. Galton-Fenzi, R. Gladstone, N. R. Golledge, J. M. Gregory, R. Greve, T. Hattermann, M. J. Hoffman, A. Humbert, P. Huybrechts, N. C. Jourdain, T. Kleiner, E. Larour, G. R. Leguy, D. P. Lowry, C. M. Little, M. Morlighem, F. Pattyn, T. Pelle, S. F. Price, A. Quiquet, R. Reese, N.-J. Schlegel, A. Shepherd, E. Simon, R. S. Smith, F. Straneo, S. Sun, L. D. Trusel, J. Van Breedam, R. S. W. van de Wal, R. Winkelmann, C. Zhao, T. Zhang, and T. Zwinger. Ismip6 antarctica: a multi-model ensemble of the antarctic ice sheet evolution over the 21st century. <em>The Cryosphere</em>, 14(9):3033–3070, 2020. URL: <a href="https://tc.copernicus.org/articles/14/3033/2020/">https://tc.copernicus.org/articles/14/3033/2020/</a>, <a href="https://doi.org/10.5194/tc-14-3033-2020">doi:10.5194/tc-14-3033-2020</a>.</li>
+  <li>L. B. Stap, G. Knorr, and G. Lohmann. Anti-phased Miocene ice volume and CO2 changes by transient Antarctic Ice Sheet variability. <em>Paleoceanography and Paleoclimatology</em>, 2020. URL: <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020PA003971">https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020PA003971</a>, <a href="https://doi.org/10.1029/2020PA003971">doi:10.1029/2020PA003971</a>.</li>
+  <li>S. Sun, F. Pattyn, E. G. Simon, T. Albrecht, S. Cornford, R. Calov, C. Dumas, F. Gillet-Chaulet, H. Goelzer, N. R. Golledge, and others. Antarctic ice sheet response to sudden and sustained ice-shelf collapse (abumip). <em>Journal of Glaciology</em>, pages 1–14, 2020. <a href="https://doi.org/10.1017/jog.2020.67">doi:10.1017/jog.2020.67</a>.</li>
+  <li>J. Sutter, O. Eisen, M. Werner, K. Grosfeld, T. Kleiner, and H. Fischer. Limited retreat of the wilkes basin ice sheet during the last interglacial. <em>Geophysical Research Letters</em>, 2020. URL: <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GL088131">https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020GL088131</a>, <a href="https://doi.org/10.1029/2020GL088131">doi:10.1029/2020GL088131</a>.</li>
+  <li>C. S. M. Turney, C. J. Fogwill, N. R. Golledge, N. P. McKay, E. van Sebille, R. T. Jones, D. Etheridge, M. Rubino, D. P. Thornton, S. M. Davies, C. B. Ramsey, Z. A. Thomas, M. I. Bird, N. C. Munksgaard, M. Kohno, J. Woodward, K. Winter, L. S. Weyrich, C. M. Rootes, H. Millman, P. G. Albert, A. Rivera, T. van Ommen, M. Curran, A. Moy, S. Rahmstorf, K. Kawamura, C.-D. Hillenbrand, M. E. Weber, C. J. Manning, J. Young, and A. Cooper. Early last interglacial ocean warming drove substantial ice mass loss from antarctica. <em>Proceedings of the National Academy of Sciences</em>, 117(8):3996–4006, 2020. URL: <a href="https://www.pnas.org/content/early/2020/02/10/1902469117">https://www.pnas.org/content/early/2020/02/10/1902469117</a>, <a href="https://doi.org/10.1073/pnas.1902469117">doi:10.1073/pnas.1902469117</a>.</li>
+  <li>Q. Yan, L. A. Owen, Z. Zhang, N. Jiang, and R. Zhang. Deciphering the evolution and forcing mechanisms of glaciation over the himalayan-tibetan orogen during the past 20,000 years. <em>Earth and Planetary Science Letters</em>, 2020. URL: <a href="http://www.sciencedirect.com/science/article/pii/S0012821X20302387">http://www.sciencedirect.com/science/article/pii/S0012821X20302387</a>, <a href="https://doi.org/10.1016/j.epsl.2020.116295">doi:10.1016/j.epsl.2020.116295</a>.</li>
+  <li>M. Zeitz, A. Levermann, and R. Winkelmann. Sensitivity of ice loss to uncertainty in flow law parameters in an idealized one-dimensional geometry. <em>The Cryosphere</em>, 14(10):3537–3550, 2020. URL: <a href="https://tc.copernicus.org/articles/14/3537/2020/">https://tc.copernicus.org/articles/14/3537/2020/</a>, <a href="https://doi.org/10.5194/tc-14-3537-2020">doi:10.5194/tc-14-3537-2020</a>.</li>
+</ol>
+
+<h3 id="2019">2019</h3>
+
+<ol>
+  <li>A. Aschwanden, M. A. Fahnestock, M. Truffer, D. J. Brinkerhoff, R. Hock, C. Khroulev, R. Mottram, and S. A. Khan. Contribution of the greenland ice sheet to sea level over the next millennium. <em>Science Advances</em>, 2019. URL: <a href="https://advances.sciencemag.org/content/5/6/eaav9396">https://advances.sciencemag.org/content/5/6/eaav9396</a>, <a href="https://doi.org/10.1126/sciadv.aav9396">doi:10.1126/sciadv.aav9396</a>.</li>
+  <li>J. C. Ely, C. D. Clark, R. C. A. Hindmarsh, A. L. C. Hughes, S. L. Greenwood, S. L. Bradley, E. Gasson, L. Gregoire, N. Gandy, C. R. Stokes, and D. Small. Recent progress on combining geomorphological and geochronological data with ice sheet modelling, demonstrated using the last british–irish ice sheet. <em>Journal of Quaternary Science</em>, 2019. URL: <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jqs.3098">https://onlinelibrary.wiley.com/doi/abs/10.1002/jqs.3098</a>, <a href="https://doi.org/10.1002/jqs.3098">doi:10.1002/jqs.3098</a>.</li>
+  <li>J. C. Ely, C. D. Clark, D. Small, and R. C. A. Hindmarsh. Atat 1.1, the automated timing accordance tool for comparing ice-sheet model output with geochronological data. <em>Geoscientific Model Development</em>, 12(3):933–953, 2019. URL: <a href="https://www.geosci-model-dev.net/12/933/2019/">https://www.geosci-model-dev.net/12/933/2019/</a>, <a href="https://doi.org/10.5194/gmd-12-933-2019">doi:10.5194/gmd-12-933-2019</a>.</li>
+  <li>J. Feldmann, A. Levermann, and M. Mengel. Stabilizing the west antarctic ice sheet by surface mass deposition. <em>Science Advances</em>, 2019. URL: <a href="https://advances.sciencemag.org/content/5/7/eaaw4132">https://advances.sciencemag.org/content/5/7/eaaw4132</a>, <a href="https://doi.org/10.1126/sciadv.aaw4132">doi:10.1126/sciadv.aaw4132</a>.</li>
+  <li>N. R. Golledge, E. D. Keller, N. Gomez, K. A. Naughten, J. Bernales, L. D. Trusel, and T. L. Edwards. Global environmental consequences of twenty-first-century ice-sheet melt. <em>Nature</em>, 566:65–72, 2019. <a href="https://doi.org/10.1038/s41586-019-0889-9">doi:10.1038/s41586-019-0889-9</a>.</li>
+  <li>E. J. Gowan, L. Niu, G. Knorr, and G. Lohmann. Geology datasets in north america, greenland and surrounding areas for use with ice sheet models. <em>Earth System Science Data</em>, 11(1):375–391, 2019. URL: <a href="https://www.earth-syst-sci-data.net/11/375/2019/">https://www.earth-syst-sci-data.net/11/375/2019/</a>, <a href="https://doi.org/10.5194/essd-11-375-2019">doi:10.5194/essd-11-375-2019</a>.</li>
+  <li>M. A. Imhof, D. Cohen, J. Seguinot, A. Aschwanden, M. Funk, and G. Jouvet. Modelling a paleo valley glacier network using a hybrid model: an assessment with a Stokes ice flow model. <em>Journal of Glaciology</em>, pages 1–11, 2019. <a href="https://doi.org/10.1017/jog.2019.77">doi:10.1017/jog.2019.77</a>.</li>
+  <li>D. P. Lowry, N. R. Golledge, N. A. N. Bertler, R. S. Jones, and R. McKay. Deglacial grounding-line retreat in the ross embayment, antarctica, controlled by ocean and atmosphere forcing. <em>Science Advances</em>, 2019. URL: <a href="https://advances.sciencemag.org/content/5/8/eaav8754">https://advances.sciencemag.org/content/5/8/eaav8754</a>, <a href="https://doi.org/10.1126/sciadv.aav8754">doi:10.1126/sciadv.aav8754</a>.</li>
+  <li>R. Mottram, S. Simonsen, S. Svendsen, V. R. Barletta, L. Sandberg Sørensen, T. Nagler, J. Wuite, A. Groh, M. Horwath, J. Rosier, A. Solgaard, C. S. Hvidberg, and R. Forsberg. An integrated view of greenland ice sheet mass changes based on models and satellite observations. <em>Remote Sensing</em>, 2019. URL: <a href="https://www.mdpi.com/2072-4292/11/12/1407">https://www.mdpi.com/2072-4292/11/12/1407</a>, <a href="https://doi.org/10.3390/rs11121407">doi:10.3390/rs11121407</a>.</li>
+  <li>L. Niu, G. Lohmann, and E. J. Gowan. Climate noise influences ice sheet mean state. <em>Geophysical Research Letters</em>, 2019. URL: <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083717">https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083717</a>, <a href="https://doi.org/10.1029/2019GL083717">doi:10.1029/2019GL083717</a>.</li>
+  <li>L. Niu, G. Lohmann, S. Hinck, Gowan E. J., and U. Krebs-Kanzow. The sensitivity of northern hemisphere ice sheets to atmospheric forcing during the last glacial cycle using pmip3 models. <em>Journal of Glaciology</em>, pages 1–17, 2019. <a href="https://doi.org/10.1017/jog.2019.42">doi:10.1017/jog.2019.42</a>.</li>
+  <li>H. Seroussi, S. Nowicki, E. Simon, A. Abe-Ouchi, T. Albrecht, J. Brondex, S. Cornford, C. Dumas, F. Gillet-Chaulet, H. Goelzer, N. R. Golledge, J. M. Gregory, R. Greve, M. J. Hoffman, A. Humbert, P. Huybrechts, T. Kleiner, E. Larour, G. Leguy, W. H. Lipscomb, D. Lowry, M. Mengel, M. Morlighem, F. Pattyn, A. J. Payne, D. Pollard, S. F. Price, A. Quiquet, T. J. Reerink, R. Reese, C. B. Rodehacke, N.-J. Schlegel, A. Shepherd, S. Sun, J. Sutter, J. Van Breedam, R. S. W. van de Wal, R. Winkelmann, and T. Zhang. Initmip-antarctica: an ice sheet model initialization experiment of ismip6. <em>The Cryosphere</em>, 13(5):1441–1471, 2019. URL: <a href="https://www.the-cryosphere.net/13/1441/2019/">https://www.the-cryosphere.net/13/1441/2019/</a>, <a href="https://doi.org/10.5194/tc-13-1441-2019">doi:10.5194/tc-13-1441-2019</a>.</li>
+  <li>L. B. Stap, J. Sutter, G. Knorr, M. Stärz, and G. Lohmann. Transient variability of the miocene antarctic ice sheet smaller than equilibrium differences. <em>Geophysical Research Letters</em>, 46(8):4288–4298, 2019. URL: <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL082163">https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL082163</a>, <a href="https://doi.org/10.1029/2019GL082163">doi:10.1029/2019GL082163</a>.</li>
+  <li>J. Sutter, H. Fischer, K. Grosfeld, N. B. Karlsson, T. Kleiner, B. Van Liefferinge, and O. Eisen. Modelling the antarctic ice sheet across the mid-pleistocene transition – implications for oldest ice. <em>The Cryosphere</em>, 13(7):2023–2041, 2019. URL: <a href="https://www.the-cryosphere.net/13/2023/2019/">https://www.the-cryosphere.net/13/2023/2019/</a>, <a href="https://doi.org/10.5194/tc-13-2023-2019">doi:10.5194/tc-13-2023-2019</a>.</li>
+  <li>F. A. Ziemen, M.-L. Kapsch, M. Klockmann, and U. Mikolajewicz. Heinrich events show two-stage climate response in transient glacial simulations. <em>Climate of the Past</em>, 15(1):153–168, 2019. URL: <a href="https://www.clim-past.net/15/153/2019/">https://www.clim-past.net/15/153/2019/</a>, <a href="https://doi.org/10.5194/cp-15-153-2019">doi:10.5194/cp-15-153-2019</a>.</li>
+</ol>
+
+<h3 id="2018">2018</h3>
+
+<ol>
+  <li>S. Beyer, T. Kleiner, V. Aizinger, M. Rückamp, and A. Humbert. A confined–unconfined aquifer model for subglacial hydrology and its application to the north east greenland ice stream. <em>The Cryosphere</em>, 12(12):3931–3947, 2018. URL: <a href="https://www.the-cryosphere.net/12/3931/2018/">https://www.the-cryosphere.net/12/3931/2018/</a>, <a href="https://doi.org/10.5194/tc-12-3931-2018">doi:10.5194/tc-12-3931-2018</a>.</li>
+  <li>F. Colloni, L. De Santis, C. S. Siddoway, A. Bergamasco, N. R. Golledge, G. Lohmann, S. Passchier, and M. Siegert. Spatio-temporal variability of processes across antarctic ice-bed–ocean interfaces. <em>Nature Communications</em>, 2018. <a href="https://doi.org/10.1038/s41467-018-04583-0">doi:10.1038/s41467-018-04583-0</a>.</li>
+  <li>B. De Fleurian, M. Werder, and others. Shmip the subglacial hydrology model intercomparison project. <em>J. Glaciol</em>, 2018. <a href="https://doi.org/10.1017/jog.2018.78">doi:10.1017/jog.2018.78</a>.</li>
+  <li>P. M. Dickens, C. Dufour, and J. Fastook. The scalability of embedded structured grids and unstructured grids in large scale ice sheet modeling on distributed memory parallel computers. In <em>2018 IEEE International Parallel and Distributed Processing Symposium Workshops</em>, 977–986. 2018. <a href="https://doi.org/10.1109/IPDPSW.2018.00152">doi:10.1109/IPDPSW.2018.00152</a>.</li>
+  <li>H. Goelzer, S. Nowicki, T. Edwards, M. Beckley, A. Abe-Ouchi, A. Aschwanden, R. Calov, O. Gagliardini, F. Gillet-Chaulet, N. R. Golledge, J. Gregory, R. Greve, A. Humbert, P. Huybrechts, J. H. Kennedy, E. Larour, W. H. Lipscomb, S. Le clec’h, V. Lee, M. Morlighem, F. Pattyn, A. J. Payne, C. Rodehacke, M. Rückamp, F. Saito, N. Schlegel, H. Seroussi, A. Shepherd, S. Sun, R. van de Wal, and F. A. Ziemen. Design and results of the ice sheet model initialisation experiments initmip-greenland: an ismip6 intercomparison. <em>The Cryosphere</em>, 12(4):1433–1460, 2018. URL: <a href="https://www.the-cryosphere.net/12/1433/2018/">https://www.the-cryosphere.net/12/1433/2018/</a>, <a href="https://doi.org/10.5194/tc-12-1433-2018">doi:10.5194/tc-12-1433-2018</a>.</li>
+  <li>A. Humbert, D. Steinhage, V. Helm, S. Beyer, and T. Kleiner. Missing evidence of widespread subglacial lakes at recovery glacier, antarctica. <em>Journal of Geophysical Research: Earth Surface</em>, 2018. URL: <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2017JF004591">https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2017JF004591</a>, <a href="https://doi.org/10.1029/2017JF004591">doi:10.1029/2017JF004591</a>.</li>
+  <li>J. Kingslake, R. Scherer, T. Albrecht, J. Coenen, R. Powell, R. Reese, N. Stansell, S. Tulaczyk, M. Wearing, and P. Whitehouse. Extensive retreat and re-advance of the west antarctic ice sheet during the holocene. <em>Nature</em>, 558:430–434, 2018. <a href="https://doi.org/10.1038/s41586-018-0208-x">doi:10.1038/s41586-018-0208-x</a>.</li>
+  <li>L. T. Nielsen, G. Aðalgeirsdóttir, V. Gkinis, R. Nuterman, and C. S. Hvidberg. The effect of a holocene climatic optimum on the evolution of the greenland ice sheet during the last 10 kyr. <em>J. Glaciol.</em>, 64(245):477–488, 2018. <a href="https://doi.org/10.1017/jog.2018.40">doi:10.1017/jog.2018.40</a>.</li>
+  <li>R. Reese, T. Albrecht, M. Mengel, X. Asay-Davis, and R. Winkelmann. Antarctic sub-shelf melt rates via pico. <em>The Cryosphere</em>, 12(6):1969–1985, 2018. <a href="https://doi.org/10.5194/tc-12-1969-2018">doi:10.5194/tc-12-1969-2018</a>.</li>
+  <li>J. Seguinot, S. Ivy-Ochs, G. Jouvet, M. Huss, M. Funk, and F. Preusser. Modelling last glacial cycle ice dynamics in the alps. <em>The Cryosphere</em>, 12(10):3265–3285, 2018. <a href="https://doi.org/10.5194/tc-12-3265-2018">doi:10.5194/tc-12-3265-2018</a>.</li>
+  <li>Q. Yan, L. A. Owen, H. Wang, and Z. Zhang. Climate constraints on glaciation over high-mountain asia during the last glacial maximum. <em>Geophysical Research Letters</em>, 2018. URL: <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018GL079168">https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018GL079168</a>, <a href="https://doi.org/10.1029/2018GL079168">doi:10.1029/2018GL079168</a>.</li>
+</ol>
+
+<h3 id="2017">2017</h3>
+
+<ol>
+  <li>P. Bakker, P. U. Clark, N. R. Golledge, A. Schmittner, and M. E. Weber. Centennial-scale holocene climate variations amplified by antarctic ice sheet discharge. <em>Nature</em>, 541:72–76, 2017. <a href="https://doi.org/10.1038/nature20582">doi:10.1038/nature20582</a>.</li>
+  <li>J. Feldmann and A. Levermann. From cyclic ice streaming to heinrich-like events: the grow-and-surge instability in the parallel ice sheet model. <em>The Cryosphere</em>, 11(4):1913–1932, 2017. <a href="https://doi.org/10.5194/tc-11-1913-2017">doi:10.5194/tc-11-1913-2017</a>.</li>
+  <li>C. J. Fogwill, C. S. M. Turney, N. R. Golledge, and others. Antarctic ice sheet discharge driven by atmosphere-ocean feedbacks at the last glacial termination. <em>Scientific Reports</em>, 2017. <a href="https://doi.org/10.1038/srep39979">doi:10.1038/srep39979</a>.</li>
+  <li>N. R. Golledge, R. H. Levy, R. M. McKay, and T. R. Naish. East antarctic ice sheet most vulnerable to weddell sea warming. <em>Geophysical Research Letters</em>, 44(5):2343–2351, 2017. <a href="https://doi.org/10.1002/2016GL072422">doi:10.1002/2016GL072422</a>.</li>
+  <li>N. R. Golledge, Z. A. Thomas, R. H. Levy, E. G. W. Gasson, T. R. Naish, R. M. McKay, D. E. Kowalewski, and C. J. Fogwill. Antarctic climate and ice-sheet configuration during the early pliocene interglacial at 4.23\,ma. <em>Climate of the Past</em>, 13(7):959–975, 2017. <a href="https://doi.org/10.5194/cp-13-959-2017">doi:10.5194/cp-13-959-2017</a>.</li>
+  <li>M. Habermann, M. Truffer, and D. Maxwell. Error sources in basal yield stress inversions for jakobshavn isbræ, greenland, derived from residual patterns of misfit to observations. <em>J. Glaciol.</em>, 2017. <a href="https://doi.org/10.1017/jog.2017.61">doi:10.1017/jog.2017.61</a>.</li>
+  <li>G. Jouvet, J. Seguinot, S. Ivy-Ochs, and M. Funk. Modelling the diversion of erratic boulders by the valais glacier during the last glacial maximum. <em>J. Glaciol.</em>, 63(239):487–498, 2017. <a href="https://doi.org/10.1017/jog.2017.7">doi:10.1017/jog.2017.7</a>.</li>
+  <li>M. L. Pittard, B. K. Galton-Fenzi, C. S. Watson, and J. L. Roberts. Future sea level change from antarctica’s lambert-amery glacial system. <em>Geophysical Research Letters</em>, 2017. <a href="https://doi.org/10.1002/2017GL073486">doi:10.1002/2017GL073486</a>.</li>
+  <li>G. R. Stuhne and W. R. Peltier. Assimilating the ice-6g_c reconstruction of the latest quaternary ice-age cycle into numerical simulations of the laurentide and fennoscandian ice-sheets. <em>J. Geophys. Res.: Earth Surface</em>, 2017. <a href="https://doi.org/10.1002/2017JF004359">doi:10.1002/2017JF004359</a>.</li>
+  <li>Z. Zhang, Q. Yan, R. Zhang, X. Y. Li, G. Dai, S. Leng, and Y. Tian. Teleconnection between northern hemisphere ice sheets and east asian climate during quaternary (in chinese). <em>Quaternary Research</em>, 2017. URL: <a href="http://html.rhhz.net/DSJYJ/20170509.htm">http://html.rhhz.net/DSJYJ/20170509.htm</a>, <a href="https://doi.org/10.11928/j.issn.1001-7410.2017.05.08">doi:10.11928/j.issn.1001-7410.2017.05.08</a>.</li>
+</ol>
+
+<h3 id="2016">2016</h3>
+
+<ol>
+  <li>A. R. A. Aitken, J. L. Roberts, T. D. van Ommen, D. A. Young, N. R. Golledge, J. S. Greenbaum, D. D. Blankenship, and M. J. Siegert. Repeated large-scale retreat and advance of totten glacier indicated by inland bed erosion. <em>Nature</em>, 533(7603):385–389, 2016. <a href="https://doi.org/10.1038/nature17447">doi:10.1038/nature17447</a>.</li>
+  <li>A. Aschwanden, M. A. Fahnestock, and M. Truffer. Complex greenland outlet glacier flow captured. <em>Nature Communications</em>, 2016. <a href="https://doi.org/10.1038/ncomms10524">doi:10.1038/ncomms10524</a>.</li>
+  <li>P. J. Bart, D. Mullally, and N. R. Golledge. The influence of continental shelf bathymetry on antarctic ice sheet response to climate forcing. <em>Global and Planetary Change</em>, 142:87–95, 2016. <a href="https://doi.org/10.1016/j.gloplacha.2016.04.009">doi:10.1016/j.gloplacha.2016.04.009</a>.</li>
+  <li>P. Becker, J. Seguinot, G. Jouvet, and M. Funk. Last glacial maximum precipitation pattern in the alps inferred from glacier modelling. <em>Geographica Helvetica</em>, 71(3):173–187, 2016. <a href="https://doi.org/10.5194/gh-71-173-2016">doi:10.5194/gh-71-173-2016</a>.</li>
+  <li>P. Clark and twenty others. Consequences of twenty-first-century policy for multi-millennial climate and sea-level change. <em>Nature Clim. Change</em>, 6:360–369, 2016. supplement describes PISM usage. <a href="https://doi.org/10.1038/nclimate2923">doi:10.1038/nclimate2923</a>.</li>
+  <li>P. Dickens, C. Dufour, and J. Fastook. A prototype implementation of an embedded simulation system for the study of large scale ice sheets. In T. Roeder and others, editors, <em>Proceedings of the 2016 Winter Simulation Conference</em>, 1781–1789. IEEE, 2016. URL: <a href="https://pdfs.semanticscholar.org/e428/60c9bb89c6f4f5e9f66007a765cd88261a43.pdf">https://pdfs.semanticscholar.org/e428/60c9bb89c6f4f5e9f66007a765cd88261a43.pdf</a>.</li>
+  <li>J. Feldmann and A. Levermann. Similitude of ice dynamics against scaling of geometry and physical parameters. <em>The Cryosphere</em>, 10(4):1753–1769, 2016. <a href="https://doi.org/10.5194/tc-10-1753-2016">doi:10.5194/tc-10-1753-2016</a>.</li>
+  <li>C. Fogwill, N. Golledge, H. Millman, and C. Turney. The east antarctic ice sheet as a source of sea-level rise: a major tipping element in the climate system? <em>PAGES Magazine</em>, 24(1):8–9, 2016. URL: <a href="http://pastglobalchanges.org/download/docs/magazine/2016-1/PAGESmagazine_2016(1)_8-9_Fogwill.pdf">http://pastglobalchanges.org/download/docs/magazine/2016-1/PAGESmagazine_2016(1)_8-9_Fogwill.pdf</a>.</li>
+  <li>K. Frieler, M. Mengel, and A. Levermann. Delaying future sea-level rise by storing water on antarctica. <em>Earth System Dynamics</em>, 7(1):203–210, 2016. <a href="https://doi.org/10.5194/esd-7-203-2016">doi:10.5194/esd-7-203-2016</a>.</li>
+  <li>J. A. MacGregor, M. A. Fahnestock, G. A. Catania, A. Aschwanden, and others. A synthesis of the basal thermal state of the greenland ice sheet. <em>Journal of Geophysical Research: Earth Surface</em>, 121(7):1328–1350, 2016. <a href="https://doi.org/10.1002/2015JF003803">doi:10.1002/2015JF003803</a>.</li>
+  <li>M. Mengel, J. Feldmann, and A. Levermann. Linear sea-level response to abrupt ocean warming of major west-antarctic ice basin. <em>Nature Clim. Change</em>, 6(1):71–74, 2016. <a href="https://doi.org/10.1038/nclimate2808">doi:10.1038/nclimate2808</a>.</li>
+  <li>I. Muresan, S. Khan, A. Aschwanden, C. Khroulev, T. Van Dam, J. Bamber, M. van den Broeke, B. Wouters, P. Kuipers Munneke, and K. Kjaer. Modelled glacier dynamics over the last quarter of a century at jakobshavn isbrae. <em>The Cryosphere</em>, 10(2):597–611, 2016. <a href="https://doi.org/10.5194/tc-10-597-2016">doi:10.5194/tc-10-597-2016</a>.</li>
+  <li>M. L. Pittard, B. K. Galton-Fenzi, J. L. Roberts, and C. S. Watson. Organization of ice flow by localized regions of elevated geothermal heat flux. <em>Geophysical Research Letters</em>, 43(7):3342–3350, 2016. <a href="https://doi.org/10.1002/2016GL068436">doi:10.1002/2016GL068436</a>.</li>
+  <li>M. L. Pittard, J. L. Roberts, B. K. Galton-Fenzi, and C. S. Watson. Sensitivity of the lambert-amery glacial system to geothermal heat flux. <em>Ann. Glaciol.</em>, pages 1–13, 2016. <a href="https://doi.org/10.1017/aog.2016.26">doi:10.1017/aog.2016.26</a>.</li>
+  <li>A. Robel and E. Tziperman. The role of ice stream dynamics in deglaciation. <em>Journal of Geophysical Research: Earth Surface</em>, 121(8):1540–1554, 2016. <a href="https://doi.org/10.1002/2016JF003937">doi:10.1002/2016JF003937</a>.</li>
+  <li>J. Seguinot, I. Rogozhina, A. P. Stroeven, M. Margold, and J. Kleman. Numerical simulations of the cordilleran ice sheet through the last glacial cycle. <em>The Cryosphere</em>, 10(2):639–664, 2016. <a href="https://doi.org/10.5194/tc-10-639-2016">doi:10.5194/tc-10-639-2016</a>.</li>
+  <li>I. Weikusat, D. Jansen, T. Binder, J. Eichler, S. H. Faria, F. Wilhelms, S. Kipfstuhl, S. Sheldon, H. Miller, D. Dahl-Jensen, and T. Kleiner. Physical analysis of an antarctic ice core—towards an integration of micro- and macrodynamics of polar ice. <em>Philos. T. Roy. Soc. A</em>, 2016. <a href="https://doi.org/10.1098/rsta.2015.0347">doi:10.1098/rsta.2015.0347</a>.</li>
+  <li>Q. Yan, Z. Zhang, and H. Wang. Investigating uncertainty in the simulation of the antarctic ice sheet during the mid-piacenzian. <em>Journal of Geophysical Research: Atmospheres</em>, 121(4):1559–1574, 2016. <a href="https://doi.org/10.1002/2015JD023900">doi:10.1002/2015JD023900</a>.</li>
+  <li>F. A. Ziemen, R. Hock, A. Aschwanden, C. Khroulev, C. Kienholz, A. Melkonian, and J. Zhang. Modeling the evolution of the juneau icefield between 1971 and 2100 using the parallel ice sheet model (pism). <em>J. Glaciol.</em>, 62(231):199–214, 2016. <a href="https://doi.org/10.1017/jog.2016.13">doi:10.1017/jog.2016.13</a>.</li>
+</ol>
+
+<h3 id="2015">2015</h3>
+
+<ol>
+  <li>E. Bueler and W. van Pelt. Mass-conserving subglacial hydrology in the parallel ice sheet model version 0.6. <em>Geoscientific Model Development</em>, 8(6):1613–1635, 2015. <a href="https://doi.org/10.5194/gmd-8-1613-2015">doi:10.5194/gmd-8-1613-2015</a>.</li>
+  <li>B. de Boer, A. M. Dolan, J. Bernales, E. Gasson, H. Goelzer, N. R. Golledge, J. Sutter, P. Huybrechts, G. Lohmann, I. Rogozhina, A. Abe-Ouchi, F. Saito, and R. S. W. van de Wal. Simulating the antarctic ice sheet in the late-pliocene warm period: plismip-ant, an ice-sheet model intercomparison project. <em>The Cryosphere</em>, 9(3):881–903, 2015. <a href="https://doi.org/10.5194/tc-9-881-2015">doi:10.5194/tc-9-881-2015</a>.</li>
+  <li>P. Dickens. A performance and scalability analysis of the mpi based tools utilized in a large ice sheet model executing in a multicore environment. In Guojun Wang and others, editors, <em>Algorithms and Architectures for Parallel Processing</em>, volume 9531 of Lecture Notes in Computer Science, 131–147. Springer International Publishing, 2015. <a href="https://doi.org/10.1007/978-3-319-27140-8_10">doi:10.1007/978-3-319-27140-8_10</a>.</li>
+  <li>J. Feldmann and A. Levermann. Collapse of the west antarctic ice sheet after local destabilization of the amundsen basin. <em>Proceedings of the National Academy of Sciences</em>, 112(46):14191–14196, 2015. <a href="https://doi.org/10.1073/pnas.1512482112">doi:10.1073/pnas.1512482112</a>.</li>
+  <li>J. Feldmann and A. Levermann. Interaction of marine ice-sheet instabilities in two drainage basins: simple scaling of geometry and transition time. <em>The Cryosphere</em>, 9(2):631–645, 2015. <a href="https://doi.org/10.5194/tc-9-631-2015">doi:10.5194/tc-9-631-2015</a>.</li>
+  <li>K. Frieler, P. U. Clark, F. He, C. Buizert, R. Reese, S. Ligtenberg, M. van den Broeke, R. Winkelmann, and A. Levermann. Consistent evidence of increasing antarctic accumulation with warming. <em>Nature Clim. Change</em>, 5:348–352, 2015. <a href="https://doi.org/10.1038/nclimate2574">doi:10.1038/nclimate2574</a>.</li>
+  <li>N. R. Golledge, D. E. Kowalewski, T. R. Naish, R. H. Levy, C. J. Fogwill, and E. G. W. Gasson. The multi-millennial antarctic commitment to future sea-level rise. <em>Nature</em>, 526(7573):421–425, 2015. <a href="https://doi.org/10.1038/nature15706">doi:10.1038/nature15706</a>.</li>
+  <li>G. Stuhne and W. Peltier. Reconciling the ICE-6G C reconstruction of glacial chronology with ice sheet dynamics: the cases of Greenland and Antarctica. <em>Journal of Geophysical Research: Earth Surface</em>, 120(9):1841–1865, 2015. <a href="https://doi.org/10.1002/2015JF003580">doi:10.1002/2015JF003580</a>.</li>
+  <li>R. Winkelmann, A. Levermann, A. Ridgwell, and K. Caldeira. Combustion of available fossil fuel resources sufficient to eliminate the antarctic ice sheet. <em>Science Advances</em>, 2015. <a href="https://doi.org/10.1126/sciadv.1500589">doi:10.1126/sciadv.1500589</a>.</li>
+</ol>
+
+<h3 id="2014">2014</h3>
+
+<ol>
+  <li>G Adalgeirsdottir, A. Aschwanden, C. Khroulev, F. Boberg, R. Mottram, P. Lucas-Picher, and J. H. Christensen. Role of model initialization for projections of 21st-century greenland ice sheet mass loss. <em>J. Glaciol.</em>, 60(222):782–794, 2014. URL: <a href="http://www.igsoc.org/journal/60/222/t13j202.html">http://www.igsoc.org/journal/60/222/t13j202.html</a>, <a href="https://doi.org/10.3189/2014JoG13J202">doi:10.3189/2014JoG13J202</a>.</li>
+  <li>T. Albrecht and A. Levermann. Fracture-induced softening for large-scale ice dynamics. <em>The Cryosphere</em>, 8(2):587–605, 2014. URL: <a href="http://www.the-cryosphere.net/8/587/2014/">http://www.the-cryosphere.net/8/587/2014/</a>, <a href="https://doi.org/10.5194/tc-8-587-2014">doi:10.5194/tc-8-587-2014</a>.</li>
+  <li>T. Albrecht and A. Levermann. Spontaneous ice-front retreat induced by disintegration of adjacent ice shelf in antarctica. <em>Earth Planet. Sci. Lett.</em>, 393:26–30, 2014. <a href="https://doi.org/10.1016/j.epsl.2014.02.034">doi:10.1016/j.epsl.2014.02.034</a>.</li>
+  <li>J. Feldmann, T. Albrecht, C. Khroulev, F. Pattyn, and A. Levermann. Resolution-dependent performance of grounding line motion in a shallow model compared to a full-Stokes model according to the MISMIP3d intercomparison. <em>J. Glaciol.</em>, 60(220):353–360, 2014. URL: <a href="http://www.igsoc.org/journal/60/220/j13J093.html">http://www.igsoc.org/journal/60/220/j13J093.html</a>, <a href="https://doi.org/10.3189/2014JoG13J093">doi:10.3189/2014JoG13J093</a>.</li>
+  <li>R. Fischer, S. Nowicki, M. Kelley, and G. A. Schmidt. A system of conservative regridding for ice-atmosphere coupling in a General Circulation Model (GCM). <em>Geoscientific Model Development</em>, 7(3):883–907, 2014. URL: <a href="https://gmd.copernicus.org/articles/7/883/2014/">https://gmd.copernicus.org/articles/7/883/2014/</a>, <a href="https://doi.org/10.5194/gmd-7-883-2014">doi:10.5194/gmd-7-883-2014</a>.</li>
+  <li>C. Fogwill, C. Turney, K. Meissner, N. Golledge, P. Spence, J. Roberts, M. England, R. Jones, and L. Carter. Testing the sensitivity of the east antarctic ice sheet to southern ocean dynamics: past changes and future implications. <em>Journal of Quaternary Science</em>, 29(1):91–98, 2014. URL: <a href="http://dx.doi.org/10.1002/jqs.2683">http://dx.doi.org/10.1002/jqs.2683</a>, <a href="https://doi.org/10.1002/jqs.2683">doi:10.1002/jqs.2683</a>.</li>
+  <li>C.J. Fogwill, C.S.M. Turney, N.R. Golledge, D.H. Rood, K. Hippe, L. Wacker, R. Wieler, E.B. Rainsley, and R.S. Jones. Drivers of abrupt holocene shifts in west antarctic ice stream direction determined from combined ice sheet modelling and geologic signatures. <em>Antarctic Science</em>, 26:674–686, 2014. URL: <a href="http://journals.cambridge.org/article_S0954102014000613">http://journals.cambridge.org/article_S0954102014000613</a>, <a href="https://doi.org/10.1017/S0954102014000613">doi:10.1017/S0954102014000613</a>.</li>
+  <li>N. R. Golledge. Selective erosion beneath the antarctic peninsula ice sheet during lgm retreat. <em>Antarctic Science</em>, 26(6):698–707, 2014. <a href="https://doi.org/10.1017/S0954102014000340">doi:10.1017/S0954102014000340</a>.</li>
+  <li>N. R. Golledge, L. Menviel, L. Carter, C. J. Fogwill, M. H. England, G. Cortese, and R. H. Levy. Antarctic contribution to meltwater pulse 1a from reduced southern ocean overturning. <em>Nature Communications</em>, 2014. <a href="https://doi.org/10.1038/ncomms6107">doi:10.1038/ncomms6107</a>.</li>
+  <li>A. Levermann, R. Winkelmann, S. Nowicki, J. L. Fastook, K. Frieler, R. Greve, H. H. Hellmer, M. A. Martin, M. Meinshausen, M. Mengel, A. J. Payne, D. Pollard, T. Sato, R. Timmermann, W. L. Wang, and R. A. Bindschadler. Projecting antarctic ice discharge using response functions from searise ice-sheet models. <em>Earth System Dynamics</em>, 5(2):271–293, 2014. URL: <a href="http://www.earth-syst-dynam.net/5/271/2014/">http://www.earth-syst-dynam.net/5/271/2014/</a>, <a href="https://doi.org/10.5194/esd-5-271-2014">doi:10.5194/esd-5-271-2014</a>.</li>
+  <li>M. Mengel and A. Levermann. Ice plug prevents irreversible discharge from east antarctica. <em>Nature Clim. Change</em>, 4:451–455, 2014. <a href="https://doi.org/10.1038/nclimate2226">doi:10.1038/nclimate2226</a>.</li>
+  <li>S. H. R. Rosier, J. A. M. Green, J. D. Scourse, and R. Winkelmann. Modeling antarctic tides in response to ice shelf thinning and retreat. <em>Journal of Geophysical Research: Oceans</em>, 119(1):87–97, 2014. <a href="https://doi.org/10.1002/2013JC009240">doi:10.1002/2013JC009240</a>.</li>
+  <li>J. Seguinot, C. Khroulev, I. Rogozhina, A. P. Stroeven, and Q. Zhang. The effect of climate forcing on numerical simulations of the Cordilleran ice sheet at the Last Glacial Maximum. <em>The Cryosphere</em>, 8(3):1087–1103, 2014. URL: <a href="http://www.the-cryosphere.net/8/1087/2014/">http://www.the-cryosphere.net/8/1087/2014/</a>, <a href="https://doi.org/10.5194/tc-8-1087-2014">doi:10.5194/tc-8-1087-2014</a>.</li>
+  <li>F. A. Ziemen, C. B. Rodehacke, and U. Mikolajewicz. Coupled ice sheet-climate modeling under glacial and pre-industrial boundary conditions. <em>Climate of the Past</em>, 10(5):1817–1836, 2014. URL: <a href="http://www.clim-past.net/10/1817/2014/">http://www.clim-past.net/10/1817/2014/</a>, <a href="https://doi.org/10.5194/cp-10-1817-2014">doi:10.5194/cp-10-1817-2014</a>.</li>
+</ol>
+
+<h3 id="2013">2013</h3>
+
+<ol>
+  <li>A. Aschwanden, G. Adalgeirsdottir, and C. Khroulev. Hindcasting to measure ice sheet model sensitivity to initial states. <em>The Cryosphere</em>, 7(4):1083–1093, 2013. URL: <a href="http://www.the-cryosphere.net/7/1083/2013/">http://www.the-cryosphere.net/7/1083/2013/</a>, <a href="https://doi.org/10.5194/tc-7-1083-2013">doi:10.5194/tc-7-1083-2013</a>.</li>
+  <li>R. Bindshadler and 27 others. Ice-sheet model sensitivities to environmental forcing and their use in projecting future sea-level (the searise project). <em>J. Glaciol.</em>, 59(214):195–224, 2013. URL: <a href="http://www.igsoc.org/journal/59/214/j12J125.html">http://www.igsoc.org/journal/59/214/j12J125.html</a>.</li>
+  <li>P. Dickens and T. Morey. Increasing the scalability of pism for high resolution ice sheet models. In <em>Parallel and Distributed Processing Symposium Workshops PhD Forum (IPDPSW), 2013 IEEE 27th International</em>, 1336–1344. 2013. <a href="https://doi.org/10.1109/IPDPSW.2013.255">doi:10.1109/IPDPSW.2013.255</a>.</li>
+  <li>N. Golledge, R. Levy, R. McKay, C. Fogwill, D. White, A. Graham, J. Smith, C. Hillenbrand, K. Licht, G. Denton, R. Ackert., S. Maas, and B. Hall. Glaciology and geological signature of the last glacial maximum antarctic ice sheet. <em>Quaternary Science Reviews</em>, 78(0):225 – 247, 2013. URL: <a href="http://www.sciencedirect.com/science/article/pii/S0277379113003168">http://www.sciencedirect.com/science/article/pii/S0277379113003168</a>, <a href="https://doi.org/10.1016/j.quascirev.2013.08.011">doi:10.1016/j.quascirev.2013.08.011</a>.</li>
+  <li>M. Habermann, M. Truffer, and D. Maxwell. Changing basal conditions during the speed-up of jakobshavn isbrae, greenland. <em>The Cryosphere</em>, 7(6):1679–1692, 2013. URL: <a href="http://www.the-cryosphere.net/7/1679/2013/">http://www.the-cryosphere.net/7/1679/2013/</a>, <a href="https://doi.org/10.5194/tc-7-1679-2013">doi:10.5194/tc-7-1679-2013</a>.</li>
+  <li>S. Nowicki and 30 others. Insights into spatial sensitivities of ice mass response to environmental change from the searise ice sheet modeling project: i. antarctica. <em>J. Geophys. Res.: Earth Surface</em>, 118(2):1002–1024, 2013. <a href="https://doi.org/10.1002/jgrf.20081">doi:10.1002/jgrf.20081</a>.</li>
+  <li>S. Nowicki and 30 others. Insights into spatial sensitivities of ice mass response to environmental change from the searise ice sheet modeling project: ii. greenland. <em>J. Geophys. Res.: Earth Surface</em>, 118(2):1025–1044, 2013. <a href="https://doi.org/10.1002/jgrf.20076">doi:10.1002/jgrf.20076</a>.</li>
+  <li>F. Pattyn and 28 others. Grounding-line migration in plan-view marine ice-sheet models: results of the ice2sea MISMIP3d intercomparison. <em>J. Glaciol.</em>, 59(215):410–422, 2013. URL: <a href="http://www.igsoc.org/journal/59/215/t12J129.html">http://www.igsoc.org/journal/59/215/t12J129.html</a>.</li>
+  <li>C. Rodehacke, A. Voigt, F. Ziemen, and D. Abbot. An open ocean region in neoproterozoic glaciations would have to be narrow to allow equatorial ice sheets. <em>Geophys. Res. Letters</em>, 40(20):5503–5507, 2013. <a href="https://doi.org/10.1002/2013GL057582">doi:10.1002/2013GL057582</a>.</li>
+  <li>A. M. Solgaard, J. M. Bonow, P. L. Langen, P. Japsen, and C. S. Hvidberg. Mountain building and the initiation of the greenland ice sheet. <em>Palaeogeography, Palaeoclimatology, Palaeoecology</em>, 392:161 – 176, 2013. URL: <a href="http://www.sciencedirect.com/science/article/pii/S0031018213004215">http://www.sciencedirect.com/science/article/pii/S0031018213004215</a>, <a href="https://doi.org/10.1016/j.palaeo.2013.09.019">doi:10.1016/j.palaeo.2013.09.019</a>.</li>
+  <li>W. J. J. van Pelt, J. Oerlemans, C. H. Reijmer, R. Pettersson, V. A. Pohjola, E. Isaksson, and D. Divine. An iterative inverse method to estimate basal topography and initialize ice flow models. <em>The Cryosphere</em>, 7(3):987–1006, 2013. URL: <a href="http://www.the-cryosphere.net/7/987/2013/">http://www.the-cryosphere.net/7/987/2013/</a>, <a href="https://doi.org/10.5194/tc-7-987-2013">doi:10.5194/tc-7-987-2013</a>.</li>
+  <li>R. Winkelmann and A. Levermann. Linear response functions to project contributions to future sea level. <em>Climate Dynamics</em>, 40(11–12):2579–2588, 2013. URL: <a href="http://dx.doi.org/10.1007/s00382-012-1471-4">http://dx.doi.org/10.1007/s00382-012-1471-4</a>, <a href="https://doi.org/10.1007/s00382-012-1471-4">doi:10.1007/s00382-012-1471-4</a>.</li>
+</ol>
+
+<h3 id="2012">2012</h3>
+
+<ol>
+  <li>T. Albrecht and A. Levermann. Fracture field for large-scale ice dynamics. <em>Journal of Glaciology</em>, 58(207):165–176, 2012. URL: <a href="http://www.igsoc.org/journal/current/207/t11J191.pdf">http://www.igsoc.org/journal/current/207/t11J191.pdf</a>, <a href="https://doi.org/10.3189/2012JoG11J191">doi:10.3189/2012JoG11J191</a>.</li>
+  <li>A. Aschwanden, E. Bueler, C. Khroulev, and H. Blatter. An enthalpy formulation for glaciers and ice sheets. <em>Journal of Glaciology</em>, 58(209):441–457, 2012. <a href="https://doi.org/10.3189/2012JoG11J088">doi:10.3189/2012JoG11J088</a>.</li>
+  <li>N. Golledge, C. Fogwill, A. Mackintosh, and K. Buckley. Dynamics of the last glacial maximum antarctic ice-sheet and its response to ocean forcing. <em>Proceedings of the National Academy of Sciences</em>, 2012. URL: <a href="http://www.pnas.org/content/early/2012/09/10/1205385109.abstract">http://www.pnas.org/content/early/2012/09/10/1205385109.abstract</a>, <a href="https://doi.org/10.1073/pnas.1205385109">doi:10.1073/pnas.1205385109</a>.</li>
+  <li>N. Golledge, A. Mackintosh, and 8 others. Last glacial maximum climate in new zealand inferred from a modelled southern alps icefield. <em>Quaternary Science Reviews</em>, 46:30–45, 2012. <a href="https://doi.org/10.1016/j.quascirev.2012.05.004">doi:10.1016/j.quascirev.2012.05.004</a>.</li>
+  <li>P. Langen, A. Solgaard, and C. Hvidberg. Self-inhibiting growth of the Greenland Ice Sheet. <em>Geophys. Res. Lett.</em>, 2012. <a href="https://doi.org/10.1029/2012GL051810">doi:10.1029/2012GL051810</a>.</li>
+  <li>A. Levermann, T. Albrecht, R. Winkelmann, M. A. Martin, M. Haseloff, and I. Joughin. Kinematic first-order calving law implies potential for abrupt ice-shelf retreat. <em>The Cryosphere</em>, 6:273–286, 2012. URL: <a href="http://www.the-cryosphere.net/6/273/2012/tc-6-273-2012.html">http://www.the-cryosphere.net/6/273/2012/tc-6-273-2012.html</a>.</li>
+  <li>F. Pattyn, C. Schoof, L. Perichon, and 15 others. Results of the marine ice sheet model intercomparison project, mismip. <em>The Cryosphere</em>, 6:573–588, 2012. URL: <a href="http://www.the-cryosphere.net/6/573/2012/tc-6-573-2012.html">http://www.the-cryosphere.net/6/573/2012/tc-6-573-2012.html</a>.</li>
+  <li>W. J. J. van Pelt and J. Oerlemans. Numerical simulations of cyclic behaviour in the parallel ice sheet model (pism). <em>Journal of Glaciology</em>, 58(208):347–360, 2012. URL: <a href="http://www.igsoc.org/journal/58/208/t11J217.pdf">http://www.igsoc.org/journal/58/208/t11J217.pdf</a>, <a href="https://doi.org/10.3189/2012JoG11J217">doi:10.3189/2012JoG11J217</a>.</li>
+  <li>A. Solgaard and P. Langen. Multistability of the greenland ice sheet and the effects of an adaptive mass balance formulation. <em>Climate Dynamics</em>, 2012. <a href="https://doi.org/10.1007/s00382-012-1305-4">doi:10.1007/s00382-012-1305-4</a>.</li>
+  <li>R. Winkelmann, A. Levermann, K. Frieler, and M.A. Martin. Increased future ice discharge from antarctica owing to higher snowfall. <em>Nature</em>, 492:239–242, 2012. URL: <a href="http://www.nature.com/nature/journal/v492/n7428/full/nature11616.html">http://www.nature.com/nature/journal/v492/n7428/full/nature11616.html</a>, <a href="https://doi.org/10.1038/nature11616">doi:10.1038/nature11616</a>.</li>
+</ol>
+
+<h3 id="2011">2011</h3>
+
+<ol>
+  <li>T. Albrecht, M. Martin, M. Haseloff, R. Winkelmann, and A. Levermann. Parameterization for subgrid-scale motion of ice-shelf calving fronts. <em>The Cryosphere</em>, 5:35–44, 2011. URL: <a href="http://www.the-cryosphere.net/5/35/2011/tc-5-35-2011.html">http://www.the-cryosphere.net/5/35/2011/tc-5-35-2011.html</a>.</li>
+  <li>A. Levermann. When glacial giants roll over. <em>Nature</em>, 472:43–44, 2011. URL: <a href="http://www.pik-potsdam.de/~anders/publications/levermann11.pdf">http://www.pik-potsdam.de/~anders/publications/levermann11.pdf</a>.</li>
+  <li>M. A. Martin, R. Winkelmann, M. Haseloff, T. Albrecht, E. Bueler, C. Khroulev, and A. Levermann. The potsdam parallel ice sheet model (pism-pik) – part 2: dynamic equilibrium simulation of the antarctic ice sheet. <em>The Cryosphere</em>, 5:727–740, 2011. URL: <a href="http://www.the-cryosphere.net/5/727/2011/tc-5-727-2011.pdf">http://www.the-cryosphere.net/5/727/2011/tc-5-727-2011.pdf</a>.</li>
+  <li>A. M. Solgaard, N. Reeh, P. Japsen, and T. Nielsen. Snapshots of the greenland ice sheet configuration in the pliocene to early pleistocene. <em>Journal of Glaciology</em>, 57(205):871–880, 2011. <a href="https://doi.org/10.3189/002214311798043816">doi:10.3189/002214311798043816</a>.</li>
+  <li>L. S. Sorensen, S. B. Simonsen, and 6 others. Mass balance of the greenland ice sheet (2003–2008) from icesat data – the impact of interpolation, sampling and firn density. <em>The Cryosphere</em>, 5(1):173–186, 2011. URL: <a href="http://www.the-cryosphere.net/5/173/2011/">http://www.the-cryosphere.net/5/173/2011/</a>, <a href="https://doi.org/10.5194/tc-5-173-2011">doi:10.5194/tc-5-173-2011</a>.</li>
+  <li>R. Winkelmann, M. A. Martin, M. Haseloff, T. Albrecht, E. Bueler, C. Khroulev, and A. Levermann. The Potsdam Parallel Ice Sheet Model (PISM-PIK) Part 1: Model description. <em>The Cryosphere</em>, 5:715–726, 2011. URL: <a href="http://www.the-cryosphere.net/5/715/2011/tc-5-715-2011.pdf">http://www.the-cryosphere.net/5/715/2011/tc-5-715-2011.pdf</a>.</li>
+</ol>
+
+<h3 id="2010">2010</h3>
+
+<ol>
+  <li>R. Calov, R. Greve, and 9 others. Results from the Ice-Sheet Model Intercomparison Project-Heinrich Event INtercOmparison (ISMIP HEINO). <em>Journal of Glaciology</em>, 56(197):371–383, 2010. <a href="https://doi.org/10.3189/002214310792447789">doi:10.3189/002214310792447789</a>.</li>
+</ol>
+
+<h3 id="2009">2009</h3>
+
+<ol>
+  <li>E. Bueler and J. Brown. Shallow shelf approximation as a “sliding law” in a thermodynamically coupled ice sheet model. <em>J. Geophys. Res.: Earth Surface</em>, 2009. <a href="https://doi.org/10.1029/2008JF001179">doi:10.1029/2008JF001179</a>.</li>
+</ol>
+
+<h3 id="2007">2007</h3>
+
+<ol>
+  <li>E. Bueler, J. Brown, and C. Lingle. Exact solutions to the thermomechanically coupled shallow ice approximation: effective tools for verification. <em>J. Glaciol.</em>, 53(182):499–516, 2007. URL: <a href="http://www.igsoc.org/journal/53/182/j06j094.pdf">http://www.igsoc.org/journal/53/182/j06j094.pdf</a>.</li>
+  <li>E. Bueler, C. S. Lingle, and J. A. Kallen-Brown. Fast computation of a viscoelastic deformable Earth model for ice sheet simulation. <em>Ann. Glaciol.</em>, 46:97–105, 2007. URL: <a href="http://www.igsoc.org/annals/46/a46a130.pdf">http://www.igsoc.org/annals/46/a46a130.pdf</a>.</li>
+</ol>
+
+
+</div>
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest news</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="/img/news/pism-publications.png" alt="The 100th PISM-using paper!">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/news/2020/09/11/pism100/">The 100th PISM-using paper!</a>
+            
+            
+                <p><p>At the end of May we found the 100th PISM-using paper:</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/09/11/pism100/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Sep 11, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2020/02/13/version1.2/">Version 1.2</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>We are pleased to announce the release of the Parallel Ice Sheet Model
+(PISM) v1.2.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/02/13/version1.2/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Feb 13, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2020/02/05/postdocmpim2020/">MPI-M Hamburg, Germany: open postdoc for coupled atmosphere-ocean-ice sheet model</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>The Max Planck Institute for Meteorology (MPI-M) contributes to the BMBF
+project “From the Last Interglacial to the Anthropocene: Modeling a
+Complete Glacial Cycle” <a href="https://www.palmod.de/">(PalMod,
+www.palmod.de)</a>, which aims at
+simulating the climate from the peak of the last interglacial up to the
+present using comprehensive Earth System Models. Phase II of this
+project has an open position Postdoctoral Scientist (W073). The
+successful candidate will be part of a local team performing and
+analysing long-term transient simulations covering the last glacial and
+the transition into the Holocene with an interactively coupled
+atmosphere-ocean-ice sheet model. Additionally, the candidate will
+contribute to the continued development of this model. The model system
+consists of the MPI-Earth system model, the ice sheet model PISM, and
+the solid-earth model VILMA.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/02/05/postdocmpim2020/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Feb 5, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+<div class="buttons is-centered">
+    <a href="/news/" class="button is-primary is-outlined">All news</a>
+</div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+
+        <div class="has-text-centered">
+            <p><strong>Follow</strong></p>
+            <div class="buttons is-centered">
+                <a href="https://twitter.com/UAFGI" title="Twitter" class="button is-light" target="_blank">
+                    <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
+                </a>
+                <a href="https://www.facebook.com/UAF.GI" title="Facebook" class="button is-light" target="_blank">
+                    <i class="fab fa-facebook fa-lg" style="color: #3b5998;"></i>
+                </a>
+                <a href="https://join.slack.com/t/uaf-pism/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE" title="Slack" class="button is-light" target="_blank">
+                    <i class="fab fa-slack fa-lg" style="color: #611F69;"></i>
+                </a>
+                <a href="https://github.com/pism" title="Github" class="button is-light" target="_blank">
+                    <i class="fab fa-github fa-lg" style="color: #171516;"></i>
+                </a>
+                <a href="/feed.xml" title="RSS Feed" class="button is-light">
+                    <i class="fas fa-rss fa-lg" style="color: #fa9b39;"></i>
+                </a>
+            </div>
+        </div>
+        <br>
+
+        <div class="content is-small has-text-centered">
+            <p>Site built using <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a>  by C.S. Rhymes</p>
+            <p>&copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> The PISM Authors</p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

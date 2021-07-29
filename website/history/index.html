@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#216778>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/x-icon"
+           href="/favicon.ico" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>History | PISM</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="History" />
+<meta name="author" content="The PISM Authors" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Website for PISM, the Parallel Ice Sheet Model" />
+<meta property="og:description" content="Website for PISM, the Parallel Ice Sheet Model" />
+<link rel="canonical" href="https://pism.github.io/history/" />
+<meta property="og:url" content="https://pism.github.io/history/" />
+<meta property="og:site_name" content="PISM" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="History" />
+<meta name="twitter:site" content="@UAFGI" />
+<meta name="twitter:creator" content="@UAFGI" />
+<script type="application/ld+json">
+{"description":"Website for PISM, the Parallel Ice Sheet Model","headline":"History","url":"https://pism.github.io/history/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://pism.github.io/img/pism_logo_transp.png"},"name":"The PISM Authors"},"author":{"@type":"Person","name":"The PISM Authors"},"@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts -->
+
+<!-- Favicon -->
+<!-- Default -->
+<link rel="shortcut icon" href="https://pism.github.io/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://pism.github.io/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://pism.github.io/favicon/favicon-32x32.png">
+<!-- iOS -->
+<link rel="apple-touch-icon" sizes="57x57" href="https://pism.github.io/favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://pism.github.io/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://pism.github.io/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://pism.github.io/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://pism.github.io/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://pism.github.io/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://pism.github.io/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://pism.github.io/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://pism.github.io/favicon/apple-touch-icon-180x180.png">
+<meta name="apple-mobile-web-app-title" content="PISM">
+<!-- Android -->
+<link rel="manifest" href="https://pism.github.io/favicon/site.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="https://pism.github.io/favicon/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="256x256" href="https://pism.github.io/favicon/android-chrome-256x256.png">
+<meta name="application-name" content="PISM">
+<meta name="theme-color" content="#ebebeb">
+<!-- Safari -->
+<link rel="mask-icon" href="https://pism.github.io/favicon/safari-pinned-tab.svg" color="#216778">
+<!-- IE -->
+<meta name="msapplication-TileColor" content="#216778">
+<meta name="msapplication-TileImage" content="https://pism.github.io/favicon/mstile-150x150.png">
+<meta name="msapplication-config" content="https://pism.github.io/favicon/browserconfig.xml">
+
+<!-- Landing page 'scroll down' animation -->
+<style type="text/css">
+.scroll-down-icon {
+  position:relative;
+  left:50%;
+  bottom:0;
+  margin-top:-25px;
+  margin-left:-25px;
+  height:50px;
+  width:50px;
+  color:$white;
+  -webkit-animation:bounce 1s infinite;
+  -moz-animation:bounce 1s infinite;
+  -o-animation:bounce 1s infinite;
+  animation:bounce 1s infinite;
+}
+@-webkit-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@-moz-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@-o-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@media only screen and (max-width: 1023px) {
+  .scroll-down-icon {
+    display: none;
+  }
+}
+</style>
+
+<script>
+/* When the user scrolls down, hide the button. When the user scrolls up, show the button */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("scroll-down-icon").style.visibility = "visible";
+  } else {
+    document.getElementById("scroll-down-icon").style.visibility = "hidden";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script></head>
+
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item has-text-weight-bold">
+                PISM
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">About</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/news/" class="navbar-item ">News</a>
+                            
+                            <a href="/overview/" class="navbar-item ">Overview</a>
+                            
+                            <a href="/basics/" class="navbar-item ">Basic applications</a>
+                            
+                            <a href="/applications/" class="navbar-item ">Application of the month</a>
+                            
+                            <a href="/publications/" class="navbar-item ">Publications using PISM</a>
+                            
+                            <a href="/team/" class="navbar-item ">Developers team</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Usage</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://pism-docs.org/sphinx/" class="navbar-item ">Online manual</a>
+                            
+                            <a href="https://pism-docs.org/doxy/html/index.html" class="navbar-item ">Source code browser</a>
+                            
+                            <a href="/faq/" class="navbar-item ">FAQ / PISM life hacks</a>
+                            
+                            <a href="/data/" class="navbar-item ">Data preprocessing</a>
+                            
+                            <a href="/tools/" class="navbar-item ">Further tools</a>
+                            
+                            <a href="/citing/" class="navbar-item ">Citing PISM</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Download</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://github.com/pism/pism/" class="navbar-item ">Get code on Github</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Contributing</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/contribute/" class="navbar-item ">Contribute to PISM</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">More</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/history/" class="navbar-item is-active">Brief history</a>
+                            
+                            <a href="/collaborations/" class="navbar-item ">MIPs & Collaborations</a>
+                            
+                            <a href="/usersmap/" class="navbar-item ">Map of users</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary"  style="background: url('/img/header_blackboard.jpg') no-repeat center center; background-size: cover;" >
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-1 has-text-primary-dark has-text-weight-heavy" >History</h1>
+            <p class="subtitle is-3 has-text-primary-light has-text-weight-semibold" >A brief history of PISM</p>
+            
+        </div>
+    </div>
+    
+    
+        <span class="hero-caption">Photo: J. Garbe
+</span>
+    
+</section>
+
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-8">
+                    
+                    
+                    
+
+                    
+                    
+<div class="content">
+    <h1 id="a-brief-history-of-pism">A brief history of PISM</h1>
+
+<h3 id="before-2001">Before 2001:</h3>
+
+<ul>
+  <li>First approach of a (nominally Antarctic) ice-sheet model by Craig Lingle</li>
+  <li>Elena Suleimani (née Troshina) improves model based on Mahaffey’s equations and other numerical methods</li>
+  <li>Accuracy test against the analytical solution for a circular ice cap on a flat bed with constant accumulation and for <em>CLIMAP</em> reconstruction of the Antarctic ice sheet (20 kyr BP)</li>
+  <li>Model equations transformed to forms with a stretched vertical coordinate in Fortran 90 (3-D temperature equation not stable yet)</li>
+  <li>First paper on <em>“Relative magnitudes of shear and longitudinal strain rates in the inland Antarctic ice sheet, and response to increasing accumulation”</em> by <a href="https://doi.org/10.3189/1998AoG27-1-187-193">Lingle and Troshina (1998)</a></li>
+</ul>
+
+<h3 id="2001-a-team-forms">2001: A team forms</h3>
+
+<ul>
+  <li>Lingle attends talk by Ed Bueler on heat equations on manifolds with potential application to glacier models</li>
+  <li>Short course by Lingle on glaciological basics, with Bueler, Latrice Bowman, Jed Brown, and Dave Covey in attendance at various points</li>
+  <li>Application for NASA model-development funding with Bueler and Covey as Co-Is, to build an Antarctic model which added thermo-mechanical coupling and ice-shelf dynamics to the existing Fortran model, as a modeling component (sub-grant) of the U Kansas <em>“Polar Radar for Ice Sheet Measurements” (PRISM)</em> project</li>
+  <li>Paper on understanding numerical models by checking them against exact predictions (solutions) of the differential equations: <a href="https://doi.org/10.3189/172756505781829449">Bueler et al. (2005)</a></li>
+  <li>Bowman first graduate student to work on ice flow with Bueler</li>
+</ul>
+
+<h3 id="2003-petsc-and-c--and-pism">2003: PETSc and C++ … and PISM</h3>
+
+<ul>
+  <li>Brown (as undergraduate) reports about <a href="http://www.mcs.anl.gov/petsc/">PETSc</a> library that allows to work in parallel at a higher conceptual level, requiring switch to C++</li>
+  <li>Brown and Bueler define object classes and rebuild isothermal SIA model, with under-development thermomechanical coupling code</li>
+  <li>Bueler adds thermocoupling to the SIA with Brown and Lingle assistance, and emphasizing exact solutions to check: <a href="https://doi.org/10.3189/002214307783258396">Bueler et al. (2007)</a></li>
+  <li>Brown adds and tests a SSA solver in PISM, leading to successful <a href="http://pism.github.io/uaf-iceflow/slidesJBrown.pdf">MS project defense</a> in August 2006</li>
+  <li><a href="http://www.unidata.ucar.edu/software/netcdf/">NetCDF</a> is adopted as the input/output format (instead of PETSc binary files that lack included and standardized metadata)</li>
+  <li>Bueler suggests model name <em>“the C-plus-plus Object-oriented Multi-Modal, Verifiable Numerical Ice Sheet Model”</em>, a.k.a. <em>COMMVNISM</em></li>
+  <li>Brown proposes new name <em>“Parallel Ice Sheet Model”</em>, short <em>PISM</em></li>
+</ul>
+
+<h3 id="2006-pism-goes-public">2006: PISM goes public</h3>
+
+<ul>
+  <li>In September 2006, PISM is for the first time hosted publicly on <a href="https://en.wikipedia.org/wiki/Gna">Gna!</a> with a <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License">GNU General Public License</a> (later moved to <a href="https://git-scm.com/">git</a> and <a href="https://github.com/">Github</a>)</li>
+</ul>
+
+<h3 id="2007-pism-gets-ice-streams">2007: PISM gets ice streams</h3>
+
+<ul>
+  <li>Application of SSA solver also to ice streams in near-Coulomb basal drag regime in thermo-coupled context after Bueler reading <a href="https://doi.org/10.1017/S0022112006009591">Schoof’s (2006) isothermal paper</a></li>
+  <li>Convex combination of two reasonable stress-balance solutions (i.e. SIA+SSA)</li>
+  <li>Participation in <a href="https://doi.org/10.3189/002214310792447789"><em>ISMIP-HEINO</em></a> proves that SIA is not sufficient to balance transitions in boundary shear stress with “membrane stresses” within the ice, supporting SSA-everywhere approach and having <a href="http://pism.github.io/uaf-iceflow/talkagu.pdf">ice streams in the model for the right reasons</a> as the core of PISM</li>
+  <li>Most cited PISM-related paper by <a href="https://doi.org/10.1029/2008JF001179">Bueler and Brown (2009)</a></li>
+</ul>
+
+<h3 id="2008-new-team">2008: New team</h3>
+
+<ul>
+  <li>New proposal to a NASA Modeling, Analysis, and Prediction call, based on a team of Bueler, Constantine Khroulev, mathematician David Maxwell, and glaciologists Martin Truffer and Regine Hock, is funded</li>
+  <li>Khroulev starts in spring 2008 after finishing his MS Math, producing <a href="http://pism.github.io/uaf-iceflow/khroulev_final.pdf">startlingly-complete Antarctic results in Fall 2008 at the WAIS conference</a></li>
+  <li>Nearly-untuned results for Greenland <a href="http://pism.github.io/uaf-iceflow/BKAJS_submit2_twocolumn.pdf">match observations reasonably well</a></li>
+</ul>
+
+<h3 id="2008-pik-collaboration">2008: PIK collaboration</h3>
+
+<ul>
+  <li>Anders Levermann and students (Maria Martin and Ricarda Winkelmann) from PIK come to Fairbanks to propose a collaboration in which they would add what PISM needed for applications to the Antarctic Ice Sheet (ability to move the calving front and the grounding line)</li>
+  <li>Model description paper by <a href="https://doi.org/10.5194/tc-5-715-2011">Winkelmann et al. (2011)</a></li>
+  <li>Andy Aschwanden is hired as an <em>ARSC</em> PostDoc in Fall 2009, implementing an <a href="https://doi.org/10.3189/2012JoG11J088">enthalpy formulation</a></li>
+</ul>
+
+<h3 id="2011-pism-goes-viral">2011: PISM goes viral</h3>
+
+<ul>
+  <li>Torsten Albrecht from PIK visits UAF and merges code versions including calving parameterization (<a href="https://doi.org/10.5194/tc-6-273-2012">Levermann et al., 2012</a>) and fracture formation processes (<a href="https://doi.org/10.3189/2012JoG11J191">Albrecht &amp; Levermann, 2012</a>)</li>
+</ul>
+
+<h3 id="2012-community-building">2012: Community building</h3>
+
+<ul>
+  <li><a href="https://mpimet.mpg.de/en/communication/news/single-news/european-ice-sheet-modellers-meet-at-mpi-m-on-21/22-may-2012">European PISM ice sheet modeling workshop</a> in Hamburg, Germany</li>
+  <li><a href="https://doi.org/10.1073/pnas.1205385109">Nick Golledge et al. (2012)</a> apply PISM to Last Glacial Antarctica</li>
+  <li>PISM participates in <a href="https://doi.org/10.5194/tc-6-573-2012"><em>MISMIP</em></a></li>
+  <li>PISM participates in <em>SeaRISE</em> (<a href="https://doi.org/10.1002/jgrf.20081">Antarctica</a> and <a href="https://doi.org/10.1002/jgrf.20076">Greenland</a>)</li>
+  <li>PISM participates in <a href="https://doi.org/10.1007/s00382-012-1471-4"><em>LARMIP</em></a></li>
+  <li>PISM participates in <em>ice2sea</em> <a href="https://doi.org/10.3189/2013JoG12J129"><em>MISMIP3d</em></a></li>
+</ul>
+
+<h3 id="2014-more-processes">2014: More processes</h3>
+
+<ul>
+  <li>Albrecht and Levermann implement <a href="https://doi.org/10.5194/tc-8-587-2014">fracture density approach</a> based on continuum damage mechanics</li>
+  <li>Florian Ziemen et al. use PISM <a href="https://doi.org/10.5194/cp-10-1817-2014">coupled to a climate model</a></li>
+  <li><a href="https://doi.org/10.1038/nclimate2226">Matthias Mengel and Levermann (2014)</a> investigate threshold melting and tipping behavior in East Antarctica</li>
+  <li>Bueler and W. van Pelt implement a <a href="https://doi.org/10.5194/gmd-8-1613-2015">subglacial hydrology scheme</a></li>
+  <li>Johannes Feldmann et al. implement <a href="https://doi.org/10.3189/2014JoG13J093">subgrid grounding-line interpolation</a></li>
+</ul>
+
+<h3 id="2015-paleo-and-wais">2015: Paleo and WAIS</h3>
+
+<ul>
+  <li>PISM participates in <a href="https://doi.org/10.5194/tc-9-881-2015"><em>PLISMIP-ANT</em></a></li>
+  <li>WAIS destabilization study by <a href="https://doi.org/10.1073/pnas.1512482112">Feldmann and Levermann (2015)</a></li>
+</ul>
+
+<h3 id="2016-high-resolution">2016: High resolution</h3>
+
+<ul>
+  <li><a href="https://doi.org/10.1038/ncomms10524">Aschwanden et al. (2016)</a> run high-resolution simulations for the Greenland Ice Sheet</li>
+</ul>
+
+<h3 id="2017-inversion">2017: Inversion</h3>
+
+<ul>
+  <li>Marijke Habermann et al. implement <a href="https://doi.org/10.1017/jog.2017.61">inversion scheme for basal yield stress</a></li>
+</ul>
+
+<h3 id="2018-mips-and-pico">2018: MIPs and PICO</h3>
+
+<ul>
+  <li>Ronja Reese et al. implement <a href="https://doi.org/10.5194/tc-12-1969-2018">PICO melt module</a>, which is applied during Antarctic deglaciation (<a href="https://doi.org/10.1038/s41586-018-0208-x">Kingslake, Scherer, Albrecht et al., 2018</a>)</li>
+  <li>PISM participates in <em>initMIP</em> (<a href="https://doi.org/10.5194/tc-12-1433-2018">Greenland</a> and <a href="https://doi.org/10.5194/tc-13-1441-2019">Antarctica</a>)</li>
+  <li>PISM participates in <a href="https://doi.org/10.1017/jog.2018.78"><em>SHMIP</em></a></li>
+</ul>
+
+<h3 id="2019-projections">2019: Projections</h3>
+
+<ul>
+  <li>Feedback of ice-shelf melt on global climate by <a href="https://doi.org/10.1038/s41586-019-0889-9">Golledge et al. (2019)</a></li>
+  <li>Projections of sea-level contribution from Greenland by <a href="https://doi.org/10.1126/sciadv.aav9396">Aschwanden et al. (2019)</a></li>
+</ul>
+
+<h3 id="2020-mips-and-antarctic-thresholds">2020: MIPs and Antarctic thresholds</h3>
+
+<ul>
+  <li>PISM participates in <a href="https://doi.org/10.1017/jog.2020.67"><em>ABUMIP</em></a></li>
+  <li>PISM participates in <em>ISMIP6</em> (<a href="https://doi.org/10.5194/tc-14-3033-2020">Antarctica</a> and <a href="https://doi.org/10.5194/tc-14-3071-2020">Greenland</a>)</li>
+  <li>PISM participates in <a href="https://doi.org/10.5194/esd-11-35-2020"><em>LARMIP-2</em></a></li>
+  <li>PISM participates in <a href="https://doi.org/10.5194/tc-14-2283-2020"><em>MISMIP+</em></a></li>
+  <li>Tipping points and hysteresis behavior in Antarctica in a warming climate by <a href="https://doi.org/10.1038/s41586-020-2727-5">Julius Garbe et al. (2020)</a></li>
+  <li>Description of PISM (parameter sensitivities and boundary conditions) for paleo applications in Antarctica by <a href="https://doi.org/10.5194/tc-14-599-2020">Albrecht et al. (2020)</a></li>
+</ul>
+
+<h3 id="2021-pism-ocean-coupling">2021: PISM-ocean coupling</h3>
+
+<ul>
+  <li>Moritz Kreuzer et al. use PICO to <a href="https://doi.org/10.5194/gmd-2020-230">couple PISM with ocean model MOM5</a></li>
+</ul>
+
+</div>
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest news</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="/img/news/pism-publications.png" alt="The 100th PISM-using paper!">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/news/2020/09/11/pism100/">The 100th PISM-using paper!</a>
+            
+            
+                <p><p>At the end of May we found the 100th PISM-using paper:</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/09/11/pism100/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Sep 11, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2020/02/13/version1.2/">Version 1.2</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>We are pleased to announce the release of the Parallel Ice Sheet Model
+(PISM) v1.2.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/02/13/version1.2/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Feb 13, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2020/02/05/postdocmpim2020/">MPI-M Hamburg, Germany: open postdoc for coupled atmosphere-ocean-ice sheet model</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>The Max Planck Institute for Meteorology (MPI-M) contributes to the BMBF
+project “From the Last Interglacial to the Anthropocene: Modeling a
+Complete Glacial Cycle” <a href="https://www.palmod.de/">(PalMod,
+www.palmod.de)</a>, which aims at
+simulating the climate from the peak of the last interglacial up to the
+present using comprehensive Earth System Models. Phase II of this
+project has an open position Postdoctoral Scientist (W073). The
+successful candidate will be part of a local team performing and
+analysing long-term transient simulations covering the last glacial and
+the transition into the Holocene with an interactively coupled
+atmosphere-ocean-ice sheet model. Additionally, the candidate will
+contribute to the continued development of this model. The model system
+consists of the MPI-Earth system model, the ice sheet model PISM, and
+the solid-earth model VILMA.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/02/05/postdocmpim2020/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Feb 5, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+<div class="buttons is-centered">
+    <a href="/news/" class="button is-primary is-outlined">All news</a>
+</div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+
+        <div class="has-text-centered">
+            <p><strong>Follow</strong></p>
+            <div class="buttons is-centered">
+                <a href="https://twitter.com/UAFGI" title="Twitter" class="button is-light" target="_blank">
+                    <i class="fab fa-twitter fa-lg" style="color: #55acee;"></i>
+                </a>
+                <a href="https://www.facebook.com/UAF.GI" title="Facebook" class="button is-light" target="_blank">
+                    <i class="fab fa-facebook fa-lg" style="color: #3b5998;"></i>
+                </a>
+                <a href="https://join.slack.com/t/uaf-pism/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE" title="Slack" class="button is-light" target="_blank">
+                    <i class="fab fa-slack fa-lg" style="color: #611F69;"></i>
+                </a>
+                <a href="https://github.com/pism" title="Github" class="button is-light" target="_blank">
+                    <i class="fab fa-github fa-lg" style="color: #171516;"></i>
+                </a>
+                <a href="/feed.xml" title="RSS Feed" class="button is-light">
+                    <i class="fas fa-rss fa-lg" style="color: #fa9b39;"></i>
+                </a>
+            </div>
+        </div>
+        <br>
+
+        <div class="content is-small has-text-centered">
+            <p>Site built using <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a>  by C.S. Rhymes</p>
+            <p>&copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> The PISM Authors</p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>
