@@ -70,7 +70,8 @@ plugins:
   - jekyll-seo-tag
   - kramdown-parser-gfm
 
-exclude: 
+exclude:
+  - Dockerfile
   - Gemfile
   - clean-theme.gemspec
   - Gemfile.lock
