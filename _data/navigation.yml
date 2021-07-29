@@ -7,8 +7,6 @@
       link: /overview/
     - name: Basic applications
       link: /basics/
-    - name: Application of the month
-      link: /applications/
     - name: Publications using PISM
       link: /publications/
     - name: Developers team
@@ -47,3 +45,5 @@
       link: /collaborations/
     - name: Map of users
       link: /usersmap/
+    - name: Application of the month
+      link: /applications/
