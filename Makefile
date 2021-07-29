@@ -13,7 +13,7 @@ update: img/pism_publications.png
 build: update
 	bundle exec jekyll build -d ${DESTDIR}
 
-serve:
+serve: build
 	bundle exec jekyll serve
 
 install:
