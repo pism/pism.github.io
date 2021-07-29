@@ -11,3 +11,5 @@ Gemfile.lock
 *.swo
 /.jekyll-metadata
 /vendor/
+/img/pism_publications.png
+/publications/publist.md
