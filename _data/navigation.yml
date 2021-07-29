@@ -16,20 +16,21 @@
   dropdown:
     - name: Online manual
       link: https://pism-docs.org/sphinx/
+      # link: https://pism.github.io/pism
     - name: Source code browser
       link: https://pism-docs.org/doxy/html/index.html
     - name: FAQ / PISM life hacks
       link: /faq/
     - name: Data preprocessing
       link: /data/
-    - name: Further tools
+    - name: Useful tools
       link: /tools/
     - name: Citing PISM
       link: /citing/
 - name: Download
   link: /#
   dropdown:
-    - name: Get code on Github
+    - name: Get code on GitHub
       link: https://github.com/pism/pism/
 - name: Contributing
   link: /#

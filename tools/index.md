@@ -1,10 +1,10 @@
 ---
-title: Helpful tools
+title: Useful tools
 layout: page
 hero_darken: false
 show_sidebar: true
 ---
 
-# Helpful tools
+# Useful tools
 
 FIXME
