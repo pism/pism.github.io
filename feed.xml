@@ -1,45 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://pism.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pism.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-07-29T21:35:59+00:00</updated><id>https://pism.github.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">The 100th PISM-using paper!</title><link href="https://pism.github.io/news/2020/09/11/pism100/" rel="alternate" type="text/html" title="The 100th PISM-using paper!" /><published>2020-09-11T00:00:00+00:00</published><updated>2020-09-11T00:00:00+00:00</updated><id>https://pism.github.io/news/2020/09/11/pism100</id><content type="html" xml:base="https://pism.github.io/news/2020/09/11/pism100/">&lt;p&gt;At the end of May we found the 100th PISM-using paper:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;L. B. Stap, J. Sutter, G. Knorr, M. Stärz, G. Lohmann (2019) &lt;em&gt;Transient
-Variability of the Miocene Antarctic Ice Sheet Smaller Than Equilibrium
-Differences&lt;/em&gt;. Geophysical Research Letters 46 (8) pp. 4288–4298&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;See &lt;a href=&quot;/publications&quot;&gt;the publications page&lt;/a&gt; for a
-complete-as-far-as-we-know list of the first 100 published PISM
-applications, back to the first one in 2007.&lt;/p&gt;
-
-&lt;p&gt;We find PISM-using papers by following citations, so there may be others
-out there we do not know about. Authors who want to help us keep track
-should follow the advice at &lt;a href=&quot;https://github.com/pism/pism/blob/master/ACKNOWLEDGE.rst&quot;&gt;the acknowledgments
-documentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here is one view of the PISM papers, sorted by the not-to-be-trusted
-“journal impact factor” of the journals in which they appear:&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/news/pism-journals.png&quot; alt=&quot;Plot showing PISM papers by journal impact factor&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The most popular five journals for PISM papers are &lt;em&gt;The Cryosphere&lt;/em&gt;,
-&lt;em&gt;Journal of Glaciology&lt;/em&gt;, &lt;em&gt;Journal of Geophysical Research: Earth
-Surface&lt;/em&gt;, &lt;em&gt;Nature&lt;/em&gt;, and &lt;em&gt;Geophysical Research Letters&lt;/em&gt;; excellent
-journals all. (Figuring-out the rest of journal abbreviations is an
-exercise for the reader.)&lt;/p&gt;
-
-&lt;p&gt;It is interesting to note that only 22% of PISM-using publications have
-a UAF-based co-author:&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/news/pism-uaf-publications.png&quot; alt=&quot;Plot showing PISM papers per year, highlighting papers by UAF authors&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;PISM is a tool used throughout the world by scientists needing an ice
-sheet model, whether or not they have a connection to the UAF
-developers. So we appreciate NASA and NSF support here at UAF, which has
-always made our open-source release model possible. We continue to push
-PISM development in a variety of directions, and we look forward to
-seeing the next 100 PISM papers!&lt;/p&gt;
-
-&lt;p&gt;See also &lt;a href=&quot;https://www.gi.alaska.edu/news/ice-sheet-model-reaches-100th-publication-benchmark&quot;&gt;this GI
-write-up&lt;/a&gt;.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">At the end of May we found the 100th PISM-using paper:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://pism.github.io/img/news/pism-publications.png" /><media:content medium="image" url="https://pism.github.io/img/news/pism-publications.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Version 1.2</title><link href="https://pism.github.io/news/2020/02/13/version1.2/" rel="alternate" type="text/html" title="Version 1.2" /><published>2020-02-13T00:00:00+00:00</published><updated>2020-02-13T00:00:00+00:00</updated><id>https://pism.github.io/news/2020/02/13/version1.2</id><content type="html" xml:base="https://pism.github.io/news/2020/02/13/version1.2/">&lt;p&gt;We are pleased to announce the release of the Parallel Ice Sheet Model
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://pism.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pism.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-07-29T22:01:17+00:00</updated><id>https://pism.github.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">Version 1.2</title><link href="https://pism.github.io/news/2020/02/13/version1.2/" rel="alternate" type="text/html" title="Version 1.2" /><published>2020-02-13T00:00:00+00:00</published><updated>2020-02-13T00:00:00+00:00</updated><id>https://pism.github.io/news/2020/02/13/version1.2</id><content type="html" xml:base="https://pism.github.io/news/2020/02/13/version1.2/">&lt;p&gt;We are pleased to announce the release of the Parallel Ice Sheet Model
 (PISM) v1.2.&lt;/p&gt;
 
 &lt;p&gt;Compared to v1.1, the new version includes&lt;/p&gt;
@@ -183,4 +142,10 @@ Visualization Studio&lt;/a&gt;.&lt;/p&gt;
 &lt;figure class=&quot;image is-16by9&quot;&gt; 
     &lt;iframe class=&quot;has-ratio&quot; src=&quot;https://www.youtube.com/embed/LtpD-bAFQoc?t=0s&amp;amp;rel=0;modestbranding=1&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;
     &lt;/iframe&gt;
-&lt;/figure&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">The article by Aschwanden and others just published in Science Advances is supplemented by this excellent two minute visualization by the NASA Scientific Visualization Studio.</summary></entry></feed>
+&lt;/figure&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">The article by Aschwanden and others just published in Science Advances is supplemented by this excellent two minute visualization by the NASA Scientific Visualization Studio.</summary></entry><entry><title type="html">PISM and ISMIP6</title><link href="https://pism.github.io/news/2019/06/19/ismip6/" rel="alternate" type="text/html" title="PISM and ISMIP6" /><published>2019-06-19T00:00:00+00:00</published><updated>2019-06-19T00:00:00+00:00</updated><id>https://pism.github.io/news/2019/06/19/ismip6</id><content type="html" xml:base="https://pism.github.io/news/2019/06/19/ismip6/">&lt;p&gt;The UAF PISM developers are currently busy getting PISM ready for
+ISMIP6. We are implementing all the required parameterizations for
+Greenland and we are making it easy to output fields in the requested
+MKS system, use the ISMIP6 variable names and output the requested
+fields with a shorthand.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">The UAF PISM developers are currently busy getting PISM ready for ISMIP6. We are implementing all the required parameterizations for Greenland and we are making it easy to output fields in the requested MKS system, use the ISMIP6 variable names and output the requested fields with a shorthand.</summary></entry></feed>
