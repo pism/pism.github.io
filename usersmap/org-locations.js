@@ -10,6 +10,11 @@ var addressPoints = [
     12.5700724
   ],
   [
+    "Dickinson | Carlisle Pennsylvania, USA | <a href='https://www.dickinson.edu/' target='_blank'>https://www.dickinson.edu/</a>",
+    40.201499,
+    -77.1890783
+  ],
+  [
     "Durham Univeristy | Durham City, UK | <a href='https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/' target='_blank'>https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/</a>",
     54.7785577,
     -1.5757010209442777
@@ -30,7 +35,7 @@ var addressPoints = [
     12.5700724
   ],
   [
-    "Harvard University | Cambridge, USA",
+    "Harvard University | Cambridge, USA | <a href='https://www.harvard.edu/' target='_blank'>https://www.harvard.edu/</a>",
     42.3750997,
     -71.1056157
   ],
@@ -40,7 +45,7 @@ var addressPoints = [
     126.7052
   ],
   [
-    "Louisiana State University (LSU) | Baton Rouge, USA",
+    "Louisiana State University (LSU) | Baton Rouge, USA | <a href='https://lsu.edu/' target='_blank'>https://lsu.edu/</a>",
     30.4459596,
     -91.18738
   ],
@@ -60,7 +65,7 @@ var addressPoints = [
     5.3259192
   ],
   [
-    "Peking University (PKU) | Beijing, China",
+    "Peking University (PKU) | Beijing, China | <a href='https://english.pku.edu.cn/academics.shtml' target='_blank'>https://english.pku.edu.cn/academics.shtml</a>",
     39.906217,
     116.3912757
   ],
@@ -105,7 +110,7 @@ var addressPoints = [
     151.2164539
   ],
   [
-    "University of Northern British Columbia (UNBC) | Prince George, Canada",
+    "University of Northern British Columbia (UNBC) | Prince George, Canada | <a href='https://www2.unbc.ca/' target='_blank'>https://www2.unbc.ca/</a>",
     53.9128645,
     -122.7453699
   ],
@@ -130,7 +135,7 @@ var addressPoints = [
     174.7772114
   ],
   [
-    "Yale University | New Haven, USA",
+    "Yale University | New Haven, USA | <a href='https://www.yale.edu/' target='_blank'>https://www.yale.edu/</a>",
     41.298434349999994,
     -72.93102342707913
   ]

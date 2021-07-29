@@ -10,3 +10,4 @@ Gemfile.lock
 *.swp
 *.swo
 /.jekyll-metadata
+/vendor/

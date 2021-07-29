@@ -10,9 +10,4 @@ sponsors: team
 show_sidebar: false
 ---
 
-## Further contributers
-
-- Anders Levermann
-- 
-
 For a more complete list of PISM authors, please see [Authorship](https://pism.github.io/pism/authorship.html).

@@ -8,8 +8,6 @@
       profile: http://glaciers.gi.alaska.edu/people/aschwanden
     - name: Ed Bueler
       profile: http://bueler.github.io/
-    - name: 
-      profile: 
 
 - tier_name: Co-developers at PIK
   size: large
@@ -24,25 +22,24 @@
     - name: Maria Zeitz
       profile: https://www.pik-potsdam.de/members/zeitz/
 
-- tier_name: Former developers
+- tier_name: Notable contributors
   size: small
-  description: This will be a long list?
   sponsors:
     - name: Jed Brown
-      profile:
+      profile: https://jedbrown.org/
     - name: Johannes Feldmann
-      profile:
+      profile: http://www.pik-potsdam.de/~johfeld/
     - name: Marianne Haseloff
-      profile:
+      profile: https://www.northumbria.ac.uk/about-us/our-staff/h/marianne-haseloff/
     - name: Maria Martin
-      profile:
+      profile: https://www.pik-potsdam.de/members/martin
     - name: David Maxwell
-      profile: 
+      profile: https://damaxwell.github.io/
     - name: Matthias Mengel
       profile: https://www.pik-potsdam.de/members/mengel/
     - name: Julien Seguinot
-      profile:
+      profile: https://juseg.github.io/
     - name: Ricarda Winkelmann
       profile: https://ricarda.science/
-    - name: 
-      profile: 
+    - name: Anders Levermann
+      profile: http://www.pik-potsdam.de/~anders/

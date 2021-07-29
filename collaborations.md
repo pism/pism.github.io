@@ -12,7 +12,7 @@ show_sidebar: true
 # Collaborations
 
 * [The SeaRISE assessment process](http://websrv.cs.umt.edu/isis/index.php/SeaRISE_Assessment) in the US plans to contribute model-based estimates of century-scale sea level changes from ice sheet and ice shelf dynamics to the IPCC AR5 report in 2013 
-* [ice2sea](http://www.ice2sea.eu/) is a European effort which is somewhat comparable to SeaRISE
+* [ice2sea](https://cordis.europa.eu/project/id/226375) is a European effort which is somewhat comparable to SeaRISE
 * [The CliC (Climate and Cryosphere) project](https://www.climate-cryosphere.org/) is one of the core projects of the [World Climate Research Programme (WCRP)](https://www.wcrp-climate.org/), serving as the focal point for climate science related to the cryosphere, its variability and change, and interaction with the broader climate system
 
 # Model intercomparisons (MIPs)
@@ -20,7 +20,7 @@ show_sidebar: true
 * [EISMINT](http://homepages.vub.ac.be/%7Ephuybrec/eismint.html) (European Ice Sheet Modeling INiTiative) is a past intercomparison effort to test and compare existing numerical shallow ice-sheet, ice-shelf, and glacier models as they were run by several groups worldwide
 * [ISMIP](http://homepages.vub.ac.be/%7Ephuybrec/ismip.html) (Ice Sheet Model Intercomparison Project) continues intercomparison, including less-shallow and Stokes models ([ISMIP-HOM](http://homepages.ulb.ac.be/~fpattyn/ismip/)) and rapid sliding events ([ISMIP-HEINO](http://www.pik-potsdam.de/~calov/heino.html))
 * [MISMIP](http://homepages.ulb.ac.be/~fpattyn/mismip/welcome.html) (Marine Ice Sheet Model Intercomparison Project) is an intercomparison of flowline (one horizontal dimension) marine ice sheet models
-* [MISMIP3D](http://homepages.ulb.ac.be/~fpattyn/mismip3d/welcome.html) is an [ice2sea](http://www.ice2sea.eu/)-sponsored intercomparison of marine ice sheet models in two horizontal dimensions
+* [MISMIP3D](http://homepages.ulb.ac.be/~fpattyn/mismip3d/welcome.html) is an [ice2sea](https://cordis.europa.eu/project/id/226375)-sponsored intercomparison of marine ice sheet models in two horizontal dimensions
 * [MISMIP+](https://www.climate-cryosphere.org/activities/targeted/153-misomip/1412-mismip-plus) is part of the [CliC](https://www.climate-cryosphere.org/) initiative and examines marine ice-sheet dynamics in two horizontal dimensions with strong buttressing
 * [MISOMIP](https://www.climate-cryosphere.org/mips/misomip) (Marine Ice Sheet–Ocean Model Intercomparison Project) is a community effort under the [CliC](http://www.climate-cryosphere.org/) project, aimed at better quantifying sea-level change induced by increased mass loss from the West Antarctic Ice Sheet (WAIS), particularly the Amundsen Sea region. It is meanwhile in its second stage    
 * [PLISMIP-ANT](https://doi.org/10.5194/tc-9-881-2015) (Pliocene Ice Sheet Modeling Intercomparison Project for Antarctica) investigates the nature and behaviour of the Antarctic Ice Sheet during the late-Pliocene warm  period

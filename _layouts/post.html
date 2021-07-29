@@ -2,6 +2,19 @@
 layout: default
 ---
 
+<nav class="pagination is-centered">
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}" class="pagination-previous is-info">Previous</a>
+  {% else %}
+    <p class="pagination-previous" disabled>Previous</p>
+  {% endif %}
+  {% if page.next %}
+    <a href="{{ page.next.url }}" class="pagination-next is-info">Next</a>
+  {% else %}
+    <p class="pagination-next" disabled >Next</p>
+  {% endif %}
+</nav>
+
 <div class="content">
 
     <p><b>Published:</b> {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
@@ -18,19 +31,6 @@ layout: default
 {% unless site.hide_share_buttons %}
 {% include share-buttons.html %}
 {% endunless %}
-
-<nav class="pagination is-centered">
-  {% if page.previous %}
-    <a href="{{ page.previous.url }}" class="pagination-previous is-info">Previous</a>
-  {% else %}
-    <p class="pagination-previous" disabled>Previous</p>
-  {% endif %}
-  {% if page.next %}
-    <a href="{{ page.next.url }}" class="pagination-next is-info">Next</a>
-  {% else %}
-    <p class="pagination-next" disabled >Next</p>
-  {% endif %}
-</nav>
 
 {% if site.disqus.shortname %}
   {% include disqus.html %}

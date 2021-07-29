@@ -1,2 +1,2 @@
-publist.md: format_references.py applications.bib
+publist.md: list_references.py applications.bib
 	python3 $^ > $@
