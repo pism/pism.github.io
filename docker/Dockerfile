@@ -11,16 +11,11 @@ RUN set -eux; \
         ; \
         rm -rf /var/lib/apt/lists/*
 
-RUN set -eux; \
-        useradd --create-home --system --shell=/bin/false builder; \
-        usermod --lock builder
-USER builder
+COPY Gemfile /tmp
+RUN cd /tmp && bundle install
 
-RUN pip3 install --user --no-warn-script-location \
+RUN pip3 install \
         geopy \
         getorg \
         pybtex \
         ;
-
-COPY Gemfile /tmp
-RUN cd /tmp && bundle install

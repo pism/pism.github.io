@@ -1,3 +1,4 @@
+DESTDIR=_site
 .PHONY: all build update serve check-links check-external-links install
 
 all: check-links
@@ -10,7 +11,7 @@ update: img/pism_publications.png
 	${MAKE} -C usersmap/
 
 build: update
-	bundle exec jekyll build
+	bundle exec jekyll build -d ${DESTDIR}
 
 serve:
 	bundle exec jekyll serve
@@ -23,12 +24,12 @@ check-links: build
 	       --empty-alt-ignore \
 	       --disable-external \
 	       --typhoeus-config '{ "ssl_verifypeer": false }' \
-	       --root-dir _site \
-	       _site
+	       --root-dir ${DESTDIR} \
+	       ${DESTDIR}
 
 check-external-links: build
 	bundle exec htmlproofer \
 	       --empty-alt-ignore \
 	       --typhoeus-config '{ "ssl_verifypeer": false }' \
-	       --root-dir _site \
-	       _site
+	       --root-dir ${DESTDIR} \
+	       ${DESTDIR}
