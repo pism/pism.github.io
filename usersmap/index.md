@@ -14,4 +14,4 @@ show_sidebar: true
 PISM has a growing user community, and this map shows some of the known users. If you have a PISM-based project, and you want it to be on this map, please let us know by sending us an <a href="mailto:{{ site.author.email }}">e-mail</a>.
 
 <iframe src="/usersmap/map.html" height="520px" width="100%" style="border: none;"></iframe>
-*Zoom in to see more detail, or click a cluster to zoom to the bounds of its children. Click on a pin marker to see more details about a specific research group.* <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png" style="height: 18px;" /> *= Main PISM development hub.*
+*Zoom in to see more detail, or click on a cluster to zoom to its extent. Click on a pin marker to see more details about a specific research group.* <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png" style="height: 18px;" /> *= Main PISM development hub.*
