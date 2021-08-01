@@ -12,4 +12,7 @@ Gemfile.lock
 /.jekyll-metadata
 /vendor/
 /img/pism_publications.png
-/publications/publist.md
+/publications/published.md
+/usersmap/map.html
+/usersmap/org-locations.js
+/publications/submitted_papers.md
