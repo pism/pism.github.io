@@ -1,0 +1,32 @@
+### 2021
+
+1. R\. Döscher, M\. Acosta, A\. Alessandri, P\. Anthoni, A\. Arneth, T\. Arsouze, T\. Bergmann, R\. Bernadello, S\. Bousetta, L\.\-P\. Caron, G\. Carver, M\. Castrillo, F\. Catalano, I\. Cvijanovic, P\. Davini, E\. Dekker, F\. J\. Doblas\-Reyes, D\. Docquier, P\. Echevarria, U\. Fladrich, R\. Fuentes\-Franco, M\. Gröger, J\. v\. Hardenberg, J\. Hieronymus, M\. P\. Karami, J\.\-P\. Keskinen, T\. Koenigk, R\. Makkonen, F\. Massonnet, M\. Ménégoz, P\. A\. Miller, E\. Moreno\-Chamarro, L\. Nieradzik, T\. van Noije, P\. Nolan, D\. O'Donnell, P\. Ollinaho, G\. van den Oord, P\. Ortega, O\. T\. Prims, A\. Ramos, T\. Reerink, C\. Rousset, Y\. Ruprich\-Robert, P\. Le Sager, T\. Schmith, R\. Schrödner, F\. Serva, V\. Sicardi, M\. Sloth Madsen, B\. Smith, T\. Tian, E\. Tourigny, P\. Uotila, M\. Vancoppenolle, S\. Wang, D\. Wårlind, U\. Willén, K\. Wyser, S\. Yang, X\. Yepes\-Arbós, and Q\. Zhang\. The ec\-earth3 earth system model for the climate model intercomparison project 6\. *Geoscientific Model Development Discussions*, 2021:1–90, 2021\. URL: [https://gmd\.copernicus\.org/preprints/gmd\-2020\-446/](https://gmd.copernicus.org/preprints/gmd-2020-446/), [doi:10\.5194/gmd\-2020\-446](https://doi.org/10.5194/gmd-2020-446)\.   
+2. D\. Lowry, M\. Krapp, N\. Golledge, and A\. Alevropolous\-Borrill\. Global warming levels control time of emergence of Antarctic ice loss\. *submitted*, 2021\. URL: [https://doi\.org/10\.21203/rs\.3\.rs\-356571/v1](https://doi.org/10.21203/rs.3.rs-356571/v1), [doi:10\.21203/rs\.3\.rs\-356571/v1](https://doi.org/10.21203/rs.3.rs-356571/v1)\.   
+3. M\. Zeitz, R\. Reese, J\. Beckmann, U\. Krebs\-Kanzow, and R\. Winkelmann\. Impact of the melt\-albedo feedback on the future evolution of the Greenland ice sheet with PISM\-dEBM\-simple\. *The Cryosphere Discussions*, 2021:1–32, 2021\. URL: [https://tc\.copernicus\.org/preprints/tc\-2021\-91/](https://tc.copernicus.org/preprints/tc-2021-91/), [doi:10\.5194/tc\-2021\-91](https://doi.org/10.5194/tc-2021-91)\.   
+4. M\. Zeitz, R\. Winkelmann, and A\. Levermann\. Implications of flow law uncertainty for flow\-driven ice\-loss in greenland under idealized warming pathways\. *The Cryosphere Discussions*, 2021\. URL: [http://www\.pik\-potsdam\.de/~anders/publications/zeitz\_winkelmann21\.pdf](http://www.pik-potsdam.de/~anders/publications/zeitz_winkelmann21.pdf)\.   
+
+### 2020
+
+1. D\. Barbi, N\. Wieters, P\. Gierz, F\. Chegini, S\. Khosravi, and L\. Cristini\. Esm\-tools version 4\.0: a modular infrastructure for stand\-alone and coupled earth system modelling \(esm\)\. *Geoscientific Model Development Discussions*, 2020:1–21, 2020\. URL: [https://gmd\.copernicus\.org/preprints/gmd\-2020\-100/](https://gmd.copernicus.org/preprints/gmd-2020-100/), [doi:10\.5194/gmd\-2020\-100](https://doi.org/10.5194/gmd-2020-100)\.   
+2. P\. Gierz, L\. Ackermann, C\. B\. Rodehacke, U\. Krebs\-Kanzow, C\. Stepanek, D\. Barbi, and G\. Lohmann\. Simulating interactive ice sheets in the multi\-resolution awi\-esm 1\.2: a case study using scope 1\.0\. *Geoscientific Model Development Discussions*, 2020:1–32, 2020\. URL: [https://gmd\.copernicus\.org/preprints/gmd\-2020\-159/](https://gmd.copernicus.org/preprints/gmd-2020-159/), [doi:10\.5194/gmd\-2020\-159](https://doi.org/10.5194/gmd-2020-159)\.   
+3. S\. Hinck, E\. J\. Gowan, X\. Zhang, and G\. Lohmann\. Pism\-lakecc: implementing an adaptive proglacial lake boundary into an ice sheet model\. *The Cryosphere Discussions*, 2020:1–36, 2020\. URL: [https://tc\.copernicus\.org/preprints/tc\-2020\-353/](https://tc.copernicus.org/preprints/tc-2020-353/), [doi:10\.5194/tc\-2020\-353](https://doi.org/10.5194/tc-2020-353)\.   
+4. M\. Kreuzer, R\. Reese, W\. N\. Huiskamp, S\. Petri, T\. Albrecht, G\. Feulner, and R\. Winkelmann\. Coupling framework \(1\.0\) for the ice sheet model pism \(1\.1\.1\) and the ocean model mom5 \(5\.1\.0\) via the ice\-shelf cavity module pico\. *Geoscientific Model Development Discussions*, 2020:1–21, 2020\. URL: [https://gmd\.copernicus\.org/preprints/gmd\-2020\-230/](https://gmd.copernicus.org/preprints/gmd-2020-230/), [doi:10\.5194/gmd\-2020\-230](https://doi.org/10.5194/gmd-2020-230)\.   
+5. J\. Sutter, H\. Fischer, and O\. Eisen\. Simulating the internal structure of the Antarctic Ice Sheet – towards a spatio\-temporal calibration for ice\-sheet modelling\. *The Cryosphere Discussions*, 2020:1–25, 2020\. URL: [https://tc\.copernicus\.org/preprints/tc\-2020\-349/](https://tc.copernicus.org/preprints/tc-2020-349/), [doi:10\.5194/tc\-2020\-349](https://doi.org/10.5194/tc-2020-349)\.   
+6. Z\. Zhang, Q\. Yan, R\. Zhang, F\. Colleoni, G\. Ramstein, G\. Dai, M\. Jakobsson, M\. O'Regan, S\. Liess, D\.\-D\. Rousseau, N\. Wu, E\. J\. Farmer, C\. Contoux, C\. Guo, N\. Tan, and Z\. Guo\. Rapid waxing and waning of beringian ice sheet reconcile glacial climate records from around north pacific\. *Climate of the Past Discussions*, 2020:1–25, 2020\. URL: [https://cp\.copernicus\.org/preprints/cp\-2020\-38/](https://cp.copernicus.org/preprints/cp-2020-38/), [doi:10\.5194/cp\-2020\-38](https://doi.org/10.5194/cp-2020-38)\.   
+
+### 2018
+
+1. A\. Winter, T\. Kleiner, D\. Steinhage, T\. Creyts, and O\. Eisen\. Deducing large\-scale age distribution and paleoaccumulation rates from radiostratigraphy in east antarctica\. 2018\. URL: [https://d\-nb\.info/1164151959/34](https://d-nb.info/1164151959/34)\.   
+
+### 2015
+
+1. M\. A\. Martin, A\. Levermann, and R\. Winkelmann\. Comparing ice discharge through west antarctic gateways: weddell vs\. amundsen sea warming\. *The Cryosphere Discussions*, 9\(2\):1705–1733, 2015\. URL: [http://www\.the\-cryosphere\-discuss\.net/9/1705/2015/](http://www.the-cryosphere-discuss.net/9/1705/2015/)\.   
+
+### 2012
+
+1. R\. Winkelmann, A\. Levermann, K\. Frieler, and M\. A\. Martin\. Uncertainty in future solid ice discharge from antarctica\. *The Cryosphere Discussions*, 6\(1\):673–714, 2012\. URL: [http://www\.the\-cryosphere\-discuss\.net/6/673/2012/](http://www.the-cryosphere-discuss.net/6/673/2012/)\.   
+
+### 2009
+
+1. Ed Bueler, Constantine Khroulev, Andy Aschwanden, Ian Joughin, and Ben E\. Smith\. Modeled and observed fast flow in the Greenland ice sheet\. 2009\. URL: [http://pism\.github\.io/uaf\-iceflow/BKAJS\_submit2\_twocolumn\.pdf](http://pism.github.io/uaf-iceflow/BKAJS_submit2_twocolumn.pdf)\.   
+
