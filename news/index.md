@@ -7,4 +7,5 @@ hero_caption: "Photo: <a href='https://imaggeo.egu.eu/view/684/'>J. Orcutt / ima
 show_sidebar: false
 pagination:
     enabled: true
+    category: news
 ---
