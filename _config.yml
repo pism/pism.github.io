@@ -20,6 +20,8 @@ pagination:
   enabled: true
   per_page: 5
   sort_reverse: true
+  permalink: '/:num/'
+  title: ':title'
   trail:
     before: 5
     after: 5
