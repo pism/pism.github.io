@@ -23,13 +23,12 @@ check-links: build
 	bundle exec htmlproofer \
 	       --empty-alt-ignore \
 	       --disable-external \
-	       --typhoeus-config '{ "ssl_verifypeer": false }' \
 	       --root-dir ${DESTDIR} \
 	       ${DESTDIR}
 
 check-external-links: build
 	bundle exec htmlproofer \
 	       --empty-alt-ignore \
-	       --typhoeus-config '{ "ssl_verifypeer": false }' \
+	       --typhoeus-config '{ "ssl_verifypeer": false, "connecttimeout": 300, "timeout": 300, "headers" : {"User-Agent": "Mozilla/5.0 (compatible; htmlproofer)"}}' \
 	       --root-dir ${DESTDIR} \
 	       ${DESTDIR}
