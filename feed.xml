@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://pism.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pism.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-08-02T22:42:17+00:00</updated><id>https://pism.github.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">Version 1.2</title><link href="https://pism.github.io/news/2020/02/13/version1.2/" rel="alternate" type="text/html" title="Version 1.2" /><published>2020-02-13T00:00:00+00:00</published><updated>2020-02-13T00:00:00+00:00</updated><id>https://pism.github.io/news/2020/02/13/version1.2</id><content type="html" xml:base="https://pism.github.io/news/2020/02/13/version1.2/">&lt;p&gt;We are pleased to announce the release of the Parallel Ice Sheet Model
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://pism.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pism.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-08-03T00:31:31+00:00</updated><id>https://pism.github.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">Version 1.2</title><link href="https://pism.github.io/news/2020/02/13/version1.2/" rel="alternate" type="text/html" title="Version 1.2" /><published>2020-02-13T00:00:00+00:00</published><updated>2020-02-13T00:00:00+00:00</updated><id>https://pism.github.io/news/2020/02/13/version1.2</id><content type="html" xml:base="https://pism.github.io/news/2020/02/13/version1.2/">&lt;p&gt;We are pleased to announce the release of the Parallel Ice Sheet Model
 (PISM) v1.2.&lt;/p&gt;
 
 &lt;p&gt;Compared to v1.1, the new version includes&lt;/p&gt;
@@ -72,10 +72,9 @@ not in the realm of the possible.&lt;/p&gt;
 
 &lt;p&gt;The project is in collabration with Drs Patrick Heimbach and Feras
 Habbal at University of Texas at Austin. The successful candidate will
-use the &lt;a href=&quot;https://pism-docs.org/wiki/doku.php&quot;&gt;Parallel Ice Sheet Model
-(PISM)&lt;/a&gt; and implement
-frontal melt parameterizations currently being developed by Drs Heimbach
-and Habbal, as well as contribute to the development. Frequent telecoms
+use the Parallel Ice Sheet Model (PISM) and implement frontal melt
+parameterizations currently being developed by Drs Heimbach and
+Habbal, as well as contribute to the development. Frequent telecoms
 and annual visits are an integral aspect of the project.&lt;/p&gt;
 
 &lt;h2 id=&quot;project-2-antarctic-peninsula&quot;&gt;Project 2: Antarctic Peninsula&lt;/h2&gt;
