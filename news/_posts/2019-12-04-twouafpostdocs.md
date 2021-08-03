@@ -21,10 +21,9 @@ not in the realm of the possible.
 
 The project is in collabration with Drs Patrick Heimbach and Feras
 Habbal at University of Texas at Austin. The successful candidate will
-use the [Parallel Ice Sheet Model
-(PISM)](https://pism-docs.org/wiki/doku.php) and implement
-frontal melt parameterizations currently being developed by Drs Heimbach
-and Habbal, as well as contribute to the development. Frequent telecoms
+use the Parallel Ice Sheet Model (PISM) and implement frontal melt
+parameterizations currently being developed by Drs Heimbach and
+Habbal, as well as contribute to the development. Frequent telecoms
 and annual visits are an integral aspect of the project.
 
 ## Project 2: Antarctic Peninsula

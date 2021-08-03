@@ -15,10 +15,11 @@
   link: /#
   dropdown:
     - name: Online manual
-      link: https://pism-docs.org/sphinx/
-      # link: https://pism.github.io/pism
+      link: https://pism.github.io/docs
     - name: Source code browser
+      # FIXME: remove links to pism-docs.org
       link: https://pism-docs.org/doxy/html/index.html
+      # link: https://pism.github.io/doxygen
     - name: FAQ / PISM life hacks
       link: /faq/
     - name: Data preprocessing

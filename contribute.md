@@ -21,7 +21,7 @@ There are many ways you can contribute to PISM:
 * Fix bugs in PISM
 * Implement new features
 
-Please see [Contributing to PISM](https://pism.github.io/pism/contributing/index.html) in PISM's manual for some guidelines.
+Please see [Contributing to PISM](https://pism.github.io/docs/contributing/index.html) in PISM's manual for some guidelines.
 
 ## Contribution workflow
 
@@ -53,4 +53,4 @@ Please include the following information in all bug-reports and questions about 
 - the input files used by the run reproducing the bug
 - a description of what PISM does wrong
 
-For more details, please see [Submitting bug reports](https://pism-docs.org/sphinx/contributing/bug-reporting.html) in PISM's manual.
+For more details, please see [Submitting bug reports](https://pism.github.io/docs/contributing/bug-reporting.html) in PISM's manual.
