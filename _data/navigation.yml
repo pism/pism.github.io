@@ -16,6 +16,8 @@
   dropdown:
     - name: Online manual
       link: https://pism.github.io/docs
+    - name: PDF manual
+      link: https://raw.githubusercontent.com/pism/docs-pdf/main/pism_manual.pdf
     - name: Source code browser
       # FIXME: remove links to pism-docs.org
       link: https://pism-docs.org/doxy/html/index.html
