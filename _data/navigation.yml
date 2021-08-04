@@ -19,9 +19,7 @@
     - name: PDF manual
       link: https://raw.githubusercontent.com/pism/docs-pdf/main/pism_manual.pdf
     - name: Source code browser
-      # FIXME: remove links to pism-docs.org
-      link: https://pism-docs.org/doxy/html/index.html
-      # link: https://pism.github.io/doxygen
+      link: https://pism.github.io/doxygen
     - name: FAQ / PISM life hacks
       link: /faq/
     - name: Data preprocessing
