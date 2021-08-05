@@ -2,12 +2,12 @@
   size: large
   description: PISM main developers at the University of Alaska, Fairbanks
   sponsors:
-    - name: Constantine Khroulev
-      profile: https://glaciers.gi.alaska.edu/people/khroulev
     - name: Andy Aschwanden
       profile: http://glaciers.gi.alaska.edu/people/aschwanden
     - name: Ed Bueler
       profile: http://bueler.github.io/
+    - name: Constantine Khroulev
+      profile: https://glaciers.gi.alaska.edu/people/khroulev
 
 - tier_name: Co-developers at PIK
   size: large
@@ -15,6 +15,8 @@
   sponsors:
     - name: Torsten Albrecht
       profile: https://www.pik-potsdam.de/members/albrecht/
+    - name: Julius Garbe
+      profile: https://www.pik-potsdam.de/members/garbe/
     - name: Moritz Kreuzer
       profile: https://www.pik-potsdam.de/members/kreuzer/
     - name: Ronja Reese
@@ -31,6 +33,8 @@
       profile: http://www.pik-potsdam.de/~johfeld/
     - name: Marianne Haseloff
       profile: https://www.northumbria.ac.uk/about-us/our-staff/h/marianne-haseloff/
+    - name: Anders Levermann
+      profile: http://www.pik-potsdam.de/~anders/
     - name: Maria Martin
       profile: https://www.pik-potsdam.de/members/martin
     - name: David Maxwell
@@ -41,5 +45,3 @@
       profile: https://juseg.github.io/
     - name: Ricarda Winkelmann
       profile: https://ricarda.science/
-    - name: Anders Levermann
-      profile: http://www.pik-potsdam.de/~anders/
