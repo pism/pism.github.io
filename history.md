@@ -29,7 +29,7 @@ show_sidebar: true
 
 ### 2003: PETSc and C++ ... and PISM
 
-* Brown (as undergraduate) reports about [PETSc](http://www.mcs.anl.gov/petsc/) library that allows to work in parallel at a higher conceptual level, requiring switch to C++
+* Brown (as undergraduate) reports about [PETSc](https://petsc.org/release) library that allows to work in parallel at a higher conceptual level, requiring switch to C++
 * Brown and Bueler define object classes and rebuild isothermal SIA model, with under-development thermomechanical coupling code
 * Bueler adds thermocoupling to the SIA with Brown and Lingle assistance, and emphasizing exact solutions to check: [Bueler et al. (2007)](https://doi.org/10.3189/002214307783258396)
 * Brown adds and tests a SSA solver in PISM, leading to successful [MS project defense](http://pism.github.io/uaf-iceflow/slidesJBrown.pdf) in August 2006
@@ -39,7 +39,7 @@ show_sidebar: true
 
 ### 2006: PISM goes public
 
-* In September 2006, PISM is for the first time hosted publicly on [Gna!](https://en.wikipedia.org/wiki/Gna) with a [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License) (later moved to [git](https://git-scm.com/) and [Github](https://github.com/))
+* In September 2006, PISM is for the first time hosted publicly on [Gna!](https://en.wikipedia.org/wiki/Gna!) with a [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License) (later moved to [Git](https://git-scm.com/) and [GitHub](https://github.com/))
 
 ### 2007: PISM gets ice streams
 
@@ -62,7 +62,7 @@ show_sidebar: true
 
 ### 2011: PISM goes viral
 
-* Torsten Albrecht from PIK visits UAF and merges code versions including calving parameterization ([Levermann et al., 2012](https://doi.org/10.5194/tc-6-273-2012)) and fracture formation processes ([Albrecht & Levermann, 2012](https://doi.org/10.3189/2012JoG11J191))
+* Torsten Albrecht from PIK visits UAF and works on merging code versions including calving parameterization ([Levermann et al., 2012](https://doi.org/10.5194/tc-6-273-2012)) and fracture formation processes ([Albrecht & Levermann, 2012](https://doi.org/10.3189/2012JoG11J191))
 
 ### 2012: Community building
 
