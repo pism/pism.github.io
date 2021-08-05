@@ -16,7 +16,7 @@
         {% if page.url == trail.path %}
             <li><a class="pagination-link is-current">{{ trail.num }}</a></li>
         {% else %}
-            <li><a href="{{ trail.path | prepend: site.baseurl }}" title="Page {{trail.num}}" class="pagination-link">{{ trail.num }}</a></li>
+            <li><a href="{{ trail.path | prepend: site.baseurl | remove: 'index.html' }}" title="Page {{trail.num}}" class="pagination-link">{{ trail.num }}</a></li>
         {% endif %}
       {% endfor %}
       </ul>
