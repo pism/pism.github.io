@@ -1,0 +1,8 @@
+alignment: is-left
+style: is-boxed
+size: is-medium
+items:
+  - name: Published
+    link: /publications/
+  - name: Submitted
+    link: /publications/submitted/
