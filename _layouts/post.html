@@ -8,6 +8,8 @@ layout: default
   {% else %}
     <p class="pagination-previous" disabled>Previous</p>
   {% endif %}
+  {% assign category=page.categories %}
+    <p class="pagination-list"><a href="/{{ category }}/" class="pagination-link is-info">All {{ category }}</a></p>
   {% if page.next_in_category %}
     <a href="{{ page.next_in_category.url }}" class="pagination-next is-info">Next</a>
   {% else %}
