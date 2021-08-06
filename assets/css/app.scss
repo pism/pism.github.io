@@ -19,5 +19,9 @@ $link-focus: $primary-dark;
 // Font
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
+.has-text-weight-heavy {
+    font-weight: 800 !important;
+}
+
 // Import Main CSS file from theme
 @import "main";
