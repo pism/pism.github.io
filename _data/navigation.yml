@@ -16,8 +16,6 @@
   dropdown:
     - name: Online manual
       link: https://pism.github.io/docs
-    - name: PDF manual
-      link: https://raw.githubusercontent.com/pism/docs-pdf/main/pism_manual.pdf
     - name: Source code browser
       link: https://pism.github.io/doxygen
     - name: FAQ / PISM life hacks
@@ -28,16 +26,15 @@
       link: /tools/
     - name: Citing PISM
       link: /citing/
+    - name: Contribute to PISM
+      link: /contribute/
 - name: Download
   link: /#
   dropdown:
     - name: Get code on GitHub
       link: https://github.com/pism/pism/
-- name: Contributing
-  link: /#
-  dropdown:
-    - name: Contribute to PISM
-      link: /contribute/
+    - name: Download PDF manual
+      link: https://raw.githubusercontent.com/pism/docs-pdf/main/pism_manual.pdf
 - name: More
   link: /#
   dropdown:
