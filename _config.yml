@@ -76,10 +76,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - docker/
-  - old/
-  - templates/
   - usersmap/restore/
   - vendor/
+  - pism.github.io.sublime-project
+  - pism.github.io.sublime-workspace
 
 livereload: true
 
