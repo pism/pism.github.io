@@ -6,7 +6,7 @@ hero_height: is-medium
 hero_image: https://images.unsplash.com/photo-1609385510105-81ae06198c53
 hero_caption: "Photo: <a href='https://unsplash.com/photos/12R_znWtJHQ'>D. Shaw / Unsplash</a>"
 hero_darken: false
-sponsors: team
+team: team
 show_sidebar: false
 ---
 

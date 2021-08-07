@@ -1,5 +1,5 @@
-{% if page.sponsors %}
-{% assign tiers=site.data.[page.sponsors] %}
+{% if page.team %}
+{% assign tiers=site.data.[page.team] %}
     <div class="columns is-multiline">
         {% for tier in tiers %}
         <div class="column is-12">
@@ -13,18 +13,18 @@
             </div>
 
             <div class="columns is-multiline is-centered">
-                {% for sponsor in tier.sponsors %}
+                {% for member in tier.team %}
                 <div class="column {% if tier.size == 'large' %} is-4-desktop is-6-tablet {% else %} is-3-desktop is-4-tablet {% endif %}">
                     <div class="box has-text-centered">
                         {% if tier.size=='large' %}
-                            <img src="{% if sponsor.photo %}{{ sponsor.photo }}{% else %}/img/team/default.png{% endif %}" class="sponsor-photo"> 
+                            <img src="{% if member.photo %}{{ member.photo }}{% else %}/img/team/default.png{% endif %}" class="team-photo"> 
                         {% endif %}
                         <p class="title {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
-                            {{ sponsor.name }}
+                            {{ member.name }}
                         </p>
                         <p class="subtitle is-6">
-                            {% if sponsor.profile %}
-                            <a href="{{ sponsor.profile }}" class="is-link is-small">More info</a>
+                            {% if member.profile %}
+                            <a href="{{ member.profile }}" class="is-link is-small">More info</a>
                             {% else %}
                             &nbsp;
                             {% endif %}
