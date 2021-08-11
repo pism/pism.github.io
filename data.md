@@ -11,19 +11,19 @@ show_sidebar: true
 
 ## Antarctica
 
-A collection of preprocessing routines for input data to be used in PISM for Antarctic ice sheet (AIS) simulations is maintained in the [pism-ais](https://github.com/pism/pism-ais) repository:
+A collection of preprocessing routines for input data to be used in PISM for Antarctic ice sheet (AIS) simulations is maintained in the following repository:
 
-- [pism-ais](https://github.com/pism/pism-ais)
+[<i class="fab fa-github fa-lg"></i> pism-ais](https://github.com/pism/pism-ais)
 
 ## Greenland
 
 Scripts and tools to prepare data sets and make simulations of the Greenland ice sheet (GrIS) with PISM can be found in the following repositories:
 
-- [pism-gris](https://github.com/pism/pism-gris)
-- [gris-data-sets](https://github.com/pism/gris-data-sets)
+[<i class="fab fa-github fa-lg"></i> pism-gris](https://github.com/pism/pism-gris)<br />
+[<i class="fab fa-github fa-lg"></i> gris-data-sets](https://github.com/pism/gris-data-sets)
 
 ## Arctic
 
-Scripts and tools to create an Alaska-centric PISM setup for the northern hemisphere can be found in the [pism-arctic](https://github.com/pism/pism-arctic) repository:
+Scripts and tools to create an Alaska-centric PISM setup for the northern hemisphere can be found in the following repository:
 
-- [pism-arctic](https://github.com/pism/pism-arctic)
+[<i class="fab fa-github fa-lg"></i> pism-arctic](https://github.com/pism/pism-arctic)
