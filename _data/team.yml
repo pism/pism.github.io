@@ -4,6 +4,7 @@
   team:
     - name: Andy Aschwanden
       profile: http://glaciers.gi.alaska.edu/people/aschwanden
+      photo: /img/team/andy.jpg
     - name: Ed Bueler
       profile: http://bueler.github.io/
       photo: /img/team/bueler.png
@@ -16,6 +17,7 @@
   team:
     - name: Torsten Albrecht
       profile: https://www.pik-potsdam.de/members/albrecht/
+      photo: /img/team/torsten.jpg
     - name: Julius Garbe
       profile: https://www.pik-potsdam.de/members/garbe/
       photo: /img/team/julius.jpg
