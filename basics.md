@@ -37,7 +37,7 @@ Using PISM, major advances in the understanding and model representation of key 
 * Sub-shelf melt: [Reese et al. (2018)](https://doi.org/10.5194/tc-12-1969-2018)
 * Surface melt: [Zeitz et al. (preprint, 2021)](https://doi.org/10.5194/tc-2021-91)
 * MISI
-* MICI
+* MICI: [Schlemm et al. (preprint, 2021)](http://www.pik-potsdam.de/~anders/publications/schlemm_feldmann21.pdf)
 
 # Sea-level projections
 
@@ -73,7 +73,7 @@ Long-term model simulations are helpful for the reconstruction of the glacial-in
 
 {:refdef: style="text-align: center;"}
 ![](/img/basics/Hysteresis_Julius.png)
-*Graphic: J. Garbe*
+*Source: Modified after [Garbe et al. (2020)](https://doi.org/10.1038/s41586-020-2727-5)*
 {: refdef}
 
 Several positive and negative feedback mechanisms may impact the stability of ice sheets on long timescales. Examples include the positive surface-melt-elevation feedback or the negative isostatic solid-Earth rebound effect. When crossing critical thresholds, irreversible ice loss may follow. The overall effect of the interplay between the various feedback mechanisms in the long term has been assessed by means of PISM among others by:
