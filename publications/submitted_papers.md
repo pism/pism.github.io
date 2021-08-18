@@ -27,7 +27,3 @@
 
 1. Ed Bueler, Constantine Khroulev, Andy Aschwanden, Ian Joughin, and Ben E\. Smith\. Modeled and observed fast flow in the Greenland ice sheet\. 2009\. URL: [http://pism\.github\.io/uaf\-iceflow/BKAJS\_submit2\_twocolumn\.pdf](http://pism.github.io/uaf-iceflow/BKAJS_submit2_twocolumn.pdf)\.   
 
-### 1666
-
-1. E\. Bueler and others\. The first ice sheet modeling paper\. *Cryosphero*, 1\(1\):1–17, 1666\.   
-
