@@ -15,7 +15,7 @@ The Parallel Ice Sheet Model (PISM) is a computer program used in climate scienc
 
 # Why are ice sheets important?
 
-The ice sheets in Greenland and Antarctica are big, continent-sized glaciers and are more than two miles (more than four kilometers) thick. These ice sheets affect the rate at which global sea level rises. The question is how fast the changes can happen. Under global warming conditions, sea level may rise only a fraction of a meter or up to one or two meters in the next century. In the past, as the Earth went in and out of the ice ages, there were huge changes of tens of meters over several millenia. An ice-sheet flow model like PISM is part of understanding such possibilities.
+The ice sheets in Greenland and Antarctica are big, continent-sized glaciers more than three kilometers thick. Mass loss from glaciers and ice sheets affects global sea level, making the task of estimating their future contribution to sea-level societally relevant. Depending on how much global temperatures rise, sea level may rise only a fraction of a meter or up to one or two meters in the next century. In the past, as the Earth went in and out of the ice ages, there were huge changes of tens of meters over several millennia. Ice flow models like PISM are important tools to assess the range of possibile sea level rise scenarios.
 
 # What does an ice-sheet model do?
 
@@ -25,17 +25,16 @@ See this [excellent 5 minute movie](https://www.imaginary.org/film/the-future-of
 
 # Why is PISM special?
 
-PISM is open source and capable of high resolution. It has been [widely adopted](/publications/) as a tool for doing science.
+PISM is open source, parallel, and capable of simulations high resolution. It has been [widely adopted](/publications/) as a tool for doing science.
 
 Features include:
 
  * extensible atmospheric/ocean coupling
- * hybrid shallow stress balance
+ * shallow, hybrid, and higher-order stress balances
  * marine ice sheet physics
  * polythermal energy conservation
  * subglacial hydrology and till model
  * complete [documentation](https://pism.github.io/docs/)
  * parallel simulations using [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface) & [PETSc](http://www.mcs.anl.gov/petsc/)
  * reads and writes [CF-compliant](http://cfconventions.org/) [NetCDF](http://www.unidata.ucar.edu/software/netcdf/)
- * inversion toolbox in Python
  * verification and validation tools

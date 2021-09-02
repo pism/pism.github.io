@@ -11,7 +11,7 @@ show_sidebar: true
 
 ## Antarctica
 
-A collection of preprocessing routines for input data to be used in PISM for Antarctic ice sheet (AIS) simulations is maintained in the following repository:
+A collection of routines to preprocess input data to be used in PISM for Antarctic ice sheet (AIS) simulations is maintained in the following repository:
 
 [<i class="fab fa-github fa-lg"></i> pism-ais](https://github.com/pism/pism-ais)
 
