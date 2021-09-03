@@ -25,7 +25,7 @@ See this [excellent 5 minute movie](https://www.imaginary.org/film/the-future-of
 
 # Why is PISM special?
 
-PISM is open source, parallel, and capable of simulations high resolution. It has been [widely adopted](/publications/) as a tool for doing science.
+PISM is open source, parallel, and capable of simulations at high resolution. It has been [widely adopted](/publications/) as a tool for doing science.
 
 Features include:
 
