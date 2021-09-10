@@ -3,8 +3,8 @@ title: Overview
 subtitle: What is PISM?
 layout: page
 hero_height: is-medium
-hero_image: /img/header_pism3d.png
-hero_caption: "Graphic: J. Garbe / T. Albrecht"
+hero_image: /img/header_torsten_2.JPG
+hero_caption: "Photo: T. Albrecht"
 hero_darken: false
 show_sidebar: true
 ---

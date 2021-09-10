@@ -3,8 +3,8 @@ title: Data preprocessing
 subtitle: How to make input data PISM-ready?
 layout: page
 hero_height: is-medium
-hero_image: https://images.unsplash.com/photo-1529078155058-5d716f45d604
-hero_caption: "Photo: <a href='https://unsplash.com/photos/Wpnoqo2plFA'>M. Baumeister / Unsplash</a>"
+hero_image: /img/header_pism3d.png
+hero_caption: "Graphic: J. Garbe / T. Albrecht"
 hero_darken: false
 show_sidebar: true
 ---
