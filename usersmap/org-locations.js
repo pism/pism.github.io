@@ -16,8 +16,8 @@ var addressPoints = [
   ],
   [
     "Durham Univeristy | Durham City, UK | <a href='https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/' target='_blank'>https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/</a>",
-    54.7778911,
-    -1.58553825
+    54.7785577,
+    -1.5757010209442777
   ],
   [
     "Istanbul Technical University (ITU) - Eurasia Institute of Earth Sciences (EIES) | Istanbul, Turkey | <a href='https://eies.itu.edu.tr/en' target='_blank'>https://eies.itu.edu.tr/en</a>",
@@ -86,8 +86,8 @@ var addressPoints = [
   ],
   [
     "University of Cambridge | Cambridge, UK | <a href='https://www.geog.cam.ac.uk/research/ggg/' target='_blank'>https://www.geog.cam.ac.uk/research/ggg/</a>",
-    52.2034823,
-    0.1235817
+    52.2055314,
+    0.1186637
   ],
   [
     "University of Chicago (UC) | Chicago, USA | <a href='https://geosci.uchicago.edu/research/atmospheres-oceans-ice-and-climate/' target='_blank'>https://geosci.uchicago.edu/research/atmospheres-oceans-ice-and-climate/</a>",
