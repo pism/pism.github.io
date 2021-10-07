@@ -46,7 +46,7 @@ Please see the [Issue tracking at github](https://github.com/pism/pism/issues) t
 See the information given [here](http://www.pism.io/citing/).
 
 # A stress balance solve failed. What do I do?
-See [this page](/stress_balance_error/)
+See [this page](/faq_stress_balance_error/)
 
 
 # How do I create a parameter ensemble of PISM simulations?
