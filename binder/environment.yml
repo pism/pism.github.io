@@ -1,9 +1,0 @@
-channels:
-  - conda-forge
-dependencies:
-  - python=3
-  - numpy
-  - matplotlib
-  - xarray
-  - cftime=1.2.1
-  - h5netcdf
