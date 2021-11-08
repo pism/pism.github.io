@@ -18,7 +18,7 @@ For a quick view into PISM's netCDF output files, `Ncview` is a useful tool. For
 ## - Python
 
 - examples using the `xarray` package:
-    - [Visualisation of PISM output (interactive online jupyter notebook)](https://mybinder.org/v2/gh/m-kreuzer/pism.github.io/HEAD?filepath=jupyter%2Fpism_output_visualisation_example.ipynb)
+    - [Visualisation of PISM output](https://nbviewer.org/github/m-kreuzer/pism.github.io/blob/main/jupyter/pism_visualisation_python.ipynb)
     - [Antarctic paleo ensemble](https://gallery.pangeo.io/repos/ldeo-glaciology/pangeo-glaciology-examples/04_paleo_PISM.html)
 - [<i class="fab fa-github fa-lg"></i> pypismtools](https://github.com/pism/pypismtools) is a collection of python classes and functions to evaluate studies made with PISM
 - [Cartopy](https://scitools.org.uk/cartopy/) is another useful python package (based on [matplotlib](https://matplotlib.org/)), especially for plotting data on maps. For a list of useful Python plotting tools, see [here](http://www.marknagelberg.com/overview-python-and-non-python-mapping-tools-for-data-scientists/).
