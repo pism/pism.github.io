@@ -10,7 +10,7 @@ show_sidebar: true
 
 # Debugging stress balance solver failures
 
-Suppose you get a report from PISM like this:
+Suppose you get a report from PISM like this
 
 ```
 PISM WARNING: Effective viscosity not converged after 300 outer iterations
@@ -29,7 +29,7 @@ PISM ERROR: Shallow stress balance solver failed.
 PISM ERROR: stress balance computation failed. Saving model state to 'out_stressbalance_failed.nc'...
 ```
 
-This message might also be like
+or this
 
 ```
 PISM WARNING:  KSPSolve() reports 'diverged'; reason = -3 = 'DIVERGED_ITS'
@@ -46,15 +46,27 @@ So, how do you resolve these errors in PISM runs?
  2. The problem occurs most often with steep bed topography. The special problematic case may be nunataks, i.e. steep mountains poking up through the ice sheet. Consider using a smoother interpolation scheme for the bed topography, if that is justified given the bed elevation data you have.
  3. In the `KSPSolve() reports 'diverged'` case you may observe that the system is solvable with stronger PETSc linear solver options. Specifically, you can add these “direct subdomain solves” options to your PISM run:
 
-```-ssafd_ksp_type gmres -ssafd_ksp_norm_type unpreconditioned -ssafd_ksp_pc_side right -ssafd_pc_type asm -ssafd_sub_pc_type lu```
+```
+-ssafd_ksp_type gmres -ssafd_ksp_norm_type unpreconditioned -ssafd_ksp_pc_side right -ssafd_pc_type asm -ssafd_sub_pc_type lu
+```
 
 The run will likely be about a factor of two slower but it will probably not generate the errors. For more discussion of PETSc solver options which may help with performance and robustness of PISM runs, see the page on PETSc solver options.
 
-# Examining a saved linear system in a `.petsc` file
+## Examining a saved linear system in a `.petsc` file
 
 This comment applies in the `KSPSolve() reports 'diverged'` case.
 
-Jed Brown, a [PETSc developer](https://petsc.org/main/community/petsc_team/) and a PISM author, has the following diagnostic advice: _You can load in the binary file and use solvers on that single linear system. This scales to large problems (e.g. SSA solves on 10km Antarctica grids and such), and is not just a toy. Here is testing using ex10 which is the compiled form of `src/ksp/ksp/examples/tutorials/ex10.c` from the PETSc source code. We try direct subdomain solves, a robust starting point to see that the system is not invertible in this case:_ 
+Jed Brown, a [PETSc
+developer](https://petsc.org/main/community/petsc_team/) and a PISM
+author, has the following diagnostic advice:
+
+> You can load in the binary file and use solvers on that single
+> linear system. This scales to large problems (e.g. SSA solves on
+> 10km Antarctica grids and such), and is not just a toy. Here is
+> testing using `ex10` which is the compiled form of
+> `src/ksp/ksp/examples/tutorials/ex10.c` from the PETSc source code.
+> We try direct subdomain solves, a robust starting point to see that
+> the system is not invertible in this case.
 
 ```
 $ ./ex10 -f SSAFD_kspdivergederror.petsc -ksp_type gmres -ksp_norm_type unpreconditioned -ksp_pc_side right -pc_type asm -sub_pc_type lu
@@ -66,5 +78,3 @@ see http://www.mcs.anl.gov/petsc/petsc-as/documentation/faq.html#ZeroPivot!
 [0]PETSC ERROR: Petsc Release Version 3.2.0, Patch 5, Sat Oct 29 13:45:54 CDT 2011 
 ...
 ```
-
-
