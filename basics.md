@@ -6,10 +6,11 @@ hero_height: is-medium
 hero_image: /img/header_torsten_2.JPG
 hero_caption: "Photo: T. Albrecht"
 hero_darken: false
+toc: true
 show_sidebar: true
 ---
 
-# Model description papers
+## Model description papers
 
 PISM is continuously developed. Important model components and improvements as well as their description comprise
 for example:
@@ -22,7 +23,7 @@ for example:
 * Subglacial hydrology: [Bueler and van Pelt (2015)](https://doi.org/10.5194/gmd-8-1613-2015)
 * Calibration and ensemble parameter scoring: [Albrecht et al. (2020a)](https://doi.org/10.5194/tc-14-599-2020), [Albrecht et al. (2020b)](https://doi.org/10.5194/tc-14-633-2020)
 
-# Ice-sheet dynamics
+## Ice-sheet dynamics
 
 {:refdef: style="text-align: center;"}
 ![](/img/basics/IceSheetDyn_Julius.jpg)
@@ -39,7 +40,7 @@ Using PISM, major advances in the understanding and model representation of key 
 * MISI
 * MICI: [Schlemm et al. (preprint, 2021)](http://www.pik-potsdam.de/~anders/publications/schlemm_feldmann21.pdf)
 
-# Sea-level projections
+## Sea-level projections
 
 {:refdef: style="text-align: center;"}
 ![](/img/basics/SLR_Edwards2021.png)
@@ -57,7 +58,7 @@ The ice sheets on Greenland and Antartica are the largest freshwater reservoirs 
 * [Winkelmann and Levermann (2013)](https://doi.org/10.1007/s00382-012-1471-4)
 * SeaRISE: [Bindshadler et al. (2013)](https://doi.org/10.3189/2013JoG12J125), [Nowicki et al. (2013a)](https://doi.org/10.1002/jgrf.20081) (Antarctica), [Nowicki et al. (2013b)](https://doi.org/10.1002/jgrf.20076) (Greenland)
 
-# Glacial cycle simulations
+## Glacial cycle simulations
 
 {:refdef: style="text-align: center;"}
 ![](/img/basics/GlacialCycle_Albrecht2020.png)
@@ -69,7 +70,7 @@ Long-term model simulations are helpful for the reconstruction of the glacial-in
 * [Albrecht et al. (2020a)](https://doi.org/10.5194/tc-14-599-2020)
 * [Albrecht et al. (2020b)](https://doi.org/10.5194/tc-14-633-2020)
 
-# Long-term stability of ice sheets
+## Long-term stability of ice sheets
 
 {:refdef: style="text-align: center;"}
 ![](/img/basics/Hysteresis_Julius.png)
@@ -86,7 +87,7 @@ Several positive and negative feedback mechanisms may impact the stability of ic
 * [Winkelmann et al. (2015)](https://doi.org/10.1126/sciadv.1500589)
 
 
-# Coupling to other Earth system components
+## Coupling to other Earth system components
 
 {:refdef: style="text-align: center;"}
 ![](/img/basics/CouplingComponents_Zwally2015.png)
@@ -104,6 +105,6 @@ Ice sheets interact with other Earth system components, such as the atmosphere o
   * Lingle-Clark: [Bueler et al. (2007)](https://doi.org/10.3189/172756407782871567)
   * PISM-VILMA (work in progress)
 
-# Model intercomparisons
+## Model intercomparisons
 
 PISM has participated in numerous model intercomparison projects (MIPs). For a more complete list, please see [MIPs & Collaborations](https://pism.github.io/collaborations/).
