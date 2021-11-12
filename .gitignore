@@ -16,3 +16,4 @@ Gemfile.lock
 /usersmap/map.html
 /usersmap/org-locations.js
 /publications/submitted_papers.md
+/jupyter/.ipynb_checkpoints/
