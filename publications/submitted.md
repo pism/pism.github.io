@@ -3,8 +3,8 @@ title: Publications
 subtitle: List of publications using PISM
 layout: page
 hero_height: is-medium
-hero_image: https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14
-hero_caption: "Photo: <a href='https://unsplash.com/photos/5cFwQ-WMcJU'>A. Spratt / Unsplash</a>"
+hero_image: https://images.unsplash.com/photo-1460458248189-2cb101df4e67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&h=800&crop=bottom
+hero_caption: "Photo: <a href='https://unsplash.com/photos/HqS2oz4S7W8'>NRKbeta / Unsplash</a>"
 hero_darken: false
 show_sidebar: true
 tabs: publications_tabs
