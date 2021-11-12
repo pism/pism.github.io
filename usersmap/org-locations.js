@@ -1,8 +1,8 @@
 var addressPoints = [
   [
     "Alfred-Wegener-Institut (AWI) | Bremerhaven, Germany | <a href='https://www.awi.de/en/focus/ice-sheets.html' target='_blank'>https://www.awi.de/en/focus/ice-sheets.html</a>",
-    53.5522264,
-    8.5865509
+    53.5505392,
+    8.5851945
   ],
   [
     "Danish Meteorological Institute (DMI) | Kopenhagen, Denmark | <a href='http://research.dmi.dk/home/' target='_blank'>http://research.dmi.dk/home/</a>",
@@ -16,8 +16,8 @@ var addressPoints = [
   ],
   [
     "Durham Univeristy | Durham City, UK | <a href='https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/' target='_blank'>https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/</a>",
-    54.7785577,
-    -1.5757010209442777
+    54.77599295,
+    -1.5740029010295888
   ],
   [
     "Istanbul Technical University (ITU) - Eurasia Institute of Earth Sciences (EIES) | Istanbul, Turkey | <a href='https://eies.itu.edu.tr/en' target='_blank'>https://eies.itu.edu.tr/en</a>",
@@ -106,8 +106,8 @@ var addressPoints = [
   ],
   [
     "University of New South Wales (UNSW) | Sydney, Australia | <a href='http://www.essrc.unsw.edu.au/' target='_blank'>http://www.essrc.unsw.edu.au/</a>",
-    -33.8548157,
-    151.2164539
+    -33.768528,
+    150.9568559523945
   ],
   [
     "University of Northern British Columbia (UNBC) | Prince George, Canada | <a href='https://www2.unbc.ca/' target='_blank'>https://www2.unbc.ca/</a>",
@@ -136,7 +136,7 @@ var addressPoints = [
   ],
   [
     "Yale University | New Haven, USA | <a href='https://www.yale.edu/' target='_blank'>https://www.yale.edu/</a>",
-    41.298434349999994,
-    -72.93102342707913
+    41.3082138,
+    -72.9250518
   ]
 ];

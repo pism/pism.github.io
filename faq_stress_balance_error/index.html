@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#216778>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/x-icon"
+           href="/favicon.ico" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Debugging stress balance solver failures from PISM | PISM</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="Debugging stress balance solver failures from PISM" />
+<meta name="author" content="The PISM Authors" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Website for PISM, the Parallel Ice Sheet Model" />
+<meta property="og:description" content="Website for PISM, the Parallel Ice Sheet Model" />
+<link rel="canonical" href="http://www.pism.io/faq_stress_balance_error/" />
+<meta property="og:url" content="http://www.pism.io/faq_stress_balance_error/" />
+<meta property="og:site_name" content="PISM" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Debugging stress balance solver failures from PISM" />
+<meta name="twitter:site" content="@PISM_model" />
+<meta name="twitter:creator" content="@PISM_model" />
+<script type="application/ld+json">
+{"headline":"Debugging stress balance solver failures from PISM","description":"Website for PISM, the Parallel Ice Sheet Model","url":"http://www.pism.io/faq_stress_balance_error/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://www.pism.io/img/pism_logo_transp.png"},"name":"The PISM Authors"},"author":{"@type":"Person","name":"The PISM Authors"},"@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts -->
+
+<!-- Favicon -->
+<!-- Default -->
+<link rel="shortcut icon" href="http://www.pism.io/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://www.pism.io/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://www.pism.io/favicon/favicon-32x32.png">
+<!-- iOS -->
+<link rel="apple-touch-icon" sizes="57x57" href="http://www.pism.io/favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="http://www.pism.io/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://www.pism.io/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://www.pism.io/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://www.pism.io/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://www.pism.io/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://www.pism.io/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://www.pism.io/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://www.pism.io/favicon/apple-touch-icon-180x180.png">
+<meta name="apple-mobile-web-app-title" content="PISM">
+<!-- Android -->
+<link rel="manifest" href="http://www.pism.io/favicon/site.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="http://www.pism.io/favicon/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="256x256" href="http://www.pism.io/favicon/android-chrome-256x256.png">
+<meta name="application-name" content="PISM">
+<meta name="theme-color" content="#ebebeb">
+<!-- Safari -->
+<link rel="mask-icon" href="http://www.pism.io/favicon/safari-pinned-tab.svg" color="#216778">
+<!-- IE -->
+<meta name="msapplication-TileColor" content="#216778">
+<meta name="msapplication-TileImage" content="http://www.pism.io/favicon/mstile-150x150.png">
+<meta name="msapplication-config" content="http://www.pism.io/favicon/browserconfig.xml">
+
+<!-- Landing page 'scroll down' animation -->
+<style type="text/css">
+.scroll-down-icon {
+  position:relative;
+  left:50%;
+  bottom:0;
+  margin-top:-25px;
+  margin-left:-25px;
+  height:50px;
+  width:50px;
+  color:$white;
+  -webkit-animation:bounce 1s infinite;
+  -moz-animation:bounce 1s infinite;
+  -o-animation:bounce 1s infinite;
+  animation:bounce 1s infinite;
+}
+@-webkit-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@-moz-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@-o-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@media only screen and (max-width: 1023px) {
+  .scroll-down-icon {
+    display: none;
+  }
+}
+</style>
+
+<script>
+/* When the user scrolls down, hide the button. When the user scrolls up, show the button */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("scroll-down-icon").style.visibility = "visible";
+  } else {
+    document.getElementById("scroll-down-icon").style.visibility = "hidden";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script></head>
+
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item has-text-weight-bold">
+                PISM
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">About</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/news/" class="navbar-item ">News</a>
+                            
+                            <a href="/overview/" class="navbar-item ">Overview</a>
+                            
+                            <a href="/basics/" class="navbar-item ">Basic applications</a>
+                            
+                            <a href="/publications/" class="navbar-item ">Publications using PISM</a>
+                            
+                            <a href="/team/" class="navbar-item ">Developers team</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Usage</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://pism.github.io/docs" class="navbar-item ">Online manual</a>
+                            
+                            <a href="https://pism.github.io/doxygen" class="navbar-item ">Source code browser</a>
+                            
+                            <a href="/faq/" class="navbar-item ">FAQ / PISM life hacks</a>
+                            
+                            <a href="/data/" class="navbar-item ">Data preprocessing</a>
+                            
+                            <a href="/tools/" class="navbar-item ">Useful tools</a>
+                            
+                            <a href="/citing/" class="navbar-item ">Citing PISM</a>
+                            
+                            <a href="/contribute/" class="navbar-item ">Contribute to PISM</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Download</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://github.com/pism/pism/" class="navbar-item ">Get code on GitHub</a>
+                            
+                            <a href="https://raw.githubusercontent.com/pism/docs-pdf/main/pism_manual.pdf" class="navbar-item ">Download PDF manual</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">More</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/history/" class="navbar-item ">Brief history</a>
+                            
+                            <a href="/collaborations/" class="navbar-item ">MIPs & Collaborations</a>
+                            
+                            <a href="/usersmap/" class="navbar-item ">Map of users</a>
+                            
+                            <a href="/applications/" class="navbar-item ">Application of the month</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-8">
+                    
+                    
+                    
+
+                    
+                    
+<div class="content">
+    <h1 id="debugging-stress-balance-solver-failures">Debugging stress balance solver failures</h1>
+
+<p>Suppose you get a report from PISM like this</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PISM WARNING: Effective viscosity not converged after 300 outer iterations
+  with nuH_regularization=1.00e+13.
+  failed with nuH_regularization = 10000000000000.00.
+  re-trying with nuH_regularization multiplied by     4.00...
+...
+PISM WARNING: Effective viscosity not converged after 300 outer iterations
+  with nuH_regularization=1.02e+16.
+  re-trying using the Additive Schwarz preconditioner...
+PISM WARNING: Effective viscosity not converged after 300 outer iterations
+  with nuH_regularization=1.00e+13.
+PISM ERROR: all SSAFD strategies failed.
+PISM ERROR: SSA solver failed.
+PISM ERROR: Shallow stress balance solver failed.
+PISM ERROR: stress balance computation failed. Saving model state to 'out_stressbalance_failed.nc'...
+</code></pre></div></div>
+
+<p>or this</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PISM WARNING:  KSPSolve() reports 'diverged'; reason = -3 = 'DIVERGED_ITS'
+  writing linear system to PETSc binary file SSAFD_kspdivergederror.petsc ...
+</code></pre></div></div>
+
+<p>These failures are signs that the problem seen by the elliptic stress balance solver, the SSA solver, is for some reason too difficult. Roughly speaking, for the first case the computed estimate of the temperature-dependent strength of the shear-thinning ice is not behaving well, while for the second case, the condition number of the system is large, although it may be that your options for PISM have generated an actually unsolvable system.</p>
+
+<p>Why do these errors occur sporadically? As far as we understand, the reason is that at some timestep and some location in the ice sheet there is very thin ice (e.g. <code class="language-plaintext highlighter-rouge">&lt; 10m</code>), or there is ice with very weak basal resistance. At the same places we think there is high driving stress or membrane stress gradients. That is, the problem is a local nastyness for the stress balance, generating one or a few rows of the linear system that have nearly-zero coefficients. (<em>If the reason were really clear we would probably have already fixed it. Simple and quickly-reproducible cases that generate these errors, on coarse grids, would be greatly appreciated.</em>)</p>
+
+<p>So, how do you resolve these errors in PISM runs?</p>
+
+<ol>
+  <li>The failure may be resolved by adding options. Specifically, an iceberg may have been created, for which the stress balance is ill-posed (i.e. not invertible even in theory). You should use <code class="language-plaintext highlighter-rouge">-kill_icebergs</code>. More general advice is to use <code class="language-plaintext highlighter-rouge">-pik</code>, which implies <code class="language-plaintext highlighter-rouge">-kill_icebergs</code>, for most runs.</li>
+  <li>The problem occurs most often with steep bed topography. The special problematic case may be nunataks, i.e. steep mountains poking up through the ice sheet. Consider using a smoother interpolation scheme for the bed topography, if that is justified given the bed elevation data you have.</li>
+  <li>In the <code class="language-plaintext highlighter-rouge">KSPSolve() reports 'diverged'</code> case you may observe that the system is solvable with stronger PETSc linear solver options. Specifically, you can add these “direct subdomain solves” options to your PISM run:</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-ssafd_ksp_type gmres -ssafd_ksp_norm_type unpreconditioned -ssafd_ksp_pc_side right -ssafd_pc_type asm -ssafd_sub_pc_type lu
+</code></pre></div></div>
+
+<p>The run will likely be about a factor of two slower but it will probably not generate the errors. For more discussion of PETSc solver options which may help with performance and robustness of PISM runs, see the page on PETSc solver options.</p>
+
+<h2 id="examining-a-saved-linear-system-in-a-petsc-file">Examining a saved linear system in a <code class="language-plaintext highlighter-rouge">.petsc</code> file</h2>
+
+<p>This comment applies in the <code class="language-plaintext highlighter-rouge">KSPSolve() reports 'diverged'</code> case.</p>
+
+<p>Jed Brown, a <a href="https://petsc.org/main/community/petsc_team/">PETSc
+developer</a> and a PISM
+author, has the following diagnostic advice:</p>
+
+<blockquote>
+  <p>You can load in the binary file and use solvers on that single
+linear system. This scales to large problems (e.g. SSA solves on
+10km Antarctica grids and such), and is not just a toy. Here is
+testing using <code class="language-plaintext highlighter-rouge">ex10</code> which is the compiled form of
+<code class="language-plaintext highlighter-rouge">src/ksp/ksp/examples/tutorials/ex10.c</code> from the PETSc source code.
+We try direct subdomain solves, a robust starting point to see that
+the system is not invertible in this case.</p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ./ex10 -f SSAFD_kspdivergederror.petsc -ksp_type gmres -ksp_norm_type unpreconditioned -ksp_pc_side right -pc_type asm -sub_pc_type lu
+[0]PETSC ERROR: --------------------- Error Message ------------------------------------
+[0]PETSC ERROR: Detected zero pivot in LU factorization
+see http://www.mcs.anl.gov/petsc/petsc-as/documentation/faq.html#ZeroPivot!
+[0]PETSC ERROR: Zero pivot row 126954 value 0 tolerance 1e-12!
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: Petsc Release Version 3.2.0, Patch 5, Sat Oct 29 13:45:54 CDT 2011 
+...
+</code></pre></div></div>
+
+</div>
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest news</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2020/02/13/version1.2/">Version 1.2</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>We are pleased to announce the release of the Parallel Ice Sheet Model
+(PISM) v1.2.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/02/13/version1.2/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Feb 13, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2020/02/05/postdocmpim2020/">MPI-M Hamburg, Germany: open postdoc for coupled atmosphere-ocean-ice sheet model</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>The Max Planck Institute for Meteorology (MPI-M) contributes to the BMBF
+project “From the Last Interglacial to the Anthropocene: Modeling a
+Complete Glacial Cycle” <a href="https://www.palmod.de/">(PalMod,
+www.palmod.de)</a>, which aims at
+simulating the climate from the peak of the last interglacial up to the
+present using comprehensive Earth System Models. Phase II of this
+project has an open position Postdoctoral Scientist (W073). The
+successful candidate will be part of a local team performing and
+analysing long-term transient simulations covering the last glacial and
+the transition into the Holocene with an interactively coupled
+atmosphere-ocean-ice sheet model. Additionally, the candidate will
+contribute to the continued development of this model. The model system
+consists of the MPI-Earth system model, the ice sheet model PISM, and
+the solid-earth model VILMA.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/02/05/postdocmpim2020/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Feb 5, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2020/01/23/postdocawi/">AWI PostDoc: Antarctic Ice Sheets in warming climates</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>Dr. Lohmann’s group at <a href="https://www.awi.de/en/">AWI</a> is
+seeking a postdoc to work with PISM and the multi-scale Earth system
+model AWI-ESM. See</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/01/23/postdocawi/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jan 23, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+<div class="buttons is-centered">
+    <a href="/news/" class="button is-primary is-outlined">All news</a>
+</div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+
+        <div class="has-text-centered">
+            <p><strong>Follow</strong></p>
+            <div class="buttons is-centered">
+                <a href="https://twitter.com/PISM_model" title="Twitter" class="button is-light" target="_blank">
+                    <i class="fab fa-twitter fa-lg" style="color: #216778;"></i>
+                </a>
+                <a href="https://www.facebook.com/UAF.GI" title="Facebook" class="button is-light" target="_blank">
+                    <i class="fab fa-facebook fa-lg" style="color: #216778;"></i>
+                </a>
+                <a href="https://join.slack.com/t/uaf-pism/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE" title="Slack" class="button is-light" target="_blank">
+                    <i class="fab fa-slack fa-lg" style="color: #216778;"></i>
+                </a>
+                <a href="https://github.com/pism" title="Github" class="button is-light" target="_blank">
+                    <i class="fab fa-github fa-lg" style="color: #216778;"></i>
+                </a>
+                <a href="/feed.xml" title="RSS Feed" class="button is-light">
+                    <i class="fas fa-rss fa-lg" style="color: #216778;"></i>
+                </a>
+            </div>
+        </div>
+        <br>
+
+        <div class="content is-small has-text-centered">
+            <p>Site built using <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a> by C.S. Rhymes</p>
+            <p>&copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> The PISM Authors</p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>
