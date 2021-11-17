@@ -1,9 +1,0 @@
----
-title: PISM 2.0 is out
-image: /img/pism_logo_transp.png
----
-
-PISM developers have been hard at work to bring you a brand you version of PISM, packed with new features. After years of development, PISM finally includes a Blatter solver, warranting a new major version: PISM 2.0.
-
-## Getting started
-
