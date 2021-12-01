@@ -26,6 +26,7 @@ Some recommendations for Python packages that allow easy plotting of NetCDF data
 - [<i class="fab fa-github fa-lg"></i> pypismtools](https://github.com/pism/pypismtools) is a collection of Python classes and functions to evaluate studies made with PISM
 - [Cartopy](https://scitools.org.uk/cartopy/) and [GeoPandas](https://geopandas.org) (or the earlier but deprecated [Basemap](https://matplotlib.org/basemap/index.html)) are useful Python packages (based on [matplotlib](https://matplotlib.org/)), especially for plotting data on maps
 - [PyGMT](https://www.pygmt.org/) is a Python interface for the [Generic Mapping Tools (GMT)](https://www.generic-mapping-tools.org/)
+- [Hyoga](https://hyoga.readthedocs.io) is a thin wrapper around xarray to read and plot PISM output, written by Julien Seguinot
 
 For a list of more useful Python plotting tools, see [here](http://www.marknagelberg.com/overview-python-and-non-python-mapping-tools-for-data-scientists/).
 
