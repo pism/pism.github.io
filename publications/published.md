@@ -1,3 +1,7 @@
+### 2022
+
+1. Martin Siegert and Nicholas R Golledge\. Advances in Numerical Modelling of the Antarctic Ice Sheet\. In *Antarctic Climate Evolution*, chapter 5, pages 199–218\. Elsevier, 2nd edition, 2022\.   
+
 ### 2021
 
 1. D\. Barbi, N\. Wieters, P\. Gierz, M\. Andrés\-Mart\\'ınez, D\. Ural, F\. Chegini, S\. Khosravi, and L\. Cristini\. Esm\-tools version 5\.0: a modular infrastructure for stand\-alone and coupled earth system modelling \(esm\)\. *Geoscientific Model Development*, 14\(6\):4051–4067, 2021\. URL: [https://gmd\.copernicus\.org/articles/14/4051/2021/](https://gmd.copernicus.org/articles/14/4051/2021/), [doi:10\.5194/gmd\-14\-4051\-2021](https://doi.org/10.5194/gmd-14-4051-2021)\.   
