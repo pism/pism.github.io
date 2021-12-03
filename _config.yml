@@ -5,7 +5,7 @@ tagline             : "Parallel Ice Sheet Model"
 name                : &name "The PISM Authors"
 description         : "Website for PISM, the Parallel Ice Sheet Model"
 baseurl             : "" #/pism.github.io
-url                 : "http://www.pism.io" #"https://pism.github.io"
+url                 : "https://www.pism.io"
 favicon             : "/favicon.ico"
 gh_repository       : &gh_repo "https://github.com/pism"
 gh_sponsor          : #
