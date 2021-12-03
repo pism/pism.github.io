@@ -1,1 +1,1 @@
-Sitemap: http://www.pism.io/sitemap.xml
+Sitemap: https://www.pism.io/sitemap.xml
