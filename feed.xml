@@ -1,4 +1,220 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://www.pism.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pism.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-12-03T21:49:44+00:00</updated><id>https://www.pism.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">Version 1.2</title><link href="https://www.pism.io/news/2020/02/13/version1.2/" rel="alternate" type="text/html" title="Version 1.2" /><published>2020-02-13T00:00:00+00:00</published><updated>2020-02-13T00:00:00+00:00</updated><id>https://www.pism.io/news/2020/02/13/version1.2</id><content type="html" xml:base="https://www.pism.io/news/2020/02/13/version1.2/">&lt;p&gt;We are pleased to announce the release of the Parallel Ice Sheet Model
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://www.pism.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pism.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-12-04T00:23:54+00:00</updated><id>https://www.pism.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">PISM 2.0 is out</title><link href="https://www.pism.io/news/2021/12/03/pism2.0/" rel="alternate" type="text/html" title="PISM 2.0 is out" /><published>2021-12-03T00:00:00+00:00</published><updated>2021-12-03T00:00:00+00:00</updated><id>https://www.pism.io/news/2021/12/03/pism2.0</id><content type="html" xml:base="https://www.pism.io/news/2021/12/03/pism2.0/">&lt;p&gt;PISM developers have been hard at work to bring you a brand new
+version of PISM, packed with new features. After years of development,
+PISM finally includes a Blatter solver, warranting a new major
+version: PISM 2.0.&lt;/p&gt;
+
+&lt;h2 id=&quot;notable-changes&quot;&gt;Notable changes&lt;/h2&gt;
+
+&lt;h3 id=&quot;new-logo&quot;&gt;New logo&lt;/h3&gt;
+
+&lt;p&gt;PISM has a new logo designed by &lt;a href=&quot;https://www.pik-potsdam.de/members/garbe/&quot;&gt;Julius Garbe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;https://raw.githubusercontent.com/pism/logo/main/png/pism_logo_transp.png&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;new-website&quot;&gt;New website&lt;/h3&gt;
+
+&lt;p&gt;The new website at &lt;a href=&quot;https://www.pism.io/&quot;&gt;www.pism.io&lt;/a&gt; replaces the
+&lt;a href=&quot;http://web.archive.org/web/20210812174625/https://pism-docs.org/wiki/doku.php&quot;&gt;old version&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;stress-balance&quot;&gt;Stress balance&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Implemented a &lt;a href=&quot;http://www.pism.io/docs/manual/modeling-choices/dynamics/blatter.html&quot;&gt;FEM solver for the first order
+approximation&lt;/a&gt;
+of the Stokes equations due to Blatter (1995). This solver supports
+multigrid preconditioners (see Brown et al 2013) and includes 5
+verification test based on manufactured solutions.&lt;/li&gt;
+  &lt;li&gt;Implemented &lt;a href=&quot;http://www.pism.io/docs/manual/simplified-geometry/ismip-hom.html&quot;&gt;experiments A,B,C,D,E from the ISMIP-HOM
+intercomparison&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Fixed the approximation of the driving stress at floating ice margins
+in the
+&lt;a href=&quot;http://www.pism.io/docs/manual/modeling-choices/dynamics/ssa.html&quot;&gt;SSA&lt;/a&gt;
+solver. (This fix was contributed by Ronja Reese and Torsten
+Albrecht; see &lt;a href=&quot;http://www.pism.io/docs/technical/ssafd-flow-line.html&quot;&gt;these
+notes&lt;/a&gt; for
+details.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;basal-strength&quot;&gt;Basal strength&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Implemented regularized Coulomb sliding as in Zoet &amp;amp; Iverson, 2020, A slip law for
+glaciers on deformable beds, equation 3.&lt;/li&gt;
+  &lt;li&gt;Assume that in the “ocean” areas the till at the base is saturated with water, i.e. the
+till water amount is equal to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hydrology.tillwat_max&lt;/code&gt;. This change should improve
+grounding line movement and make the basal yield stress modification turned on with
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;basal_yield_stress.slippery_grounding_lines&lt;/code&gt; unnecessary.&lt;/li&gt;
+  &lt;li&gt;Implemented a mechanism for “optimizing” the till friction angle used by the Mohr-Coulomb
+yield stress model. The implementation is based on the code contributed by T. Albrecht.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bed-deformation&quot;&gt;Bed deformation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;a href=&quot;http://www.pism.io/docs/manual/modeling-choices/subglacier/bed-deformation.html#given-bed-deformation-history&quot;&gt;new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-bed_def given&lt;/code&gt;
+component&lt;/a&gt;
+reads in a prescribed bed deformation history from a file (e.g. from
+a solid-Earth model) relative to a (high-resolution) reference
+topography, indicated by configuration parameter
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bed_deformation.given.file&lt;/code&gt; and
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bed_deformation.given.reference_file&lt;/code&gt;, respectively.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;calving&quot;&gt;Calving&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Implemented scaling of calving rates using a time-dependent factor.
+Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;calving.rate_scaling.file&lt;/code&gt; to the name of the file containing
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;frac_calving_rate&lt;/code&gt; (units: “1”).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.pism.io/docs/manual/modeling-choices/marine/calving.html#calving-of-thin-floating-ice&quot;&gt;Ice thickness
+threshold&lt;/a&gt;
+read in from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;calving.thickness_calving.file&lt;/code&gt; can be both space- and
+time-dependent.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fracture-density-model&quot;&gt;Fracture density model&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Implemented the &lt;a href=&quot;http://www.pism.io/docs/manual/modeling-choices/marine/damage.html&quot;&gt;fracture
+density&lt;/a&gt;
+growth parameterization due to Borstad et al (equation 4 in &lt;a href=&quot;http://doi.org/10.1002/2015GL067365&quot;&gt;Borstad
+et al, 2016&lt;/a&gt;). Code contributed
+by T. Albrecht).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;atmosphere-forcing&quot;&gt;Atmosphere forcing&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Support &lt;a href=&quot;http://www.pism.io/docs/climate_forcing/atmosphere.html#precipitation-scaling&quot;&gt;2D precipitation
+scaling&lt;/a&gt;
+in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-atmosphere ...,frac_P&lt;/code&gt;. If the input file set using
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;atmosphere.frac_P.file&lt;/code&gt; contains a scalar time series &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;frac_P&lt;/code&gt;, use
+that as a time-dependent constant-in-space forcing. If the input
+file contains a 2D variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;frac_P&lt;/code&gt;, use that as a
+time-and-space-dependent forcing.&lt;/li&gt;
+  &lt;li&gt;Added surface elevation smoothing to the &lt;a href=&quot;http://www.pism.io/docs/climate_forcing/atmosphere.html#orographic-precipitation&quot;&gt;orographic precipitation
+model&lt;/a&gt;.
+High-frequency modes in the surface elevation that can develop in
+runs with evolving ice geometry (consider grounded ice margins) may
+cause oscillations in the computed precipitation field (probably due
+to the Gibbs phenomenon). These oscillations may result in an even
+rougher topography, triggering a feedback loop polluting model
+results. Set
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;atmosphere.orographic_precipitation.smoothing_standard_deviation&lt;/code&gt;
+(in meters) to smooth the ice surface elevation to reduce this
+effect.&lt;/li&gt;
+  &lt;li&gt;Added &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;atmosphere.elevation_change.precipitation.temp_lapse_rate&lt;/code&gt; to
+the &lt;a href=&quot;http://www.pism.io/docs/climate_forcing/atmosphere.html#adjustments-using-modeled-change-in-surface-elevation&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-atmosphere ...,elevation_change&lt;/code&gt;
+modifier&lt;/a&gt;.
+Now this parameter is used to compute the temperature change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dT&lt;/code&gt;
+used to scale precipitation by a factor &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exp(C * dT)&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C =
+atmosphere.precip_exponential_factor_for_temperature&lt;/code&gt;. We need a
+separate temperature lapse rate parameter to be able to use this
+modifier with atmosphere models that include an elevation-dependent
+near-surface air temperature parameterizations, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-atmosphere
+pik,elevation_change&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ocean-forcing&quot;&gt;Ocean forcing&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;a href=&quot;http://www.pism.io/docs/climate_forcing/ocean.html#basal-melt-rate-and-temperature-from-thermodynamics-in-boundary-layer&quot;&gt;three-equation ocean
+model&lt;/a&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-ocean th&lt;/code&gt; uses constant salinity (see
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;constants.sea_water.salinity&lt;/code&gt;) if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;salinity_ocean&lt;/code&gt; is not present
+in the forcing file.&lt;/li&gt;
+  &lt;li&gt;Added a &lt;a href=&quot;http://www.pism.io/docs/climate_forcing/ocean.html#scalar-melange-back-pressure-offsets&quot;&gt;new ocean
+modifier&lt;/a&gt;:
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-ocean ...,delta_MBP&lt;/code&gt;. This component reads scalar time-dependent
+melange pressure offsets (units: Pa) and uses them in the calving
+front boundary condition for the SSA.&lt;/li&gt;
+  &lt;li&gt;Adjusted
+&lt;a href=&quot;http://www.pism.io/docs/climate_forcing/ocean.html#pico&quot;&gt;PICO&lt;/a&gt;
+ocean input average across covered basins, in which the ice shelf
+has in fact a connection to the ocean. Large ice shelves spanning
+two basins that do not share an ocean boundary are split into two
+separate ice shelf instances. (This code was contributed by Torsten
+Albrecht.)&lt;/li&gt;
+  &lt;li&gt;Added &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sea_level.constant.value&lt;/code&gt;. This sets the default sea level
+elevation used with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-sea_level constant&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Removed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ocean.always_grounded&lt;/code&gt;. Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sea_level.constant.value&lt;/code&gt; to a
+large negative value to ensure that all ice is grounded.&lt;/li&gt;
+  &lt;li&gt;Removed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ocean.melange_back_pressure_fraction&lt;/code&gt;: it is no longer
+needed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;input-and-output-diagnostics&quot;&gt;Input and output, diagnostics&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added a new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.format&lt;/code&gt; value: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;netcdf4_serial&lt;/code&gt; and
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.compression_level&lt;/code&gt;. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-o_format netcdf4_serial
+-output.compression_level N&lt;/code&gt; (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; between 1 and 9) to write
+compressed NetCDF from rank 0.&lt;/li&gt;
+  &lt;li&gt;Support writing compressed NetCDF in parallel with NetCDF 4.7.4 or newer and HDF5 1.10.3
+or newer. Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.compression_level&lt;/code&gt; to enable compression.&lt;/li&gt;
+  &lt;li&gt;Stop with an error message if some values of a variable read from a file match the
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_FillValue&lt;/code&gt; attribute (PISM expects input files to contain data at all grid points
+within the domain).&lt;/li&gt;
+  &lt;li&gt;Now PISM stops with an error message if time-dependent forcing data read from a file do
+not span the whole length of a simulation. Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;input.forcing.time_extrapolation&lt;/code&gt; to
+“true” to disable this check.&lt;/li&gt;
+  &lt;li&gt;Removed the configuration parameter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;input.forcing.evaluations_per_year&lt;/code&gt;. Now
+the code evaluates &lt;em&gt;exact&lt;/em&gt; values of time averages of time-dependent forcing inputs.&lt;/li&gt;
+  &lt;li&gt;Major improvement in the handling of time-dependent forcing. A file containing periodic
+forcing has to contain &lt;em&gt;exactly&lt;/em&gt; one period. The start and the length of the period are
+derived from time bounds read from this file. This makes it easier to use periodic
+forcing and adds supports for arbitrary period lengths. See the manual section about
+time-dependent inputs.&lt;/li&gt;
+  &lt;li&gt;All time-dependent forcing files have to contain time bounds.&lt;/li&gt;
+  &lt;li&gt;Now PISM always respects the reference date in input files.&lt;/li&gt;
+  &lt;li&gt;Improved the approximation of the grounding line flux (scalar and 2D diagnostics
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grounding_line_flux&lt;/code&gt;): the flux &lt;em&gt;through&lt;/em&gt; the grounding line should be zero if its
+direction is parallel to the grounding line. Unfortunately this is impossible to achieve
+for an arbitrary grounding line shape if the grounding line is approximated by a mask on
+a uniform grid (as in PISM). This change improves the approximation for some
+combinations of grounding line shapes and grid resolutions. (This issue was reported by
+Ronja Reese.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;model-time-and-time-stepping&quot;&gt;Model time and time stepping&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added a new parameter: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;time_stepping.resolution&lt;/code&gt;. PISM rounds time step lengths &lt;em&gt;down&lt;/em&gt; to
+a multiple of this number (default: 1 second). This reduces &lt;a href=&quot;https://github.com/pism/pism/issues/407&quot;&gt;the influence of rounding
+errors on time step lengths&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Command-line options &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-y&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-ys&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-ye&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-max_dt&lt;/code&gt; and corresponding configuration
+parameters use units of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;365 days&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;years&lt;/code&gt;. The latter has the meaning of the
+mean tropical year, i.e. the constant used to convert from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1/s&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1/year&lt;/code&gt;. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-y
+1000years&lt;/code&gt;, etc to reproduce the old behavior.&lt;/li&gt;
+  &lt;li&gt;Fixed a bug in the code managing time step restrictions (this
+affected the last time step of runs using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-skip&lt;/code&gt; and runs with
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-skip&lt;/code&gt; in which &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-max_dt&lt;/code&gt; is active).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;other&quot;&gt;Other&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added the new command-line option &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-refinement_factor N&lt;/code&gt;. Use this
+to select a regional modeling domain using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-x_range ... -y_range
+...&lt;/code&gt;, then use a grid that is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; times finer.&lt;/li&gt;
+  &lt;li&gt;Added support for automatic unit conversion in command-line options.
+If an option argument is a number PISM assumes that it uses PISM’s
+internal units. If it is a number followed by a units string
+recognized by UDUNITS it is automatically converted to PISM’s
+internal units. For example, the following are equivalent: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-Lz
+1000&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-Lz 1000m&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-Lz 1km&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Added a new NetCDF variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thk_bc_mask&lt;/code&gt; prescribing locations
+where the ice thickness is kept fixed. This mask is combined with
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vel_bc_mask&lt;/code&gt;: we keep ice thickness fixed at all the locations
+where the sliding (usually SSA) velocity is fixed.&lt;/li&gt;
+  &lt;li&gt;Renamed NetCDF variables &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bc_mask&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vel_bc_mask&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;u_ssa_bc&lt;/code&gt;
+and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;v_ssa_bc&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;u_bc&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;v_bc&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Removed the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pisms&lt;/code&gt; executable. Run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pismr -eisII X&lt;/code&gt; to run
+&lt;a href=&quot;http://www.pism.io/docs/manual/simplified-geometry/eismint-2.html&quot;&gt;EISMINT-II&lt;/a&gt;
+experiment &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fill_missing_petsc.py&lt;/code&gt; uses homogeneous Neumann BC at domain boundaries.&lt;/li&gt;
+  &lt;li&gt;Added optional arguments &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;time_units&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;calendar&lt;/code&gt; to
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PISM.util.prepare_output()&lt;/code&gt; in the Python bindings.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">PISM developers have been hard at work to bring you a brand new version of PISM, packed with new features. After years of development, PISM finally includes a Blatter solver, warranting a new major version: PISM 2.0.</summary></entry><entry><title type="html">Version 1.2</title><link href="https://www.pism.io/news/2020/02/13/version1.2/" rel="alternate" type="text/html" title="Version 1.2" /><published>2020-02-13T00:00:00+00:00</published><updated>2020-02-13T00:00:00+00:00</updated><id>https://www.pism.io/news/2020/02/13/version1.2</id><content type="html" xml:base="https://www.pism.io/news/2020/02/13/version1.2/">&lt;p&gt;We are pleased to announce the release of the Parallel Ice Sheet Model
 (PISM) v1.2.&lt;/p&gt;
 
 &lt;p&gt;Compared to v1.1, the new version includes&lt;/p&gt;
@@ -141,10 +357,4 @@ Visualization Studio&lt;/a&gt;.&lt;/p&gt;
 &lt;figure class=&quot;image is-16by9&quot;&gt; 
     &lt;iframe class=&quot;has-ratio&quot; src=&quot;https://www.youtube.com/embed/LtpD-bAFQoc?t=0s&amp;amp;rel=0;modestbranding=1&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;
     &lt;/iframe&gt;
-&lt;/figure&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">The article by Aschwanden and others just published in Science Advances is supplemented by this excellent two minute visualization by the NASA Scientific Visualization Studio.</summary></entry><entry><title type="html">PISM and ISMIP6</title><link href="https://www.pism.io/news/2019/06/19/ismip6/" rel="alternate" type="text/html" title="PISM and ISMIP6" /><published>2019-06-19T00:00:00+00:00</published><updated>2019-06-19T00:00:00+00:00</updated><id>https://www.pism.io/news/2019/06/19/ismip6</id><content type="html" xml:base="https://www.pism.io/news/2019/06/19/ismip6/">&lt;p&gt;The UAF PISM developers are currently busy getting PISM ready for
-ISMIP6. We are implementing all the required parameterizations for
-Greenland and we are making it easy to output fields in the requested
-MKS system, use the ISMIP6 variable names and output the requested
-fields with a shorthand.&lt;/p&gt;
-
-&lt;p&gt;Stay tuned.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">The UAF PISM developers are currently busy getting PISM ready for ISMIP6. We are implementing all the required parameterizations for Greenland and we are making it easy to output fields in the requested MKS system, use the ISMIP6 variable names and output the requested fields with a shorthand.</summary></entry></feed>
+&lt;/figure&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">The article by Aschwanden and others just published in Science Advances is supplemented by this excellent two minute visualization by the NASA Scientific Visualization Studio.</summary></entry></feed>

@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#216778>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/x-icon"
+           href="/favicon.ico" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>PISM 2.0 is out | PISM</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="PISM 2.0 is out" />
+<meta name="author" content="The PISM Authors" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="PISM developers have been hard at work to bring you a brand new version of PISM, packed with new features. After years of development, PISM finally includes a Blatter solver, warranting a new major version: PISM 2.0." />
+<meta property="og:description" content="PISM developers have been hard at work to bring you a brand new version of PISM, packed with new features. After years of development, PISM finally includes a Blatter solver, warranting a new major version: PISM 2.0." />
+<link rel="canonical" href="https://www.pism.io/news/2021/12/03/pism2.0/" />
+<meta property="og:url" content="https://www.pism.io/news/2021/12/03/pism2.0/" />
+<meta property="og:site_name" content="PISM" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-12-03T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="PISM 2.0 is out" />
+<meta name="twitter:site" content="@PISM_model" />
+<meta name="twitter:creator" content="@The PISM Authors" />
+<script type="application/ld+json">
+{"headline":"PISM 2.0 is out","dateModified":"2021-12-03T00:00:00+00:00","datePublished":"2021-12-03T00:00:00+00:00","description":"PISM developers have been hard at work to bring you a brand new version of PISM, packed with new features. After years of development, PISM finally includes a Blatter solver, warranting a new major version: PISM 2.0.","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.pism.io/news/2021/12/03/pism2.0/"},"url":"https://www.pism.io/news/2021/12/03/pism2.0/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.pism.io/img/pism_logo_transp.png"},"name":"The PISM Authors"},"author":{"@type":"Person","name":"The PISM Authors"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts -->
+
+<!-- Favicon -->
+<!-- Default -->
+<link rel="shortcut icon" href="https://www.pism.io/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.pism.io/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.pism.io/favicon/favicon-32x32.png">
+<!-- iOS -->
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.pism.io/favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.pism.io/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.pism.io/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.pism.io/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.pism.io/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.pism.io/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.pism.io/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.pism.io/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.pism.io/favicon/apple-touch-icon-180x180.png">
+<meta name="apple-mobile-web-app-title" content="PISM">
+<!-- Android -->
+<link rel="manifest" href="https://www.pism.io/favicon/site.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.pism.io/favicon/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="256x256" href="https://www.pism.io/favicon/android-chrome-256x256.png">
+<meta name="application-name" content="PISM">
+<meta name="theme-color" content="#ebebeb">
+<!-- Safari -->
+<link rel="mask-icon" href="https://www.pism.io/favicon/safari-pinned-tab.svg" color="#216778">
+<!-- IE -->
+<meta name="msapplication-TileColor" content="#216778">
+<meta name="msapplication-TileImage" content="https://www.pism.io/favicon/mstile-150x150.png">
+<meta name="msapplication-config" content="https://www.pism.io/favicon/browserconfig.xml">
+
+<!-- Landing page 'scroll down' animation -->
+<style type="text/css">
+.scroll-down-icon {
+  position:relative;
+  left:50%;
+  bottom:0;
+  margin-top:-25px;
+  margin-left:-25px;
+  height:50px;
+  width:50px;
+  color:$white;
+  -webkit-animation:bounce 1s infinite;
+  -moz-animation:bounce 1s infinite;
+  -o-animation:bounce 1s infinite;
+  animation:bounce 1s infinite;
+}
+@-webkit-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@-moz-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@-o-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     { bottom:30; }
+}
+@media only screen and (max-width: 1023px) {
+  .scroll-down-icon {
+    display: none;
+  }
+}
+</style>
+
+<script>
+/* When the user scrolls down, hide the button. When the user scrolls up, show the button */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("scroll-down-icon").style.visibility = "visible";
+  } else {
+    document.getElementById("scroll-down-icon").style.visibility = "hidden";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script></head>
+
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item has-text-weight-bold">
+                PISM
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">About</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/news/" class="navbar-item ">News</a>
+                            
+                            <a href="/overview/" class="navbar-item ">Overview</a>
+                            
+                            <a href="/basics/" class="navbar-item ">Basic applications</a>
+                            
+                            <a href="/publications/" class="navbar-item ">Publications using PISM</a>
+                            
+                            <a href="/team/" class="navbar-item ">Developers team</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Usage</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://pism.github.io/docs" class="navbar-item ">Online manual</a>
+                            
+                            <a href="https://pism.github.io/doxygen" class="navbar-item ">Source code browser</a>
+                            
+                            <a href="/faq/" class="navbar-item ">FAQ / PISM life hacks</a>
+                            
+                            <a href="/data/" class="navbar-item ">Data preprocessing</a>
+                            
+                            <a href="/tools/" class="navbar-item ">Useful tools</a>
+                            
+                            <a href="/citing/" class="navbar-item ">Citing PISM</a>
+                            
+                            <a href="/contribute/" class="navbar-item ">Contribute to PISM</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Download</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://github.com/pism/pism/" class="navbar-item ">Get code on GitHub</a>
+                            
+                            <a href="https://raw.githubusercontent.com/pism/docs-pdf/main/pism_manual.pdf" class="navbar-item ">Download PDF manual</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">More</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/history/" class="navbar-item ">Brief history</a>
+                            
+                            <a href="/collaborations/" class="navbar-item ">MIPs & Collaborations</a>
+                            
+                            <a href="/usersmap/" class="navbar-item ">Map of users</a>
+                            
+                            <a href="/applications/" class="navbar-item ">Application of the month</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary" >
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-1 has-text-primary-dark " >PISM 2.0 is out</h1>
+            <p class="subtitle is-3 has-text-primary-light has-text-weight-semibold" ></p>
+            
+        </div>
+    </div>
+    
+    
+</section>
+
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-8">
+                    
+                    
+                    
+
+                    
+                    <nav class="pagination is-centered">
+  
+    <p class="pagination-previous" disabled>Previous</p>
+  
+  
+    <p class="pagination-list"><a href="/news/" class="pagination-link is-info">All news</a></p>
+  
+    <a href="/news/2020/02/13/version1.2/" class="pagination-next is-info">Next</a>
+  
+</nav>
+
+<div class="content">
+
+    <p><b>Published:</b> Dec 3, 2021 by The PISM Authors</p>
+
+    <p>PISM developers have been hard at work to bring you a brand new
+version of PISM, packed with new features. After years of development,
+PISM finally includes a Blatter solver, warranting a new major
+version: PISM 2.0.</p>
+
+<h2 id="notable-changes">Notable changes</h2>
+
+<h3 id="new-logo">New logo</h3>
+
+<p>PISM has a new logo designed by <a href="https://www.pik-potsdam.de/members/garbe/">Julius Garbe</a>.</p>
+
+<p style="text-align: center;"><img src="https://raw.githubusercontent.com/pism/logo/main/png/pism_logo_transp.png" alt="" width="50%" /></p>
+
+<h3 id="new-website">New website</h3>
+
+<p>The new website at <a href="https://www.pism.io/">www.pism.io</a> replaces the
+<a href="http://web.archive.org/web/20210812174625/https://pism-docs.org/wiki/doku.php">old version</a>.</p>
+
+<h3 id="stress-balance">Stress balance</h3>
+
+<ul>
+  <li>Implemented a <a href="http://www.pism.io/docs/manual/modeling-choices/dynamics/blatter.html">FEM solver for the first order
+approximation</a>
+of the Stokes equations due to Blatter (1995). This solver supports
+multigrid preconditioners (see Brown et al 2013) and includes 5
+verification test based on manufactured solutions.</li>
+  <li>Implemented <a href="http://www.pism.io/docs/manual/simplified-geometry/ismip-hom.html">experiments A,B,C,D,E from the ISMIP-HOM
+intercomparison</a>.</li>
+  <li>Fixed the approximation of the driving stress at floating ice margins
+in the
+<a href="http://www.pism.io/docs/manual/modeling-choices/dynamics/ssa.html">SSA</a>
+solver. (This fix was contributed by Ronja Reese and Torsten
+Albrecht; see <a href="http://www.pism.io/docs/technical/ssafd-flow-line.html">these
+notes</a> for
+details.)</li>
+</ul>
+
+<h3 id="basal-strength">Basal strength</h3>
+
+<ul>
+  <li>Implemented regularized Coulomb sliding as in Zoet &amp; Iverson, 2020, A slip law for
+glaciers on deformable beds, equation 3.</li>
+  <li>Assume that in the “ocean” areas the till at the base is saturated with water, i.e. the
+till water amount is equal to <code class="language-plaintext highlighter-rouge">hydrology.tillwat_max</code>. This change should improve
+grounding line movement and make the basal yield stress modification turned on with
+<code class="language-plaintext highlighter-rouge">basal_yield_stress.slippery_grounding_lines</code> unnecessary.</li>
+  <li>Implemented a mechanism for “optimizing” the till friction angle used by the Mohr-Coulomb
+yield stress model. The implementation is based on the code contributed by T. Albrecht.</li>
+</ul>
+
+<h3 id="bed-deformation">Bed deformation</h3>
+
+<ul>
+  <li>The <a href="http://www.pism.io/docs/manual/modeling-choices/subglacier/bed-deformation.html#given-bed-deformation-history">new <code class="language-plaintext highlighter-rouge">-bed_def given</code>
+component</a>
+reads in a prescribed bed deformation history from a file (e.g. from
+a solid-Earth model) relative to a (high-resolution) reference
+topography, indicated by configuration parameter
+<code class="language-plaintext highlighter-rouge">bed_deformation.given.file</code> and
+<code class="language-plaintext highlighter-rouge">bed_deformation.given.reference_file</code>, respectively.</li>
+</ul>
+
+<h3 id="calving">Calving</h3>
+
+<ul>
+  <li>Implemented scaling of calving rates using a time-dependent factor.
+Set <code class="language-plaintext highlighter-rouge">calving.rate_scaling.file</code> to the name of the file containing
+<code class="language-plaintext highlighter-rouge">frac_calving_rate</code> (units: “1”).</li>
+  <li><a href="http://www.pism.io/docs/manual/modeling-choices/marine/calving.html#calving-of-thin-floating-ice">Ice thickness
+threshold</a>
+read in from <code class="language-plaintext highlighter-rouge">calving.thickness_calving.file</code> can be both space- and
+time-dependent.</li>
+</ul>
+
+<h3 id="fracture-density-model">Fracture density model</h3>
+
+<ul>
+  <li>Implemented the <a href="http://www.pism.io/docs/manual/modeling-choices/marine/damage.html">fracture
+density</a>
+growth parameterization due to Borstad et al (equation 4 in <a href="http://doi.org/10.1002/2015GL067365">Borstad
+et al, 2016</a>). Code contributed
+by T. Albrecht).</li>
+</ul>
+
+<h3 id="atmosphere-forcing">Atmosphere forcing</h3>
+
+<ul>
+  <li>Support <a href="http://www.pism.io/docs/climate_forcing/atmosphere.html#precipitation-scaling">2D precipitation
+scaling</a>
+in <code class="language-plaintext highlighter-rouge">-atmosphere ...,frac_P</code>. If the input file set using
+<code class="language-plaintext highlighter-rouge">atmosphere.frac_P.file</code> contains a scalar time series <code class="language-plaintext highlighter-rouge">frac_P</code>, use
+that as a time-dependent constant-in-space forcing. If the input
+file contains a 2D variable <code class="language-plaintext highlighter-rouge">frac_P</code>, use that as a
+time-and-space-dependent forcing.</li>
+  <li>Added surface elevation smoothing to the <a href="http://www.pism.io/docs/climate_forcing/atmosphere.html#orographic-precipitation">orographic precipitation
+model</a>.
+High-frequency modes in the surface elevation that can develop in
+runs with evolving ice geometry (consider grounded ice margins) may
+cause oscillations in the computed precipitation field (probably due
+to the Gibbs phenomenon). These oscillations may result in an even
+rougher topography, triggering a feedback loop polluting model
+results. Set
+<code class="language-plaintext highlighter-rouge">atmosphere.orographic_precipitation.smoothing_standard_deviation</code>
+(in meters) to smooth the ice surface elevation to reduce this
+effect.</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">atmosphere.elevation_change.precipitation.temp_lapse_rate</code> to
+the <a href="http://www.pism.io/docs/climate_forcing/atmosphere.html#adjustments-using-modeled-change-in-surface-elevation"><code class="language-plaintext highlighter-rouge">-atmosphere ...,elevation_change</code>
+modifier</a>.
+Now this parameter is used to compute the temperature change <code class="language-plaintext highlighter-rouge">dT</code>
+used to scale precipitation by a factor <code class="language-plaintext highlighter-rouge">exp(C * dT)</code> with <code class="language-plaintext highlighter-rouge">C =
+atmosphere.precip_exponential_factor_for_temperature</code>. We need a
+separate temperature lapse rate parameter to be able to use this
+modifier with atmosphere models that include an elevation-dependent
+near-surface air temperature parameterizations, e.g. <code class="language-plaintext highlighter-rouge">-atmosphere
+pik,elevation_change</code>.</li>
+</ul>
+
+<h3 id="ocean-forcing">Ocean forcing</h3>
+
+<ul>
+  <li>The <a href="http://www.pism.io/docs/climate_forcing/ocean.html#basal-melt-rate-and-temperature-from-thermodynamics-in-boundary-layer">three-equation ocean
+model</a>
+<code class="language-plaintext highlighter-rouge">-ocean th</code> uses constant salinity (see
+<code class="language-plaintext highlighter-rouge">constants.sea_water.salinity</code>) if <code class="language-plaintext highlighter-rouge">salinity_ocean</code> is not present
+in the forcing file.</li>
+  <li>Added a <a href="http://www.pism.io/docs/climate_forcing/ocean.html#scalar-melange-back-pressure-offsets">new ocean
+modifier</a>:
+<code class="language-plaintext highlighter-rouge">-ocean ...,delta_MBP</code>. This component reads scalar time-dependent
+melange pressure offsets (units: Pa) and uses them in the calving
+front boundary condition for the SSA.</li>
+  <li>Adjusted
+<a href="http://www.pism.io/docs/climate_forcing/ocean.html#pico">PICO</a>
+ocean input average across covered basins, in which the ice shelf
+has in fact a connection to the ocean. Large ice shelves spanning
+two basins that do not share an ocean boundary are split into two
+separate ice shelf instances. (This code was contributed by Torsten
+Albrecht.)</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">sea_level.constant.value</code>. This sets the default sea level
+elevation used with <code class="language-plaintext highlighter-rouge">-sea_level constant</code>.</li>
+  <li>Removed <code class="language-plaintext highlighter-rouge">ocean.always_grounded</code>. Set <code class="language-plaintext highlighter-rouge">sea_level.constant.value</code> to a
+large negative value to ensure that all ice is grounded.</li>
+  <li>Removed <code class="language-plaintext highlighter-rouge">ocean.melange_back_pressure_fraction</code>: it is no longer
+needed.</li>
+</ul>
+
+<h2 id="input-and-output-diagnostics">Input and output, diagnostics</h2>
+<ul>
+  <li>Added a new <code class="language-plaintext highlighter-rouge">output.format</code> value: <code class="language-plaintext highlighter-rouge">netcdf4_serial</code> and
+<code class="language-plaintext highlighter-rouge">output.compression_level</code>. Use <code class="language-plaintext highlighter-rouge">-o_format netcdf4_serial
+-output.compression_level N</code> (<code class="language-plaintext highlighter-rouge">N</code> between 1 and 9) to write
+compressed NetCDF from rank 0.</li>
+  <li>Support writing compressed NetCDF in parallel with NetCDF 4.7.4 or newer and HDF5 1.10.3
+or newer. Set <code class="language-plaintext highlighter-rouge">output.compression_level</code> to enable compression.</li>
+  <li>Stop with an error message if some values of a variable read from a file match the
+<code class="language-plaintext highlighter-rouge">_FillValue</code> attribute (PISM expects input files to contain data at all grid points
+within the domain).</li>
+  <li>Now PISM stops with an error message if time-dependent forcing data read from a file do
+not span the whole length of a simulation. Set <code class="language-plaintext highlighter-rouge">input.forcing.time_extrapolation</code> to
+“true” to disable this check.</li>
+  <li>Removed the configuration parameter <code class="language-plaintext highlighter-rouge">input.forcing.evaluations_per_year</code>. Now
+the code evaluates <em>exact</em> values of time averages of time-dependent forcing inputs.</li>
+  <li>Major improvement in the handling of time-dependent forcing. A file containing periodic
+forcing has to contain <em>exactly</em> one period. The start and the length of the period are
+derived from time bounds read from this file. This makes it easier to use periodic
+forcing and adds supports for arbitrary period lengths. See the manual section about
+time-dependent inputs.</li>
+  <li>All time-dependent forcing files have to contain time bounds.</li>
+  <li>Now PISM always respects the reference date in input files.</li>
+  <li>Improved the approximation of the grounding line flux (scalar and 2D diagnostics
+<code class="language-plaintext highlighter-rouge">grounding_line_flux</code>): the flux <em>through</em> the grounding line should be zero if its
+direction is parallel to the grounding line. Unfortunately this is impossible to achieve
+for an arbitrary grounding line shape if the grounding line is approximated by a mask on
+a uniform grid (as in PISM). This change improves the approximation for some
+combinations of grounding line shapes and grid resolutions. (This issue was reported by
+Ronja Reese.)</li>
+</ul>
+
+<h3 id="model-time-and-time-stepping">Model time and time stepping</h3>
+
+<ul>
+  <li>Added a new parameter: <code class="language-plaintext highlighter-rouge">time_stepping.resolution</code>. PISM rounds time step lengths <em>down</em> to
+a multiple of this number (default: 1 second). This reduces <a href="https://github.com/pism/pism/issues/407">the influence of rounding
+errors on time step lengths</a>.</li>
+  <li>Command-line options <code class="language-plaintext highlighter-rouge">-y</code>, <code class="language-plaintext highlighter-rouge">-ys</code>, <code class="language-plaintext highlighter-rouge">-ye</code>, <code class="language-plaintext highlighter-rouge">-max_dt</code> and corresponding configuration
+parameters use units of <code class="language-plaintext highlighter-rouge">365 days</code> instead of <code class="language-plaintext highlighter-rouge">years</code>. The latter has the meaning of the
+mean tropical year, i.e. the constant used to convert from <code class="language-plaintext highlighter-rouge">1/s</code> to <code class="language-plaintext highlighter-rouge">1/year</code>. Use <code class="language-plaintext highlighter-rouge">-y
+1000years</code>, etc to reproduce the old behavior.</li>
+  <li>Fixed a bug in the code managing time step restrictions (this
+affected the last time step of runs using <code class="language-plaintext highlighter-rouge">-skip</code> and runs with
+<code class="language-plaintext highlighter-rouge">-skip</code> in which <code class="language-plaintext highlighter-rouge">-max_dt</code> is active).</li>
+</ul>
+
+<h3 id="other">Other</h3>
+
+<ul>
+  <li>Added the new command-line option <code class="language-plaintext highlighter-rouge">-refinement_factor N</code>. Use this
+to select a regional modeling domain using <code class="language-plaintext highlighter-rouge">-x_range ... -y_range
+...</code>, then use a grid that is <code class="language-plaintext highlighter-rouge">N</code> times finer.</li>
+  <li>Added support for automatic unit conversion in command-line options.
+If an option argument is a number PISM assumes that it uses PISM’s
+internal units. If it is a number followed by a units string
+recognized by UDUNITS it is automatically converted to PISM’s
+internal units. For example, the following are equivalent: <code class="language-plaintext highlighter-rouge">-Lz
+1000</code>, <code class="language-plaintext highlighter-rouge">-Lz 1000m</code>, <code class="language-plaintext highlighter-rouge">-Lz 1km</code>.</li>
+  <li>Added a new NetCDF variable <code class="language-plaintext highlighter-rouge">thk_bc_mask</code> prescribing locations
+where the ice thickness is kept fixed. This mask is combined with
+<code class="language-plaintext highlighter-rouge">vel_bc_mask</code>: we keep ice thickness fixed at all the locations
+where the sliding (usually SSA) velocity is fixed.</li>
+  <li>Renamed NetCDF variables <code class="language-plaintext highlighter-rouge">bc_mask</code> to <code class="language-plaintext highlighter-rouge">vel_bc_mask</code> and <code class="language-plaintext highlighter-rouge">u_ssa_bc</code>
+and <code class="language-plaintext highlighter-rouge">v_ssa_bc</code> to <code class="language-plaintext highlighter-rouge">u_bc</code> and <code class="language-plaintext highlighter-rouge">v_bc</code>.</li>
+  <li>Removed the <code class="language-plaintext highlighter-rouge">pisms</code> executable. Run <code class="language-plaintext highlighter-rouge">pismr -eisII X</code> to run
+<a href="http://www.pism.io/docs/manual/simplified-geometry/eismint-2.html">EISMINT-II</a>
+experiment <code class="language-plaintext highlighter-rouge">X</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">fill_missing_petsc.py</code> uses homogeneous Neumann BC at domain boundaries.</li>
+  <li>Added optional arguments <code class="language-plaintext highlighter-rouge">time_units</code> and <code class="language-plaintext highlighter-rouge">calendar</code> to
+<code class="language-plaintext highlighter-rouge">PISM.util.prepare_output()</code> in the Python bindings.</li>
+</ul>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+<p><strong>Share</strong></p>
+<div class="buttons ">
+    <a class="button is-medium is-twitter"
+       onclick="window.open('https://twitter.com/intent/tweet?text=https://www.pism.io/news/2021/12/03/pism2.0/');">
+        <span class="icon"><i class="fab fa-twitter fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-linkedin"
+       onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://www.pism.io/news/2021/12/03/pism2.0/&title=PISM+2.0+is+out&summary=&source=');">
+        <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
+    <a class="button is-medium is-facebook"
+       onclick="window.open('https://www.facebook.com/share.php?u=https://www.pism.io/news/2021/12/03/pism2.0/');">
+        <span class="icon"><i class="fab fa-facebook fa-lg"></i></span>
+    </a>
+</div>
+
+
+
+
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest news</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2021/12/03/pism2.0/">PISM 2.0 is out</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>PISM developers have been hard at work to bring you a brand new
+version of PISM, packed with new features. After years of development,
+PISM finally includes a Blatter solver, warranting a new major
+version: PISM 2.0.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2021/12/03/pism2.0/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Dec 3, 2021</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2020/02/13/version1.2/">Version 1.2</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>We are pleased to announce the release of the Parallel Ice Sheet Model
+(PISM) v1.2.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/02/13/version1.2/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Feb 13, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <header class="card-header">
+        <a class="card-header-title" href="/news/2020/02/05/postdocmpim2020/">MPI-M Hamburg, Germany: open postdoc for coupled atmosphere-ocean-ice sheet model</a>
+    </header>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            
+                <p><p>The Max Planck Institute for Meteorology (MPI-M) contributes to the BMBF
+project “From the Last Interglacial to the Anthropocene: Modeling a
+Complete Glacial Cycle” <a href="https://www.palmod.de/">(PalMod,
+www.palmod.de)</a>, which aims at
+simulating the climate from the peak of the last interglacial up to the
+present using comprehensive Earth System Models. Phase II of this
+project has an open position Postdoctoral Scientist (W073). The
+successful candidate will be part of a local team performing and
+analysing long-term transient simulations covering the last glacial and
+the transition into the Holocene with an interactively coupled
+atmosphere-ocean-ice sheet model. Additionally, the candidate will
+contribute to the continued development of this model. The model system
+consists of the MPI-Earth system model, the ice sheet model PISM, and
+the solid-earth model VILMA.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/news/2020/02/05/postdocmpim2020/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Feb 5, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+<div class="buttons is-centered">
+    <a href="/news/" class="button is-primary is-outlined">All news</a>
+</div>
+
+<a class="twitter-timeline" data-height="500" href="https://twitter.com/PISM_model">Tweets by @PISM_model</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+
+        <div class="has-text-centered">
+            <p><strong>Follow</strong></p>
+            <div class="buttons is-centered">
+                <a href="https://twitter.com/PISM_model" title="Twitter" class="button is-light" target="_blank">
+                    <i class="fab fa-twitter fa-lg" style="color: #216778;"></i>
+                </a>
+                <a href="https://www.facebook.com/UAF.GI" title="Facebook" class="button is-light" target="_blank">
+                    <i class="fab fa-facebook fa-lg" style="color: #216778;"></i>
+                </a>
+                <a href="https://join.slack.com/t/uaf-pism/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE" title="Slack" class="button is-light" target="_blank">
+                    <i class="fab fa-slack fa-lg" style="color: #216778;"></i>
+                </a>
+                <a href="https://github.com/pism" title="Github" class="button is-light" target="_blank">
+                    <i class="fab fa-github fa-lg" style="color: #216778;"></i>
+                </a>
+                <a href="/feed.xml" title="RSS Feed" class="button is-light">
+                    <i class="fas fa-rss fa-lg" style="color: #216778;"></i>
+                </a>
+            </div>
+        </div>
+        <br>
+
+        <div class="content is-small has-text-centered">
+            <p>Site built using <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a> by C.S. Rhymes</p>
+            <p>&copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> The PISM Authors</p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>
