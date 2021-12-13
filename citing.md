@@ -54,4 +54,4 @@ If your study relies heavily on certain PISM sub-models (such as hydrology, calv
 }
 ```
 
-Please see [ACKNOWLEDGE.rst](https://github.com/pism/pism/blob/master/ACKNOWLEDGE.rst) and [funding.csv](https://github.com/pism/pism/blob/master/doc/funding.csv) for a list of grants supporting PISM development.
+Please see [ACKNOWLEDGE.rst](https://github.com/pism/pism/blob/main/ACKNOWLEDGE.rst) and [funding.csv](https://github.com/pism/pism/blob/main/doc/funding.csv) for a list of grants supporting PISM development.
