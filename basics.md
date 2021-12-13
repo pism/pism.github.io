@@ -107,4 +107,4 @@ Ice sheets interact with other Earth system components, such as the atmosphere o
 
 ## Model intercomparisons
 
-PISM has participated in numerous model intercomparison projects (MIPs). For a more complete list, please see [MIPs & Collaborations](https://pism.github.io/collaborations/).
+PISM has participated in numerous model intercomparison projects (MIPs). For a more complete list, please see [MIPs & Collaborations](/collaborations/).

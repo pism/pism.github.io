@@ -34,7 +34,7 @@ Features include:
  * marine ice sheet physics
  * polythermal energy conservation
  * subglacial hydrology and till model
- * complete [documentation](https://pism.github.io/docs/)
+ * complete [documentation](/docs/)
  * parallel simulations using [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface) & [PETSc](http://www.mcs.anl.gov/petsc/)
  * reads and writes [CF-compliant](http://cfconventions.org/) [NetCDF](http://www.unidata.ucar.edu/software/netcdf/)
  * verification and validation tools

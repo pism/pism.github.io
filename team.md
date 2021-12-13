@@ -10,4 +10,4 @@ team: team
 show_sidebar: false
 ---
 
-For a more complete list of PISM authors, please see [Authorship](https://pism.github.io/docs/authorship.html).
+For a more complete list of PISM authors, please see [Authorship](/docs/authorship.html).

@@ -15,9 +15,9 @@
   link: /#
   dropdown:
     - name: Online manual
-      link: https://pism.github.io/docs
+      link: /docs/
     - name: Source code browser
-      link: https://pism.github.io/doxygen
+      link: /doxygen/
     - name: FAQ / PISM life hacks
       link: /faq/
     - name: Data preprocessing
