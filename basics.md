@@ -38,7 +38,7 @@ Using PISM, major advances in the understanding and model representation of key 
 * Sub-shelf melt: [Reese et al. (2018)](https://doi.org/10.5194/tc-12-1969-2018)
 * Surface melt: [Zeitz et al. (preprint, 2021)](https://doi.org/10.5194/tc-2021-91)
 * MISI
-* MICI: [Schlemm et al. (preprint, 2021)](http://www.pik-potsdam.de/~anders/publications/schlemm_feldmann21.pdf)
+* MICI: [Schlemm et al. (preprint, 2021)](https://doi.org/10.5194/tc-2021-238)
 
 ## Sea-level projections
 
