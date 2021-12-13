@@ -26,4 +26,4 @@ Development of PISM is supported by NSF grants PLR-1644277 and PLR-1914668 and N
 
 ## Support
 
-If you are looking for help with PISM, feel free to join the PISM workspace on [Slack]({{ site.author.slack }}). You can also contact the [developers team](/team/) directly or write an e-mail to [{{ site.author.email }}](mailto:{{ site.author.email }}).
+If you are looking for help with PISM, feel free to join the PISM workspace on [Slack]({{ site.author.slack }}). You can also contact the [developers team](/team/) directly or write an e-mail to [{{ site.author.email }}](mailto:{{ site.author.email }}). To fetch our latest news or get in touch with us, follow us on [Twitter](https://twitter.com/{{ site.author.twitter}})!
