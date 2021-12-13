@@ -61,13 +61,12 @@ Furthermore, command line tools
 
 are useful for manipulating data in the NetCDF format.
 
-See [Regridding with
-CDO](https://www.climate-cryosphere.org/wiki/index.php?title=Regridding_with_CDO)
+See [Regridding with CDO](https://www.climate-cryosphere.org/wiki/index.php?title=Regridding_with_CDO)
 for a good overview of regridding (interpolation between different grids) using CDO.
 
 ## How do I report a bug in PISM?
 
-Please see the [<i class="fab fa-github fa-lg"></i> Issue tracking at github](https://github.com/pism/pism/issues) to check if someone already found a similar bug. You can post an issue there, and label it as a bug, if it is new. For more information, see [here](/docs/contributing/bug-reporting.html). 
+Please see the [<i class="fab fa-github fa-lg"></i> Issue tracking at github](https://github.com/pism/pism/issues) to check if someone already found a similar bug. You can post an issue there, and label it as a bug, if it is new. For more information, see [here](https://www.pism.io/docs/contributing/bug-reporting.html). 
 
 ## How do I cite PISM in a publication that uses it?
 
