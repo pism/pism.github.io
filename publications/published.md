@@ -1,6 +1,7 @@
 ### 2022
 
-1. Martin Siegert and Nicholas R Golledge\. Advances in Numerical Modelling of the Antarctic Ice Sheet\. In *Antarctic Climate Evolution*, chapter 5, pages 199–218\. Elsevier, 2nd edition, 2022\.   
+1. Shuang Liu, Kaiheng Hu, Weiming Liu, and Paul A\. Carling\. Hydro\-climatic characteristics of Yarlung Zangbo River Basin since the Last Glacial Maximum\. *Adv\. Atmos\. Sci\.*, 2022\. [doi:10\.1007/s00376\-021\-1150\-7](https://doi.org/10.1007/s00376-021-1150-7)\.   
+2. Martin Siegert and Nicholas R Golledge\. Advances in Numerical Modelling of the Antarctic Ice Sheet\. In *Antarctic Climate Evolution*, chapter 5, pages 199–218\. Elsevier, 2nd edition, 2022\.   
 
 ### 2021
 
