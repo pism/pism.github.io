@@ -114,6 +114,7 @@ show_sidebar: true
 * Tipping points and hysteresis behavior in Antarctica in a warming climate by [Julius Garbe et al. (2020)](https://doi.org/10.1038/s41586-020-2727-5)
 * Description of PISM (parameter sensitivities and boundary conditions) for paleo applications in Antarctica by [Albrecht et al. (2020)](https://doi.org/10.5194/tc-14-599-2020)
 
-### 2021: PISM-ocean coupling
+### 2021: Coupling
 
-* Moritz Kreuzer et al. use PICO to [couple PISM with ocean model MOM5](https://doi.org/10.5194/gmd-2020-230)
+* Moritz Kreuzer et al. use PICO to [couple PISM with ocean model MOM5](https://doi.org/10.5194/gmd-14-3697-2021)
+* Maria Zeitz et al. implement the [surface melt module dEBM-simple](https://doi.org/10.5194/tc-2021-91)
