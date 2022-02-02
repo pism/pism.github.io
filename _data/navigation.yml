@@ -22,8 +22,6 @@
       link: /faq/
     - name: Data preprocessing
       link: /data/
-    - name: Useful tools
-      link: /tools/
     - name: Citing PISM
       link: /citing/
     - name: Contribute to PISM
