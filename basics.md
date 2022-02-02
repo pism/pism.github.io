@@ -36,7 +36,7 @@ Using PISM, major advances in the understanding and model representation of key 
 * Calving: [Levermann et al. (2012)](https://doi.org/10.5194/tc-6-273-2012)
 * Fracture dynamics: [Albrecht and Levermann (2012)](https://doi.org/10.3189/2012JoG11J191)
 * Sub-shelf melt: [Reese et al. (2018)](https://doi.org/10.5194/tc-12-1969-2018)
-* Surface melt: [Zeitz et al. (preprint, 2021)](https://doi.org/10.5194/tc-2021-91)
+* Surface melt: [Zeitz et al. (2021)](https://doi.org/10.5194/tc-15-5739-2021)
 * MISI
 * MICI: [Schlemm et al. (preprint, 2021)](https://doi.org/10.5194/tc-2021-238)
 
@@ -100,7 +100,7 @@ Ice sheets interact with other Earth system components, such as the atmosphere o
   * Potsdam Ice-shelf Cavity mOdel (PICO): [Reese et al. (2018)](https://doi.org/10.5194/tc-12-1969-2018)
   * PISM-MOM: [Kreuzer et al. (2021)](https://doi.org/10.5194/gmd-14-3697-2021)
 * Atmosphere
-  * dEBM-simple: [Krebs-Kanzow et al. (2021)](https://doi.org/10.5194/tc-15-2295-2021), [Zeitz et al. (preprint, 2021)](https://doi.org/10.5194/tc-2021-91)
+  * dEBM-simple: [Krebs-Kanzow et al. (2018)](https://doi.org/10.5194/tc-12-3923-2018), [Zeitz et al. (2021)](https://doi.org/10.5194/tc-15-5739-2021)
 * Solid-Earth
   * Lingle-Clark: [Bueler et al. (2007)](https://doi.org/10.3189/172756407782871567)
   * PISM-VILMA (work in progress)
