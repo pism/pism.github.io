@@ -10,8 +10,7 @@
 ### 2020
 
 1. P\. Gierz, L\. Ackermann, C\. B\. Rodehacke, U\. Krebs\-Kanzow, C\. Stepanek, D\. Barbi, and G\. Lohmann\. Simulating interactive ice sheets in the multi\-resolution awi\-esm 1\.2: a case study using scope 1\.0\. *Geoscientific Model Development Discussions*, 2020:1–32, 2020\. URL: [https://gmd\.copernicus\.org/preprints/gmd\-2020\-159/](https://gmd.copernicus.org/preprints/gmd-2020-159/), [doi:10\.5194/gmd\-2020\-159](https://doi.org/10.5194/gmd-2020-159)\.   
-2. S\. Hinck, E\. J\. Gowan, X\. Zhang, and G\. Lohmann\. Pism\-lakecc: implementing an adaptive proglacial lake boundary into an ice sheet model\. *The Cryosphere Discussions*, 2020:1–36, 2020\. URL: [https://tc\.copernicus\.org/preprints/tc\-2020\-353/](https://tc.copernicus.org/preprints/tc-2020-353/), [doi:10\.5194/tc\-2020\-353](https://doi.org/10.5194/tc-2020-353)\.   
-3. Z\. Zhang, Q\. Yan, R\. Zhang, F\. Colleoni, G\. Ramstein, G\. Dai, M\. Jakobsson, M\. O'Regan, S\. Liess, D\.\-D\. Rousseau, N\. Wu, E\. J\. Farmer, C\. Contoux, C\. Guo, N\. Tan, and Z\. Guo\. Rapid waxing and waning of beringian ice sheet reconcile glacial climate records from around north pacific\. *Climate of the Past Discussions*, 2020:1–25, 2020\. URL: [https://cp\.copernicus\.org/preprints/cp\-2020\-38/](https://cp.copernicus.org/preprints/cp-2020-38/), [doi:10\.5194/cp\-2020\-38](https://doi.org/10.5194/cp-2020-38)\.   
+2. Z\. Zhang, Q\. Yan, R\. Zhang, F\. Colleoni, G\. Ramstein, G\. Dai, M\. Jakobsson, M\. O'Regan, S\. Liess, D\.\-D\. Rousseau, N\. Wu, E\. J\. Farmer, C\. Contoux, C\. Guo, N\. Tan, and Z\. Guo\. Rapid waxing and waning of beringian ice sheet reconcile glacial climate records from around north pacific\. *Climate of the Past Discussions*, 2020:1–25, 2020\. URL: [https://cp\.copernicus\.org/preprints/cp\-2020\-38/](https://cp.copernicus.org/preprints/cp-2020-38/), [doi:10\.5194/cp\-2020\-38](https://doi.org/10.5194/cp-2020-38)\.   
 
 ### 2018
 

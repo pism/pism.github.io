@@ -1,8 +1,9 @@
 ### 2022
 
-1. Shuang Liu, Kaiheng Hu, Weiming Liu, and Paul A\. Carling\. Hydro\-climatic characteristics of Yarlung Zangbo River Basin since the Last Glacial Maximum\. *Adv\. Atmos\. Sci\.*, 2022\. [doi:10\.1007/s00376\-021\-1150\-7](https://doi.org/10.1007/s00376-021-1150-7)\.   
-2. Martin Siegert and Nicholas R Golledge\. Advances in Numerical Modelling of the Antarctic Ice Sheet\. In *Antarctic Climate Evolution*, chapter 5, pages 199–218\. Elsevier, 2nd edition, 2022\.   
-3. Hu Yang, Uta Krebs\-Kanzow, Thomas Kleiner, Dmitry Sidorenko, Christian Bernd Rodehacke, Xiaoxu Shi, Paul Gierz, Lu Niu, Evan J\. Gowan, Sebastian Hinck, Xingxing Liu, Lennert B\. Stap, and Gerrit Lohmann\. Impact of paleoclimate on present and future evolution of the Greenland Ice Sheet\. *PLOS ONE*, 17\(1\):1–21, 2022\. [doi:10\.1371/journal\.pone\.0259816](https://doi.org/10.1371/journal.pone.0259816)\.   
+1. S\. Hinck, E\. J\. Gowan, X\. Zhang, and G\. Lohmann\. Pism\-lakecc: implementing an adaptive proglacial lake boundary into an ice sheet model\. *The Cryosphere*, 2022\. URL: [https://tc\.copernicus\.org/preprints/tc\-2020\-353/](https://tc.copernicus.org/preprints/tc-2020-353/), [doi:10\.5194/tc\-2020\-353](https://doi.org/10.5194/tc-2020-353)\.   
+2. Shuang Liu, Kaiheng Hu, Weiming Liu, and Paul A\. Carling\. Hydro\-climatic characteristics of Yarlung Zangbo River Basin since the Last Glacial Maximum\. *Adv\. Atmos\. Sci\.*, 2022\. [doi:10\.1007/s00376\-021\-1150\-7](https://doi.org/10.1007/s00376-021-1150-7)\.   
+3. Martin Siegert and Nicholas R Golledge\. Advances in Numerical Modelling of the Antarctic Ice Sheet\. In *Antarctic Climate Evolution*, chapter 5, pages 199–218\. Elsevier, 2nd edition, 2022\.   
+4. Hu Yang, Uta Krebs\-Kanzow, Thomas Kleiner, Dmitry Sidorenko, Christian Bernd Rodehacke, Xiaoxu Shi, Paul Gierz, Lu Niu, Evan J\. Gowan, Sebastian Hinck, Xingxing Liu, Lennert B\. Stap, and Gerrit Lohmann\. Impact of paleoclimate on present and future evolution of the Greenland Ice Sheet\. *PLOS ONE*, 17\(1\):1–21, 2022\. [doi:10\.1371/journal\.pone\.0259816](https://doi.org/10.1371/journal.pone.0259816)\.   
 
 ### 2021
 
