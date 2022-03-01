@@ -21,8 +21,8 @@ var addressPoints = [
   ],
   [
     "Istanbul Technical University (ITU) - Eurasia Institute of Earth Sciences (EIES) | Istanbul, Turkey | <a href='https://eies.itu.edu.tr/en' target='_blank'>https://eies.itu.edu.tr/en</a>",
-    41.0096334,
-    28.9651646
+    41.0091982,
+    28.9662187
   ],
   [
     "ETH Z\u00fcrich | Z\u00fcrich, Switzerland | <a href='https://vaw.ethz.ch/en/research/glaciology.html' target='_blank'>https://vaw.ethz.ch/en/research/glaciology.html</a>",
