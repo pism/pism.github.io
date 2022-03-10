@@ -5,7 +5,7 @@ layout: page
 hero_height: is-fullheight
 hero_link: https://github.com/pism/pism/
 hero_link_text: Get it on GitHub
-hero_image: https://images.unsplash.com/photo-1493329025335-18542a61595f
+hero_image: img/header_ice_equations.jpg #https://images.unsplash.com/photo-1493329025335-18542a61595f
 hero_caption: "Photo: <a href='https://unsplash.com/photos/VSGEH7tKiUg'>C. Matias / Unsplash</a>"
 hero_darken: false
 callouts: home_callouts
