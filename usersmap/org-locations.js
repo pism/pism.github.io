@@ -106,8 +106,8 @@ var addressPoints = [
   ],
   [
     "University of New South Wales (UNSW) | Sydney, Australia | <a href='http://www.essrc.unsw.edu.au/' target='_blank'>http://www.essrc.unsw.edu.au/</a>",
-    -33.8548157,
-    151.2164539
+    -33.8698439,
+    151.2082848
   ],
   [
     "University of Northern British Columbia (UNBC) | Prince George, Canada | <a href='https://www2.unbc.ca/' target='_blank'>https://www2.unbc.ca/</a>",
