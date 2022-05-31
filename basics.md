@@ -37,8 +37,8 @@ Using PISM, major advances in the understanding and model representation of key 
 * Fracture dynamics: [Albrecht and Levermann (2012)](https://doi.org/10.3189/2012JoG11J191)
 * Sub-shelf melt: [Reese et al. (2018)](https://doi.org/10.5194/tc-12-1969-2018)
 * Surface melt: [Zeitz et al. (2021)](https://doi.org/10.5194/tc-15-5739-2021)
-* MISI
-* MICI: [Schlemm et al. (preprint, 2021)](https://doi.org/10.5194/tc-2021-238)
+* Marine ice sheet instability (MISI)
+* Marine ice-cliff instability (MICI): [Schlemm et al. (2022)](https://doi.org/10.5194/tc-16-1979-2022)
 
 ## Sea-level projections
 
