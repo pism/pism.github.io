@@ -49,14 +49,21 @@ Using PISM, major advances in the understanding and model representation of key 
 
 The ice sheets on Greenland and Antartica are the largest freshwater reservoirs with a combined sea-level rise potential of more than 65 meters. Their mass loss and future contributions to sea-level rise in response to different scenarios of changing atmospheric and oceanic conditions can be determined by applying PISM, as previously accomplished by e.g.:
 
-* [Edwards et al. (2021)](https://doi.org/10.1038/s41586-021-03302-y)
-* ISMIP6: [Seroussi et al. (2020)](https://doi.org/10.5194/tc-14-3033-2020) (Antarctica), [Goelzer et al. (2020)](https://doi.org/10.5194/tc-14-3071-2020) (Greenland)
-* [Reese et al. (2020)](https://doi.org/10.5194/tc-14-3097-2020)
-* [Aschwanden et al. (2019)](https://doi.org/10.1126/sciadv.aav9396)
-* [Golledge et al. (2019)](https://doi.org/10.1038/s41586-019-0889-9)
-* [Winkelmann et al. (2015)](https://doi.org/10.1126/sciadv.1500589)
-* [Winkelmann and Levermann (2013)](https://doi.org/10.1007/s00382-012-1471-4)
-* SeaRISE: [Bindshadler et al. (2013)](https://doi.org/10.3189/2013JoG12J125), [Nowicki et al. (2013a)](https://doi.org/10.1002/jgrf.20081) (Antarctica), [Nowicki et al. (2013b)](https://doi.org/10.1002/jgrf.20076) (Greenland)
+* Antarctica
+  * ISMIP6: [Seroussi et al. (2020)](https://doi.org/10.5194/tc-14-3033-2020)
+  * LARMIP-2: [Levermann et al. (2020)](https://doi.org/10.5194/esd-11-35-2020)
+  * [Reese et al. (2020)](https://doi.org/10.5194/tc-14-3097-2020)
+  * [Winkelmann et al. (2015)](https://doi.org/10.1126/sciadv.1500589)
+  * SeaRISE: [Nowicki et al. (2013a)](https://doi.org/10.1002/jgrf.20081)
+* Greenland
+  * ISMIP6: [Goelzer et al. (2020)](https://doi.org/10.5194/tc-14-3071-2020)
+  * [Aschwanden et al. (2019)](https://doi.org/10.1126/sciadv.aav9396)
+  * SeaRISE: [Nowicki et al. (2013b)](https://doi.org/10.1002/jgrf.20076)
+* Both ice sheets
+  * [Edwards et al. (2021)](https://doi.org/10.1038/s41586-021-03302-y)
+  * [Golledge et al. (2019)](https://doi.org/10.1038/s41586-019-0889-9)
+  * [Winkelmann and Levermann (2013)](https://doi.org/10.1007/s00382-012-1471-4)
+  * SeaRISE: [Bindshadler et al. (2013)](https://doi.org/10.3189/2013JoG12J125)
 
 ## Glacial cycle simulations
 
@@ -67,8 +74,7 @@ The ice sheets on Greenland and Antartica are the largest freshwater reservoirs 
 
 Long-term model simulations are helpful for the reconstruction of the glacial-interglacial history of the Earth's ice sheets. Thereby, a better understanding of a dynamic threshold behavior and sea-level change in the past but also in the future can be gained. For the Antarctic Ice Sheet, an ensemble of glacial-cycle simulations in order to constrain paleo parameter sensitivities and boundary conditions has, for example, been performed using PISM by:
 
-* [Albrecht et al. (2020a)](https://doi.org/10.5194/tc-14-599-2020)
-* [Albrecht et al. (2020b)](https://doi.org/10.5194/tc-14-633-2020)
+* [Albrecht et al. (2020a)](https://doi.org/10.5194/tc-14-599-2020), [Albrecht et al. (2020b)](https://doi.org/10.5194/tc-14-633-2020)
 
 ## Long-term stability of ice sheets
 
