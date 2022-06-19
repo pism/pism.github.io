@@ -1,3 +1,7 @@
+### 2022
+
+1. R\. Reese, J\. Garbe, E\. A\. Hill, B\. Urruty, K\. A\. Naughten, O\. Gagliardini, G\. Durand, F\. Gillet\-Chaulet, D\. Chandler, P\. M\. Langebroek, and R\. Winkelmann\. The stability of present\-day Antarctic grounding lines – Part B: Possible commitment of regional collapse under current climate\. *The Cryosphere Discussions*, 2022:1–33, 2022\. URL: [https://tc\.copernicus\.org/preprints/tc\-2022\-105/](https://tc.copernicus.org/preprints/tc-2022-105/), [doi:10\.5194/tc\-2022\-105](https://doi.org/10.5194/tc-2022-105)\.   
+
 ### 2021
 
 1. C\. Yue, L\. S\. Schmidt, L\. Zhao, M\. Wolovick, and J\. C\. Moore\. Insensitivity of mass loss of icelandic vatnajökull ice cap to solar geoengineering\. *The Cryosphere Discussions*, 2021:1–20, 2021\. URL: [https://tc\.copernicus\.org/preprints/tc\-2021\-318/](https://tc.copernicus.org/preprints/tc-2021-318/), [doi:10\.5194/tc\-2021\-318](https://doi.org/10.5194/tc-2021-318)\.   
