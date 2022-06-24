@@ -1,6 +1,7 @@
 ### 2022
 
 1. R\. Reese, J\. Garbe, E\. A\. Hill, B\. Urruty, K\. A\. Naughten, O\. Gagliardini, G\. Durand, F\. Gillet\-Chaulet, D\. Chandler, P\. M\. Langebroek, and R\. Winkelmann\. The stability of present\-day Antarctic grounding lines – Part B: Possible commitment of regional collapse under current climate\. *The Cryosphere Discussions*, 2022:1–33, 2022\. URL: [https://tc\.copernicus\.org/preprints/tc\-2022\-105/](https://tc.copernicus.org/preprints/tc-2022-105/), [doi:10\.5194/tc\-2022\-105](https://doi.org/10.5194/tc-2022-105)\.   
+2. B\. Urruty, E\. A\. Hill, R\. Reese, J\. Garbe, O\. Gagliardini, G\. Durand, F\. Gillet\-Chaulet, G\. H\. Gudmundsson, R\. Winkelmann, M\. Chekki, D\. Chandler, and P\. M\. Langebroek\. The stability of present\-day Antarctic grounding lines – Part A: No indication of marine ice sheet instability in the current geometry\. *The Cryosphere Discussions*, 2022:1–34, 2022\. URL: [https://tc\.copernicus\.org/preprints/tc\-2022\-104/](https://tc.copernicus.org/preprints/tc-2022-104/), [doi:10\.5194/tc\-2022\-104](https://doi.org/10.5194/tc-2022-104)\.   
 
 ### 2021
 
