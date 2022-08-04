@@ -46,8 +46,8 @@ var addressPoints = [
   ],
   [
     "Louisiana State University (LSU) | Baton Rouge, USA | <a href='https://lsu.edu/' target='_blank'>https://lsu.edu/</a>",
-    30.4459596,
-    -91.18738
+    30.4507936,
+    -91.1391153
   ],
   [
     "Max-Planck-Institut f\u00fcr Meteorologie (MPI) | Hamburg, Germany | <a href='https://mpimet.mpg.de/en/homepage' target='_blank'>https://mpimet.mpg.de/en/homepage</a>",
@@ -86,8 +86,8 @@ var addressPoints = [
   ],
   [
     "University of Cambridge | Cambridge, UK | <a href='https://www.geog.cam.ac.uk/research/ggg/' target='_blank'>https://www.geog.cam.ac.uk/research/ggg/</a>",
-    52.2055314,
-    0.1186637
+    52.197584649999996,
+    0.13915373736874398
   ],
   [
     "University of Chicago (UC) | Chicago, USA | <a href='https://geosci.uchicago.edu/research/atmospheres-oceans-ice-and-climate/' target='_blank'>https://geosci.uchicago.edu/research/atmospheres-oceans-ice-and-climate/</a>",
@@ -122,7 +122,7 @@ var addressPoints = [
   [
     "University of Washingtion (UW) | Seattle, USA | <a href='https://earthweb.ess.washington.edu/Glaciology/ ' target='_blank'>https://earthweb.ess.washington.edu/Glaciology/ </a>",
     47.6038321,
-    -122.3300624
+    -122.330062
   ],
   [
     "Utrecht University - Institute for Marine and Atmospheric Research Utrecht (IMAU) | Utrecht, Netherlands | <a href='https://www.uu.nl/en/research/institute-for-marine-and-atmospheric-research-imau' target='_blank'>https://www.uu.nl/en/research/institute-for-marine-and-atmospheric-research-imau</a>",
