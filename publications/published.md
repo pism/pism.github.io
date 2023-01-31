@@ -1,6 +1,7 @@
 ### 2023
 
-1. Qing Yan, Ting Wei, and Zhongshi Zhang\. Modeling the timing and extent of glaciations over southeastern Tibet during the last glacial stage\. *Palaeogeography, Palaeoclimatology, Palaeoecology*, 610:111336, 2023\. [doi:10\.1016/j\.palaeo\.2022\.111336](https://doi.org/10.1016/j.palaeo.2022.111336)\.   
+1. Evan J\. Gowan, Sebastian Hinck, Lu Niu, Caroline Clason, and Gerrit Lohmann\. The impact of spatially varying ice sheet basal conditions on sliding at glacial time scales\. *Journal of Glaciology*, pages 1–15, 2023\. [doi:10\.1017/jog\.2022\.125](https://doi.org/10.1017/jog.2022.125)\.   
+2. Qing Yan, Ting Wei, and Zhongshi Zhang\. Modeling the timing and extent of glaciations over southeastern Tibet during the last glacial stage\. *Palaeogeography, Palaeoclimatology, Palaeoecology*, 610:111336, 2023\. [doi:10\.1016/j\.palaeo\.2022\.111336](https://doi.org/10.1016/j.palaeo.2022.111336)\.   
 
 ### 2022
 
