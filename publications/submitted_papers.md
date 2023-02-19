@@ -1,6 +1,7 @@
 ### 2023
 
-1. J\. Garbe, M\. Zeitz, U\. Krebs\-Kanzow, and R\. Winkelmann\. The evolution of future Antarctic surface melt using PISM\-dEBM\-simple\. *The Cryosphere Discussions*, 2023:1–39, 2023\. URL: [https://tc\.copernicus\.org/preprints/tc\-2022\-249/](https://tc.copernicus.org/preprints/tc-2022-249/), [doi:10\.5194/tc\-2022\-249](https://doi.org/10.5194/tc-2022-249)\.   
+1. A\. Delhasse, J\. Beckmann, C\. Kittel, and X\. Fettweis\. Coupling the regional climate MAR model with the ice sheet model PISM mitigates the melt\-elevation positive feedback\. *The Cryosphere Discussions*, 2023:1–21, 2023\. URL: [https://tc\.copernicus\.org/preprints/tc\-2023\-15/](https://tc.copernicus.org/preprints/tc-2023-15/), [doi:10\.5194/tc\-2023\-15](https://doi.org/10.5194/tc-2023-15)\.   
+2. J\. Garbe, M\. Zeitz, U\. Krebs\-Kanzow, and R\. Winkelmann\. The evolution of future Antarctic surface melt using PISM\-dEBM\-simple\. *The Cryosphere Discussions*, 2023:1–39, 2023\. URL: [https://tc\.copernicus\.org/preprints/tc\-2022\-249/](https://tc.copernicus.org/preprints/tc-2022-249/), [doi:10\.5194/tc\-2022\-249](https://doi.org/10.5194/tc-2022-249)\.   
 
 ### 2022
 
