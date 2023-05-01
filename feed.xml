@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://www.pism.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pism.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-11T17:37:50+00:00</updated><id>https://www.pism.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">Joint GEUS-PIK workshop October 24-25, 2022</title><link href="https://www.pism.io/news/2022/10/26/geus-pik-workshop/" rel="alternate" type="text/html" title="Joint GEUS-PIK workshop October 24-25, 2022" /><published>2022-10-26T00:00:00+00:00</published><updated>2022-10-26T00:00:00+00:00</updated><id>https://www.pism.io/news/2022/10/26/geus-pik-workshop</id><content type="html" xml:base="https://www.pism.io/news/2022/10/26/geus-pik-workshop/">&lt;p&gt;&lt;img src=&quot;/img/news/geus-pik-workshop-group-photo-2022.jpg&quot; alt=&quot;&quot; title=&quot;Group Photo in front of GEUS&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="https://www.pism.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pism.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-01T15:46:35+00:00</updated><id>https://www.pism.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">Congrats to Constantine</title><link href="https://www.pism.io/news/2023/05/01/patience/" rel="alternate" type="text/html" title="Congrats to Constantine" /><published>2023-05-01T00:00:00+00:00</published><updated>2023-05-01T00:00:00+00:00</updated><id>https://www.pism.io/news/2023/05/01/patience</id><content type="html" xml:base="https://www.pism.io/news/2023/05/01/patience/">&lt;p&gt;Dear PISM users and developers&lt;/p&gt;
+
+&lt;p&gt;It’s my pleasure to congratulate our software engineer and PISM mastermind Constatine Khroulev to the birth of his son, Alexander (Sasha). Constantine is now on paternity leave and hence I’d like to ask for your patience as answering PISM questions will take longer in the next couple months.&lt;/p&gt;
+
+&lt;p&gt;Thank you for your understanding,&lt;/p&gt;
+
+&lt;p&gt;Andy&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">Dear PISM users and developers</summary></entry><entry><title type="html">Joint GEUS-PIK workshop October 24-25, 2022</title><link href="https://www.pism.io/news/2022/10/26/geus-pik-workshop/" rel="alternate" type="text/html" title="Joint GEUS-PIK workshop October 24-25, 2022" /><published>2022-10-26T00:00:00+00:00</published><updated>2022-10-26T00:00:00+00:00</updated><id>https://www.pism.io/news/2022/10/26/geus-pik-workshop</id><content type="html" xml:base="https://www.pism.io/news/2022/10/26/geus-pik-workshop/">&lt;p&gt;&lt;img src=&quot;/img/news/geus-pik-workshop-group-photo-2022.jpg&quot; alt=&quot;&quot; title=&quot;Group Photo in front of GEUS&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
 &lt;p style=&quot;text-align: center;&quot;&gt;&lt;em&gt;Group photo in front of GEUS.&lt;/em&gt;&lt;/p&gt;
 
@@ -287,84 +293,4 @@ with &lt;a href=&quot;https://www.youtube.com/watch?v=fzI9FNjXQ0o&quot;&gt;video
 &lt;p&gt;But don’t worry. Development continues.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">In February they are going to put PISM in the bottom of an old coal mine in Svalbard:</summary></entry><entry><title type="html">Postdoctoral Scientist: ice-sheet/climate modeller at MPI-M (Hamburg)</title><link href="https://www.pism.io/news/2019/12/04/postdocmpim/" rel="alternate" type="text/html" title="Postdoctoral Scientist: ice-sheet/climate modeller at MPI-M (Hamburg)" /><published>2019-12-04T00:00:00+00:00</published><updated>2019-12-04T00:00:00+00:00</updated><id>https://www.pism.io/news/2019/12/04/postdocmpim</id><content type="html" xml:base="https://www.pism.io/news/2019/12/04/postdocmpim/">&lt;p&gt;The MPI-Earth group at MPI-M (Hamburg) is looking for a postdoc. PISM
 experience “would be of advantage”. For more information see the
 &lt;a href=&quot;http://lists.cryolist.org/pipermail/cryolist-cryolist.org/2019-June/004091.html&quot;&gt;CRYOLIST
-post&lt;/a&gt;.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">The MPI-Earth group at MPI-M (Hamburg) is looking for a postdoc. PISM experience “would be of advantage”. For more information see the CRYOLIST post.</summary></entry><entry><title type="html">Two ice sheet modeling postdocs at University of Alaska Fairbanks</title><link href="https://www.pism.io/news/2019/12/04/twouafpostdocs/" rel="alternate" type="text/html" title="Two ice sheet modeling postdocs at University of Alaska Fairbanks" /><published>2019-12-04T00:00:00+00:00</published><updated>2019-12-04T00:00:00+00:00</updated><id>https://www.pism.io/news/2019/12/04/twouafpostdocs</id><content type="html" xml:base="https://www.pism.io/news/2019/12/04/twouafpostdocs/">&lt;p&gt;The University of Alaska Fairbanks invites applications for two
-postdoctoral scholars in ice sheet modeling. The positions are based at
-the &lt;a href=&quot;https://www.gi.alaska.edu/&quot;&gt;Geophysical Institute&lt;/a&gt;, a
-world-renowned institute for Arctic research. Our team in the
-&lt;a href=&quot;https://glaciers.gi.alaska.edu/&quot;&gt;glaciology group&lt;/a&gt; is a
-dynamic, international, and interdisciplinary team, and welcomes all
-kinds of people who share our values of curiosity, creativity, and
-initiative.&lt;/p&gt;
-
-&lt;h2 id=&quot;project-1-greenland&quot;&gt;Project 1: Greenland&lt;/h2&gt;
-
-&lt;p&gt;The goal of this project to improve the representation of the processes
-“where the ice meets the ocean” in a high-resolution whole-ice sheet
-model. This is a crucial step on the way to the ultimate goal of fully
-coupled high-resolution ice-ocean-atmosphere models, which are currently
-not in the realm of the possible.&lt;/p&gt;
-
-&lt;p&gt;The project is in collabration with Drs Patrick Heimbach and Feras
-Habbal at University of Texas at Austin. The successful candidate will
-use the Parallel Ice Sheet Model (PISM) and implement frontal melt
-parameterizations currently being developed by Drs Heimbach and
-Habbal, as well as contribute to the development. Frequent telecoms
-and annual visits are an integral aspect of the project.&lt;/p&gt;
-
-&lt;h2 id=&quot;project-2-antarctic-peninsula&quot;&gt;Project 2: Antarctic Peninsula&lt;/h2&gt;
-
-&lt;p&gt;The interactions between prevailing winds and mountain topography give
-rise to order-of-magnitude variations in precipitation For mountain
-ranges in which ice overtops the bedrock to form ice sheets these
-orographically driven feedbacks between precipitation and surface
-topography occur on timescales much shorter than for normal mountain
-building. The Antarctic Peninsula is an archetype of these feedbacks. It
-is aligned perpendicular to the prevailing winds and precipitation
-ranges from as high as 10 m/yr on the wet side of the mountain range to
-10 cm/yr on dry side over less than 50 km. Despite the low snowfall on
-the dry side, the northern Antarctic Peninsula hosts large trunk
-glaciers like Crane, Flask and Leppard. We hypothesize that the
-feedbacks between orographic precipitation, ice dynamics, and
-thermodynamics drive asymmetry in the topography and behavior of the ice
-sheet.&lt;/p&gt;
-
-&lt;p&gt;This project is a collaboration with Dr Erin Pettit (Oregon State
-University) and Dr Gerad Roe (University of Washington). The successful
-candidate will implement an orographic precipitation module into the
-Parallel Ice Sheet Model (PISM) and conduct the proposed research with
-the coupled ice dynamic-orographic precipitation model. Frequent
-telecoms and annual visits are an integral aspect of the project. &lt;/p&gt;
-
-&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;PhD in Glaciology, Geophysics, Physics, Math, or related field.&lt;/li&gt;
-  &lt;li&gt;Experience in numerical modeling and scientific computation on high-performance computers.&lt;/li&gt;
-  &lt;li&gt;Experience with ice sheet modeling is required and experience with the Parallel Ice Sheet Model is an asset.&lt;/li&gt;
-  &lt;li&gt;A peer-reviewed publication record that is commensurate with experience.&lt;/li&gt;
-  &lt;li&gt;Applicants should have excellent English language skills and enjoy working in an international and interdisciplinary team.`&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The positions are for a fixed term of 1.5 years with an anticipated
-starting date of Spring 2020. Interested candidates should contact Dr.
-Andy Aschwanden (&lt;a href=&quot;mailto:aaschwanden@alaska.edu&quot;&gt;aaschwanden@alaska.edu&lt;/a&gt;) with a CV including
-information on your academic background, experience in
-glaciology/modeling/programming, field experience, publication record,
-and contact information of 2-3 referees (only email addresses), and any
-other relevant information..&lt;/p&gt;
-
-&lt;p&gt;The call is open until the positions are filled.&lt;/p&gt;
-
-&lt;p&gt;Fairbanks is a city in the heart of sub-Arctic Alaska, with
-out-the-front-door access to unparalleled wilderness for skiing,
-paddling, fishing, and hunting. It is a vibrant community with a strong
-university presence. More information about life in Fairbanks is
-available at
-&lt;a href=&quot;https://www.fairbankschamber.org/living-in-fairbanks&quot;&gt;www.fairbankschamber.org/living-in-fairbanks&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;As a public, regional, comprehensive university, UAF is committed to
-building a culturally diverse and inclusive organization and strongly
-encourages women, minorities, individuals with disabilities, and
-veterans to apply. UA is an AA/EO employer and educational institution
-and prohibits illegal discrimination against any individual:
-&lt;a href=&quot;https://www.alaska.edu/nondiscrimination&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;www.alaska.edu/nondiscrimination&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">The University of Alaska Fairbanks invites applications for two postdoctoral scholars in ice sheet modeling. The positions are based at the Geophysical Institute, a world-renowned institute for Arctic research. Our team in the glaciology group is a dynamic, international, and interdisciplinary team, and welcomes all kinds of people who share our values of curiosity, creativity, and initiative.</summary></entry></feed>
+post&lt;/a&gt;.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">The MPI-Earth group at MPI-M (Hamburg) is looking for a postdoc. PISM experience “would be of advantage”. For more information see the CRYOLIST post.</summary></entry></feed>
