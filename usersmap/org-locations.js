@@ -66,8 +66,8 @@ var addressPoints = [
   ],
   [
     "Peking University (PKU) | Beijing, China | <a href='https://english.pku.edu.cn/academics.shtml' target='_blank'>https://english.pku.edu.cn/academics.shtml</a>",
-    39.906217,
-    116.3912757
+    39.9057136,
+    116.3912972
   ],
   [
     "Pennsylvania State University (PSU) | State College Pennsylvania, USA | <a href='https://www.psice.psu.edu/ ' target='_blank'>https://www.psice.psu.edu/ </a>",
