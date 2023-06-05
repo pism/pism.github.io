@@ -5,9 +5,6 @@
     - name: Andy Aschwanden
       profile: http://glaciers.gi.alaska.edu/people/aschwanden
       photo: /img/team/andy.jpg
-    - name: Ed Bueler
-      profile: http://bueler.github.io/
-      photo: /img/team/bueler.png
     - name: Constantine Khroulev
       profile: https://glaciers.gi.alaska.edu/people/khroulev
 
@@ -36,12 +33,16 @@
   team:
     - name: Jed Brown
       profile: https://jedbrown.org/
+    - name: Ed Bueler
+      profile: http://bueler.github.io/
     - name: Johannes Feldmann
       profile: http://www.pik-potsdam.de/~johfeld/
     - name: Marianne Haseloff
       profile: https://www.northumbria.ac.uk/about-us/our-staff/h/marianne-haseloff/
     - name: Anders Levermann
       profile: http://www.pik-potsdam.de/~anders/
+    - name: Craig Lingle
+      profile: https://glaciers.gi.alaska.edu/people/lingle
     - name: Maria Martin
       profile: https://www.pik-potsdam.de/members/martin
     - name: David Maxwell
