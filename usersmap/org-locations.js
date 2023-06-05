@@ -46,8 +46,8 @@ var addressPoints = [
   ],
   [
     "Louisiana State University (LSU) | Baton Rouge, USA | <a href='https://lsu.edu/' target='_blank'>https://lsu.edu/</a>",
-    30.4507936,
-    -91.1391153
+    30.4494155,
+    -91.1869659
   ],
   [
     "Max-Planck-Institut f\u00fcr Meteorologie (MPI) | Hamburg, Germany | <a href='https://mpimet.mpg.de/en/homepage' target='_blank'>https://mpimet.mpg.de/en/homepage</a>",
