@@ -3,10 +3,6 @@
 1. A\. Delhasse, J\. Beckmann, C\. Kittel, and X\. Fettweis\. Coupling the regional climate MAR model with the ice sheet model PISM mitigates the melt\-elevation positive feedback\. *The Cryosphere Discussions*, 2023:1–21, 2023\. URL: [https://tc\.copernicus\.org/preprints/tc\-2023\-15/](https://tc.copernicus.org/preprints/tc-2023-15/), [doi:10\.5194/tc\-2023\-15](https://doi.org/10.5194/tc-2023-15)\.   
 2. J\. Garbe, M\. Zeitz, U\. Krebs\-Kanzow, and R\. Winkelmann\. The evolution of future Antarctic surface melt using PISM\-dEBM\-simple\. *The Cryosphere Discussions*, 2023:1–39, 2023\. URL: [https://tc\.copernicus\.org/preprints/tc\-2022\-249/](https://tc.copernicus.org/preprints/tc-2022-249/), [doi:10\.5194/tc\-2022\-249](https://doi.org/10.5194/tc-2022-249)\.   
 
-### 2022
-
-1. B\. Urruty, E\. A\. Hill, R\. Reese, J\. Garbe, O\. Gagliardini, G\. Durand, F\. Gillet\-Chaulet, G\. H\. Gudmundsson, R\. Winkelmann, M\. Chekki, D\. Chandler, and P\. M\. Langebroek\. The stability of present\-day Antarctic grounding lines – Part A: No indication of marine ice sheet instability in the current geometry\. *The Cryosphere Discussions*, 2022:1–34, 2022\. URL: [https://tc\.copernicus\.org/preprints/tc\-2022\-104/](https://tc.copernicus.org/preprints/tc-2022-104/), [doi:10\.5194/tc\-2022\-104](https://doi.org/10.5194/tc-2022-104)\.   
-
 ### 2021
 
 1. C\. Yue, L\. S\. Schmidt, L\. Zhao, M\. Wolovick, and J\. C\. Moore\. Insensitivity of mass loss of icelandic vatnajökull ice cap to solar geoengineering\. *The Cryosphere Discussions*, 2021:1–20, 2021\. URL: [https://tc\.copernicus\.org/preprints/tc\-2021\-318/](https://tc.copernicus.org/preprints/tc-2021-318/), [doi:10\.5194/tc\-2021\-318](https://doi.org/10.5194/tc-2021-318)\.   

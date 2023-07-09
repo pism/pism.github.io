@@ -36,8 +36,8 @@ var addressPoints = [
   ],
   [
     "Harvard University | Cambridge, USA | <a href='https://www.harvard.edu/' target='_blank'>https://www.harvard.edu/</a>",
-    42.3750997,
-    -71.1056157
+    42.3655767,
+    -71.1040018
   ],
   [
     "Korea Polar Research Institute (KOPRI) | Incheon, South Korea | <a href='https://eng.kopri.re.kr/eng/' target='_blank'>https://eng.kopri.re.kr/eng/</a>",
@@ -66,8 +66,8 @@ var addressPoints = [
   ],
   [
     "Peking University (PKU) | Beijing, China | <a href='https://english.pku.edu.cn/academics.shtml' target='_blank'>https://english.pku.edu.cn/academics.shtml</a>",
-    40.190632,
-    116.412144
+    39.9057136,
+    116.3912972
   ],
   [
     "Pennsylvania State University (PSU) | State College Pennsylvania, USA | <a href='https://www.psice.psu.edu/ ' target='_blank'>https://www.psice.psu.edu/ </a>",
