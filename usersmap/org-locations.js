@@ -16,13 +16,13 @@ var addressPoints = [
   ],
   [
     "Durham Univeristy | Durham City, UK | <a href='https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/' target='_blank'>https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/</a>",
-    54.7785577,
-    -1.5757010209442777
+    54.7770139,
+    -1.5756205
   ],
   [
     "Istanbul Technical University (ITU) - Eurasia Institute of Earth Sciences (EIES) | Istanbul, Turkey | <a href='https://eies.itu.edu.tr/en' target='_blank'>https://eies.itu.edu.tr/en</a>",
-    41.0091982,
-    28.9662187
+    41.0766019,
+    29.052495
   ],
   [
     "ETH Z\u00fcrich | Z\u00fcrich, Switzerland | <a href='https://vaw.ethz.ch/en/research/glaciology.html' target='_blank'>https://vaw.ethz.ch/en/research/glaciology.html</a>",
@@ -66,8 +66,8 @@ var addressPoints = [
   ],
   [
     "Peking University (PKU) | Beijing, China | <a href='https://english.pku.edu.cn/academics.shtml' target='_blank'>https://english.pku.edu.cn/academics.shtml</a>",
-    39.9057136,
-    116.3912972
+    40.190632,
+    116.412144
   ],
   [
     "Pennsylvania State University (PSU) | State College Pennsylvania, USA | <a href='https://www.psice.psu.edu/ ' target='_blank'>https://www.psice.psu.edu/ </a>",
