@@ -15,7 +15,7 @@ def label(name, info):
 
 def create_map(data, output_filename):
     "Create a leaflet map using information about markers provided in `data`"
-    m = folium.Map()
+    m = folium.Map(min_lon=-180, max_lon=180, max_bounds=True)
 
     for name, info in data.items():
 
@@ -24,9 +24,11 @@ def create_map(data, output_filename):
         else:
             icon = folium.map.Icon(color="blue")
 
+        popup = folium.map.Popup(label(name, info), max_width=250)
+
         folium.Marker(location=(info["lat"], info["lon"]),
                       tooltip=name,
-                      popup=label(name, info),
+                      popup=popup,
                       icon=icon).add_to(m)
 
     m.save(output_filename)
