@@ -11,11 +11,11 @@ We use several Python and Ruby tools to build this website:
 - `pybtex` to parse BibTeX files listing publications using PISM
 - `matplotlib` to plot the bar graph of the number of PISM
   publications per year (this also uses the *Humor Sans* font)
-- `getorg` and `geopy` to generate the map of PISM users
+- `folium` to generate the map of PISM users
 
 Run something like
 
-    pip3 install pybtex matplotlib getorg geopy
+    pip3 install pybtex matplotlib folium
 
 to install these.
 
