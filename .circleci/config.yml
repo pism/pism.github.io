@@ -4,7 +4,7 @@ jobs:
 
   build-website:
     docker:
-      - image: ckhrulev/pism-website:0.1.0
+      - image: ckhrulev/pism-website:0.1.1
 
     steps:
       - checkout
