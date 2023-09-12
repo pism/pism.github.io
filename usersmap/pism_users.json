@@ -1,0 +1,214 @@
+{
+    "University of Alaska Fairbanks (UAF)" : {
+        "city": "Fairbanks, Alaska",
+        "country": "USA",
+        "lat" : 64.843611,
+        "lon" : -147.723056,
+        "url": "https://www.uaf.edu/",
+        "developer": "true"
+    },
+    "Potsdam Institute for Climate Impact Research (PIK)" : {
+        "city": "Potsdam",
+        "country": "Germany",
+        "lat": 52.4009309,
+        "lon": 13.0591397,
+        "url": "https://www.pik-potsdam.de/ice",
+        "developer": "true"
+    },
+    "Alfred-Wegener-Institut (AWI)": {
+        "city": "Bremerhaven",
+        "country": "Germany",
+        "lat": 53.5505392,
+        "lon": 8.5851945,
+        "url": "https://www.awi.de/en/focus/ice-sheets.html"
+    },
+    "Danish Meteorological Institute (DMI)": {
+        "city": "Kopenhagen",
+        "country": "Denmark",
+        "lat": 55.6867243,
+        "lon": 12.5700724,
+        "url": "http://research.dmi.dk/home/"
+    },
+    "Dickinson": {
+        "city": "Carlisle Pennsylvania",
+        "country": "USA",
+        "lat": 40.201499,
+        "lon": -77.1890783,
+        "url": "https://www.dickinson.edu/"
+    },
+    "Durham Univeristy": {
+        "city": "Durham City",
+        "country": "UK",
+        "lat": 54.7770139,
+        "lon": -1.5756205,
+        "url": "https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/"
+    },
+    "ETH Zürich": {
+        "city": "Zürich",
+        "country": "Switzerland",
+        "lat": 47.3744489,
+        "lon": 8.5410422,
+        "url": "https://vaw.ethz.ch/en/research/glaciology.html"
+    },
+    "Geological Survey of Denmark and Greenland (GEUS)": {
+        "city": "Kopenhagen",
+        "country": "Denmark",
+        "lat": 55.6867243,
+        "lon": 12.5700724,
+        "url": "https://eng.geus.dk/"
+    },
+    "Harvard University": {
+        "city": "Cambridge",
+        "country": "USA",
+        "lat": 42.3655767,
+        "lon": -71.1040018,
+        "url": "https://www.harvard.edu/"
+    },
+    "Istanbul Technical University (ITU) - Eurasia Institute of Earth Sciences (EIES)": {
+        "city": "Istanbul",
+        "country": "Turkey",
+        "lat": 41.0766019,
+        "lon": 29.052495,
+        "url": "https://eies.itu.edu.tr/en"
+    },
+    "Korea Polar Research Institute (KOPRI)": {
+        "city": "Incheon",
+        "country": "South Korea",
+        "lat": 37.456,
+        "lon": 126.7052,
+        "url": "https://eng.kopri.re.kr/eng/"
+    },
+    "Louisiana State University (LSU)": {
+        "city": "Baton Rouge",
+        "country": "USA",
+        "lat": 30.4494155,
+        "lon": -91.1869659,
+        "url": "https://lsu.edu/"
+    },
+    "Max-Planck-Institut für Meteorologie (MPI)": {
+        "city": "Hamburg",
+        "country": "Germany",
+        "lat": 53.550341,
+        "lon": 10.000654,
+        "url": "https://mpimet.mpg.de/en/homepage"
+    },
+    "Northumbria University": {
+        "city": "Newcastle",
+        "country": "UK",
+        "lat": 54.9738474,
+        "lon": -1.6131572,
+        "url": "https://www.northumbria.ac.uk/about-us/academic-departments/geography-and-environmental-sciences/research/cold-and-palaeo-environments-1/"
+    },
+    "Norwegian Research Centre (NORCE)": {
+        "city": "Bergen",
+        "country": "Norway",
+        "lat": 60.3943055,
+        "lon": 5.3259192,
+        "url": "https://www.norceresearch.no/en/research-area/klima"
+    },
+    "Peking University (PKU)": {
+        "city": "Beijing",
+        "country": "China",
+        "lat": 40.190632,
+        "lon": 116.412144,
+        "url": "https://english.pku.edu.cn/academics.shtml"
+    },
+    "Pennsylvania State University (PSU)": {
+        "city": "State College Pennsylvania",
+        "country": "USA",
+        "lat": 40.7944504,
+        "lon": -77.8616386,
+        "url": "https://www.psice.psu.edu/ "
+    },
+    "Stockholm University": {
+        "city": "Stockholm",
+        "country": "Sweden",
+        "lat": 59.3251172,
+        "lon": 18.0710935,
+        "url": "https://www.su.se/department-of-geological-sciences/"
+    },
+    "University of Bergen (UiB)": {
+        "city": "Bergen",
+        "country": "Norway",
+        "lat": 60.3943055,
+        "lon": 5.3259192,
+        "url": "https://www.uib.no/en/geo"
+    },
+    "University of Cambridge": {
+        "city": "Cambridge",
+        "country": "UK",
+        "lat": 52.2055314,
+        "lon": 0.1186637,
+        "url": "https://www.geog.cam.ac.uk/research/ggg/"
+    },
+    "University of Chicago (UC)": {
+        "city": "Chicago",
+        "country": "USA",
+        "lat": 41.8755616,
+        "lon": -87.6244212,
+        "url": "https://geosci.uchicago.edu/research/atmospheres-oceans-ice-and-climate/"
+    },
+    "University of Copenhagen - Centre for Ice and Climate (CIC)": {
+        "city": "Kopenhagen",
+        "country": "Denmark",
+        "lat": 55.6867243,
+        "lon": 12.5700724,
+        "url": "https://www.iceandclimate.nbi.ku.dk/"
+    },
+    "University of Maine": {
+        "city": "Orono",
+        "country": "USA",
+        "lat": 44.883607,
+        "lon": -68.672791,
+        "url": "https://umaine.edu/earthclimate/research/climate-change/"
+    },
+    "University of New South Wales (UNSW)": {
+        "city": "Sydney",
+        "country": "Australia",
+        "lat": -33.8698439,
+        "lon": 151.2082848,
+        "url": "http://www.essrc.unsw.edu.au/"
+    },
+    "University of Northern British Columbia (UNBC)": {
+        "city": "Prince George",
+        "country": "Canada",
+        "lat": 53.9128645,
+        "lon": -122.7453699,
+        "url": "https://www2.unbc.ca/"
+    },
+    "University of Tasmania (UTAS)": {
+        "city": "Hobart",
+        "country": "Australia",
+        "lat": -42.8825088,
+        "lon": 147.3281233,
+        "url": "https://www.imas.utas.edu.au/research/oceans-and-cryosphere"
+    },
+    "University of Washingtion (UW)": {
+        "city": "Seattle",
+        "country": "USA",
+        "lat": 47.6038321,
+        "lon": -122.330062,
+        "url": "https://earthweb.ess.washington.edu/Glaciology/ "
+    },
+    "Utrecht University - Institute for Marine and Atmospheric Research Utrecht (IMAU)": {
+        "city": "Utrecht",
+        "country": "Netherlands",
+        "lat": 52.0907006,
+        "lon": 5.1215634,
+        "url": "https://www.uu.nl/en/research/institute-for-marine-and-atmospheric-research-imau"
+    },
+    "Victoria University of Wellingtion (VUW)": {
+        "city": "Wellington",
+        "country": "New Zealand",
+        "lat": -41.2887953,
+        "lon": 174.7772114,
+        "url": "https://www.wgtn.ac.nz/antarctic/research/glacial-modelling"
+    },
+    "Yale University": {
+        "city": "New Haven",
+        "country": "USA",
+        "lat": 41.3082138,
+        "lon": -72.9250518,
+        "url": "https://www.yale.edu/"
+    }
+}

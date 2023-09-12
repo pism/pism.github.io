@@ -1,57 +1,40 @@
-# # Leaflet cluster map of group locations
-# 
-# based on https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py
-# (c) 2016-2017 R. Stuart Geiger, released under the MIT license
-# 
-# Run this from the usermap/ directory, which contains the file pism_users.csv This scrapes the city of each group, geolocates it with geopy/Nominatim, and uses the getorg library to output data, HTML, and Javascript for a standalone cluster map.
-# 
-# Requires: getorg, geopy
-#!pip install getorg python-frontmatter
+#!/usr/bin/env python3
 
+import json
+import folium
 
-#### creating PISM html usermap with Leaflet
-# this python script builds a map of PISM users for the website based on 
-# pism_users.csv   To get coordinates for the location given in the table,
-# the python package getorg is used which automatically creates the html, js
-# and css files to be included in the website. 
-# As some manual changes in these files get overriden every time the python 
-# script runs, there are a backup versions in the restore/ directory which 
-# automatically get copied to the main repository.
+def load_data(filename):
+    "Load marker locations, names, etc from a JSON file"
+    with open(filename, 'r') as f:
+         return json.load(f)
 
-# [mok 2021/06]: built python environment locally with  
-#   mamba create -n pism_website python=3 geopy pip -c conda-forge
-#   conda activate pism_website
-#   pip install getorg
+def label(name, info):
+    "Create a label for a marker"
+    link = f"<a href=\'{info['url']}\' target=\'_blank\'>{info['url']}</a>"
+    return f"{name} | {info['city']}, {info['country']} | {link}"
 
-import getorg
-from geopy import Nominatim
-import csv
-import sys
+def create_map(data, output_filename):
+    "Create a leaflet map using information about markers provided in `data`"
+    m = folium.Map(min_lon=-180, max_lon=180, max_bounds=True)
 
-input_file = sys.argv[1]
+    for name, info in data.items():
 
-#geocoder = Nominatim(user_agent="my-application")
-geocoder = Nominatim(user_agent='test')
-location_dict = {}
-location = ""
+        if "developer" in info.keys():
+            icon = folium.map.Icon(color="green", icon="screwdriver-wrench", prefix="fa")
+        else:
+            icon = folium.map.Icon(color="blue")
 
+        popup = folium.map.Popup(label(name, info), max_width=250)
 
-print()
-with open(input_file, 'r') as f:
-	csv_data = csv.DictReader(f, delimiter=',')
-	for row in csv_data:
-		#print(row)
-		key = f'{row["name"]} | {row["city"]}, {row["country"]}'
-		if row["website"] != '?':
-			link = f'<a href=\'{row["website"]}\' target=\'_blank\'>{row["website"]}</a>'
-			key += f' | {link}'
-		location = f'{row["city"]}, {row["country"]}'
-		location_dict[key] = geocoder.geocode(location)
-		print(f'label:    {key}')
-		print(f'location: {location}')
-		print()
+        folium.Marker(location=(info["lat"], info["lon"]),
+                      tooltip=name,
+                      popup=popup,
+                      icon=icon).add_to(m)
 
+    m.save(output_filename)
 
-m = getorg.orgmap.create_map_obj()
-# writes file org-locations.js, map.html, leaflet_dist/
-getorg.orgmap.output_html_cluster_map(location_dict, folder_name="./", hashed_usernames=False)
+if __name__ == "__main__":
+    import sys
+    data = load_data(sys.argv[1])
+
+    create_map(data, sys.argv[2])

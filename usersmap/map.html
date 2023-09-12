@@ -1,72 +1,1120 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Leaflet debug page</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="leaflet_dist/screen.css" />
-
-    <link rel="stylesheet" href="leaflet_dist/MarkerCluster.css" />
-    <link rel="stylesheet" href="leaflet_dist/MarkerCluster.Default.css" />
-    <script src="leaflet_dist/leaflet.markercluster-src.js"></script>
-    <script src="org-locations.js"></script>
-
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_477fe17ce78aba37a1938ab3653496fe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
 </head>
 <body>
-
-    <div id="map"></div>
-    <script type="text/javascript">
-        var tiles = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}', {
-            maxZoom: 20,
-            attribution: 'Tiles courtesy of the <a href="https://usgs.gov/">U.S. Geological Survey</a>'
-            }),
-        latlng = L.latLng(0, 10);
-        var map = L.map('map', {
-            center: latlng,
-            zoom: 0.7,
-            layers: [tiles],
-            });
-        var markers = L.markerClusterGroup({
-            showCoverageOnHover: false,
-            maxClusterRadius: 80
-            });
-        // developer marker
-        var developerIcon = new L.Icon({
-            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
-            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/images/marker-shadow.png',
-            iconSize: [25, 41],
-            iconAnchor: [12, 41],
-            popupAnchor: [1, -34],
-            shadowSize: [41, 41]
-            });
-        // UAF 
-        var uafTitle = "University of Alaska Fairbanks (UAF) | Fairbanks, USA | <a href='https://glaciers.gi.alaska.edu/' target='_blank'>https://glaciers.gi.alaska.edu/</a>";
-        var uaf = L.marker([64.837845, -147.716675], {
-            title: uafTitle,
-            icon: developerIcon
-            });
-        uaf.bindPopup(uafTitle);
-        uaf.addTo(map);
-        // PIK 
-        var pikTitle = "Potsdam Institute for Climate Impact Research (PIK) | Potsdam, Germany | <a href='https://www.pik-potsdam.de/ice' target='_blank'>https://www.pik-potsdam.de/ice</a>";
-        var pik = L.marker([52.4009309, 13.0591397], {
-            title: pikTitle,
-            icon: developerIcon
-            });
-        pik.bindPopup(pikTitle);
-        pik.addTo(map);
-        // other markers
-        for (var i = 0; i < addressPoints.length; i++) {
-            var a = addressPoints[i];
-            var title = a[0];
-            var marker = L.marker(new L.LatLng(a[1], a[2]), { title: title });
-            marker.bindPopup(title);
-            markers.addLayer(marker);
-        }
-        map.addLayer(markers);
-        map.zoomIn();
-    </script>
+    
+    
+            <div class="folium-map" id="map_477fe17ce78aba37a1938ab3653496fe" ></div>
+        
 </body>
+<script>
+    
+    
+            var map_477fe17ce78aba37a1938ab3653496fe = L.map(
+                "map_477fe17ce78aba37a1938ab3653496fe",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[-90, -180], [90, 180]],
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_27d0d679c0f698641a863994590814cd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var marker_2f4d1614e8be16d1a546961325552a43 = L.marker(
+                [64.843611, -147.723056],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_478097e28ac303ab6bba6eca86da8a35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "screwdriver-wrench", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2f4d1614e8be16d1a546961325552a43.setIcon(icon_478097e28ac303ab6bba6eca86da8a35);
+        
+    
+        var popup_a6f789bf45a72be138beaca6c02cbee3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_31955e84d962761b1740422865a74b2c = $(`<div id="html_31955e84d962761b1740422865a74b2c" style="width: 100.0%; height: 100.0%;">University of Alaska Fairbanks (UAF) | Fairbanks, Alaska, USA | <a href='https://www.uaf.edu/' target='_blank'>https://www.uaf.edu/</a></div>`)[0];
+                popup_a6f789bf45a72be138beaca6c02cbee3.setContent(html_31955e84d962761b1740422865a74b2c);
+            
+        
+
+        marker_2f4d1614e8be16d1a546961325552a43.bindPopup(popup_a6f789bf45a72be138beaca6c02cbee3)
+        ;
+
+        
+    
+    
+            marker_2f4d1614e8be16d1a546961325552a43.bindTooltip(
+                `<div>
+                     University of Alaska Fairbanks (UAF)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e21c9d8110db6b5cdcc735c35f3a6ef1 = L.marker(
+                [52.4009309, 13.0591397],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_6094395a66f0bfbe95206685dcddb906 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "screwdriver-wrench", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e21c9d8110db6b5cdcc735c35f3a6ef1.setIcon(icon_6094395a66f0bfbe95206685dcddb906);
+        
+    
+        var popup_966d07f6d2a321099f3c6b439ba72f9a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bac7fe97d122496c28b93f71d92bef15 = $(`<div id="html_bac7fe97d122496c28b93f71d92bef15" style="width: 100.0%; height: 100.0%;">Potsdam Institute for Climate Impact Research (PIK) | Potsdam, Germany | <a href='https://www.pik-potsdam.de/ice' target='_blank'>https://www.pik-potsdam.de/ice</a></div>`)[0];
+                popup_966d07f6d2a321099f3c6b439ba72f9a.setContent(html_bac7fe97d122496c28b93f71d92bef15);
+            
+        
+
+        marker_e21c9d8110db6b5cdcc735c35f3a6ef1.bindPopup(popup_966d07f6d2a321099f3c6b439ba72f9a)
+        ;
+
+        
+    
+    
+            marker_e21c9d8110db6b5cdcc735c35f3a6ef1.bindTooltip(
+                `<div>
+                     Potsdam Institute for Climate Impact Research (PIK)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_323ed01bbc88838c9bd922f4becf76ed = L.marker(
+                [53.5505392, 8.5851945],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_7f66c500260350c906edede5751cd4de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_323ed01bbc88838c9bd922f4becf76ed.setIcon(icon_7f66c500260350c906edede5751cd4de);
+        
+    
+        var popup_f0c2fea2b25a06085d1ea6814eba387f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_99196b7b50db21a0535e7958fe781b01 = $(`<div id="html_99196b7b50db21a0535e7958fe781b01" style="width: 100.0%; height: 100.0%;">Alfred-Wegener-Institut (AWI) | Bremerhaven, Germany | <a href='https://www.awi.de/en/focus/ice-sheets.html' target='_blank'>https://www.awi.de/en/focus/ice-sheets.html</a></div>`)[0];
+                popup_f0c2fea2b25a06085d1ea6814eba387f.setContent(html_99196b7b50db21a0535e7958fe781b01);
+            
+        
+
+        marker_323ed01bbc88838c9bd922f4becf76ed.bindPopup(popup_f0c2fea2b25a06085d1ea6814eba387f)
+        ;
+
+        
+    
+    
+            marker_323ed01bbc88838c9bd922f4becf76ed.bindTooltip(
+                `<div>
+                     Alfred-Wegener-Institut (AWI)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_937eb8681ecdb7274bceeb67a5041f4c = L.marker(
+                [55.6867243, 12.5700724],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_23891d18520c3b35fef7f4016adef459 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_937eb8681ecdb7274bceeb67a5041f4c.setIcon(icon_23891d18520c3b35fef7f4016adef459);
+        
+    
+        var popup_a036611f6b9fcd2c4f7520330febd9c5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_bb5ce94d6e34305227ede6fbb970c729 = $(`<div id="html_bb5ce94d6e34305227ede6fbb970c729" style="width: 100.0%; height: 100.0%;">Danish Meteorological Institute (DMI) | Kopenhagen, Denmark | <a href='http://research.dmi.dk/home/' target='_blank'>http://research.dmi.dk/home/</a></div>`)[0];
+                popup_a036611f6b9fcd2c4f7520330febd9c5.setContent(html_bb5ce94d6e34305227ede6fbb970c729);
+            
+        
+
+        marker_937eb8681ecdb7274bceeb67a5041f4c.bindPopup(popup_a036611f6b9fcd2c4f7520330febd9c5)
+        ;
+
+        
+    
+    
+            marker_937eb8681ecdb7274bceeb67a5041f4c.bindTooltip(
+                `<div>
+                     Danish Meteorological Institute (DMI)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2eab55430541b62ee62f93696241e73a = L.marker(
+                [40.201499, -77.1890783],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_23fd8598940adf478555e332f845c9e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2eab55430541b62ee62f93696241e73a.setIcon(icon_23fd8598940adf478555e332f845c9e6);
+        
+    
+        var popup_4b4718b6eb4ec03e1f6d0d6d6dd1774a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0b43a81cf735b94d987720cc54dc9117 = $(`<div id="html_0b43a81cf735b94d987720cc54dc9117" style="width: 100.0%; height: 100.0%;">Dickinson | Carlisle Pennsylvania, USA | <a href='https://www.dickinson.edu/' target='_blank'>https://www.dickinson.edu/</a></div>`)[0];
+                popup_4b4718b6eb4ec03e1f6d0d6d6dd1774a.setContent(html_0b43a81cf735b94d987720cc54dc9117);
+            
+        
+
+        marker_2eab55430541b62ee62f93696241e73a.bindPopup(popup_4b4718b6eb4ec03e1f6d0d6d6dd1774a)
+        ;
+
+        
+    
+    
+            marker_2eab55430541b62ee62f93696241e73a.bindTooltip(
+                `<div>
+                     Dickinson
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4899d8a4f71b2a1a71abd26809b4915a = L.marker(
+                [54.7770139, -1.5756205],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_ca2a196a359fce7c4086b43abbce3dab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4899d8a4f71b2a1a71abd26809b4915a.setIcon(icon_ca2a196a359fce7c4086b43abbce3dab);
+        
+    
+        var popup_d51ff4a4d5b7f8e213cea4a9bfee1583 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ea980fc5b0f9a8e0873c0b51560a38ab = $(`<div id="html_ea980fc5b0f9a8e0873c0b51560a38ab" style="width: 100.0%; height: 100.0%;">Durham Univeristy | Durham City, UK | <a href='https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/' target='_blank'>https://www.durham.ac.uk/departments/academic/geography/research/clusters/sea-level-ice-climate/</a></div>`)[0];
+                popup_d51ff4a4d5b7f8e213cea4a9bfee1583.setContent(html_ea980fc5b0f9a8e0873c0b51560a38ab);
+            
+        
+
+        marker_4899d8a4f71b2a1a71abd26809b4915a.bindPopup(popup_d51ff4a4d5b7f8e213cea4a9bfee1583)
+        ;
+
+        
+    
+    
+            marker_4899d8a4f71b2a1a71abd26809b4915a.bindTooltip(
+                `<div>
+                     Durham Univeristy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6add4554b06f296fb227582298c187bf = L.marker(
+                [47.3744489, 8.5410422],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_c4c6ba642616d43193be6e225ef8ea20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6add4554b06f296fb227582298c187bf.setIcon(icon_c4c6ba642616d43193be6e225ef8ea20);
+        
+    
+        var popup_79c6f16cb0a72d8f34279300d254a30f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_441166b44f4d23e53c0da3766cd66ae5 = $(`<div id="html_441166b44f4d23e53c0da3766cd66ae5" style="width: 100.0%; height: 100.0%;">ETH Zürich | Zürich, Switzerland | <a href='https://vaw.ethz.ch/en/research/glaciology.html' target='_blank'>https://vaw.ethz.ch/en/research/glaciology.html</a></div>`)[0];
+                popup_79c6f16cb0a72d8f34279300d254a30f.setContent(html_441166b44f4d23e53c0da3766cd66ae5);
+            
+        
+
+        marker_6add4554b06f296fb227582298c187bf.bindPopup(popup_79c6f16cb0a72d8f34279300d254a30f)
+        ;
+
+        
+    
+    
+            marker_6add4554b06f296fb227582298c187bf.bindTooltip(
+                `<div>
+                     ETH Zürich
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea0081258f6d844662fa6ca5eb09882b = L.marker(
+                [55.6867243, 12.5700724],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_22d54bafa89587388de314e2c4af490b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea0081258f6d844662fa6ca5eb09882b.setIcon(icon_22d54bafa89587388de314e2c4af490b);
+        
+    
+        var popup_98222a9ca80e1f8d675fe5ca3bfd85d0 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7592868d4b6183e89e77c4b81e3b61da = $(`<div id="html_7592868d4b6183e89e77c4b81e3b61da" style="width: 100.0%; height: 100.0%;">Geological Survey of Denmark and Greenland (GEUS) | Kopenhagen, Denmark | <a href='https://eng.geus.dk/' target='_blank'>https://eng.geus.dk/</a></div>`)[0];
+                popup_98222a9ca80e1f8d675fe5ca3bfd85d0.setContent(html_7592868d4b6183e89e77c4b81e3b61da);
+            
+        
+
+        marker_ea0081258f6d844662fa6ca5eb09882b.bindPopup(popup_98222a9ca80e1f8d675fe5ca3bfd85d0)
+        ;
+
+        
+    
+    
+            marker_ea0081258f6d844662fa6ca5eb09882b.bindTooltip(
+                `<div>
+                     Geological Survey of Denmark and Greenland (GEUS)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1056bf6035e71792e3725da8bb2958a = L.marker(
+                [42.3655767, -71.1040018],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_a28a318c706acdd03ad35568bb560fe4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1056bf6035e71792e3725da8bb2958a.setIcon(icon_a28a318c706acdd03ad35568bb560fe4);
+        
+    
+        var popup_d033aaff7af92d88e7a2a6cea5c181cf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ebbed52bb484ab04ab2cc5555f041e33 = $(`<div id="html_ebbed52bb484ab04ab2cc5555f041e33" style="width: 100.0%; height: 100.0%;">Harvard University | Cambridge, USA | <a href='https://www.harvard.edu/' target='_blank'>https://www.harvard.edu/</a></div>`)[0];
+                popup_d033aaff7af92d88e7a2a6cea5c181cf.setContent(html_ebbed52bb484ab04ab2cc5555f041e33);
+            
+        
+
+        marker_b1056bf6035e71792e3725da8bb2958a.bindPopup(popup_d033aaff7af92d88e7a2a6cea5c181cf)
+        ;
+
+        
+    
+    
+            marker_b1056bf6035e71792e3725da8bb2958a.bindTooltip(
+                `<div>
+                     Harvard University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f32c95175238fe8f6d99116172125e6 = L.marker(
+                [41.0766019, 29.052495],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_71a86da61df5c8e0fdec18f151a0bed7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1f32c95175238fe8f6d99116172125e6.setIcon(icon_71a86da61df5c8e0fdec18f151a0bed7);
+        
+    
+        var popup_377cdad327b123b313577554aeb9415b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_871667554e4f2a282dcf20dfc5efc8aa = $(`<div id="html_871667554e4f2a282dcf20dfc5efc8aa" style="width: 100.0%; height: 100.0%;">Istanbul Technical University (ITU) - Eurasia Institute of Earth Sciences (EIES) | Istanbul, Turkey | <a href='https://eies.itu.edu.tr/en' target='_blank'>https://eies.itu.edu.tr/en</a></div>`)[0];
+                popup_377cdad327b123b313577554aeb9415b.setContent(html_871667554e4f2a282dcf20dfc5efc8aa);
+            
+        
+
+        marker_1f32c95175238fe8f6d99116172125e6.bindPopup(popup_377cdad327b123b313577554aeb9415b)
+        ;
+
+        
+    
+    
+            marker_1f32c95175238fe8f6d99116172125e6.bindTooltip(
+                `<div>
+                     Istanbul Technical University (ITU) - Eurasia Institute of Earth Sciences (EIES)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03decfda04a63aed9960322b2a4762e7 = L.marker(
+                [37.456, 126.7052],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_20162209132a184e85ccb3be2c9dfb0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03decfda04a63aed9960322b2a4762e7.setIcon(icon_20162209132a184e85ccb3be2c9dfb0b);
+        
+    
+        var popup_14827ef63f6bb595908b1907adb1d076 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_82bc63070ff9d23a85f49a73cfbcb669 = $(`<div id="html_82bc63070ff9d23a85f49a73cfbcb669" style="width: 100.0%; height: 100.0%;">Korea Polar Research Institute (KOPRI) | Incheon, South Korea | <a href='https://eng.kopri.re.kr/eng/' target='_blank'>https://eng.kopri.re.kr/eng/</a></div>`)[0];
+                popup_14827ef63f6bb595908b1907adb1d076.setContent(html_82bc63070ff9d23a85f49a73cfbcb669);
+            
+        
+
+        marker_03decfda04a63aed9960322b2a4762e7.bindPopup(popup_14827ef63f6bb595908b1907adb1d076)
+        ;
+
+        
+    
+    
+            marker_03decfda04a63aed9960322b2a4762e7.bindTooltip(
+                `<div>
+                     Korea Polar Research Institute (KOPRI)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fcd5759b1244d5ac8904163c6afbf35 = L.marker(
+                [30.4494155, -91.1869659],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_3ae7867cd95d554525e5992fcf8e279e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7fcd5759b1244d5ac8904163c6afbf35.setIcon(icon_3ae7867cd95d554525e5992fcf8e279e);
+        
+    
+        var popup_5c9697ec43b2d6265ef7c8bedc993124 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ea89526511c0b540968cc2230132adbd = $(`<div id="html_ea89526511c0b540968cc2230132adbd" style="width: 100.0%; height: 100.0%;">Louisiana State University (LSU) | Baton Rouge, USA | <a href='https://lsu.edu/' target='_blank'>https://lsu.edu/</a></div>`)[0];
+                popup_5c9697ec43b2d6265ef7c8bedc993124.setContent(html_ea89526511c0b540968cc2230132adbd);
+            
+        
+
+        marker_7fcd5759b1244d5ac8904163c6afbf35.bindPopup(popup_5c9697ec43b2d6265ef7c8bedc993124)
+        ;
+
+        
+    
+    
+            marker_7fcd5759b1244d5ac8904163c6afbf35.bindTooltip(
+                `<div>
+                     Louisiana State University (LSU)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6a9e21662fdbdb018f1faa4c1439e18 = L.marker(
+                [53.550341, 10.000654],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_d1a04a124147f746911e5a38f5ff0d91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6a9e21662fdbdb018f1faa4c1439e18.setIcon(icon_d1a04a124147f746911e5a38f5ff0d91);
+        
+    
+        var popup_62523d0238c45c5a8f61fa744bcc1c7f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_c0ddb781877dcd795c284f43225c8ad2 = $(`<div id="html_c0ddb781877dcd795c284f43225c8ad2" style="width: 100.0%; height: 100.0%;">Max-Planck-Institut für Meteorologie (MPI) | Hamburg, Germany | <a href='https://mpimet.mpg.de/en/homepage' target='_blank'>https://mpimet.mpg.de/en/homepage</a></div>`)[0];
+                popup_62523d0238c45c5a8f61fa744bcc1c7f.setContent(html_c0ddb781877dcd795c284f43225c8ad2);
+            
+        
+
+        marker_b6a9e21662fdbdb018f1faa4c1439e18.bindPopup(popup_62523d0238c45c5a8f61fa744bcc1c7f)
+        ;
+
+        
+    
+    
+            marker_b6a9e21662fdbdb018f1faa4c1439e18.bindTooltip(
+                `<div>
+                     Max-Planck-Institut für Meteorologie (MPI)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb433b5d1bab6889e747a88aff8e0969 = L.marker(
+                [54.9738474, -1.6131572],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_83b21f42ebb053a7e3db8615613955b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb433b5d1bab6889e747a88aff8e0969.setIcon(icon_83b21f42ebb053a7e3db8615613955b9);
+        
+    
+        var popup_1f7a4515e887810532be0ebc9de86c26 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b052b4998a3030f9b238a2a134e75e32 = $(`<div id="html_b052b4998a3030f9b238a2a134e75e32" style="width: 100.0%; height: 100.0%;">Northumbria University | Newcastle, UK | <a href='https://www.northumbria.ac.uk/about-us/academic-departments/geography-and-environmental-sciences/research/cold-and-palaeo-environments-1/' target='_blank'>https://www.northumbria.ac.uk/about-us/academic-departments/geography-and-environmental-sciences/research/cold-and-palaeo-environments-1/</a></div>`)[0];
+                popup_1f7a4515e887810532be0ebc9de86c26.setContent(html_b052b4998a3030f9b238a2a134e75e32);
+            
+        
+
+        marker_bb433b5d1bab6889e747a88aff8e0969.bindPopup(popup_1f7a4515e887810532be0ebc9de86c26)
+        ;
+
+        
+    
+    
+            marker_bb433b5d1bab6889e747a88aff8e0969.bindTooltip(
+                `<div>
+                     Northumbria University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eacbe77f5d45b27a2bfeddd5a9fba081 = L.marker(
+                [60.3943055, 5.3259192],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_1cd275954bb530c7516dcd81d3580266 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eacbe77f5d45b27a2bfeddd5a9fba081.setIcon(icon_1cd275954bb530c7516dcd81d3580266);
+        
+    
+        var popup_00a0f6ae4ddbf027db8c1ca7b62bb9f9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5746dd482b4f624d88cfcdbc5519c8cb = $(`<div id="html_5746dd482b4f624d88cfcdbc5519c8cb" style="width: 100.0%; height: 100.0%;">Norwegian Research Centre (NORCE) | Bergen, Norway | <a href='https://www.norceresearch.no/en/research-area/klima' target='_blank'>https://www.norceresearch.no/en/research-area/klima</a></div>`)[0];
+                popup_00a0f6ae4ddbf027db8c1ca7b62bb9f9.setContent(html_5746dd482b4f624d88cfcdbc5519c8cb);
+            
+        
+
+        marker_eacbe77f5d45b27a2bfeddd5a9fba081.bindPopup(popup_00a0f6ae4ddbf027db8c1ca7b62bb9f9)
+        ;
+
+        
+    
+    
+            marker_eacbe77f5d45b27a2bfeddd5a9fba081.bindTooltip(
+                `<div>
+                     Norwegian Research Centre (NORCE)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dce5946e3af79d01cd076edb90e5277 = L.marker(
+                [40.190632, 116.412144],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_282b892a7fd137a02862e77134c3efbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5dce5946e3af79d01cd076edb90e5277.setIcon(icon_282b892a7fd137a02862e77134c3efbc);
+        
+    
+        var popup_7d69333dc204d673157c29aef594fcb8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_891de8fc8e69b5163cdb6511e0cd4b03 = $(`<div id="html_891de8fc8e69b5163cdb6511e0cd4b03" style="width: 100.0%; height: 100.0%;">Peking University (PKU) | Beijing, China | <a href='https://english.pku.edu.cn/academics.shtml' target='_blank'>https://english.pku.edu.cn/academics.shtml</a></div>`)[0];
+                popup_7d69333dc204d673157c29aef594fcb8.setContent(html_891de8fc8e69b5163cdb6511e0cd4b03);
+            
+        
+
+        marker_5dce5946e3af79d01cd076edb90e5277.bindPopup(popup_7d69333dc204d673157c29aef594fcb8)
+        ;
+
+        
+    
+    
+            marker_5dce5946e3af79d01cd076edb90e5277.bindTooltip(
+                `<div>
+                     Peking University (PKU)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4fd9f854a5f0b693afe6cac218163f0 = L.marker(
+                [40.7944504, -77.8616386],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_eccbb84bb1dda82cabb5183cdf8150b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e4fd9f854a5f0b693afe6cac218163f0.setIcon(icon_eccbb84bb1dda82cabb5183cdf8150b3);
+        
+    
+        var popup_7ecb807e88931aaa5a5b8d6910b43ba9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_30012f9df8a0abce9f462b5fddb7ccb5 = $(`<div id="html_30012f9df8a0abce9f462b5fddb7ccb5" style="width: 100.0%; height: 100.0%;">Pennsylvania State University (PSU) | State College Pennsylvania, USA | <a href='https://www.psice.psu.edu/ ' target='_blank'>https://www.psice.psu.edu/ </a></div>`)[0];
+                popup_7ecb807e88931aaa5a5b8d6910b43ba9.setContent(html_30012f9df8a0abce9f462b5fddb7ccb5);
+            
+        
+
+        marker_e4fd9f854a5f0b693afe6cac218163f0.bindPopup(popup_7ecb807e88931aaa5a5b8d6910b43ba9)
+        ;
+
+        
+    
+    
+            marker_e4fd9f854a5f0b693afe6cac218163f0.bindTooltip(
+                `<div>
+                     Pennsylvania State University (PSU)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_396dd1763534cb1d38ff34e4ac0826cb = L.marker(
+                [59.3251172, 18.0710935],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_4990677f00e5698b8a5868233296381d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_396dd1763534cb1d38ff34e4ac0826cb.setIcon(icon_4990677f00e5698b8a5868233296381d);
+        
+    
+        var popup_7feba0736d5ac12e6e420a7c47d6a3cf = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_35a7e7111c849ce219442a87d9d47c5e = $(`<div id="html_35a7e7111c849ce219442a87d9d47c5e" style="width: 100.0%; height: 100.0%;">Stockholm University | Stockholm, Sweden | <a href='https://www.su.se/department-of-geological-sciences/' target='_blank'>https://www.su.se/department-of-geological-sciences/</a></div>`)[0];
+                popup_7feba0736d5ac12e6e420a7c47d6a3cf.setContent(html_35a7e7111c849ce219442a87d9d47c5e);
+            
+        
+
+        marker_396dd1763534cb1d38ff34e4ac0826cb.bindPopup(popup_7feba0736d5ac12e6e420a7c47d6a3cf)
+        ;
+
+        
+    
+    
+            marker_396dd1763534cb1d38ff34e4ac0826cb.bindTooltip(
+                `<div>
+                     Stockholm University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f911690c2c4ce3309ef6905c24b99cd = L.marker(
+                [60.3943055, 5.3259192],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_ab8bcc737903c7d266c3e57734079c5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f911690c2c4ce3309ef6905c24b99cd.setIcon(icon_ab8bcc737903c7d266c3e57734079c5c);
+        
+    
+        var popup_c7557f0cb199d4c54e360b912d7e10c7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_cb287365613d8b7bba40d5728cdebd40 = $(`<div id="html_cb287365613d8b7bba40d5728cdebd40" style="width: 100.0%; height: 100.0%;">University of Bergen (UiB) | Bergen, Norway | <a href='https://www.uib.no/en/geo' target='_blank'>https://www.uib.no/en/geo</a></div>`)[0];
+                popup_c7557f0cb199d4c54e360b912d7e10c7.setContent(html_cb287365613d8b7bba40d5728cdebd40);
+            
+        
+
+        marker_0f911690c2c4ce3309ef6905c24b99cd.bindPopup(popup_c7557f0cb199d4c54e360b912d7e10c7)
+        ;
+
+        
+    
+    
+            marker_0f911690c2c4ce3309ef6905c24b99cd.bindTooltip(
+                `<div>
+                     University of Bergen (UiB)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59f3dff8ccace11c2c44539a489ea418 = L.marker(
+                [52.2055314, 0.1186637],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_64d8be5bda9203361946be316cf7eb4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_59f3dff8ccace11c2c44539a489ea418.setIcon(icon_64d8be5bda9203361946be316cf7eb4a);
+        
+    
+        var popup_a914d9ddf8ae414412c17534a82515da = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_495a8d0a5e97278a8ca5df8baee0cab1 = $(`<div id="html_495a8d0a5e97278a8ca5df8baee0cab1" style="width: 100.0%; height: 100.0%;">University of Cambridge | Cambridge, UK | <a href='https://www.geog.cam.ac.uk/research/ggg/' target='_blank'>https://www.geog.cam.ac.uk/research/ggg/</a></div>`)[0];
+                popup_a914d9ddf8ae414412c17534a82515da.setContent(html_495a8d0a5e97278a8ca5df8baee0cab1);
+            
+        
+
+        marker_59f3dff8ccace11c2c44539a489ea418.bindPopup(popup_a914d9ddf8ae414412c17534a82515da)
+        ;
+
+        
+    
+    
+            marker_59f3dff8ccace11c2c44539a489ea418.bindTooltip(
+                `<div>
+                     University of Cambridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_132acc72d212c711f04383b78591cd4d = L.marker(
+                [41.8755616, -87.6244212],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_e297f8c1d02ae95e749cb1317ce4bd3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_132acc72d212c711f04383b78591cd4d.setIcon(icon_e297f8c1d02ae95e749cb1317ce4bd3a);
+        
+    
+        var popup_ee15724caeeff2d9504f8eeec23fe9d5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fec2bee72bcd68c321203c4d7be8b57c = $(`<div id="html_fec2bee72bcd68c321203c4d7be8b57c" style="width: 100.0%; height: 100.0%;">University of Chicago (UC) | Chicago, USA | <a href='https://geosci.uchicago.edu/research/atmospheres-oceans-ice-and-climate/' target='_blank'>https://geosci.uchicago.edu/research/atmospheres-oceans-ice-and-climate/</a></div>`)[0];
+                popup_ee15724caeeff2d9504f8eeec23fe9d5.setContent(html_fec2bee72bcd68c321203c4d7be8b57c);
+            
+        
+
+        marker_132acc72d212c711f04383b78591cd4d.bindPopup(popup_ee15724caeeff2d9504f8eeec23fe9d5)
+        ;
+
+        
+    
+    
+            marker_132acc72d212c711f04383b78591cd4d.bindTooltip(
+                `<div>
+                     University of Chicago (UC)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94bd2fc615702ee6cd44f477db6d47d1 = L.marker(
+                [55.6867243, 12.5700724],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_78667872fa3e5bc2b492a176e2ad4750 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94bd2fc615702ee6cd44f477db6d47d1.setIcon(icon_78667872fa3e5bc2b492a176e2ad4750);
+        
+    
+        var popup_999ac560d1f9a2a3439e85580ff89b01 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_685d859180bc2fb84634f458a9ccf260 = $(`<div id="html_685d859180bc2fb84634f458a9ccf260" style="width: 100.0%; height: 100.0%;">University of Copenhagen - Centre for Ice and Climate (CIC) | Kopenhagen, Denmark | <a href='https://www.iceandclimate.nbi.ku.dk/' target='_blank'>https://www.iceandclimate.nbi.ku.dk/</a></div>`)[0];
+                popup_999ac560d1f9a2a3439e85580ff89b01.setContent(html_685d859180bc2fb84634f458a9ccf260);
+            
+        
+
+        marker_94bd2fc615702ee6cd44f477db6d47d1.bindPopup(popup_999ac560d1f9a2a3439e85580ff89b01)
+        ;
+
+        
+    
+    
+            marker_94bd2fc615702ee6cd44f477db6d47d1.bindTooltip(
+                `<div>
+                     University of Copenhagen - Centre for Ice and Climate (CIC)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95f58c1538559c9b2cd676462c95fa5d = L.marker(
+                [44.883607, -68.672791],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_8cdbd0074629a8bfb0fff76fe437b2db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95f58c1538559c9b2cd676462c95fa5d.setIcon(icon_8cdbd0074629a8bfb0fff76fe437b2db);
+        
+    
+        var popup_1a61fb9c7f3448e96de7ae5b4ca09fc9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1590f0838a504e00e213cf9077e3c93f = $(`<div id="html_1590f0838a504e00e213cf9077e3c93f" style="width: 100.0%; height: 100.0%;">University of Maine | Orono, USA | <a href='https://umaine.edu/earthclimate/research/climate-change/' target='_blank'>https://umaine.edu/earthclimate/research/climate-change/</a></div>`)[0];
+                popup_1a61fb9c7f3448e96de7ae5b4ca09fc9.setContent(html_1590f0838a504e00e213cf9077e3c93f);
+            
+        
+
+        marker_95f58c1538559c9b2cd676462c95fa5d.bindPopup(popup_1a61fb9c7f3448e96de7ae5b4ca09fc9)
+        ;
+
+        
+    
+    
+            marker_95f58c1538559c9b2cd676462c95fa5d.bindTooltip(
+                `<div>
+                     University of Maine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa9507adea0d813d469dc120247519e0 = L.marker(
+                [-33.8698439, 151.2082848],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_f4145b2c1ed63339706d740c2b53fa2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa9507adea0d813d469dc120247519e0.setIcon(icon_f4145b2c1ed63339706d740c2b53fa2f);
+        
+    
+        var popup_bd2eb3677432da31b837c0b4906bf66f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ad007ae52903e9b4956a796859e58111 = $(`<div id="html_ad007ae52903e9b4956a796859e58111" style="width: 100.0%; height: 100.0%;">University of New South Wales (UNSW) | Sydney, Australia | <a href='http://www.essrc.unsw.edu.au/' target='_blank'>http://www.essrc.unsw.edu.au/</a></div>`)[0];
+                popup_bd2eb3677432da31b837c0b4906bf66f.setContent(html_ad007ae52903e9b4956a796859e58111);
+            
+        
+
+        marker_fa9507adea0d813d469dc120247519e0.bindPopup(popup_bd2eb3677432da31b837c0b4906bf66f)
+        ;
+
+        
+    
+    
+            marker_fa9507adea0d813d469dc120247519e0.bindTooltip(
+                `<div>
+                     University of New South Wales (UNSW)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_900be9fac763fd06e18b96504df13d8a = L.marker(
+                [53.9128645, -122.7453699],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_c4f510ecbd58150692c62fa10e450a1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_900be9fac763fd06e18b96504df13d8a.setIcon(icon_c4f510ecbd58150692c62fa10e450a1d);
+        
+    
+        var popup_adf811e4bc3d19fdb2b47146e6c3050c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_da8d2a6a09819451855fef186634b7b9 = $(`<div id="html_da8d2a6a09819451855fef186634b7b9" style="width: 100.0%; height: 100.0%;">University of Northern British Columbia (UNBC) | Prince George, Canada | <a href='https://www2.unbc.ca/' target='_blank'>https://www2.unbc.ca/</a></div>`)[0];
+                popup_adf811e4bc3d19fdb2b47146e6c3050c.setContent(html_da8d2a6a09819451855fef186634b7b9);
+            
+        
+
+        marker_900be9fac763fd06e18b96504df13d8a.bindPopup(popup_adf811e4bc3d19fdb2b47146e6c3050c)
+        ;
+
+        
+    
+    
+            marker_900be9fac763fd06e18b96504df13d8a.bindTooltip(
+                `<div>
+                     University of Northern British Columbia (UNBC)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4476b3f072934754a4fc51d69f0afbce = L.marker(
+                [-42.8825088, 147.3281233],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_74686e7f490236a4761a9e461b8a5152 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4476b3f072934754a4fc51d69f0afbce.setIcon(icon_74686e7f490236a4761a9e461b8a5152);
+        
+    
+        var popup_b9a124e9306483d1386ad62ad9880db5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_32860d8c30cdbd256a9b0456ab903729 = $(`<div id="html_32860d8c30cdbd256a9b0456ab903729" style="width: 100.0%; height: 100.0%;">University of Tasmania (UTAS) | Hobart, Australia | <a href='https://www.imas.utas.edu.au/research/oceans-and-cryosphere' target='_blank'>https://www.imas.utas.edu.au/research/oceans-and-cryosphere</a></div>`)[0];
+                popup_b9a124e9306483d1386ad62ad9880db5.setContent(html_32860d8c30cdbd256a9b0456ab903729);
+            
+        
+
+        marker_4476b3f072934754a4fc51d69f0afbce.bindPopup(popup_b9a124e9306483d1386ad62ad9880db5)
+        ;
+
+        
+    
+    
+            marker_4476b3f072934754a4fc51d69f0afbce.bindTooltip(
+                `<div>
+                     University of Tasmania (UTAS)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f33a72b860e3c35a0056ac5c09a30e10 = L.marker(
+                [47.6038321, -122.330062],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_60118b9ce2d9e35cb17aab37db6d08e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f33a72b860e3c35a0056ac5c09a30e10.setIcon(icon_60118b9ce2d9e35cb17aab37db6d08e3);
+        
+    
+        var popup_6404b0f1ddfc6ac1a2f5d3c36c0f9b4d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d889704442d494b1d2d3f3b568868050 = $(`<div id="html_d889704442d494b1d2d3f3b568868050" style="width: 100.0%; height: 100.0%;">University of Washingtion (UW) | Seattle, USA | <a href='https://earthweb.ess.washington.edu/Glaciology/ ' target='_blank'>https://earthweb.ess.washington.edu/Glaciology/ </a></div>`)[0];
+                popup_6404b0f1ddfc6ac1a2f5d3c36c0f9b4d.setContent(html_d889704442d494b1d2d3f3b568868050);
+            
+        
+
+        marker_f33a72b860e3c35a0056ac5c09a30e10.bindPopup(popup_6404b0f1ddfc6ac1a2f5d3c36c0f9b4d)
+        ;
+
+        
+    
+    
+            marker_f33a72b860e3c35a0056ac5c09a30e10.bindTooltip(
+                `<div>
+                     University of Washingtion (UW)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d45ecbc68cdd0aea0ae0ffbf27c427e = L.marker(
+                [52.0907006, 5.1215634],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_13483850eceb9085957b546dd9a49084 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3d45ecbc68cdd0aea0ae0ffbf27c427e.setIcon(icon_13483850eceb9085957b546dd9a49084);
+        
+    
+        var popup_5e285a1956ee9d2e4c3d2709787ca3eb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1e76607c40b46e66efa16a9f9dfd3255 = $(`<div id="html_1e76607c40b46e66efa16a9f9dfd3255" style="width: 100.0%; height: 100.0%;">Utrecht University - Institute for Marine and Atmospheric Research Utrecht (IMAU) | Utrecht, Netherlands | <a href='https://www.uu.nl/en/research/institute-for-marine-and-atmospheric-research-imau' target='_blank'>https://www.uu.nl/en/research/institute-for-marine-and-atmospheric-research-imau</a></div>`)[0];
+                popup_5e285a1956ee9d2e4c3d2709787ca3eb.setContent(html_1e76607c40b46e66efa16a9f9dfd3255);
+            
+        
+
+        marker_3d45ecbc68cdd0aea0ae0ffbf27c427e.bindPopup(popup_5e285a1956ee9d2e4c3d2709787ca3eb)
+        ;
+
+        
+    
+    
+            marker_3d45ecbc68cdd0aea0ae0ffbf27c427e.bindTooltip(
+                `<div>
+                     Utrecht University - Institute for Marine and Atmospheric Research Utrecht (IMAU)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bc1239a2e351d8f46ed6778cac15c5e = L.marker(
+                [-41.2887953, 174.7772114],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_2fa4a71aaa295083515cc778d73c4ddf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9bc1239a2e351d8f46ed6778cac15c5e.setIcon(icon_2fa4a71aaa295083515cc778d73c4ddf);
+        
+    
+        var popup_98d89ae724b5939b6d761c024691a01d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d821b36069bec97c88c16c28b64c8473 = $(`<div id="html_d821b36069bec97c88c16c28b64c8473" style="width: 100.0%; height: 100.0%;">Victoria University of Wellingtion (VUW) | Wellington, New Zealand | <a href='https://www.wgtn.ac.nz/antarctic/research/glacial-modelling' target='_blank'>https://www.wgtn.ac.nz/antarctic/research/glacial-modelling</a></div>`)[0];
+                popup_98d89ae724b5939b6d761c024691a01d.setContent(html_d821b36069bec97c88c16c28b64c8473);
+            
+        
+
+        marker_9bc1239a2e351d8f46ed6778cac15c5e.bindPopup(popup_98d89ae724b5939b6d761c024691a01d)
+        ;
+
+        
+    
+    
+            marker_9bc1239a2e351d8f46ed6778cac15c5e.bindTooltip(
+                `<div>
+                     Victoria University of Wellingtion (VUW)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a998850966fd96b2b757797b2a37c91 = L.marker(
+                [41.3082138, -72.9250518],
+                {}
+            ).addTo(map_477fe17ce78aba37a1938ab3653496fe);
+        
+    
+            var icon_9e160a3d145e24e96efb621571303001 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9a998850966fd96b2b757797b2a37c91.setIcon(icon_9e160a3d145e24e96efb621571303001);
+        
+    
+        var popup_ba50a8b1d9cf3e359c43e753d7d2c40c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_53d628c50483a76e89192e171add0486 = $(`<div id="html_53d628c50483a76e89192e171add0486" style="width: 100.0%; height: 100.0%;">Yale University | New Haven, USA | <a href='https://www.yale.edu/' target='_blank'>https://www.yale.edu/</a></div>`)[0];
+                popup_ba50a8b1d9cf3e359c43e753d7d2c40c.setContent(html_53d628c50483a76e89192e171add0486);
+            
+        
+
+        marker_9a998850966fd96b2b757797b2a37c91.bindPopup(popup_ba50a8b1d9cf3e359c43e753d7d2c40c)
+        ;
+
+        
+    
+    
+            marker_9a998850966fd96b2b757797b2a37c91.bindTooltip(
+                `<div>
+                     Yale University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
 </html>
