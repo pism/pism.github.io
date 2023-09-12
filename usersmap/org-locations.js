@@ -126,8 +126,8 @@ var addressPoints = [
   ],
   [
     "Utrecht University - Institute for Marine and Atmospheric Research Utrecht (IMAU) | Utrecht, Netherlands | <a href='https://www.uu.nl/en/research/institute-for-marine-and-atmospheric-research-imau' target='_blank'>https://www.uu.nl/en/research/institute-for-marine-and-atmospheric-research-imau</a>",
-    52.080985600000005,
-    5.12768396945229
+    52.0907006,
+    5.1215634
   ],
   [
     "Victoria University of Wellingtion (VUW) | Wellington, New Zealand | <a href='https://www.wgtn.ac.nz/antarctic/research/glacial-modelling' target='_blank'>https://www.wgtn.ac.nz/antarctic/research/glacial-modelling</a>",
