@@ -2,6 +2,7 @@
 
 import json
 import folium
+from folium.plugins import MarkerCluster
 
 def load_data(filename):
     "Load marker locations, names, etc from a JSON file"
@@ -15,7 +16,13 @@ def label(name, info):
 
 def create_map(data, output_filename):
     "Create a leaflet map using information about markers provided in `data`"
-    m = folium.Map(min_lon=-180, max_lon=180, max_bounds=True)
+    Map = folium.Map(min_lon=-180, max_lon=180, max_bounds=True)
+
+    clusters = {}
+    for name, info in data.items():
+        location = f"{info['city']}, {info['country']}"
+        if location not in clusters.keys():
+            clusters[location] = MarkerCluster(name=location).add_to(Map)
 
     for name, info in data.items():
 
@@ -26,12 +33,15 @@ def create_map(data, output_filename):
 
         popup = folium.map.Popup(label(name, info), max_width=250)
 
+        location = f"{info['city']}, {info['country']}"
+        cluster = clusters[location]
+
         folium.Marker(location=(info["lat"], info["lon"]),
                       tooltip=name,
                       popup=popup,
-                      icon=icon).add_to(m)
+                      icon=icon).add_to(cluster)
 
-    m.save(output_filename)
+    Map.save(output_filename)
 
 if __name__ == "__main__":
     import sys
