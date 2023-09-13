@@ -15,6 +15,13 @@
         "url": "https://www.pik-potsdam.de/ice",
         "developer": "true"
     },
+    "Aarhus Universitet": {
+        "city": "Aarhus",
+        "country": "Denmark",
+        "lat": 56.15674,
+        "lon": 10.21076,
+        "url": "https://www.au.dk/"
+    },
     "Alfred-Wegener-Institut (AWI)": {
         "city": "Bremerhaven",
         "country": "Germany",
