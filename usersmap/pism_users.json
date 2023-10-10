@@ -57,6 +57,13 @@
         "lon": 8.5410422,
         "url": "https://vaw.ethz.ch/en/research/glaciology.html"
     },
+    "University of Bern": {
+        "city": "Bern",
+        "country": "Switzerland",
+        "lat": 46.948056,
+        "lon": 7.4475,
+        "url": "https://www.climate.unibe.ch/index_eng.html"
+    },
     "Geological Survey of Denmark and Greenland (GEUS)": {
         "city": "Kopenhagen",
         "country": "Denmark",
