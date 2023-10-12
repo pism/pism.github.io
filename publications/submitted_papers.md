@@ -2,6 +2,7 @@
 
 1. David Chandler, Petra Langebroek, Ronja Reese, Torsten Albrecht, Julius Garbe, and Ricarda Winkelmann\. Antarctic Ice Sheet tipping in the last 800 kyr warns of future ice loss\. *research square preprint*, 2023\. [doi:10\.21203/rs\.3\.rs\-3042739/v1](https://doi.org/10.21203/rs.3.rs-3042739/v1)\.   
 2. A\. Delhasse, J\. Beckmann, C\. Kittel, and X\. Fettweis\. Coupling the regional climate MAR model with the ice sheet model PISM mitigates the melt\-elevation positive feedback\. *The Cryosphere Discussions*, 2023:1–21, 2023\. [doi:10\.5194/tc\-2023\-15](https://doi.org/10.5194/tc-2023-15)\.   
+3. A\. K\. Klose, V\. Coulon, F\. Pattyn, and R\. Winkelmann\. The long\-term sea\-level commitment from Antarctica\. *The Cryosphere Discussions*, 2023:1–37, 2023\. URL: [https://tc\.copernicus\.org/preprints/tc\-2023\-156/](https://tc.copernicus.org/preprints/tc-2023-156/), [doi:10\.5194/tc\-2023\-156](https://doi.org/10.5194/tc-2023-156)\.   
 
 ### 2021
 
