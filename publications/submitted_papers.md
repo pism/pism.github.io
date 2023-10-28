@@ -8,7 +8,7 @@
 
 ### 2021
 
-1. C\. Yue, L\. S\. Schmidt, L\. Zhao, M\. Wolovick, and J\. C\. Moore\. Insensitivity of mass loss of icelandic vatnajökull ice cap to solar geoengineering\. *The Cryosphere Discussions*, 2021:1–20, 2021\. [doi:10\.5194/tc\-2021\-318](https://doi.org/10.5194/tc-2021-318)\.   
+1. C\. Yue, L\. S\. Schmidt, L\. Zhao, M\. Wolovick, and J\. C\. Moore\. Insensitivity of mass loss of Icelandic Vatnajökull ice cap to solar geoengineering\. *The Cryosphere Discussions*, 2021:1–20, 2021\. [doi:10\.5194/tc\-2021\-318](https://doi.org/10.5194/tc-2021-318)\.   
 2. M\. Zeitz, R\. Winkelmann, and A\. Levermann\. Implications of flow law uncertainty for flow\-driven ice\-loss in greenland under idealized warming pathways\. *The Cryosphere Discussions*, 2021\. URL: [http://www\.pik\-potsdam\.de/~anders/publications/zeitz\_winkelmann21\.pdf](http://www.pik-potsdam.de/~anders/publications/zeitz_winkelmann21.pdf)\.   
 
 ### 2020
