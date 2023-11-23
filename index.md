@@ -15,7 +15,7 @@ show_sidebar: true
 # About
 
 The Parallel Ice Sheet Model (PISM) is an open-source modelling framework for ice sheets and glaciers. It is parallel, thermodynamically-coupled and capable of high
-resolution. PISM has been [widely adopted as a tool for doing science](/publications/) for about twenty years now. The latest stable release is [`PISM v2.0.6`](https://github.com/pism/pism/releases).
+resolution. PISM has been [widely adopted as a tool for doing science](/publications/) for about twenty years now. The latest stable release is [`PISM v2.1`](https://github.com/pism/pism/releases).
 
 PISM is jointly developed at the [University of Alaska, Fairbanks (UAF)](http://www.uaf.edu/) and the [Potsdam Institute for Climate Impact Research (PIK)](http://www.pik-potsdam.de/). UAF developers are based in the [Glaciers Group](https://glaciers.gi.alaska.edu) at the [UAF Geophysical Institute](https://www.gi.alaska.edu). For more about the team see the [developers team](/team/) page.
 
