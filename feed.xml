@@ -1,4 +1,169 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://www.pism.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pism.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-23T20:53:26+00:00</updated><id>https://www.pism.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">Congrats to Constantine</title><link href="https://www.pism.io/news/2023/05/01/patience/" rel="alternate" type="text/html" title="Congrats to Constantine" /><published>2023-05-01T00:00:00+00:00</published><updated>2023-05-01T00:00:00+00:00</updated><id>https://www.pism.io/news/2023/05/01/patience</id><content type="html" xml:base="https://www.pism.io/news/2023/05/01/patience/">&lt;p&gt;Dear PISM users and developers&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://www.pism.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pism.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-27T21:58:54+00:00</updated><id>https://www.pism.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">PISM 2.1 is out</title><link href="https://www.pism.io/news/2023/11/27/pism2.1/" rel="alternate" type="text/html" title="PISM 2.1 is out" /><published>2023-11-27T00:00:00+00:00</published><updated>2023-11-27T00:00:00+00:00</updated><id>https://www.pism.io/news/2023/11/27/pism2.1</id><content type="html" xml:base="https://www.pism.io/news/2023/11/27/pism2.1/">&lt;p&gt;We are pleased to announce the release of PISM v2.1.&lt;/p&gt;
+
+&lt;h2 id=&quot;notable-changes-compared-to-v20&quot;&gt;Notable changes compared to v2.0&lt;/h2&gt;
+
+&lt;p&gt;Some of these were included in 2.0.x bug fix releases.&lt;/p&gt;
+
+&lt;h3 id=&quot;mass-transport&quot;&gt;Mass transport&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Added a flux limiter that ensures strict preservation of non-negativity of ice thickness
+and therefore mass conservation up to rounding error.&lt;/p&gt;
+
+    &lt;p&gt;This is a Zalesak-style limiter described in&lt;/p&gt;
+
+    &lt;p&gt;P. K. Smolarkiewicz, “Comment on “A Positive Definite Advection Scheme Obtained by
+Nonlinear Renormalization of the Advective Fluxes”,” Monthly Weather Review, vol. 117,
+no. 11, pp. 2626–2632, 1989, doi:
+&lt;a href=&quot;https://doi.org/10.1175/1520-0493(1989)117&amp;lt;2626:COPDAS&amp;gt;2.0.CO;2&quot;&gt;10.1175/1520-0493(1989)117&amp;lt;2626:COPDAS&amp;gt;2.0.CO;2&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;Note that this approach (unlike modifications of the discretization of SIA diffusivity
+in the Jarosch et al. paper mentioned below) works with &lt;em&gt;all&lt;/em&gt; stress balance models.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/pism/pism/blob/v2.1/examples/bedrock_step/README.md&quot;&gt;Implemented a
+benchmark&lt;/a&gt;
+verifying mass conservation in an “isothermal SIA + mass continuity” setup with “rough”
+bed topography.&lt;/p&gt;
+
+    &lt;p&gt;This benchmark is described in&lt;/p&gt;
+
+    &lt;p&gt;A. H. Jarosch, C. G. Schoof, and F. S. Anslow, “Restoring mass conservation to shallow
+ice flow models over complex terrain,” The Cryosphere, vol. 7, no. 1, pp. 229–240, Feb.
+2013, doi: &lt;a href=&quot;https://doi.org/10.5194/tc-7-229-2013&quot;&gt;10.5194/tc-7-229-2013&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;isochrone-tracing&quot;&gt;Isochrone tracing&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Implemented an &lt;a href=&quot;https://www.pism.io/docs/manual/modeling-choices/dynamics/age.html#isochronal-layer-tracing&quot;&gt;isochronal layer tracing
+scheme&lt;/a&gt;
+(see A. Born and A. Robinson, “Modeling the Greenland englacial stratigraphy,” The
+Cryosphere, vol. 15, no. 9, pp. 4539-4556, 2021, doi:
+&lt;a href=&quot;https://doi.org/10.5194/tc-15-4539-2021&quot;&gt;10.5194/tc-15-4539-2021&lt;/a&gt;.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;surface-processes&quot;&gt;Surface processes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Implemented the &lt;a href=&quot;https://www.pism.io/docs/climate_forcing/surface.html#diurnal-energy-balance-model-debm-simple&quot;&gt;diurnal energy balance model
+dEBM-simple&lt;/a&gt;
+(see M. Zeitz, R. Reese, J. Beckmann, U. Krebs-Kanzow, and R. Winkelmann, “Impact of the
+melt-albedo feedback on the future evolution of the Greenland Ice Sheet with
+PISM-dEBM-simple,” The Cryosphere, vol. 15, no. 12, pp. 5739-5764, Dec. 2021, doi:
+&lt;a href=&quot;https://doi.org/10.5194/tc-15-5739-2021&quot;&gt;10.5194/tc-15-5739-2021&lt;/a&gt;.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;atmosphere-forcing&quot;&gt;Atmosphere forcing&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added support for 2D precipitation offsets in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-atmosphere ...,delta_P&lt;/code&gt;. If the input
+file set using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;atmosphere.delta_P.file&lt;/code&gt; contains a scalar time series &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delta_P&lt;/code&gt;, use
+that as a time-dependent constant-in-space forcing. If the input file contains a 2D
+variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delta_P&lt;/code&gt;, use that as a time-and-space-dependent forcing.&lt;/li&gt;
+  &lt;li&gt;Added support for 2D air temperature offsets in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-atmosphere ...,delta_T&lt;/code&gt;. If the input
+file set using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;atmosphere.delta_T.file&lt;/code&gt; contains a scalar time series &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delta_T&lt;/code&gt;, use
+that as a time-dependent constant-in-space forcing. If the input file contains a 2D
+variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delta_T&lt;/code&gt;, use that as a time-and-space-dependent forcing.&lt;/li&gt;
+  &lt;li&gt;Added support for piecewise-constant temporal interpolation of near-surface air
+temperatures in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-atmosphere given&lt;/code&gt;: set
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;atmosphere.given.air_temperature_interpolation&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;piecewise_constant&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ocean-forcing&quot;&gt;Ocean forcing&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added the ability to use ocean model components implemented in Python (see
+&lt;a href=&quot;https://github.com/pism/pism/blob/v2.1/examples/python/pism.py&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;examples/python/pism.py&lt;/code&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;calving&quot;&gt;Calving&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fixed a bug reported by Christian Rodehacke: calving mechanisms should not remove ice at
+ice fronts adjacent to isolated patches of ice-free water (see &lt;a href=&quot;https://github.com/pism/pism/issues/521&quot;&gt;issue
+#521&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;stress-balance&quot;&gt;Stress balance&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Improved the initial guess of sliding velocity used when the ice front advances by
+extrapolating velocity computed by the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SSAFD&lt;/code&gt; solver during the previous time step (set
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stress_balance.ssa.fd.extrapolate_at_margins&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt; to disable).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;energy-conservation&quot;&gt;Energy conservation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;PISM no longer attempts to correct energy conservation by freezing basal water.&lt;/p&gt;
+
+    &lt;p&gt;At each time step PISM checks basal enthalpy and if necessary modifies it to ensure
+continuity of temperature in each &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bedrock+ice&lt;/code&gt; column. Sometimes this modification
+creates energy; prior to this change PISM attempted to remove an equivalent amount of
+energy by modifying the basal melt rate to freeze water stored at the base.&lt;/p&gt;
+
+    &lt;p&gt;Under some conditions this basal melt rate adjustment &lt;em&gt;created mass&lt;/em&gt; by freezing more
+water than available and even led to crashes with error messages stating that ice
+thickness exceeds &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Lz&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;input-and-output-diagnostics&quot;&gt;Input and output, diagnostics&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added diagnostics &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tendency_of_ice_{amount,mass}_due_to_frontal_melt&lt;/code&gt; and
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tendency_of_ice_{amount,mass}_due_to_forced_retreat&lt;/code&gt;. Renamed diagnostic
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_sliding_vel&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_horizontal_vel&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bug-fixes&quot;&gt;Bug fixes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added time bounds to scalar forcing files in
+&lt;a href=&quot;https://github.com/pism/pism/tree/v2.1/examples/std-greenland&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;examples/std-greenland&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fixed a bug in the code ensuring non-negativity of ice thickness. (The old code added
+too much ice in an attempt to ensure non-negativity – so much so that sometimes this
+caused crashes with error messages stating that ice thickness exceeds &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Lz&lt;/code&gt;.)&lt;/p&gt;
+
+    &lt;p&gt;Note that this “projection step” (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ice_thickness = max(tentative_ice_thickness, 0)&lt;/code&gt;)
+should have no effect now: the flux limiter mentioned above is designed to ensure
+non-negativity. We keep this step, however, to maintain the ability to keep track of ice
+thickness changes due to conservation errors (if they ever happen).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fixed bugs in scalar diagnostics &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ice_volume_cold&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ice_volume_temperate&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Use CF-compliant units “&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;common_years&lt;/code&gt;” in forcing files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;other&quot;&gt;Other&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added &lt;a href=&quot;https://github.com/pism/pism/blob/v2.1/CITATION.cff&quot;&gt;CITATION.cff&lt;/a&gt; to properly
+acknowledge all contributions and to make it easier to cite PISM.&lt;/li&gt;
+  &lt;li&gt;Implemented UNO2, UNO3 and a couple of related transport methods (not used, but
+available for future use; see J.-G. Li, “Upstream Nonoscillatory Advection Schemes,”
+Monthly Weather Review, vol. 136, no. 12, pp. 4709-4729, Dec. 2008, doi:
+&lt;a href=&quot;https://doi.org/10.1175/2008mwr2451.1&quot;&gt;10.1175/2008mwr2451.1&lt;/a&gt;.).&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;realpath()&lt;/code&gt; to resolve relative file names. Now configuration parameters ending in
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.file&lt;/code&gt;, when saved to output files and in PISM output to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stdout&lt;/code&gt;, contain &lt;em&gt;absolute&lt;/em&gt;
+file names. This will make it easier to reproduce runs based on an output file.&lt;/li&gt;
+  &lt;li&gt;Added support for checkpointing the HTCondor way (see commit
+&lt;a href=&quot;https://github.com/pism/pism/commit/3740c41df6f35fdf0d7501f96f5cab362f25a24b&quot;&gt;3740c41df&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-list_diagnostics all&lt;/code&gt; to print the list of all diagnostics, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-list_diagnostics
+spatial&lt;/code&gt; for 2D and 3D variables, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-list_diagnostics scalar&lt;/code&gt; for scalar time series.&lt;/li&gt;
+  &lt;li&gt;Added code to generate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pism.pc&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pismicebin.pc&lt;/code&gt; for use with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pkg-config&lt;/code&gt;. This
+will make it easier to use PISM as a library (to couple to a GCM, for example).&lt;/li&gt;
+  &lt;li&gt;PISM’s build system uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pkg-config&lt;/code&gt; to look for some of the required libraries.&lt;/li&gt;
+  &lt;li&gt;Refactored utility classes used to store 2D and 3D arrays.&lt;/li&gt;
+  &lt;li&gt;Replaced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;examples/searise-antarctica&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;examples/antarctica&lt;/code&gt; based on &lt;a href=&quot;https://doi.org/10.1594/PANGAEA.734145&quot;&gt;ALBMAP
+v1&lt;/a&gt; data. This avoids a dependency on &lt;a href=&quot;https://doi.org/10.5281/zenodo.10140224&quot;&gt;SeaRISE
+data&lt;/a&gt; formerly hosted by the University of
+Montana.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">We are pleased to announce the release of PISM v2.1.</summary></entry><entry><title type="html">Congrats to Constantine</title><link href="https://www.pism.io/news/2023/05/01/patience/" rel="alternate" type="text/html" title="Congrats to Constantine" /><published>2023-05-01T00:00:00+00:00</published><updated>2023-05-01T00:00:00+00:00</updated><id>https://www.pism.io/news/2023/05/01/patience</id><content type="html" xml:base="https://www.pism.io/news/2023/05/01/patience/">&lt;p&gt;Dear PISM users and developers&lt;/p&gt;
 
 &lt;p&gt;It’s my pleasure to congratulate our software engineer and PISM mastermind Constatine Khroulev to the birth of his son, Alexander (Sasha). Constantine is now on paternity leave and hence I’d like to ask for your patience as answering PISM questions will take longer in the next couple months.&lt;/p&gt;
 
@@ -290,7 +455,4 @@ in Svalbard:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://archiveprogram.github.com/&quot;&gt;GitHub Archive Program&lt;/a&gt;,
 with &lt;a href=&quot;https://www.youtube.com/watch?v=fzI9FNjXQ0o&quot;&gt;video&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;But don’t worry. Development continues.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">In February they are going to put PISM in the bottom of an old coal mine in Svalbard:</summary></entry><entry><title type="html">Postdoctoral Scientist: ice-sheet/climate modeller at MPI-M (Hamburg)</title><link href="https://www.pism.io/news/2019/12/04/postdocmpim/" rel="alternate" type="text/html" title="Postdoctoral Scientist: ice-sheet/climate modeller at MPI-M (Hamburg)" /><published>2019-12-04T00:00:00+00:00</published><updated>2019-12-04T00:00:00+00:00</updated><id>https://www.pism.io/news/2019/12/04/postdocmpim</id><content type="html" xml:base="https://www.pism.io/news/2019/12/04/postdocmpim/">&lt;p&gt;The MPI-Earth group at MPI-M (Hamburg) is looking for a postdoc. PISM
-experience “would be of advantage”. For more information see the
-&lt;a href=&quot;https://lists.cryolist.org/pipermail/cryolist/2019-June/004091.html&quot;&gt;CRYOLIST
-post&lt;/a&gt;.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">The MPI-Earth group at MPI-M (Hamburg) is looking for a postdoc. PISM experience “would be of advantage”. For more information see the CRYOLIST post.</summary></entry></feed>
+&lt;p&gt;But don’t worry. Development continues.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">In February they are going to put PISM in the bottom of an old coal mine in Svalbard:</summary></entry></feed>
