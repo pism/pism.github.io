@@ -106,7 +106,7 @@ Ice sheets interact with other Earth system components, such as the atmosphere o
   * Potsdam Ice-shelf Cavity mOdel (PICO): [Reese et al. (2018)](https://doi.org/10.5194/tc-12-1969-2018)
   * PISM-MOM: [Kreuzer et al. (2021)](https://doi.org/10.5194/gmd-14-3697-2021)
 * Atmosphere
-  * dEBM-simple: [Krebs-Kanzow et al. (2018)](https://doi.org/10.5194/tc-12-3923-2018), [Zeitz et al. (2021)](https://doi.org/10.5194/tc-15-5739-2021)
+  * dEBM-simple: [Zeitz et al. (2021)](https://doi.org/10.5194/tc-15-5739-2021), [Garbe et al. (2023)](https://doi.org/10.5194/tc-17-4571-2023)
 * Solid-Earth
   * Lingle-Clark: [Bueler et al. (2007)](https://doi.org/10.3189/172756407782871567)
   * PISM-VILMA (work in progress)
