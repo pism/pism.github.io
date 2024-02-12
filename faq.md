@@ -3,7 +3,7 @@ title: Frequently asked questions
 subtitle: FAQs and PISM life hacks
 layout: page
 hero_height: is-medium
-hero_image: https://cdn.imaggeo.egu.eu/media/uploads/2015/02/28/c7551d79e7f144911384c731d08cdedd.jpg
+hero_image: https://imaggeo.egu.eu/media/uploads/2015/02/28/c7551d79e7f144911384c731d08cdedd.jpg
 hero_caption: "Photo: <a href='https://imaggeo.egu.eu/view/3171/'>J.-M. Nasse / imaggeo </a>"
 hero_darken: false
 toc: true
