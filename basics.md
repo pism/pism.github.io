@@ -36,7 +36,7 @@ Using PISM, major advances in the understanding and model representation of key 
 * Calving: [Levermann et al. (2012)](https://doi.org/10.5194/tc-6-273-2012)
 * Fracture dynamics: [Albrecht and Levermann (2012)](https://doi.org/10.3189/2012JoG11J191)
 * Sub-shelf melt: [Reese et al. (2018)](https://doi.org/10.5194/tc-12-1969-2018)
-* Surface melt: [Zeitz et al. (2021)](https://doi.org/10.5194/tc-15-5739-2021)
+* Surface melt: [Zeitz et al. (2021)](https://doi.org/10.5194/tc-15-5739-2021), [Garbe et al. (2023)](https://doi.org/10.5194/tc-17-4571-2023)
 * Marine ice sheet instability (MISI)
 * Marine ice-cliff instability (MICI): [Schlemm et al. (2022)](https://doi.org/10.5194/tc-16-1979-2022)
 
@@ -107,9 +107,10 @@ Ice sheets interact with other Earth system components, such as the atmosphere o
   * PISM-MOM: [Kreuzer et al. (2021)](https://doi.org/10.5194/gmd-14-3697-2021)
 * Atmosphere
   * dEBM-simple: [Zeitz et al. (2021)](https://doi.org/10.5194/tc-15-5739-2021), [Garbe et al. (2023)](https://doi.org/10.5194/tc-17-4571-2023)
+  * PISM-MAR: [Delhasse et al. (2024)](https://doi.org/10.5194/tc-18-633-2024)
 * Solid-Earth
   * Lingle-Clark: [Bueler et al. (2007)](https://doi.org/10.3189/172756407782871567)
-  * PISM-VILMA (work in progress)
+  * PISM-VILMA: [Albrecht et al. (2023)](https://doi.org/10.5194/egusphere-2023-2990)
 
 ## Model intercomparisons
 
