@@ -1,7 +1,11 @@
+### 2024
+
+1. M\. Depolli, M\. Žebre, U\. Stepišnik, and G\. Kosec\. Simulation of a former ice field with PISM – Snežnik study case\. *EGUsphere*, 2024:1–30, 2024\. [doi:10\.5194/egusphere\-2024\-544](https://doi.org/10.5194/egusphere-2024-544)\.   
+
 ### 2023
 
 1. L\. Ackermann, T\. Rackow, K\. Himstedt, P\. Gierz, G\. Knorr, and G\. Lohmann\. A comprehensive Earth System Model \(AWI\-ESM2\.1\) with interactive icebergs: Effects on surface and deep ocean characteristics\. *EGUsphere*, 2023:1–21, 2023\. URL: [https://egusphere\.copernicus\.org/preprints/2023/egusphere\-2023\-2061/](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2061/), [doi:10\.5194/egusphere\-2023\-2061](https://doi.org/10.5194/egusphere-2023-2061)\.   
-2. T\. Albrecht, M\. Bagge, and V\. Klemann\. Feedback mechanisms controlling antarctic glacial cycle dynamics simulated with a coupled ice sheet–solid Earth model\. *EGUsphere*, 2023:1–31, 2023\. [doi:10\.5194/egusphere\-2023\-2990](https://doi.org/10.5194/egusphere-2023-2990)\.   
+2. T\. Albrecht, M\. Bagge, and V\. Klemann\. Feedback mechanisms controlling Antarctic glacial cycle dynamics simulated with a coupled ice sheet–solid Earth model\. *EGUsphere*, 2023:1–31, 2023\. [doi:10\.5194/egusphere\-2023\-2990](https://doi.org/10.5194/egusphere-2023-2990)\.   
 3. David Chandler, Petra Langebroek, Ronja Reese, Torsten Albrecht, Julius Garbe, and Ricarda Winkelmann\. Antarctic Ice Sheet tipping in the last 800 kyr warns of future ice loss\. *research square preprint*, 2023\. [doi:10\.21203/rs\.3\.rs\-3042739/v1](https://doi.org/10.21203/rs.3.rs-3042739/v1)\.   
 4. A\. K\. Klose, V\. Coulon, F\. Pattyn, and R\. Winkelmann\. The long\-term sea\-level commitment from Antarctica\. *The Cryosphere Discussions*, 2023:1–37, 2023\. URL: [https://tc\.copernicus\.org/preprints/tc\-2023\-156/](https://tc.copernicus.org/preprints/tc-2023-156/), [doi:10\.5194/tc\-2023\-156](https://doi.org/10.5194/tc-2023-156)\.   
 5. Moritz Kreuzer, Torsten Albrecht, Lena Nicola, Ronja Reese, and Ricarda Winkelmann\. Oceanic gateways in Antarctica – Impact of relative sea\-level change on sub\-shelf melt\. *EGUsphere*, 2023:1–26, 2023\. [doi:10\.5194/egusphere\-2023\-2737](https://doi.org/10.5194/egusphere-2023-2737)\.   
