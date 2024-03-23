@@ -1,6 +1,7 @@
 ### 2024
 
 1. M\. Depolli, M\. Žebre, U\. Stepišnik, and G\. Kosec\. Simulation of a former ice field with PISM – Snežnik study case\. *EGUsphere*, 2024:1–30, 2024\. [doi:10\.5194/egusphere\-2024\-544](https://doi.org/10.5194/egusphere-2024-544)\.   
+2. J\. Feldmann, A\. Levermann, and R\. Winkelmann\. Hysteresis of idealized, instability\-prone outlet glaciers under variation of pinning\-point buttressing\. *EGUsphere*, 2024:1–23, 2024\. [doi:10\.5194/egusphere\-2024\-457](https://doi.org/10.5194/egusphere-2024-457)\.   
 
 ### 2023
 
