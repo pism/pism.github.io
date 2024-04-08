@@ -2,6 +2,7 @@
 
 1. A\. Delhasse, J\. Beckmann, C\. Kittel, and X\. Fettweis\. Coupling MAR \(Modèle Atmosphérique Régional\) with PISM \(Parallel Ice Sheet Model\) mitigates the positive melt–elevation feedback\. *The Cryosphere*, 18\(2\):633–651, 2024\. URL: [https://tc\.copernicus\.org/articles/18/633/2024/](https://tc.copernicus.org/articles/18/633/2024/), [doi:10\.5194/tc\-18\-633\-2024](https://doi.org/10.5194/tc-18-633-2024)\.   
 2. G\. J\. G\. Paxman, S\. S\. R\. Jamieson, A\. M\. Dolan, and M\. J\. Bentley\. Subglacial valleys preserved in the highlands of south and east Greenland record restricted ice extent during past warmer climates\. *The Cryosphere*, 18\(3\):1467–1493, 2024\. URL: [https://tc\.copernicus\.org/articles/18/1467/2024/](https://tc.copernicus.org/articles/18/1467/2024/), [doi:10\.5194/tc\-18\-1467\-2024](https://doi.org/10.5194/tc-18-1467-2024)\.   
+3. Clemens Schannwell, Uwe Mikolajewicz, Marie\-Luise Kapsch, and Florian Ziemen\. A mechanism for reconciling the synchronisation of Heinrich events and Dansgaard\-Oeschger cycles\. *Nature Communications*, April 2024\. [doi:10\.1038/s41467\-024\-47141\-7](https://doi.org/10.1038/s41467-024-47141-7)\.   
 
 ### 2023
 
