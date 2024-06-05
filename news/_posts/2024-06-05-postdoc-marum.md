@@ -3,11 +3,8 @@ title: "MARUM Bremen: open postdoc in ice-sheet modeling"
 ---
 
 MARUM - Center for Marine Environmental Sciences at the University of
-Bremen is offering a position for one
-
-POSTDOCTORAL RESEARCHER IN ICE-SHEET MODELING (f/m/d)
-
-in the project "PalMod III - From the Last Interglacial to the Anthropocene"
+Bremen is offering a position for one postdoctoral researcher in ice-sheet
+modeling, in the project "PalMod III-From the Last Interglacial to the Anthropocene".
 
 [https://www.geo.uni-bremen.de/geomod/staff/mprange/open_position_MARUM.pdf](https://www.geo.uni-bremen.de/geomod/staff/mprange/open_position_MARUM.pdf)
 
