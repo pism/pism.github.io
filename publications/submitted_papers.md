@@ -1,7 +1,8 @@
 ### 2024
 
 1. J\. Feldmann, A\. Levermann, and R\. Winkelmann\. Hysteresis of idealized, instability\-prone outlet glaciers under variation of pinning\-point buttressing\. *EGUsphere*, 2024:1–23, 2024\. [doi:10\.5194/egusphere\-2024\-457](https://doi.org/10.5194/egusphere-2024-457)\.   
-2. Ward van Pelt and Thomas Frank\. A new glacier thickness and bed map for Svalbard\. *EGUsphere*, May 2024\. [doi:10\.5194/egusphere\-2024\-1525](https://doi.org/10.5194/egusphere-2024-1525)\.   
+2. Mikkel Langgaard Lauritzen, Anne Munck Solgaard, Nicholas Mossor Rathmann, Bo Møllesøe Vinther, Aslak Grindsted, Brice Noël, Guðfinna Aðalgeirsdóttir, and Christine Schøtt Hvidberg\. Modeled Greenland Ice Sheet evolution constrained by ice\-core\-derived Holocene elevation histories\. *EGUsphere*, July 2024\. [doi:10\.5194/egusphere\-2024\-2223](https://doi.org/10.5194/egusphere-2024-2223)\.   
+3. Ward van Pelt and Thomas Frank\. A new glacier thickness and bed map for Svalbard\. *EGUsphere*, May 2024\. [doi:10\.5194/egusphere\-2024\-1525](https://doi.org/10.5194/egusphere-2024-1525)\.   
 
 ### 2023
 
