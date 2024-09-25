@@ -9,7 +9,6 @@
 1. David Chandler, Petra Langebroek, Ronja Reese, Torsten Albrecht, Julius Garbe, and Ricarda Winkelmann\. Antarctic Ice Sheet tipping in the last 800 kyr warns of future ice loss\. *research square preprint*, 2023\. [doi:10\.21203/rs\.3\.rs\-3042739/v1](https://doi.org/10.21203/rs.3.rs-3042739/v1)\.   
 2. Moritz Kreuzer, Torsten Albrecht, Lena Nicola, Ronja Reese, and Ricarda Winkelmann\. Oceanic gateways in Antarctica – Impact of relative sea\-level change on sub\-shelf melt\. *EGUsphere*, 2023:1–26, 2023\. [doi:10\.5194/egusphere\-2023\-2737](https://doi.org/10.5194/egusphere-2023-2737)\.   
 3. L\. Nicola, R\. Reese, M\. Kreuzer, T\. Albrecht, and R\. Winkelmann\. Oceanic gateways to Antarctic grounding lines – Impact of critical access depths on sub\-shelf melt\. *EGUsphere*, 2023:1–30, 2023\. [doi:10\.5194/egusphere\-2023\-2583](https://doi.org/10.5194/egusphere-2023-2583)\.   
-4. C\. Wirths, J\. Sutter, and T\. Stocker\. The influence of present\-day regional surface mass balance uncertainties on the future evolution of the Antarctic Ice Sheet\. *EGUsphere*, 2023:1–39, 2023\. URL: [https://egusphere\.copernicus\.org/preprints/2023/egusphere\-2023\-2233/](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-2233/), [doi:10\.5194/egusphere\-2023\-2233](https://doi.org/10.5194/egusphere-2023-2233)\.   
 
 ### 2021
 
