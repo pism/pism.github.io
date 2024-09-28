@@ -2,7 +2,8 @@
 
 1. Mikkel Langgaard Lauritzen, Anne Munck Solgaard, Nicholas Mossor Rathmann, Bo Møllesøe Vinther, Aslak Grindsted, Brice Noël, Guðfinna Aðalgeirsdóttir, and Christine Schøtt Hvidberg\. Modeled Greenland Ice Sheet evolution constrained by ice\-core\-derived Holocene elevation histories\. *EGUsphere*, July 2024\. [doi:10\.5194/egusphere\-2024\-2223](https://doi.org/10.5194/egusphere-2024-2223)\.   
 2. Tancrède Leger, Guillaume Jouvet, Sarah Kamleitner, Jürgen Mey, Frederic Herman, Brandon Finley, Susan Ivy\-Ochs, Andreas Vieli, Andreas Henz, and Samuel Nussbaumer\. A data\-consistent model of the last glaciation in the Alps achieved with physics\-driven AI\. *Research Square*, 2024\. [doi:10\.21203/rs\.3\.rs\-5043392/v1](https://doi.org/10.21203/rs.3.rs-5043392/v1)\.   
-3. Ward van Pelt and Thomas Frank\. A new glacier thickness and bed map for Svalbard\. *EGUsphere*, May 2024\. [doi:10\.5194/egusphere\-2024\-1525](https://doi.org/10.5194/egusphere-2024-1525)\.   
+3. Molly Patterson, Christiana Rosenberg, Osamu Seki, Masanobu Yamamoto, Oscar Romero, Mei Nelissen, Francesca Sangiorgi, Nick Golledge, Georgia Grant, William Arnuk, and others\. Spatially variable response of Antarctica's ice sheets to orbital forcing during the Pliocene\. 2024\. at Research Square\. [doi:10\.21203/rs\.3\.rs\-4837964/v1](https://doi.org/10.21203/rs.3.rs-4837964/v1)\.   
+4. Ward van Pelt and Thomas Frank\. A new glacier thickness and bed map for Svalbard\. *EGUsphere*, May 2024\. [doi:10\.5194/egusphere\-2024\-1525](https://doi.org/10.5194/egusphere-2024-1525)\.   
 
 ### 2023
 
