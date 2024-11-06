@@ -26,4 +26,4 @@ Development of PISM is supported by NASA grants 20-CRYO2020-0052 and 80NSSC22K02
 
 ## Support
 
-If you are looking for help with PISM, feel free to join the PISM workspace on [Slack]({{ site.author.slack }}). You can also contact the [developers team](/team/) directly or write an e-mail to [{{ site.author.email }}](mailto:{{ site.author.email }}). To fetch our latest news or get in touch with us, follow us on [Twitter](https://twitter.com/{{ site.author.twitter}})!
+If you are looking for help with PISM, feel free to join the PISM workspace on [Slack]({{ site.author.slack }}). You can also contact the [developers team](/team/) directly or write an e-mail to [{{ site.author.email }}](mailto:{{ site.author.email }}).

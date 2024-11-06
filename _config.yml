@@ -42,16 +42,12 @@ google_analytics: #"UA-141242006-1"
 author: 
   name     : *name
   email    : "uaf-pism@alaska.edu"
-  twitter  : &twitter "PISM_model"
   facebook : &facebook "UAF.GI"
   github   : "pism"
   slack    : "https://join.slack.com/t/uaf-pism/shared_invite/enQtODc3Njc1ODg0ODM5LThmOTEyNjEwN2I3ZTU4YTc5OGFhNGMzOWQ1ZmUzMWUwZDAyMzRlMzBhZDg1NDY5MmQ1YWFjNDU4MDZiNTk3YmE"
 
 # Social Sharing
 logo            : "/img/pism_logo_transp.png"
-twitter:
-  username      : *twitter
-  card          : summary_large_image
 facebook:
   username      : *facebook
   publisher     : #
@@ -61,7 +57,6 @@ social:
   type          : Organization # Person or Organization (defaults to Person)
   name          : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/PISM_model"
     - "https://www.facebook.com/UAF.GI/"
     - *gh_repo
 
