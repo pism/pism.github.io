@@ -1,6 +1,7 @@
 ### 2025
 
 1. Ward van Pelt and Thomas Frank\. New glacier thickness and bed topography maps for Svalbard\. *The Cryosphere*, 19\(1\):1–17, January 2025\. [doi:10\.5194/tc\-19\-1\-2025](https://doi.org/10.5194/tc-19-1-2025)\.   
+2. Eric W\. Wolff, Robert Mulvaney, Mackenzie M\. Grieman, Helene M\. Hoffmann, Jack Humby, Christoph Nehrbass\-Ahles, Rachael H\. Rhodes, Isobel F\. Rowell, Louise C\. Sime, Hubertus Fischer, Thomas F\. Stocker, Amaelle Landais, Frédéric Parrenin, Eric J\. Steig, Marina Dütsch, and Nicholas R\. Golledge\. The Ronne Ice Shelf survived the last interglacial\. *Nature*, January 2025\. [doi:10\.1038/s41586\-024\-08394\-w](https://doi.org/10.1038/s41586-024-08394-w)\.   
 
 ### 2024
 
