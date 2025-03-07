@@ -11,4 +11,4 @@ If authors do this consistently then it will help to ensure continued
 funding of PISM!
 
 For specific suggestions on how to cite the design or justification of
-PISM see [this page]({{ site.baseurl }}{% link citing.md %}).
+PISM see [this page](https://www.pism.io/docs/citing/).
