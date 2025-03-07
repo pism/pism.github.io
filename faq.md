@@ -70,7 +70,7 @@ Please see the [<i class="fab fa-github fa-lg"></i> Issue tracking at github](ht
 
 ## How do I cite PISM in a publication that uses it?
 
-See the information given [here](/citing/).
+See the information given [here](https://www.pism.io/docs/citing/).
 
 ## PISM's stress balance solver failed. What do I do?
 

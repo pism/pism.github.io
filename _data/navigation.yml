@@ -23,7 +23,7 @@
     - name: Data preprocessing
       link: /data/
     - name: Citing PISM
-      link: /citing/
+      link: https://www.pism.io/docs/citing/
     - name: Contribute to PISM
       link: /contribute/
 - name: Download
