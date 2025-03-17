@@ -20,22 +20,22 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>PISM 2.1 is out | PISM</title>
+<title>PISM 2.2 is out | PISM</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="PISM 2.1 is out" />
+<meta property="og:title" content="PISM 2.2 is out" />
 <meta name="author" content="The PISM Authors" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="We are pleased to announce the release of PISM v2.1." />
-<meta property="og:description" content="We are pleased to announce the release of PISM v2.1." />
-<link rel="canonical" href="https://www.pism.io/news/2023/11/27/pism2.1/" />
-<meta property="og:url" content="https://www.pism.io/news/2023/11/27/pism2.1/" />
+<meta name="description" content="We are pleased to announce the release of PISM v2.2." />
+<meta property="og:description" content="We are pleased to announce the release of PISM v2.2." />
+<link rel="canonical" href="https://www.pism.io/news/2025/03/17/pism2.2/" />
+<meta property="og:url" content="https://www.pism.io/news/2025/03/17/pism2.2/" />
 <meta property="og:site_name" content="PISM" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-11-27T00:00:00+00:00" />
+<meta property="article:published_time" content="2025-03-17T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="PISM 2.1 is out" />
+<meta property="twitter:title" content="PISM 2.2 is out" />
 <script type="application/ld+json">
-{"description":"We are pleased to announce the release of PISM v2.1.","headline":"PISM 2.1 is out","dateModified":"2023-11-27T00:00:00+00:00","datePublished":"2023-11-27T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.pism.io/news/2023/11/27/pism2.1/"},"url":"https://www.pism.io/news/2023/11/27/pism2.1/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.pism.io/img/pism_logo_transp.png"},"name":"The PISM Authors"},"author":{"@type":"Person","name":"The PISM Authors"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"description":"We are pleased to announce the release of PISM v2.2.","headline":"PISM 2.2 is out","dateModified":"2025-03-17T00:00:00+00:00","datePublished":"2025-03-17T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.pism.io/news/2025/03/17/pism2.2/"},"url":"https://www.pism.io/news/2025/03/17/pism2.2/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.pism.io/img/pism_logo_transp.png"},"name":"The PISM Authors"},"author":{"@type":"Person","name":"The PISM Authors"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <!-- head scripts -->
 
@@ -229,7 +229,7 @@ window.onscroll = function() {
     <div class="hero-body ">
         <div class="container">
             
-                <h1 class="title is-1 has-text-primary-dark " >PISM 2.1 is out</h1>
+                <h1 class="title is-1 has-text-primary-dark " >PISM 2.2 is out</h1>
             
             <p class="subtitle is-3 has-text-primary-light has-text-weight-semibold" ></p>
             
@@ -255,185 +255,134 @@ window.onscroll = function() {
                     
                     <nav class="pagination is-centered">
   
-    <a href="/news/2024/06/05/postdoc-marum/" class="pagination-previous is-info">Previous</a>
+    <p class="pagination-previous" disabled>Previous</p>
   
   
     <p class="pagination-list"><a href="/news/" class="pagination-link is-info">All news</a></p>
   
-    <a href="/news/2023/05/01/patience/" class="pagination-next is-info">Next</a>
+    <a href="/news/2024/10/08/phd-mpigea/" class="pagination-next is-info">Next</a>
   
 </nav>
 
 <div class="content">
 
-    <p><b>Published:</b> Nov 27, 2023 by The PISM Authors</p>
+    <p><b>Published:</b> Mar 17, 2025 by The PISM Authors</p>
 
-    <p>We are pleased to announce the release of PISM v2.1.</p>
+    <p>We are pleased to announce the release of PISM v2.2.</p>
 
-<h2 id="notable-changes-compared-to-v20">Notable changes compared to v2.0</h2>
-
-<p>Some of these were included in 2.0.x bug fix releases.</p>
-
-<h3 id="mass-transport">Mass transport</h3>
+<h2 id="notable-changes-compared-to-v21">Notable changes compared to v2.1</h2>
 
 <ul>
-  <li>
-    <p>Added a flux limiter that ensures strict preservation of non-negativity of ice thickness
-and therefore mass conservation up to rounding error.</p>
-
-    <p>This is a Zalesak-style limiter described in</p>
-
-    <p>P. K. Smolarkiewicz, “Comment on “A Positive Definite Advection Scheme Obtained by
-Nonlinear Renormalization of the Advective Fluxes”,” Monthly Weather Review, vol. 117,
-no. 11, pp. 2626–2632, 1989, doi:
-<a href="https://doi.org/10.1175/1520-0493(1989)117&lt;2626:COPDAS&gt;2.0.CO;2">10.1175/1520-0493(1989)117&lt;2626:COPDAS&gt;2.0.CO;2</a>.</p>
-
-    <p>Note that this approach (unlike modifications of the discretization of SIA diffusivity
-in the Jarosch et al. paper mentioned below) works with <em>all</em> stress balance models.</p>
-  </li>
-  <li>
-    <p><a href="https://github.com/pism/pism/blob/v2.1/examples/bedrock_step/README.md">Implemented a
-benchmark</a>
-verifying mass conservation in an “isothermal SIA + mass continuity” setup with “rough”
-bed topography.</p>
-
-    <p>This benchmark is described in</p>
-
-    <p>A. H. Jarosch, C. G. Schoof, and F. S. Anslow, “Restoring mass conservation to shallow
-ice flow models over complex terrain,” The Cryosphere, vol. 7, no. 1, pp. 229–240, Feb.
-2013, doi: <a href="https://doi.org/10.5194/tc-7-229-2013">10.5194/tc-7-229-2013</a>.</p>
-  </li>
+  <li>All executables and scripts installed in the [bin]{.title-ref}
+sub-directory of PISM's installation location start with "pism" to
+make it easier to recognize ones that belong to PISM, especially when
+using a [.deb]{.title-ref} package to install it.</li>
+  <li>Rename the [pismr]{.title-ref} executable to [pism]{.title-ref}.</li>
+  <li>Remove the [pismv]{.title-ref} executable. Use [pism -test
+X]{.title-ref} to run a verification test [X]{.title-ref}.</li>
+  <li>Add some automatic testing on macOS.</li>
+  <li>Use [pkg-config]{.title-ref} to look for all the dependencies that
+support it.</li>
+  <li>Add the CMake flag [Pism_PKG_CONFIG_STATIC]{.title-ref} to tell CMake
+to use the [--static]{.title-ref} flag when using
+[pkg-config]{.title-ref}. See <a href="https://github.com/pism/pism/issues/529">issue
+529</a>.</li>
+  <li>Add [VERSION]{.title-ref} to ensure that tarballs with PISM's sources
+(e.g. archived by Zenodo) contain appropriate version info.</li>
+  <li>Update some examples in [examples/marine]{.title-ref}.</li>
+  <li>Fix an bug reported by Ken Mankoff: scripts in
+[examples/antarctica/]{.title-ref} required PISM built with PROJ.</li>
+  <li>Add a section about citing PISM to the manual; remove redundant and
+possibly inconsistent recommendations elsewhere in PISM's docs.</li>
+  <li>Add a section about publishing PISM results to the manual. This
+section covers archiving the code, model inputs and outputs, etc.</li>
+  <li>Add the configuration parameter [energy.model]{.title-ref} (choices:
+[none]{.title-ref}, [cold]{.title-ref}, [enthalpy]{.title-ref});
+remove [energy.enabled]{.title-ref} and
+[energy.temperature_based]{.title-ref}.</li>
+  <li>All bed deformation models use the load averaged over the duration of
+the (usually long) bed deformation time step (see <a href="https://github.com/pism/pism/issues/525">issue
+525</a>). This requires saving
+the time integral of the load since the last bed deformation update
+(variable [bed_def_load_accumulator]{.title-ref} and the time of the
+last update [time_bed_deformation]{.title-ref}) as a part of the model
+state and reading them when re-starting the model. Rename
+[bed_deformation.lc.update_interval]{.title-ref} to
+[bed_deformation.update_interval]{.title-ref} since now <em>all</em> bed
+deformation models use this parameter. Add a new diagnostic variable:
+[bed_def_load]{.title-ref}, the load used during the last bed
+deformation update.</li>
+  <li>Replace the serial connected component labeling algorithm with a
+parallel version (see <a href="https://github.com/pism/pism/pull/547">pull request
+547</a> for details). This should
+improve strong scaling of the ocean model PICO and (less noticeably)
+of some other PISM components.</li>
+  <li>Require CMake 3.16 or newer.</li>
+  <li>Support the current PETSc version (3.22).</li>
+  <li>Update the oldest supported PETSc version from 3.7 to 3.11. (PISM's
+code still works with PETSc 3.7 and newer, but testing with PETSc
+older than 3.11 requires Python 2.7.x, which is no longer supported.)</li>
+  <li>Refactor the SSAFD solver, adding the ability to use PETSc's
+infrastructure to manage Picard iterations (and even use Newton
+iterations with a finite difference approximation of the Jacobian
+computed using coloring). Unfortunately this approach appears to be
+more fragile than the old one, so the default solver implementation
+remains the same. On the plus side, we get the ability to compute and
+save the SSAFD residual, which may help one analyze the quality of a
+velocity approximation produced by the SSAFD solver.</li>
+  <li>Create a Debian (Ubuntu) PISM package. This work required a number of
+changes to follow best practices when installing software in a
+standard location. For example: Python scripts in [util/]{.title-ref}
+are installed in [/usr/share/pism/bin]{.title-ref}.</li>
+  <li>Add a configuration flag
+[stress_balance.ssa.fd.upstream_surface_slope_approximation]{.title-ref}.
+If "yes" (the default), use the first order "upstream" (more
+accurately: "uphill") biased FD approximation. This reduces
+oscillations of velocity approximations produced by SSAFD in areas
+where the surface slope is large (e.g. near the grounding line).</li>
+  <li>Add a new diagnostic quantity:
+[ice_mass_transport_across_grounding_line]{.title-ref} (in
+[Gt/year]{.title-ref}). This quantity is similar to the 2D
+[grounding_line_flux]{.title-ref}, but designed to be easily
+comparable to [tendency_of_ice_mass_due_to_discharge]{.title-ref} and
+similar.</li>
+  <li>Use "kelvin" (lowercase "k") in all temperature units and
+implement other similar changes to make PISM output files compatible
+with conventions used by [xarray]{.title-ref}.</li>
+  <li>Add flexible re-projection and interpolation (including conservative
+interpolation) using
+<a href="https://dkrz-sw.gitlab-pages.dkrz.de/yac/index.html">YAC</a>. This work
+makes it possible to set up a PISM simulation using a grid in one
+projection and read inputs from NetCDF files that use <em>different</em>
+grids and projections (with some limitations). This should reduce the
+amount of pre-processing needed to use bed topography data sets (such
+as BedMachine), regional climate model outputs, etc.</li>
+  <li>Improve support for coordinate reference system specification
+following Climate and Forecasting conventions.</li>
+  <li>Add the configuration parameter [grid.file]{.title-ref} and remove
+options [-x_range]{.title-ref}, [-y_range]{.title-ref} and
+[-refinement_factor]{.title-ref}. The parameter
+[grid.file]{.title-ref} specifies the <em>grid definition file</em> used to
+set the coordinate reference system plus default domain and grid
+sizes. See the manual for details.</li>
+  <li>Add configuration parameters [grid.dx]{.title-ref} and
+[grid.dy]{.title-ref} (command line options [-dx]{.title-ref} and
+[-dy]{.title-ref}). These parameters allow users to set the domain
+size and location (using the input file, [grid.file]{.title-ref} or
+[grid.Lx]{.title-ref} and [grid.Ly]{.title-ref}) and then select the
+grid resolution to use on this domain. Note that [grid.dx]{.title-ref}
+and [grid.dy]{.title-ref} are in meters, but PISM will automatically
+convert to meters from units specified using command line options,
+e.g. [-dx 5km]{.title-ref}. Domain half widths [Lx]{.title-ref} and
+[Ly]{.title-ref} are re-computed to ensure that PISM uses exactly the
+requested grid resolution (this may slightly reduce the domain size
+compared to [Lx]{.title-ref} and [Ly]{.title-ref} provided by the
+user).</li>
 </ul>
 
-<h3 id="isochrone-tracing">Isochrone tracing</h3>
+<p>- Remove support for NCAR's ParallelIO library since (as far as we
+know) no one uses it.</p>
 
-<ul>
-  <li>Implemented an <a href="https://www.pism.io/docs/manual/modeling-choices/dynamics/age.html#isochronal-layer-tracing">isochronal layer tracing
-scheme</a>
-(see A. Born and A. Robinson, “Modeling the Greenland englacial stratigraphy,” The
-Cryosphere, vol. 15, no. 9, pp. 4539-4556, 2021, doi:
-<a href="https://doi.org/10.5194/tc-15-4539-2021">10.5194/tc-15-4539-2021</a>.)</li>
-</ul>
-
-<h3 id="surface-processes">Surface processes</h3>
-
-<ul>
-  <li>Implemented the <a href="https://www.pism.io/docs/climate_forcing/surface.html#diurnal-energy-balance-model-debm-simple">diurnal energy balance model
-dEBM-simple</a>
-(see M. Zeitz, R. Reese, J. Beckmann, U. Krebs-Kanzow, and R. Winkelmann, “Impact of the
-melt-albedo feedback on the future evolution of the Greenland Ice Sheet with
-PISM-dEBM-simple,” The Cryosphere, vol. 15, no. 12, pp. 5739-5764, Dec. 2021, doi:
-<a href="https://doi.org/10.5194/tc-15-5739-2021">10.5194/tc-15-5739-2021</a>.)</li>
-</ul>
-
-<h3 id="atmosphere-forcing">Atmosphere forcing</h3>
-
-<ul>
-  <li>Added support for 2D precipitation offsets in <code class="language-plaintext highlighter-rouge">-atmosphere ...,delta_P</code>. If the input
-file set using <code class="language-plaintext highlighter-rouge">atmosphere.delta_P.file</code> contains a scalar time series <code class="language-plaintext highlighter-rouge">delta_P</code>, use
-that as a time-dependent constant-in-space forcing. If the input file contains a 2D
-variable <code class="language-plaintext highlighter-rouge">delta_P</code>, use that as a time-and-space-dependent forcing.</li>
-  <li>Added support for 2D air temperature offsets in <code class="language-plaintext highlighter-rouge">-atmosphere ...,delta_T</code>. If the input
-file set using <code class="language-plaintext highlighter-rouge">atmosphere.delta_T.file</code> contains a scalar time series <code class="language-plaintext highlighter-rouge">delta_T</code>, use
-that as a time-dependent constant-in-space forcing. If the input file contains a 2D
-variable <code class="language-plaintext highlighter-rouge">delta_T</code>, use that as a time-and-space-dependent forcing.</li>
-  <li>Added support for piecewise-constant temporal interpolation of near-surface air
-temperatures in <code class="language-plaintext highlighter-rouge">-atmosphere given</code>: set
-<code class="language-plaintext highlighter-rouge">atmosphere.given.air_temperature_interpolation</code> to <code class="language-plaintext highlighter-rouge">piecewise_constant</code>.</li>
-</ul>
-
-<h3 id="ocean-forcing">Ocean forcing</h3>
-
-<ul>
-  <li>Added the ability to use ocean model components implemented in Python (see
-<a href="https://github.com/pism/pism/blob/v2.1/examples/python/pism.py"><code class="language-plaintext highlighter-rouge">examples/python/pism.py</code></a>)</li>
-</ul>
-
-<h3 id="calving">Calving</h3>
-
-<ul>
-  <li>Fixed a bug reported by Christian Rodehacke: calving mechanisms should not remove ice at
-ice fronts adjacent to isolated patches of ice-free water (see <a href="https://github.com/pism/pism/issues/521">issue
-#521</a>).</li>
-</ul>
-
-<h3 id="stress-balance">Stress balance</h3>
-
-<ul>
-  <li>Improved the initial guess of sliding velocity used when the ice front advances by
-extrapolating velocity computed by the <code class="language-plaintext highlighter-rouge">SSAFD</code> solver during the previous time step (set
-<code class="language-plaintext highlighter-rouge">stress_balance.ssa.fd.extrapolate_at_margins</code> to <code class="language-plaintext highlighter-rouge">false</code> to disable).</li>
-</ul>
-
-<h3 id="energy-conservation">Energy conservation</h3>
-
-<ul>
-  <li>
-    <p>PISM no longer attempts to correct energy conservation by freezing basal water.</p>
-
-    <p>At each time step PISM checks basal enthalpy and if necessary modifies it to ensure
-continuity of temperature in each <code class="language-plaintext highlighter-rouge">bedrock+ice</code> column. Sometimes this modification
-creates energy; prior to this change PISM attempted to remove an equivalent amount of
-energy by modifying the basal melt rate to freeze water stored at the base.</p>
-
-    <p>Under some conditions this basal melt rate adjustment <em>created mass</em> by freezing more
-water than available and even led to crashes with error messages stating that ice
-thickness exceeds <code class="language-plaintext highlighter-rouge">Lz</code>.</p>
-  </li>
-</ul>
-
-<h3 id="input-and-output-diagnostics">Input and output, diagnostics</h3>
-
-<ul>
-  <li>Added diagnostics <code class="language-plaintext highlighter-rouge">tendency_of_ice_{amount,mass}_due_to_frontal_melt</code> and
-<code class="language-plaintext highlighter-rouge">tendency_of_ice_{amount,mass}_due_to_forced_retreat</code>. Renamed diagnostic
-<code class="language-plaintext highlighter-rouge">max_sliding_vel</code> to <code class="language-plaintext highlighter-rouge">max_horizontal_vel</code>.</li>
-</ul>
-
-<h3 id="bug-fixes">Bug fixes</h3>
-
-<ul>
-  <li>Added time bounds to scalar forcing files in
-<a href="https://github.com/pism/pism/tree/v2.1/examples/std-greenland"><code class="language-plaintext highlighter-rouge">examples/std-greenland</code></a>.</li>
-  <li>
-    <p>Fixed a bug in the code ensuring non-negativity of ice thickness. (The old code added
-too much ice in an attempt to ensure non-negativity – so much so that sometimes this
-caused crashes with error messages stating that ice thickness exceeds <code class="language-plaintext highlighter-rouge">Lz</code>.)</p>
-
-    <p>Note that this “projection step” (<code class="language-plaintext highlighter-rouge">ice_thickness = max(tentative_ice_thickness, 0)</code>)
-should have no effect now: the flux limiter mentioned above is designed to ensure
-non-negativity. We keep this step, however, to maintain the ability to keep track of ice
-thickness changes due to conservation errors (if they ever happen).</p>
-  </li>
-  <li>Fixed bugs in scalar diagnostics <code class="language-plaintext highlighter-rouge">ice_volume_cold</code> and <code class="language-plaintext highlighter-rouge">ice_volume_temperate</code>.</li>
-  <li>Use CF-compliant units “<code class="language-plaintext highlighter-rouge">common_years</code>” in forcing files.</li>
-</ul>
-
-<h3 id="other">Other</h3>
-
-<ul>
-  <li>Added <a href="https://github.com/pism/pism/blob/v2.1/CITATION.cff">CITATION.cff</a> to properly
-acknowledge all contributions and to make it easier to cite PISM.</li>
-  <li>Implemented UNO2, UNO3 and a couple of related transport methods (not used, but
-available for future use; see J.-G. Li, “Upstream Nonoscillatory Advection Schemes,”
-Monthly Weather Review, vol. 136, no. 12, pp. 4709-4729, Dec. 2008, doi:
-<a href="https://doi.org/10.1175/2008mwr2451.1">10.1175/2008mwr2451.1</a>.).</li>
-  <li>Use <code class="language-plaintext highlighter-rouge">realpath()</code> to resolve relative file names. Now configuration parameters ending in
-<code class="language-plaintext highlighter-rouge">.file</code>, when saved to output files and in PISM output to <code class="language-plaintext highlighter-rouge">stdout</code>, contain <em>absolute</em>
-file names. This will make it easier to reproduce runs based on an output file.</li>
-  <li>Added support for checkpointing the HTCondor way (see commit
-<a href="https://github.com/pism/pism/commit/3740c41df6f35fdf0d7501f96f5cab362f25a24b">3740c41df</a>).</li>
-  <li>Use <code class="language-plaintext highlighter-rouge">-list_diagnostics all</code> to print the list of all diagnostics, <code class="language-plaintext highlighter-rouge">-list_diagnostics
-spatial</code> for 2D and 3D variables, and <code class="language-plaintext highlighter-rouge">-list_diagnostics scalar</code> for scalar time series.</li>
-  <li>Added code to generate <code class="language-plaintext highlighter-rouge">pism.pc</code> and <code class="language-plaintext highlighter-rouge">pismicebin.pc</code> for use with <code class="language-plaintext highlighter-rouge">pkg-config</code>. This
-will make it easier to use PISM as a library (to couple to a GCM, for example).</li>
-  <li>PISM’s build system uses <code class="language-plaintext highlighter-rouge">pkg-config</code> to look for some of the required libraries.</li>
-  <li>Refactored utility classes used to store 2D and 3D arrays.</li>
-  <li>Replaced <code class="language-plaintext highlighter-rouge">examples/searise-antarctica</code> with <code class="language-plaintext highlighter-rouge">examples/antarctica</code> based on <a href="https://doi.org/10.1594/PANGAEA.734145">ALBMAP
-v1</a> data. This avoids a dependency on <a href="https://doi.org/10.5281/zenodo.10140224">SeaRISE
-data</a> formerly hosted by the University of
-Montana.</li>
-</ul>
 
 </div>
 
@@ -445,10 +394,10 @@ Montana.</li>
 <p><strong>Share</strong></p>
 <div class="buttons ">
     <a class="button is-medium is-linkedin"
-       onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://www.pism.io/news/2023/11/27/pism2.1/&title=PISM+2.1+is+out&summary=&source=');">
+       onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://www.pism.io/news/2025/03/17/pism2.2/&title=PISM+2.2+is+out&summary=&source=');">
         <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
     <a class="button is-medium is-facebook"
-       onclick="window.open('https://www.facebook.com/share.php?u=https://www.pism.io/news/2023/11/27/pism2.1/');">
+       onclick="window.open('https://www.facebook.com/share.php?u=https://www.pism.io/news/2025/03/17/pism2.2/');">
         <span class="icon"><i class="fab fa-facebook fa-lg"></i></span>
     </a>
 </div>

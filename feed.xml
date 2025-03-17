@@ -1,4 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://www.pism.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pism.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-03-17T17:03:03+00:00</updated><id>https://www.pism.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">MPI-GEA: PhD position on the interaction of ice sheets, ocean and sea level</title><link href="https://www.pism.io/news/2024/10/08/phd-mpigea/" rel="alternate" type="text/html" title="MPI-GEA: PhD position on the interaction of ice sheets, ocean and sea level" /><published>2024-10-08T00:00:00+00:00</published><updated>2024-10-08T00:00:00+00:00</updated><id>https://www.pism.io/news/2024/10/08/phd-mpigea</id><content type="html" xml:base="https://www.pism.io/news/2024/10/08/phd-mpigea/">&lt;p&gt;In the department of Integrative Earth system science at the newly founded &lt;a href=&quot;https://www.gea.mpg.de&quot;&gt;Max Planck Institute of Geoanthropology (MPI-GEA)&lt;/a&gt; in Jena, Germany, we are providing a three-year PhD position as part of the &lt;a href=&quot;https://www.spp-antarktisforschung.uni-rostock.de/en&quot;&gt;DFG priority program “Antarctic Research with Comparative Investigations in Arctic Ice Areas”&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://www.pism.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pism.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-03-17T21:05:26+00:00</updated><id>https://www.pism.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">PISM 2.2 is out</title><link href="https://www.pism.io/news/2025/03/17/pism2.2/" rel="alternate" type="text/html" title="PISM 2.2 is out" /><published>2025-03-17T00:00:00+00:00</published><updated>2025-03-17T00:00:00+00:00</updated><id>https://www.pism.io/news/2025/03/17/pism2.2</id><content type="html" xml:base="https://www.pism.io/news/2025/03/17/pism2.2/">&lt;p&gt;We are pleased to announce the release of PISM v2.2.&lt;/p&gt;
+
+&lt;h2 id=&quot;notable-changes-compared-to-v21&quot;&gt;Notable changes compared to v2.1&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;All executables and scripts installed in the [bin]{.title-ref}
+sub-directory of PISM&apos;s installation location start with &quot;pism&quot; to
+make it easier to recognize ones that belong to PISM, especially when
+using a [.deb]{.title-ref} package to install it.&lt;/li&gt;
+  &lt;li&gt;Rename the [pismr]{.title-ref} executable to [pism]{.title-ref}.&lt;/li&gt;
+  &lt;li&gt;Remove the [pismv]{.title-ref} executable. Use [pism -test
+X]{.title-ref} to run a verification test [X]{.title-ref}.&lt;/li&gt;
+  &lt;li&gt;Add some automatic testing on macOS.&lt;/li&gt;
+  &lt;li&gt;Use [pkg-config]{.title-ref} to look for all the dependencies that
+support it.&lt;/li&gt;
+  &lt;li&gt;Add the CMake flag [Pism_PKG_CONFIG_STATIC]{.title-ref} to tell CMake
+to use the [--static]{.title-ref} flag when using
+[pkg-config]{.title-ref}. See &lt;a href=&quot;https://github.com/pism/pism/issues/529&quot;&gt;issue
+529&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Add [VERSION]{.title-ref} to ensure that tarballs with PISM&apos;s sources
+(e.g. archived by Zenodo) contain appropriate version info.&lt;/li&gt;
+  &lt;li&gt;Update some examples in [examples/marine]{.title-ref}.&lt;/li&gt;
+  &lt;li&gt;Fix an bug reported by Ken Mankoff: scripts in
+[examples/antarctica/]{.title-ref} required PISM built with PROJ.&lt;/li&gt;
+  &lt;li&gt;Add a section about citing PISM to the manual; remove redundant and
+possibly inconsistent recommendations elsewhere in PISM&apos;s docs.&lt;/li&gt;
+  &lt;li&gt;Add a section about publishing PISM results to the manual. This
+section covers archiving the code, model inputs and outputs, etc.&lt;/li&gt;
+  &lt;li&gt;Add the configuration parameter [energy.model]{.title-ref} (choices:
+[none]{.title-ref}, [cold]{.title-ref}, [enthalpy]{.title-ref});
+remove [energy.enabled]{.title-ref} and
+[energy.temperature_based]{.title-ref}.&lt;/li&gt;
+  &lt;li&gt;All bed deformation models use the load averaged over the duration of
+the (usually long) bed deformation time step (see &lt;a href=&quot;https://github.com/pism/pism/issues/525&quot;&gt;issue
+525&lt;/a&gt;). This requires saving
+the time integral of the load since the last bed deformation update
+(variable [bed_def_load_accumulator]{.title-ref} and the time of the
+last update [time_bed_deformation]{.title-ref}) as a part of the model
+state and reading them when re-starting the model. Rename
+[bed_deformation.lc.update_interval]{.title-ref} to
+[bed_deformation.update_interval]{.title-ref} since now &lt;em&gt;all&lt;/em&gt; bed
+deformation models use this parameter. Add a new diagnostic variable:
+[bed_def_load]{.title-ref}, the load used during the last bed
+deformation update.&lt;/li&gt;
+  &lt;li&gt;Replace the serial connected component labeling algorithm with a
+parallel version (see &lt;a href=&quot;https://github.com/pism/pism/pull/547&quot;&gt;pull request
+547&lt;/a&gt; for details). This should
+improve strong scaling of the ocean model PICO and (less noticeably)
+of some other PISM components.&lt;/li&gt;
+  &lt;li&gt;Require CMake 3.16 or newer.&lt;/li&gt;
+  &lt;li&gt;Support the current PETSc version (3.22).&lt;/li&gt;
+  &lt;li&gt;Update the oldest supported PETSc version from 3.7 to 3.11. (PISM&apos;s
+code still works with PETSc 3.7 and newer, but testing with PETSc
+older than 3.11 requires Python 2.7.x, which is no longer supported.)&lt;/li&gt;
+  &lt;li&gt;Refactor the SSAFD solver, adding the ability to use PETSc&apos;s
+infrastructure to manage Picard iterations (and even use Newton
+iterations with a finite difference approximation of the Jacobian
+computed using coloring). Unfortunately this approach appears to be
+more fragile than the old one, so the default solver implementation
+remains the same. On the plus side, we get the ability to compute and
+save the SSAFD residual, which may help one analyze the quality of a
+velocity approximation produced by the SSAFD solver.&lt;/li&gt;
+  &lt;li&gt;Create a Debian (Ubuntu) PISM package. This work required a number of
+changes to follow best practices when installing software in a
+standard location. For example: Python scripts in [util/]{.title-ref}
+are installed in [/usr/share/pism/bin]{.title-ref}.&lt;/li&gt;
+  &lt;li&gt;Add a configuration flag
+[stress_balance.ssa.fd.upstream_surface_slope_approximation]{.title-ref}.
+If &quot;yes&quot; (the default), use the first order &quot;upstream&quot; (more
+accurately: &quot;uphill&quot;) biased FD approximation. This reduces
+oscillations of velocity approximations produced by SSAFD in areas
+where the surface slope is large (e.g. near the grounding line).&lt;/li&gt;
+  &lt;li&gt;Add a new diagnostic quantity:
+[ice_mass_transport_across_grounding_line]{.title-ref} (in
+[Gt/year]{.title-ref}). This quantity is similar to the 2D
+[grounding_line_flux]{.title-ref}, but designed to be easily
+comparable to [tendency_of_ice_mass_due_to_discharge]{.title-ref} and
+similar.&lt;/li&gt;
+  &lt;li&gt;Use &quot;kelvin&quot; (lowercase &quot;k&quot;) in all temperature units and
+implement other similar changes to make PISM output files compatible
+with conventions used by [xarray]{.title-ref}.&lt;/li&gt;
+  &lt;li&gt;Add flexible re-projection and interpolation (including conservative
+interpolation) using
+&lt;a href=&quot;https://dkrz-sw.gitlab-pages.dkrz.de/yac/index.html&quot;&gt;YAC&lt;/a&gt;. This work
+makes it possible to set up a PISM simulation using a grid in one
+projection and read inputs from NetCDF files that use &lt;em&gt;different&lt;/em&gt;
+grids and projections (with some limitations). This should reduce the
+amount of pre-processing needed to use bed topography data sets (such
+as BedMachine), regional climate model outputs, etc.&lt;/li&gt;
+  &lt;li&gt;Improve support for coordinate reference system specification
+following Climate and Forecasting conventions.&lt;/li&gt;
+  &lt;li&gt;Add the configuration parameter [grid.file]{.title-ref} and remove
+options [-x_range]{.title-ref}, [-y_range]{.title-ref} and
+[-refinement_factor]{.title-ref}. The parameter
+[grid.file]{.title-ref} specifies the &lt;em&gt;grid definition file&lt;/em&gt; used to
+set the coordinate reference system plus default domain and grid
+sizes. See the manual for details.&lt;/li&gt;
+  &lt;li&gt;Add configuration parameters [grid.dx]{.title-ref} and
+[grid.dy]{.title-ref} (command line options [-dx]{.title-ref} and
+[-dy]{.title-ref}). These parameters allow users to set the domain
+size and location (using the input file, [grid.file]{.title-ref} or
+[grid.Lx]{.title-ref} and [grid.Ly]{.title-ref}) and then select the
+grid resolution to use on this domain. Note that [grid.dx]{.title-ref}
+and [grid.dy]{.title-ref} are in meters, but PISM will automatically
+convert to meters from units specified using command line options,
+e.g. [-dx 5km]{.title-ref}. Domain half widths [Lx]{.title-ref} and
+[Ly]{.title-ref} are re-computed to ensure that PISM uses exactly the
+requested grid resolution (this may slightly reduce the domain size
+compared to [Lx]{.title-ref} and [Ly]{.title-ref} provided by the
+user).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;- Remove support for NCAR&apos;s ParallelIO library since (as far as we
+know) no one uses it.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">We are pleased to announce the release of PISM v2.2.</summary></entry><entry><title type="html">MPI-GEA: PhD position on the interaction of ice sheets, ocean and sea level</title><link href="https://www.pism.io/news/2024/10/08/phd-mpigea/" rel="alternate" type="text/html" title="MPI-GEA: PhD position on the interaction of ice sheets, ocean and sea level" /><published>2024-10-08T00:00:00+00:00</published><updated>2024-10-08T00:00:00+00:00</updated><id>https://www.pism.io/news/2024/10/08/phd-mpigea</id><content type="html" xml:base="https://www.pism.io/news/2024/10/08/phd-mpigea/">&lt;p&gt;In the department of Integrative Earth system science at the newly founded &lt;a href=&quot;https://www.gea.mpg.de&quot;&gt;Max Planck Institute of Geoanthropology (MPI-GEA)&lt;/a&gt; in Jena, Germany, we are providing a three-year PhD position as part of the &lt;a href=&quot;https://www.spp-antarktisforschung.uni-rostock.de/en&quot;&gt;DFG priority program “Antarctic Research with Comparative Investigations in Arctic Ice Areas”&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;We are looking for a highly motivated candidate, interested in working in an interdisciplinary research team, with a focus on the interaction and possible feedbacks between the Greenland and Antarctic ice sheets via the Meridional Overturning Circulation (AMOC) and relative sea-level change in a warming climate. Numerical model simulations with PISM coupled to the global solid Earth and sea level model VILMA and the ocean model MOM will be used to investigate tipping characteristics and potential inter-hemispheric effects.&lt;/p&gt;
 
@@ -436,19 +549,4 @@ experiment &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X&
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fill_missing_petsc.py&lt;/code&gt; uses homogeneous Neumann BC at domain boundaries.&lt;/li&gt;
   &lt;li&gt;Added optional arguments &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;time_units&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;calendar&lt;/code&gt; to
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PISM.util.prepare_output()&lt;/code&gt; in the Python bindings.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">PISM developers have been hard at work to bring you a brand new version of PISM, packed with new features. After years of development, PISM finally includes a Blatter solver, warranting a new major version: PISM 2.0.</summary></entry><entry><title type="html">Version 1.2</title><link href="https://www.pism.io/news/2020/02/13/version1.2/" rel="alternate" type="text/html" title="Version 1.2" /><published>2020-02-13T00:00:00+00:00</published><updated>2020-02-13T00:00:00+00:00</updated><id>https://www.pism.io/news/2020/02/13/version1.2</id><content type="html" xml:base="https://www.pism.io/news/2020/02/13/version1.2/">&lt;p&gt;We are pleased to announce the release of the Parallel Ice Sheet Model
-(PISM) v1.2.&lt;/p&gt;
-
-&lt;p&gt;Compared to v1.1, the new version includes&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;modifications required by ISMIP6 experiments,&lt;/li&gt;
-  &lt;li&gt;the frontal melt parameterization by Rignot et al (https://doi.org/10.1002/2016GL068784),&lt;/li&gt;
-  &lt;li&gt;the orographic precipitation following Smith and Barstad, &lt;em&gt;A linear theory of orographic precipitation&lt;/em&gt; (2004),&lt;/li&gt;
-  &lt;li&gt;the ability to use &lt;a href=&quot;https://ncar.github.io/ParallelIO/&quot;&gt;NCAR ParallelIO&lt;/a&gt; for better I/O performance,&lt;/li&gt;
-  &lt;li&gt;numerous bug fixes and minor improvements.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Please see &lt;a href=&quot;https://github.com/pism/pism/blob/v1.2/CHANGES.rst&quot;&gt;the change
-log&lt;/a&gt; for a
-complete list.&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">We are pleased to announce the release of the Parallel Ice Sheet Model (PISM) v1.2.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">PISM developers have been hard at work to bring you a brand new version of PISM, packed with new features. After years of development, PISM finally includes a Blatter solver, warranting a new major version: PISM 2.0.</summary></entry></feed>
