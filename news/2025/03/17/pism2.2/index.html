@@ -20,22 +20,22 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>PISM 2.2 is out | PISM</title>
+<title>PISM 2.2.1 is out | PISM</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="PISM 2.2 is out" />
+<meta property="og:title" content="PISM 2.2.1 is out" />
 <meta name="author" content="The PISM Authors" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="We are pleased to announce the release of PISM v2.2." />
-<meta property="og:description" content="We are pleased to announce the release of PISM v2.2." />
+<meta name="description" content="We are pleased to announce the release of PISM v2.2.1." />
+<meta property="og:description" content="We are pleased to announce the release of PISM v2.2.1." />
 <link rel="canonical" href="https://www.pism.io/news/2025/03/17/pism2.2/" />
 <meta property="og:url" content="https://www.pism.io/news/2025/03/17/pism2.2/" />
 <meta property="og:site_name" content="PISM" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-03-17T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="PISM 2.2 is out" />
+<meta property="twitter:title" content="PISM 2.2.1 is out" />
 <script type="application/ld+json">
-{"description":"We are pleased to announce the release of PISM v2.2.","headline":"PISM 2.2 is out","dateModified":"2025-03-17T00:00:00+00:00","datePublished":"2025-03-17T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.pism.io/news/2025/03/17/pism2.2/"},"url":"https://www.pism.io/news/2025/03/17/pism2.2/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.pism.io/img/pism_logo_transp.png"},"name":"The PISM Authors"},"author":{"@type":"Person","name":"The PISM Authors"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"description":"We are pleased to announce the release of PISM v2.2.1.","headline":"PISM 2.2.1 is out","dateModified":"2025-03-17T00:00:00+00:00","datePublished":"2025-03-17T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.pism.io/news/2025/03/17/pism2.2/"},"url":"https://www.pism.io/news/2025/03/17/pism2.2/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.pism.io/img/pism_logo_transp.png"},"name":"The PISM Authors"},"author":{"@type":"Person","name":"The PISM Authors"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <!-- head scripts -->
 
@@ -229,7 +229,7 @@ window.onscroll = function() {
     <div class="hero-body ">
         <div class="container">
             
-                <h1 class="title is-1 has-text-primary-dark " >PISM 2.2 is out</h1>
+                <h1 class="title is-1 has-text-primary-dark " >PISM 2.2.1 is out</h1>
             
             <p class="subtitle is-3 has-text-primary-light has-text-weight-semibold" ></p>
             
@@ -268,53 +268,68 @@ window.onscroll = function() {
 
     <p><b>Published:</b> Mar 17, 2025 by The PISM Authors</p>
 
-    <p>We are pleased to announce the release of PISM v2.2.</p>
+    <p>We are pleased to announce the release of PISM v2.2.1.</p>
+
+<h2 id="changes-since-v220">Changes since v2.2.0</h2>
+
+<ul>
+  <li>
+    <p>Fixed a minor bug: EISMINT II simplified geometry experiments should
+use the "cold" (temperature-based) energy conservation model. In
+PISM 2.2.0 the EISMINT II default of <code class="language-plaintext highlighter-rouge">energy.model</code> was
+mistakenly set to "none", i.e. isothermal mode without energy
+conservation.</p>
+
+    <p>To get correct behavior with PISM 2.2.0 run <code class="language-plaintext highlighter-rouge">pism -energy cold -eisII
+\...</code> instead of <code class="language-plaintext highlighter-rouge">pism -eisII \...</code>.</p>
+  </li>
+</ul>
 
 <h2 id="notable-changes-compared-to-v21">Notable changes compared to v2.1</h2>
 
 <ul>
-  <li>All executables and scripts installed in the [bin]{.title-ref}
+  <li>All executables and scripts installed in the <code class="language-plaintext highlighter-rouge">bin</code>
 sub-directory of PISM's installation location start with "pism" to
 make it easier to recognize ones that belong to PISM, especially when
-using a [.deb]{.title-ref} package to install it.</li>
-  <li>Rename the [pismr]{.title-ref} executable to [pism]{.title-ref}.</li>
-  <li>Remove the [pismv]{.title-ref} executable. Use [pism -test
-X]{.title-ref} to run a verification test [X]{.title-ref}.</li>
+using a <code class="language-plaintext highlighter-rouge">.deb</code> package to install it.</li>
+  <li>Rename the <code class="language-plaintext highlighter-rouge">pismr</code> executable to <code class="language-plaintext highlighter-rouge">pism</code>.</li>
+  <li>Remove the <code class="language-plaintext highlighter-rouge">pismv</code> executable. Use <code class="language-plaintext highlighter-rouge">pism -test
+X</code> to run a verification test <code class="language-plaintext highlighter-rouge">X</code>.</li>
   <li>Add some automatic testing on macOS.</li>
-  <li>Use [pkg-config]{.title-ref} to look for all the dependencies that
+  <li>Use <code class="language-plaintext highlighter-rouge">pkg-config</code> to look for all the dependencies that
 support it.</li>
-  <li>Add the CMake flag [Pism_PKG_CONFIG_STATIC]{.title-ref} to tell CMake
-to use the [--static]{.title-ref} flag when using
-[pkg-config]{.title-ref}. See <a href="https://github.com/pism/pism/issues/529">issue
-529</a>.</li>
-  <li>Add [VERSION]{.title-ref} to ensure that tarballs with PISM's sources
+  <li>Add the CMake flag <code class="language-plaintext highlighter-rouge">Pism_PKG_CONFIG_STATIC</code> to tell CMake
+to use the <code class="language-plaintext highlighter-rouge">\--static</code> flag when using
+<code class="language-plaintext highlighter-rouge">pkg-config</code>. See <code class="language-plaintext highlighter-rouge">issue
+529</code>(https://github.com/pism/pism/issues/529).</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">VERSION</code> to ensure that tarballs with PISM's sources
 (e.g. archived by Zenodo) contain appropriate version info.</li>
-  <li>Update some examples in [examples/marine]{.title-ref}.</li>
+  <li>Update some examples in <code class="language-plaintext highlighter-rouge">examples/marine</code>.</li>
   <li>Fix an bug reported by Ken Mankoff: scripts in
-[examples/antarctica/]{.title-ref} required PISM built with PROJ.</li>
+<code class="language-plaintext highlighter-rouge">examples/antarctica/</code> required PISM built with PROJ.</li>
   <li>Add a section about citing PISM to the manual; remove redundant and
 possibly inconsistent recommendations elsewhere in PISM's docs.</li>
   <li>Add a section about publishing PISM results to the manual. This
 section covers archiving the code, model inputs and outputs, etc.</li>
-  <li>Add the configuration parameter [energy.model]{.title-ref} (choices:
-[none]{.title-ref}, [cold]{.title-ref}, [enthalpy]{.title-ref});
-remove [energy.enabled]{.title-ref} and
-[energy.temperature_based]{.title-ref}.</li>
+  <li>Add the configuration parameter <code class="language-plaintext highlighter-rouge">energy.model</code> (choices:
+<code class="language-plaintext highlighter-rouge">none</code>, <code class="language-plaintext highlighter-rouge">cold</code>, <code class="language-plaintext highlighter-rouge">enthalpy</code>);
+remove <code class="language-plaintext highlighter-rouge">energy.enabled</code> and
+<code class="language-plaintext highlighter-rouge">energy.temperature_based</code>.</li>
   <li>All bed deformation models use the load averaged over the duration of
-the (usually long) bed deformation time step (see <a href="https://github.com/pism/pism/issues/525">issue
-525</a>). This requires saving
+the (usually long) bed deformation time step (see <code class="language-plaintext highlighter-rouge">issue
+525</code>(https://github.com/pism/pism/issues/525)). This requires saving
 the time integral of the load since the last bed deformation update
-(variable [bed_def_load_accumulator]{.title-ref} and the time of the
-last update [time_bed_deformation]{.title-ref}) as a part of the model
+(variable <code class="language-plaintext highlighter-rouge">bed_def_load_accumulator</code> and the time of the
+last update <code class="language-plaintext highlighter-rouge">time_bed_deformation</code>) as a part of the model
 state and reading them when re-starting the model. Rename
-[bed_deformation.lc.update_interval]{.title-ref} to
-[bed_deformation.update_interval]{.title-ref} since now <em>all</em> bed
+<code class="language-plaintext highlighter-rouge">bed_deformation.lc.update_interval</code> to
+<code class="language-plaintext highlighter-rouge">bed_deformation.update_interval</code> since now <em>all</em> bed
 deformation models use this parameter. Add a new diagnostic variable:
-[bed_def_load]{.title-ref}, the load used during the last bed
+<code class="language-plaintext highlighter-rouge">bed_def_load</code>, the load used during the last bed
 deformation update.</li>
   <li>Replace the serial connected component labeling algorithm with a
-parallel version (see <a href="https://github.com/pism/pism/pull/547">pull request
-547</a> for details). This should
+parallel version (see <code class="language-plaintext highlighter-rouge">pull request
+547</code>(https://github.com/pism/pism/pull/547) for details). This should
 improve strong scaling of the ocean model PICO and (less noticeably)
 of some other PISM components.</li>
   <li>Require CMake 3.16 or newer.</li>
@@ -332,26 +347,26 @@ save the SSAFD residual, which may help one analyze the quality of a
 velocity approximation produced by the SSAFD solver.</li>
   <li>Create a Debian (Ubuntu) PISM package. This work required a number of
 changes to follow best practices when installing software in a
-standard location. For example: Python scripts in [util/]{.title-ref}
-are installed in [/usr/share/pism/bin]{.title-ref}.</li>
+standard location. For example: Python scripts in <code class="language-plaintext highlighter-rouge">util/</code>
+are installed in <code class="language-plaintext highlighter-rouge">/usr/share/pism/bin</code>.</li>
   <li>Add a configuration flag
-[stress_balance.ssa.fd.upstream_surface_slope_approximation]{.title-ref}.
+<code class="language-plaintext highlighter-rouge">stress_balance.ssa.fd.upstream_surface_slope_approximation</code>.
 If "yes" (the default), use the first order "upstream" (more
 accurately: "uphill") biased FD approximation. This reduces
 oscillations of velocity approximations produced by SSAFD in areas
 where the surface slope is large (e.g. near the grounding line).</li>
   <li>Add a new diagnostic quantity:
-[ice_mass_transport_across_grounding_line]{.title-ref} (in
-[Gt/year]{.title-ref}). This quantity is similar to the 2D
-[grounding_line_flux]{.title-ref}, but designed to be easily
-comparable to [tendency_of_ice_mass_due_to_discharge]{.title-ref} and
+<code class="language-plaintext highlighter-rouge">ice_mass_transport_across_grounding_line</code> (in
+<code class="language-plaintext highlighter-rouge">Gt/year</code>). This quantity is similar to the 2D
+<code class="language-plaintext highlighter-rouge">grounding_line_flux</code>, but designed to be easily
+comparable to <code class="language-plaintext highlighter-rouge">tendency_of_ice_mass_due_to_discharge</code> and
 similar.</li>
   <li>Use "kelvin" (lowercase "k") in all temperature units and
 implement other similar changes to make PISM output files compatible
-with conventions used by [xarray]{.title-ref}.</li>
+with conventions used by <code class="language-plaintext highlighter-rouge">xarray</code>.</li>
   <li>Add flexible re-projection and interpolation (including conservative
 interpolation) using
-<a href="https://dkrz-sw.gitlab-pages.dkrz.de/yac/index.html">YAC</a>. This work
+<code class="language-plaintext highlighter-rouge">YAC</code>(https://dkrz-sw.gitlab-pages.dkrz.de/yac/index.html). This work
 makes it possible to set up a PISM simulation using a grid in one
 projection and read inputs from NetCDF files that use <em>different</em>
 grids and projections (with some limitations). This should reduce the
@@ -359,29 +374,28 @@ amount of pre-processing needed to use bed topography data sets (such
 as BedMachine), regional climate model outputs, etc.</li>
   <li>Improve support for coordinate reference system specification
 following Climate and Forecasting conventions.</li>
-  <li>Add the configuration parameter [grid.file]{.title-ref} and remove
-options [-x_range]{.title-ref}, [-y_range]{.title-ref} and
-[-refinement_factor]{.title-ref}. The parameter
-[grid.file]{.title-ref} specifies the <em>grid definition file</em> used to
+  <li>Add the configuration parameter <code class="language-plaintext highlighter-rouge">grid.file</code> and remove
+options <code class="language-plaintext highlighter-rouge">-x_range</code>, <code class="language-plaintext highlighter-rouge">-y_range</code> and
+<code class="language-plaintext highlighter-rouge">-refinement_factor</code>. The parameter
+<code class="language-plaintext highlighter-rouge">grid.file</code> specifies the <em>grid definition file</em> used to
 set the coordinate reference system plus default domain and grid
 sizes. See the manual for details.</li>
-  <li>Add configuration parameters [grid.dx]{.title-ref} and
-[grid.dy]{.title-ref} (command line options [-dx]{.title-ref} and
-[-dy]{.title-ref}). These parameters allow users to set the domain
-size and location (using the input file, [grid.file]{.title-ref} or
-[grid.Lx]{.title-ref} and [grid.Ly]{.title-ref}) and then select the
-grid resolution to use on this domain. Note that [grid.dx]{.title-ref}
-and [grid.dy]{.title-ref} are in meters, but PISM will automatically
+  <li>Add configuration parameters <code class="language-plaintext highlighter-rouge">grid.dx</code> and
+<code class="language-plaintext highlighter-rouge">grid.dy</code> (command line options <code class="language-plaintext highlighter-rouge">-dx</code> and
+<code class="language-plaintext highlighter-rouge">-dy</code>). These parameters allow users to set the domain
+size and location (using the input file, <code class="language-plaintext highlighter-rouge">grid.file</code> or
+<code class="language-plaintext highlighter-rouge">grid.Lx</code> and <code class="language-plaintext highlighter-rouge">grid.Ly</code>) and then select the
+grid resolution to use on this domain. Note that <code class="language-plaintext highlighter-rouge">grid.dx</code>
+and <code class="language-plaintext highlighter-rouge">grid.dy</code> are in meters, but PISM will automatically
 convert to meters from units specified using command line options,
-e.g. [-dx 5km]{.title-ref}. Domain half widths [Lx]{.title-ref} and
-[Ly]{.title-ref} are re-computed to ensure that PISM uses exactly the
+e.g. <code class="language-plaintext highlighter-rouge">-dx 5km</code>. Domain half widths <code class="language-plaintext highlighter-rouge">Lx</code> and
+<code class="language-plaintext highlighter-rouge">Ly</code> are re-computed to ensure that PISM uses exactly the
 requested grid resolution (this may slightly reduce the domain size
-compared to [Lx]{.title-ref} and [Ly]{.title-ref} provided by the
+compared to <code class="language-plaintext highlighter-rouge">Lx</code> and <code class="language-plaintext highlighter-rouge">Ly</code> provided by the
 user).</li>
+  <li>Remove support for NCAR's ParallelIO library since (as far as we
+know) no one uses it.</li>
 </ul>
-
-<p>- Remove support for NCAR's ParallelIO library since (as far as we
-know) no one uses it.</p>
 
 
 </div>
@@ -394,7 +408,7 @@ know) no one uses it.</p>
 <p><strong>Share</strong></p>
 <div class="buttons ">
     <a class="button is-medium is-linkedin"
-       onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://www.pism.io/news/2025/03/17/pism2.2/&title=PISM+2.2+is+out&summary=&source=');">
+       onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://www.pism.io/news/2025/03/17/pism2.2/&title=PISM+2.2.1+is+out&summary=&source=');">
         <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
     <a class="button is-medium is-facebook"
        onclick="window.open('https://www.facebook.com/share.php?u=https://www.pism.io/news/2025/03/17/pism2.2/');">
@@ -416,14 +430,14 @@ know) no one uses it.</p>
         <div class="card">
     
     <header class="card-header">
-        <a class="card-header-title" href="/news/2025/03/17/pism2.2/">PISM 2.2 is out</a>
+        <a class="card-header-title" href="/news/2025/03/17/pism2.2/">PISM 2.2.1 is out</a>
     </header>
     
     <div class="card-content">
         <div class="content">
             
             
-                <p><p>We are pleased to announce the release of PISM v2.2.</p>
+                <p><p>We are pleased to announce the release of PISM v2.2.1.</p>
 
 </p>
             
