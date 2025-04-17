@@ -1,3 +1,7 @@
+### 2025
+
+1. T\. P\. M\. Leger, J\. C\. Ely, C\. D\. Clark, S\. L\. Bradley, R\. E\. Archer, and J\. Zhu\. The greenland\-ice\-sheet evolution over the last 24,000 years: insights from model simulations evaluated against ice\-extent markers\. *EGUsphere*, 2025:1–72, 2025\. URL: [https://egusphere\.copernicus\.org/preprints/2025/egusphere\-2025\-1616/](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-1616/), [doi:10\.5194/egusphere\-2025\-1616](https://doi.org/10.5194/egusphere-2025-1616)\.   
+
 ### 2024
 
 1. Mikkel Langgaard Lauritzen, Anne Munck Solgaard, Nicholas Mossor Rathmann, Bo Møllesøe Vinther, Aslak Grindsted, Brice Noël, Guðfinna Aðalgeirsdóttir, and Christine Schøtt Hvidberg\. Modeled Greenland Ice Sheet evolution constrained by ice\-core\-derived Holocene elevation histories\. *EGUsphere*, July 2024\. [doi:10\.5194/egusphere\-2024\-2223](https://doi.org/10.5194/egusphere-2024-2223)\.   
