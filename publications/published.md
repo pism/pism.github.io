@@ -6,6 +6,7 @@
 4. Ward van Pelt and Thomas Frank\. New glacier thickness and bed topography maps for Svalbard\. *The Cryosphere*, 19\(1\):1–17, January 2025\. [doi:10\.5194/tc\-19\-1\-2025](https://doi.org/10.5194/tc-19-1-2025)\.   
 5. R\. L\. Veness, C\. D\. Clark, J\. C\. Ely, J\. L\. Knight, A\. Igneczi, and S\. L\. Bradley\. Modelling erratic dispersal accounting for shifting ice flow geometries: A new method and explanations of erratic dispersal of the British–Irish Ice Sheet\. *Journal of Quaternary Science*, May 2025\. [doi:10\.1002/jqs\.3720](https://doi.org/10.1002/jqs.3720)\.   
 6. Eric W\. Wolff, Robert Mulvaney, Mackenzie M\. Grieman, Helene M\. Hoffmann, Jack Humby, Christoph Nehrbass\-Ahles, Rachael H\. Rhodes, Isobel F\. Rowell, Louise C\. Sime, Hubertus Fischer, Thomas F\. Stocker, Amaelle Landais, Frédéric Parrenin, Eric J\. Steig, Marina Dütsch, and Nicholas R\. Golledge\. The Ronne Ice Shelf survived the last interglacial\. *Nature*, January 2025\. [doi:10\.1038/s41586\-024\-08394\-w](https://doi.org/10.1038/s41586-024-08394-w)\.   
+7. Qing Yan, Lewis A\. Owen, Ting Wei, Philip D\. Hughes, Xiaohan Kong, Nanxuan Jiang, Jinzhe Zhang, Zhongshi Zhang, and Huijun Wang\. Regime shift to extensive valley glaciations over High Mountain Asia during the Early\-Middle Pleistocene\. *Nature Communications*, June 2025\. [doi:10\.1038/s41467\-025\-60438\-5](https://doi.org/10.1038/s41467-025-60438-5)\.   
 
 ### 2024
 
