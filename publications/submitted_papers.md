@@ -8,10 +8,6 @@
 2. Tancrède Leger, Guillaume Jouvet, Sarah Kamleitner, Jürgen Mey, Frederic Herman, Brandon Finley, Susan Ivy\-Ochs, Andreas Vieli, Andreas Henz, and Samuel Nussbaumer\. A data\-consistent model of the last glaciation in the Alps achieved with physics\-driven AI\. *Research Square*, 2024\. [doi:10\.21203/rs\.3\.rs\-5043392/v1](https://doi.org/10.21203/rs.3.rs-5043392/v1)\.   
 3. Molly Patterson, Christiana Rosenberg, Osamu Seki, Masanobu Yamamoto, Oscar Romero, Mei Nelissen, Francesca Sangiorgi, Nick Golledge, Georgia Grant, William Arnuk, and others\. Spatially variable response of Antarctica's ice sheets to orbital forcing during the Pliocene\. 2024\. at Research Square\. [doi:10\.21203/rs\.3\.rs\-4837964/v1](https://doi.org/10.21203/rs.3.rs-4837964/v1)\.   
 
-### 2023
-
-1. L\. Nicola, R\. Reese, M\. Kreuzer, T\. Albrecht, and R\. Winkelmann\. Oceanic gateways to Antarctic grounding lines – Impact of critical access depths on sub\-shelf melt\. *EGUsphere*, 2023:1–30, 2023\. [doi:10\.5194/egusphere\-2023\-2583](https://doi.org/10.5194/egusphere-2023-2583)\.   
-
 ### 2021
 
 1. C\. Yue, L\. S\. Schmidt, L\. Zhao, M\. Wolovick, and J\. C\. Moore\. Insensitivity of mass loss of Icelandic Vatnajökull ice cap to solar geoengineering\. *The Cryosphere Discussions*, 2021:1–20, 2021\. [doi:10\.5194/tc\-2021\-318](https://doi.org/10.5194/tc-2021-318)\.   
