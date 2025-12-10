@@ -1,6 +1,8 @@
 ### 2025
 
-1. Fan Gao, Qiang Shen, Hansheng Wang, Tong Zhang, Liming Jiang, Yan Liu, C\. K\. Shum, Yan An, and Xu Zhang\. Investigating the impact of sub\-ice shelf melt on Antarctica Ice Sheet spin\-up and projections\. *EGUsphere*, July 2025\. [doi:10\.5194/egusphere\-2025\-3264](https://doi.org/10.5194/egusphere-2025-3264)\.   
+1. Johannes Feldmann, Ann Kristin Klose, Torsten Albrecht, and Ricarda Winkelmann\. Rate\-induced tipping of ice sheets due to visco\-elastic Earth response under idealized conditions\. *EGUsphere*, December 2025\. [doi:10\.5194/egusphere\-2025\-5859](https://doi.org/10.5194/egusphere-2025-5859)\.   
+2. Fan Gao, Qiang Shen, Hansheng Wang, Tong Zhang, Liming Jiang, Yan Liu, C\. K\. Shum, Yan An, and Xu Zhang\. Investigating the impact of sub\-ice shelf melt on Antarctica Ice Sheet spin\-up and projections\. *EGUsphere*, July 2025\. [doi:10\.5194/egusphere\-2025\-3264](https://doi.org/10.5194/egusphere-2025-3264)\.   
+3. Anna Höse, Moritz Kreuzer, Willem Huiskamp, Stefan Petri, and Georg Feulner\. Simulating the impact of an AMOC weakening on the Antarctic Ice Sheet using a coupled climate and ice\-sheet model\. *EGUsphere*, December 2025\. [doi:10\.5194/egusphere\-2025\-5128](https://doi.org/10.5194/egusphere-2025-5128)\.   
 
 ### 2024
 
