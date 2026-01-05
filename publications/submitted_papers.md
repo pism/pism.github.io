@@ -4,10 +4,6 @@
 2. Fan Gao, Qiang Shen, Hansheng Wang, Tong Zhang, Liming Jiang, Yan Liu, C\. K\. Shum, Yan An, and Xu Zhang\. Investigating the impact of sub\-ice shelf melt on Antarctica Ice Sheet spin\-up and projections\. *EGUsphere*, July 2025\. [doi:10\.5194/egusphere\-2025\-3264](https://doi.org/10.5194/egusphere-2025-3264)\.   
 3. Anna Höse, Moritz Kreuzer, Willem Huiskamp, Stefan Petri, and Georg Feulner\. Simulating the impact of an AMOC weakening on the Antarctic Ice Sheet using a coupled climate and ice\-sheet model\. *EGUsphere*, December 2025\. [doi:10\.5194/egusphere\-2025\-5128](https://doi.org/10.5194/egusphere-2025-5128)\.   
 
-### 2024
-
-1. Molly Patterson, Christiana Rosenberg, Osamu Seki, Masanobu Yamamoto, Oscar Romero, Mei Nelissen, Francesca Sangiorgi, Nick Golledge, Georgia Grant, William Arnuk, and others\. Spatially variable response of Antarctica's ice sheets to orbital forcing during the Pliocene\. 2024\. at Research Square\. [doi:10\.21203/rs\.3\.rs\-4837964/v1](https://doi.org/10.21203/rs.3.rs-4837964/v1)\.   
-
 ### 2021
 
 1. C\. Yue, L\. S\. Schmidt, L\. Zhao, M\. Wolovick, and J\. C\. Moore\. Insensitivity of mass loss of Icelandic Vatnajökull ice cap to solar geoengineering\. *The Cryosphere Discussions*, 2021:1–20, 2021\. [doi:10\.5194/tc\-2021\-318](https://doi.org/10.5194/tc-2021-318)\.   

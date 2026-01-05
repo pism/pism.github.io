@@ -1,3 +1,7 @@
+### 2026
+
+1. Molly O\. Patterson, Christiana Rosenberg, Osamu Seki, Masanobu Yamamoto, Oscar E\. Romero, Mei Nelissen, Francesca Sangiorgi, Nicholas R\. Golledge, Georgia Grant, William D\. Arnuk, Benjamin Keisling, Timothy Naish, Richard Levy, Stephen Meyers, Nicholas Sullivan, Jeanine Ash, Denise Kulhanek, Brian W\. Romans, Natalia Varela Valenzuela, Harold Jones, Francois Beny, Imogen Browne, Giuseppe Cortese, Isobela M\. C\. Sousa, Justin P\. Dodd, Oliver M\. Esper, Jenny Gales, David Harwood, Saki Ishino, Sookwan Kim, Sunghan Kim, Jan S\. Laberg, R\. Mark Leckie, Juliane Müller, Amelia Shevenell, Shiv Singh, Saiko T\. Sugisaki, Tina van de Flierdt, Tim van Peer, Wenshen Xiao, Zhifang Xiong, Laura De Santis, and Robert McKay\. Spatially variable response of Antarctica’s ice sheets to orbital forcing during the Pliocene\. *Nature Geoscience*, January 2026\. [doi:10\.1038/s41561\-025\-01840\-y](https://doi.org/10.1038/s41561-025-01840-y)\.   
+
 ### 2025
 
 1. David M\. Chandler, Petra M\. Langebroek, Ronja Reese, Torsten Albrecht, Julius Garbe, and Ricarda Winkelmann\. Antarctic Ice Sheet tipping in the last 800,000 years warns of future ice loss\. *Communications Earth &amp;amp; Environment*, May 2025\. [doi:10\.1038/s43247\-025\-02366\-2](https://doi.org/10.1038/s43247-025-02366-2)\.   
