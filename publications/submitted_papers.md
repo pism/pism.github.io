@@ -1,3 +1,7 @@
+### 2026
+
+1. Ethan Lee, Jeremy C\. Ely, Sarah L\. Bradley, Tamsin L\. Edwards, and Bethan J\. Davies\. Sensitivity of Andean Glaciers to ice\-flow parameters in the Parallel Ice Sheet Model\. *EGUsphere*, January 2026\. [doi:10\.5194/egusphere\-2025\-6169](https://doi.org/10.5194/egusphere-2025-6169)\.   
+
 ### 2025
 
 1. Johannes Feldmann, Ann Kristin Klose, Torsten Albrecht, and Ricarda Winkelmann\. Rate\-induced tipping of ice sheets due to visco\-elastic Earth response under idealized conditions\. *EGUsphere*, December 2025\. [doi:10\.5194/egusphere\-2025\-5859](https://doi.org/10.5194/egusphere-2025-5859)\.   
