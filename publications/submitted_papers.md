@@ -1,6 +1,7 @@
 ### 2026
 
-1. Ethan Lee, Jeremy C\. Ely, Sarah L\. Bradley, Tamsin L\. Edwards, and Bethan J\. Davies\. Sensitivity of Andean Glaciers to ice\-flow parameters in the Parallel Ice Sheet Model\. *EGUsphere*, January 2026\. [doi:10\.5194/egusphere\-2025\-6169](https://doi.org/10.5194/egusphere-2025-6169)\.   
+1. Nils Bochow, Jonathan Krönke, Julius Garbe, and Nico Wunderling\. Informing low\-order models of climate tipping elements using outputs from higher\-complexity Earth system models\. *EGUsphere*, February 2026\. [doi:10\.5194/egusphere\-2026\-614](https://doi.org/10.5194/egusphere-2026-614)\.   
+2. Ethan Lee, Jeremy C\. Ely, Sarah L\. Bradley, Tamsin L\. Edwards, and Bethan J\. Davies\. Sensitivity of Andean Glaciers to ice\-flow parameters in the Parallel Ice Sheet Model\. *EGUsphere*, January 2026\. [doi:10\.5194/egusphere\-2025\-6169](https://doi.org/10.5194/egusphere-2025-6169)\.   
 
 ### 2025
 
