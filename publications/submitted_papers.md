@@ -1,7 +1,8 @@
 ### 2026
 
-1. Nils Bochow, Jonathan Krönke, Julius Garbe, and Nico Wunderling\. Informing low\-order models of climate tipping elements using outputs from higher\-complexity Earth system models\. *EGUsphere*, February 2026\. [doi:10\.5194/egusphere\-2026\-614](https://doi.org/10.5194/egusphere-2026-614)\.   
-2. Ethan Lee, Jeremy C\. Ely, Sarah L\. Bradley, Tamsin L\. Edwards, and Bethan J\. Davies\. Sensitivity of Andean Glaciers to ice\-flow parameters in the Parallel Ice Sheet Model\. *EGUsphere*, January 2026\. [doi:10\.5194/egusphere\-2025\-6169](https://doi.org/10.5194/egusphere-2025-6169)\.   
+1. Lars Ackermann, Matteo Willeit, Gregor Knorr, Yuchen Sun, Uta Krebs\-Kanzow, Christian Rodehacke, and Gerrit Lohmann\. Timescale competition controls tipping behaviour under climate overshoot\. *Research Square*, February 2026\. [doi:10\.21203/rs\.3\.rs\-8941071/v1](https://doi.org/10.21203/rs.3.rs-8941071/v1)\.   
+2. Nils Bochow, Jonathan Krönke, Julius Garbe, and Nico Wunderling\. Informing low\-order models of climate tipping elements using outputs from higher\-complexity Earth system models\. *EGUsphere*, February 2026\. [doi:10\.5194/egusphere\-2026\-614](https://doi.org/10.5194/egusphere-2026-614)\.   
+3. Ethan Lee, Jeremy C\. Ely, Sarah L\. Bradley, Tamsin L\. Edwards, and Bethan J\. Davies\. Sensitivity of Andean Glaciers to ice\-flow parameters in the Parallel Ice Sheet Model\. *EGUsphere*, January 2026\. [doi:10\.5194/egusphere\-2025\-6169](https://doi.org/10.5194/egusphere-2025-6169)\.   
 
 ### 2025
 
