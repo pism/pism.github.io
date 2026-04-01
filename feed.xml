@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://www.pism.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pism.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-11T18:17:30+00:00</updated><id>https://www.pism.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">Scientist for Modeling Ice Sheet–Climate Interaction at DMI</title><link href="https://www.pism.io/news/2025/03/17/dmi-job/" rel="alternate" type="text/html" title="Scientist for Modeling Ice Sheet–Climate Interaction at DMI" /><published>2025-03-17T00:00:00+00:00</published><updated>2025-03-17T00:00:00+00:00</updated><id>https://www.pism.io/news/2025/03/17/dmi-job</id><content type="html" xml:base="https://www.pism.io/news/2025/03/17/dmi-job/">&lt;p&gt;The Danish Meteorological Institute (DMI), a leading research institution in climate and ice sheet modelling research, is offering a 3-year, full-time position as a Scientist for Modelling Ice Sheet–Climate Interaction.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://www.pism.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.pism.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-04-01T23:19:26+00:00</updated><id>https://www.pism.io/feed.xml</id><title type="html">PISM</title><subtitle>Website for PISM, the Parallel Ice Sheet Model</subtitle><author><name>The PISM Authors</name><email>uaf-pism@alaska.edu</email></author><entry><title type="html">PISM 2.3.0 is out</title><link href="https://www.pism.io/news/2026/04/01/pism2.3/" rel="alternate" type="text/html" title="PISM 2.3.0 is out" /><published>2026-04-01T00:00:00+00:00</published><updated>2026-04-01T00:00:00+00:00</updated><id>https://www.pism.io/news/2026/04/01/pism2.3</id><content type="html" xml:base="https://www.pism.io/news/2026/04/01/pism2.3/">&lt;p&gt;We are pleased to announce the release of PISM v2.3.0.&lt;/p&gt;
+
+&lt;p&gt;Notable changes since v2.2.0:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rename configuration parameters and command-line options related to reporting diagnostics (see &lt;a href=&quot;https://github.com/pism/pism/issues/509&quot;&gt;issue #509&lt;/a&gt;).&lt;/p&gt;
+
+    &lt;p&gt;Configuration parameters&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Everything with the prefix &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.extra.&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.spatial.&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Everything with the prefix &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.timeseries.&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.scalar.&lt;/code&gt;, except &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.timeseries.filename&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.scalar.file&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;time_stepping.hit_extra_times&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;time_stepping.hit_spatial_times&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;time_stepping.hit_ts_times&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;time_stepping.hit_scalar_times&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.ISMIP6_extra_variables&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ISMIP6_spatial_variables&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.ISMIP6_ts_variables&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.ISMIP6_scalar_variables&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Command-line options:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-extra_(append|file|times|vars|stop_missing|split)&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-spatial_(append|file|times|vars|stop_missing|split)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-ts_(append|file|times|vars)&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-scalar_(append|file|times|vars)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-extra_force_output_times&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-spatial_force_output_times&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Using an old command-line option will make PISM stop with an error message.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Implement asynchronous output to “snapshot” files and “spatial diagnostic” files (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-save_file ...&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-spatial_file ...&lt;/code&gt;). Requires PISM built with &lt;a href=&quot;https://dkrz-sw.gitlab-pages.dkrz.de/yac/&quot;&gt;YAC&lt;/a&gt;, PROJ and Python packages &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;netCDF4&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yac&lt;/code&gt; (Python bindings for YAC), &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpi4py&lt;/code&gt; and NumPy.&lt;/li&gt;
+  &lt;li&gt;Implemented a more efficient algorithm for the solution of the Eikonal equation in PICO.&lt;/li&gt;
+  &lt;li&gt;Add the ability to read in inputs (e.g. climate forcing) on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;longitude,latitude&lt;/code&gt; grids, including rotated pole (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rlon,rlat&lt;/code&gt;) grids.&lt;/li&gt;
+  &lt;li&gt;Automatically build and upload Docker containers for each new PISM release to the GitHub Container Registry (uses Intel’s oneAPI compilers and Intel MPI; see &lt;a href=&quot;https://github.com/pism/pism/pkgs/container/pism/751201718?tag=2.3.0&quot;&gt;ghcr.io/pism/pism&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Remove dependency on the Python package &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nose&lt;/code&gt; because it is old and unmaintained. Now we use Python’s built-in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;unittest&lt;/code&gt; to set up Python-based regression tests.&lt;/li&gt;
+  &lt;li&gt;Spatially-variable diagnostic &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;diffusivity&lt;/code&gt;: at a grid point (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i,j&lt;/code&gt;) report &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max(D(i,j,0), D(i, j, 1))&lt;/code&gt;, i.e. maximum over staggered grid locations just to the east and just to the north of the grid point (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i,j&lt;/code&gt;). Previous versions averaged the SIA diffusivity from all adjacent icy locations, which makes it impossible to see the value of the maximum SIA diffusivity used to choose the time step length.&lt;/li&gt;
+  &lt;li&gt;Add configuration parameter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.experiment_id&lt;/code&gt;: if set to a string, PISM adds an extra dimension (length 1) to output files. This makes it possible to open several output files (e.g. different ensemble members) at once using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xarray&lt;/code&gt;’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xarray.open_mfdataset()&lt;/code&gt;. (Note: this feature needs further testing to ensure that PISM’s way of doing this is compatible with other tools. Implementation details are likely to change in the near future.)&lt;/li&gt;
+  &lt;li&gt;Save the JSON string encoding PISM’s configuration parameters to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pism_config&lt;/code&gt; variable in output files. This makes it easier to look up configuration parameter values in output files opened using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xarray.open_mfdataset()&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Write run info (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wall_clock_time&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;step_counter&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;model_years_per_processor_hour&lt;/code&gt;) to time-dependent variables instead of using attributes of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;run_stats&lt;/code&gt; variable.&lt;/li&gt;
+  &lt;li&gt;Fix a bug in the steady state hydrology model: we need to save the time of the last update of the estimate of the water flux Q to a time-dependent variable.&lt;/li&gt;
+  &lt;li&gt;Fix &lt;a href=&quot;https://github.com/pism/pism/issues/568&quot;&gt;issue #568&lt;/a&gt; (crash when reading isochrone deposition times)&lt;/li&gt;
+  &lt;li&gt;Fix &lt;a href=&quot;https://github.com/pism/pism/issues/569&quot;&gt;issue #569&lt;/a&gt; (improper handling of calving front B.C. at domain boundaries)&lt;/li&gt;
+  &lt;li&gt;Require CMake 3.20 or newer.&lt;/li&gt;
+  &lt;li&gt;Require PETSc 3.15 or newer.&lt;/li&gt;
+  &lt;li&gt;Require NetCDF 4.7 or newer.&lt;/li&gt;
+  &lt;li&gt;Require YAC 3.14.0 or newer.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">We are pleased to announce the release of PISM v2.3.0.</summary></entry><entry><title type="html">Scientist for Modeling Ice Sheet–Climate Interaction at DMI</title><link href="https://www.pism.io/news/2025/03/17/dmi-job/" rel="alternate" type="text/html" title="Scientist for Modeling Ice Sheet–Climate Interaction at DMI" /><published>2025-03-17T00:00:00+00:00</published><updated>2025-03-17T00:00:00+00:00</updated><id>https://www.pism.io/news/2025/03/17/dmi-job</id><content type="html" xml:base="https://www.pism.io/news/2025/03/17/dmi-job/">&lt;p&gt;The Danish Meteorological Institute (DMI), a leading research institution in climate and ice sheet modelling research, is offering a 3-year, full-time position as a Scientist for Modelling Ice Sheet–Climate Interaction.&lt;/p&gt;
 
 &lt;h2 id=&quot;summary-of-the-job-advertisement&quot;&gt;Summary of the job advertisement&lt;/h2&gt;
 
@@ -384,22 +429,4 @@ Montana.&lt;/li&gt;
 
 &lt;p&gt;Thank you for your understanding,&lt;/p&gt;
 
-&lt;p&gt;Andy&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">Dear PISM users and developers</summary></entry><entry><title type="html">Joint GEUS-PIK workshop October 24-25, 2022</title><link href="https://www.pism.io/news/2022/10/26/geus-pik-workshop/" rel="alternate" type="text/html" title="Joint GEUS-PIK workshop October 24-25, 2022" /><published>2022-10-26T00:00:00+00:00</published><updated>2022-10-26T00:00:00+00:00</updated><id>https://www.pism.io/news/2022/10/26/geus-pik-workshop</id><content type="html" xml:base="https://www.pism.io/news/2022/10/26/geus-pik-workshop/">&lt;p&gt;&lt;img src=&quot;/img/news/geus-pik-workshop-group-photo-2022.jpg&quot; alt=&quot;&quot; title=&quot;Group Photo in front of GEUS&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;em&gt;Group photo in front of GEUS.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Nanna Karlsson and Liam Colgan hosted the first joint GEUS-PIK PISM workshop at GEUS in Copenhagen, DK, October 24-25, 2022.&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/news/geus-pik-workshop-photo-1-2022.jpg&quot; alt=&quot;&quot; title=&quot;R. Winkelmann (PIK)&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Ricarda Winkelmann &lt;a href=&quot;http://www.pik-potsdam.de&quot;&gt;(PIK)&lt;/a&gt; introducing the concept of tipping points&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Over 15 reseachers from &lt;a href=&quot;https://eng.geus.dk&quot;&gt;GEUS&lt;/a&gt;, &lt;a href=&quot;http://www.pik-potsdam.de&quot;&gt;PIK&lt;/a&gt;, &lt;a href=&quot;https://www.au.dk&quot;&gt;Aarhus University&lt;/a&gt;, &lt;a href=&quot;http://www.dmi.dk&quot;&gt;DMI&lt;/a&gt; and &lt;a href=&quot;https://www.uaf.edu&quot;&gt;UAF&lt;/a&gt; attendend the first joint GEUS-PIK PISM workshop at GEUS. The participants presented their latest PISM and PISM-adjacent research interspersed with lively discussions  which data sets could be used for model initialization, calibrations and validation, how can we detect tipping points, what are the best practices to initialize PISM, and which physical processes are currently missing. The discussions continued during a visit to the GEUS roof where Nanna showed us the GEUS weather station and during the workshop dinner. Many started dreaming about joining field work in Greenland some day.&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/news/geus-pik-workshop-photo-2-2022.jpg&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We are all already looking forward to the next joint workshop currently planned for October 2023.&lt;/p&gt;
-
-&lt;p&gt;Thank you Liam and Nanna for organizing and hosting the workshop.&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/news/geus-pik-workshop-dinner-photo-2022.jpg&quot; alt=&quot;&quot; title=&quot;Group Dinner&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Group dinner Monday evening&lt;/em&gt;&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;Andy&lt;/p&gt;</content><author><name>The PISM Authors</name></author><category term="news" /><summary type="html">Dear PISM users and developers</summary></entry></feed>
