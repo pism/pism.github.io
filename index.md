@@ -19,7 +19,7 @@ resolution. PISM has been [widely adopted as a tool for doing science](/publicat
 
 PISM is jointly developed at the [University of Alaska, Fairbanks (UAF)](http://www.uaf.edu/) and the [Potsdam Institute for Climate Impact Research (PIK)](http://www.pik-potsdam.de/). UAF developers are based in the [Glaciers Group](https://glaciers.gi.alaska.edu) at the [UAF Geophysical Institute](https://www.gi.alaska.edu). For more about the team see the [developers team](/team/) page.
 
-Development of PISM is supported by NASA grants 20-CRYO2020-0052 and 80NSSC22K0274 and NSF grant OAC-2118285.
+Development of PISM is supported by NSF grants OAC-2118285, RISE-2324718 and EAR-2420483.
 
 {% include youtube.html video="oy0FmBWfGGw" %}
 *Projection of the Greenland Ice Sheet from 2008-2300 under RCP 8.5. Data from Aschwanden et al. ([2019](https://doi.org/10.1126/sciadv.aav9396)). Video by Cindy Starr (NASA SVS).*
