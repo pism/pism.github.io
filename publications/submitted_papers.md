@@ -1,12 +1,11 @@
 ### 2026
 
-1. Lars Ackermann, Matteo Willeit, Gregor Knorr, Yuchen Sun, Uta Krebs\-Kanzow, Christian Rodehacke, and Gerrit Lohmann\. Timescale competition controls tipping behaviour under climate overshoot\. *Research Square*, February 2026\. [doi:10\.21203/rs\.3\.rs\-8941071/v1](https://doi.org/10.21203/rs.3.rs-8941071/v1)\.   
-2. Nils Bochow, Jonathan Krönke, Julius Garbe, and Nico Wunderling\. Informing low\-order models of climate tipping elements using outputs from higher\-complexity Earth system models\. *EGUsphere*, February 2026\. [doi:10\.5194/egusphere\-2026\-614](https://doi.org/10.5194/egusphere-2026-614)\.   
-3. Christian Wirths, Kyung\-Sook Yun, Axel Timmermann, Hubertus Fischer, Thomas F\. Stocker, and Johannes C\. R\. Sutter\. Estimating the impact of ice sheet surface height and ice divide variability on ice core based climate reconstructions\. *EGUsphere*, July 2026\. [doi:10\.5194/egusphere\-2026\-4275](https://doi.org/10.5194/egusphere-2026-4275)\.   
-
-### 2025
-
-1. Johannes Feldmann, Ann Kristin Klose, Torsten Albrecht, and Ricarda Winkelmann\. Rate\-induced tipping of ice sheets due to visco\-elastic Earth response under idealized conditions\. *EGUsphere*, December 2025\. [doi:10\.5194/egusphere\-2025\-5859](https://doi.org/10.5194/egusphere-2025-5859)\.   
+1. Lars Ackermann, Gregor Knorr, Uta Krebs\-Kanzow, Lu Niu, and Gerrit Lohmann\. From melt\-limited inception to dynamically supported growth of the Laurentide Ice Sheet\. *EGUsphere*, October 2026\. [doi:10\.5194/egusphere\-2026\-6177](https://doi.org/10.5194/egusphere-2026-6177)\.   
+2. Lars Ackermann, Matteo Willeit, Gregor Knorr, Yuchen Sun, Uta Krebs\-Kanzow, Christian Rodehacke, and Gerrit Lohmann\. Timescale competition controls tipping behaviour under climate overshoot\. *Research Square*, February 2026\. [doi:10\.21203/rs\.3\.rs\-8941071/v1](https://doi.org/10.21203/rs.3.rs-8941071/v1)\.   
+3. Nils Bochow, Jonathan Krönke, Julius Garbe, and Nico Wunderling\. Informing low\-order models of climate tipping elements using outputs from higher\-complexity Earth system models\. *EGUsphere*, February 2026\. [doi:10\.5194/egusphere\-2026\-614](https://doi.org/10.5194/egusphere-2026-614)\.   
+4. Lena Nicola, Johanna Beckmann, Felicity S\. McCormack, and Ricarda Winkelmann\. Increased future ice loss due to nested ice\-climate feedbacks if Antarctic heatwaves intensify\. *EGUsphere*, October 2026\. [doi:10\.5194/egusphere\-2026\-6030](https://doi.org/10.5194/egusphere-2026-6030)\.   
+5. Christian Wirths, Kyung\-Sook Yun, Axel Timmermann, Hubertus Fischer, Thomas F\. Stocker, and Johannes C\. R\. Sutter\. Estimating the impact of ice sheet surface height and ice divide variability on ice core based climate reconstructions\. *EGUsphere*, July 2026\. [doi:10\.5194/egusphere\-2026\-4275](https://doi.org/10.5194/egusphere-2026-4275)\.   
+6. Attila Çiner, Valentí Turu, Marc Oliva, M\. Akif Sarıkaya, Adem Candaş, Onur Altınay, Josep Ventura, Cengiz Yıldırım, Juan\-Ramón Vidal\-Romaní, Rosa Ma Carrasco, Klaus M\. Wilken, Yeong Bae Seong, and Byung Yong Yu\. Last glacial termination in Andorra, southeastern Pyrenees\. *Quaternary Science Reviews*, 391:110199, November 2026\. [doi:10\.1016/j\.quascirev\.2026\.110199](https://doi.org/10.1016/j.quascirev.2026.110199)\.   
 
 ### 2021
 
